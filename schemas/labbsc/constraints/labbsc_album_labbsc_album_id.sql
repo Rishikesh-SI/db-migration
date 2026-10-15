@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labbsc
+-- Object: labbsc_album labbsc_album_id
+-- Type: CONSTRAINT
+
+-- Name: labbsc_album labbsc_album_id; Type: CONSTRAINT; Schema: labbsc; Owner: -
+--
+
+ALTER TABLE ONLY labbsc.labbsc_album
+    ADD CONSTRAINT labbsc_album_id PRIMARY KEY (album_id);
+
+
+--

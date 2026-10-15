@@ -1,0 +1,4199 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "dhm",
+      "type": "SCHEMA",
+      "file": "dhm.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "data(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/data(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_bulk_upd_asset_entity_map(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_bulk_upd_asset_entity_map(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_vary_7af429b18a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_bulk_upd_modify_date(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_bulk_upd_modify_date(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,__a8ad42df00.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_change_asset_lock_status(character, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_change_asset_lock_status(character,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_check_asset_ent_by_cat(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_check_asset_ent_by_cat(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_check_page_alias(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_check_page_alias(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_check_slugurl(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_check_slugurl(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_db_backup()",
+      "type": "FUNCTION",
+      "file": "functions/dhm_db_backup().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_del_image(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_del_image(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_del_topic(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_del_topic(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_delete_asset(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_delete_asset(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_edit_del_menu(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_edit_del_menu(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_edit_del_page(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_edit_del_page(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_edit_del_template(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_edit_del_template(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_gen_onthisday_article(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_gen_onthisday_article(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_ad_comp_cont_map_list(numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_ad_comp_cont_map_list(numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_ad_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_ad_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_ad_detail(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_ad_detail(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_ad_detail_r(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_ad_detail_r(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_ad_listing(numeric, numeric[], text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_ad_listing(numeric,_numeric[],_text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_ad_listing(numeric, numeric, numeric, character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_ad_listing(numeric,_numeric,_numeric,_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_ad_position_listing()",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_ad_position_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_ad_r(text, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_ad_r(text,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_ad_r_test(text, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_ad_r_test(text,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_album_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_album_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_album_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_album_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_album_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_album_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_7a41755d56.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_album_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_album_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_application_details(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_application_details(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_application_details(character varying, character varying, timestamp without time zone, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_application_details(character_varying,_character_varying,_timestamp_without_time__54282cb5dc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_article_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_article_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_article_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_article_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_article_detail_r_bak(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_article_detail_r_bak(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_article_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_article_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_8ff76d38b8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_e922fe1183.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_count_by_cat_json_r(numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_count_by_cat_json_r(numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_count_by_cat_r(numeric[], numeric[], character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_count_by_cat_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_count_by_cat_rb_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_count_by_cat_rb_r(numeric[],_numeric[],_character_varying,_numeric,_refcurs_24a57e7bc3.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_listing(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_listing(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_listing_all(numeric, numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_listing_all(numeric,_numeric,_numeric,_numeric,_numeric[],_numeric[],_numer_ddb6cb22e6.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_listing_by_cat_json_r(numeric, numeric, numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_listing_by_cat_json_r(numeric,_numeric,_numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_listing_by_cat_r(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_listing_by_cat_r(numeric,_numeric,_numeric[],_numeric[],_character_varying,_d0627e7b36.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_listing_by_cat_r_20180523(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_listing_by_cat_r_20180523(numeric,_numeric,_numeric[],_numeric[],_character_3d9a67cf6d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_listing_by_title(numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_listing_by_title(numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_listing_by_type_r(numeric, numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_listing_by_type_r(numeric,_numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_listing_for_any_ent_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_listing_for_any_ent_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_chara_ec0055a419.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_chara_6337d11430.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_listing_r_18112020(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_listing_r_18112020(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric_5981a3b68e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_listing_r_backup(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_listing_r_backup(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[]_914ec276ba.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_next_prev_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_next_prev_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_asset_type_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_asset_type_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_author_detail_by_cat_r(numeric[], numeric[], character varying, numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_author_detail_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_numeric,_505d0fc7e6.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_author_listing_by_lang_r(numeric, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_author_listing_by_lang_r(numeric,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_canonical_url_r(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_canonical_url_r(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_category_list_30082019_d0b8(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_category_list_30082019_d0b8(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_city_activity_report(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_city_activity_report(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_container_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_container_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_content_provider(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_content_provider(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_corporate_activity_report(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_corporate_activity_report(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_counseller_slot(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_counseller_slot(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_email_bib_data(text)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_email_bib_data(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_email_bib_list()",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_email_bib_list().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_entity_display_name_by_language(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_entity_display_name_by_language(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_entity_group_listing()",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_entity_group_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_entity_known_as(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_entity_known_as(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_entity_language_from_entities(numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_entity_language_from_entities(numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_entity_listing(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_entity_listing(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_entity_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_entity_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_entity_name_by_asset(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_entity_name_by_asset(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_entity_roles_30082019_cc64(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_entity_roles_30082019_cc64(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_entity_type_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_entity_type_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_event_slot(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_event_slot(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_export_details(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_export_details(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_heroes_detail_r(numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_heroes_detail_r(numeric,_numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_image_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_image_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_image_listing(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_image_listing(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_menu_by_parent(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_menu_by_parent(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_menu_by_parent_r(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_menu_by_parent_r(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_menu_by_parent_r_20180917(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_menu_by_parent_r_20180917(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_menu_listing(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_menu_listing(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_menu_page_map_list(numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_menu_page_map_list(numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_navigation_r(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_navigation_r(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_navigation_r_test(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_navigation_r_test(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_navigation_rb(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_navigation_rb(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_new_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_new_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_overall_stats()",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_overall_stats().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_page_data(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_page_data(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_page_data_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_page_data_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_refcur_4e1d853c17.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_page_data_r(character varying, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_page_data_r(character_varying,_numeric,_refcursor,_refcursor,_refcursor,_refcurso_041d063649.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_page_data_r(character varying, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_page_data_r(character_varying,_numeric,_numeric,_refcursor,_refcursor,_refcursor,_f2c5c57509.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_page_data_r_20180223(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_page_data_r_20180223(character_varying,_refcursor,_refcursor,_refcursor,_refcurso_91723ea4a9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_page_listing(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_page_listing(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_page_sitemap(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_page_sitemap(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_player_detail_by_cat_json_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_player_detail_by_cat_json_r(numeric,_numeric[],_numeric[],_character_varying,_num_e77d047f6f.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_player_detail_by_cat_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_player_detail_by_cat_r(numeric,_numeric[],_numeric[],_character_varying,_numeric,_5689f47910.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_poll_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_poll_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_poll_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_poll_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_poll_detail_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_poll_detail_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_poll_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_ti_bd5465ea6a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_poll_listing_r(numeric, numeric, numeric[], refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_poll_listing_r(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_press_release_listing(numeric, numeric, numeric, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_press_release_listing(numeric,_numeric,_numeric,_timestamp_without_time_zone).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_rating_week_r(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_rating_week_r(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_sitemap(character varying, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_sitemap(character_varying,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_sitemap_asset_count(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_sitemap_asset_count(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_state_activity_report(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_state_activity_report(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_team_player_detail_r(character varying, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_team_player_detail_r(character_varying,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_tem_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_tem_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_numer_4d44688ec1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_tem_comp_asset_map_detail_by_page_r_20112017(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_tem_comp_asset_map_detail_by_page_r_20112017(numeric,_numeric[],_numeric[],_numer_406cbf85e9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_tem_comp_asset_map_detail_by_page_r_old(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_tem_comp_asset_map_detail_by_page_r_old(numeric,_numeric[],_numeric[],_numeric,_n_8de3bbef40.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_tem_comp_asset_map_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_tem_comp_asset_map_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_tem_comp_asset_map_detail_r(numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_tem_comp_asset_map_detail_r(numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_tem_cop_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_tem_cop_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_temp_comp_cont_map_detail(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_temp_comp_cont_map_detail(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_template(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_template(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numeri_b3b382ae93.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_template_component(numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_template_component(numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_template_data(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_template_data(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_template_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_template_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_template_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_template_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_topic_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_topic_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_topic_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_topic_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_9922a44dae.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_topic_listing_r(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_topic_listing_r(numeric, numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_topic_listing_r_ak(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_topic_listing_r_ak(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_user_activity(text)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_user_activity(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_user_activity_report(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_user_activity_report(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_user_counseller_slot(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_user_counseller_slot(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_user_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_user_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_user_detail(text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_user_detail(text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_user_disp_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_user_disp_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_user_display_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_user_display_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_user_listing()",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_user_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_user_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_user_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_user_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_user_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_user_listing_with_param(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_user_listing_with_param(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_user_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_user_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_user_profile(text)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_user_profile(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_video_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_video_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_video_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_video_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_video_detail_r_bk(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_video_detail_r_bk(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_video_detail_rback(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_video_detail_rback(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_video_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_video_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_video_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_video_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_01e45055f8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_video_listing_backup_18022017(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_video_listing_backup_18022017(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_get_word_count(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_get_word_count(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ingest_user_activity_master(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ingest_user_activity_master(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ingest_user_activity_master_bkp(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ingest_user_activity_master_bkp(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_bib_surrender(json)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_bib_surrender(json).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_entity_language_map(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_entity_language_map(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_up_redirect(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_up_redirect(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_activity_report()",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_activity_report().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_ad(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_ad(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_ad(numeric, numeric, text, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, timestamp without time zone, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_ad(numeric,_numeric,_text,_numeric,_numeric,_numeric,_numeric,_numeric,_numer_8674815e6b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_ad_1304(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_ad_1304(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_ad_management(numeric, text, text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_ad_management(numeric,_text,_text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_album(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_album(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_albumbk010219(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_albumbk010219(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_article(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_article(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_city_report()",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_city_report().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_contact(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_contact(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_contact_bak(character varying, character varying, character varying, character varying, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_contact_bak(character_varying,_character_varying,_character_varying,_characte_7e2fba6950.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_contact_bak(character varying, character varying, character varying, character varying, numeric, text, date, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_contact_bak(character_varying,_character_varying,_character_varying,_characte_d1978133df.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_container(numeric, character varying, numeric, numeric, numeric, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_container(numeric,_character_varying,_numeric,_numeric,_numeric,_character_va_9659321482.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_corporate_report()",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_corporate_report().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_counseller_slot(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_counseller_slot(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_entity(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_entity(numeric,_numeric[],_numeric[],_character_varying[],_character_varying[_421d4dea51.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_entity_ar(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_entity_ar(numeric,_numeric[],_numeric[],_character_varying[],_character_varyi_990d27784c.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_file(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_file(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_get_web_users_login(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_get_web_users_login(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_group_registration(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_group_registration(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_heros(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_heros(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_image(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_image(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_image_20112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_image_20112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_layout(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_layout(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_menu(numeric, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric[], numeric[], character varying[], numeric[], numeric[], numeric[], numeric[], numeric[], character varying[], text[], character varying[], numeric[], numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_menu(numeric,_character_varying,_character_varying,_numeric,_numeric,_numeric_400f64d312.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_page(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_page(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_page_template_comp_menu_map(numeric[], numeric, numeric[], numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_page_template_comp_menu_map(numeric[],_numeric,_numeric[],_numeric,_numeric[]_c168916117.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_pagebkup_07112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_pagebkup_07112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_poll(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_poll(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_poll_response(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_poll_response(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_rating_week(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_rating_week(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_seo_data(numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_seo_data(numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_state_report()",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_state_report().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_template(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_template(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_template_comp_cont_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_template_comp_cont_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_template_component_map(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_template_component_map(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_topic(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_topic(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_topic_partial(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_topic_partial(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_user_ar(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_user_ar(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_user_asset_reaction(character varying, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_user_asset_reaction(character_varying,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_user_registration(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_user_registration(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_upd_video(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_upd_video(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ins_url_testing(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_ins_url_testing(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_is_poll_active(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_is_poll_active(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_search_entity(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_search_entity(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_search_entity_by_page(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_search_entity_by_page(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_search_entity_by_page_04032020_7c05(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_search_entity_by_page_04032020_7c05(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_search_entity_by_page_18052020(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_search_entity_by_page_18052020(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_search_entity_by_page_all(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_search_entity_by_page_all(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_search_entity_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_search_entity_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_setup_new_client(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_setup_new_client(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_show_get_page_data(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_show_get_page_data(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_show_get_rss_data(numeric, numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_show_get_rss_data(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_show_get_site_map_data(numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_show_get_site_map_data(numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_show_get_site_map_data(numeric, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_show_get_site_map_data(numeric,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_upd_author(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_upd_author(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_upd_page_hierarchy(numeric, character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_upd_page_hierarchy(numeric,_character_varying[],_numeric[],_numeric[],_numeric[],_cha_044a26d206.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_upd_user_detail(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_upd_user_detail(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_user_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_validate_user_email(text)",
+      "type": "FUNCTION",
+      "file": "functions/dhm_validate_user_email(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "regexp_count(text, text)",
+      "type": "FUNCTION",
+      "file": "functions/regexp_count(text,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "bk_tmm_app_status_21092017",
+      "type": "TABLE",
+      "file": "tables/bk_tmm_app_status_21092017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_action",
+      "type": "TABLE",
+      "file": "tables/dhm_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ad",
+      "type": "TABLE",
+      "file": "tables/dhm_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ad_client",
+      "type": "TABLE",
+      "file": "tables/dhm_ad_client.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_advertisement",
+      "type": "TABLE",
+      "file": "tables/dhm_advertisement.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_age_group",
+      "type": "TABLE",
+      "file": "tables/dhm_age_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_album",
+      "type": "TABLE",
+      "file": "tables/dhm_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/dhm_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_app_status",
+      "type": "TABLE",
+      "file": "tables/dhm_app_status.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_app_status10052018",
+      "type": "TABLE",
+      "file": "tables/dhm_app_status10052018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_app_status_09102019",
+      "type": "TABLE",
+      "file": "tables/dhm_app_status_09102019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_app_status_11102019",
+      "type": "TABLE",
+      "file": "tables/dhm_app_status_11102019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_app_status_14092019",
+      "type": "TABLE",
+      "file": "tables/dhm_app_status_14092019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_app_status_16102019",
+      "type": "TABLE",
+      "file": "tables/dhm_app_status_16102019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_app_status_20180921",
+      "type": "TABLE",
+      "file": "tables/dhm_app_status_20180921.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_app_status_25092019",
+      "type": "TABLE",
+      "file": "tables/dhm_app_status_25092019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_article",
+      "type": "TABLE",
+      "file": "tables/dhm_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/dhm_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_comment_reaction",
+      "type": "TABLE",
+      "file": "tables/dhm_asset_comment_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_delete_log",
+      "type": "TABLE",
+      "file": "tables/dhm_asset_delete_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_draft",
+      "type": "TABLE",
+      "file": "tables/dhm_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_draft_mg",
+      "type": "TABLE",
+      "file": "tables/dhm_asset_draft_mg.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/dhm_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_entity_map_mg",
+      "type": "TABLE",
+      "file": "tables/dhm_asset_entity_map_mg.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_group",
+      "type": "TABLE",
+      "file": "tables/dhm_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_list",
+      "type": "TABLE",
+      "file": "tables/dhm_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_list_mg",
+      "type": "TABLE",
+      "file": "tables/dhm_asset_list_mg.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_type",
+      "type": "TABLE",
+      "file": "tables/dhm_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/dhm_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_author_action",
+      "type": "TABLE",
+      "file": "tables/dhm_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_bib_no",
+      "type": "TABLE",
+      "file": "tables/dhm_bib_no.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_bib_nomination",
+      "type": "TABLE",
+      "file": "tables/dhm_bib_nomination.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_bib_surrender",
+      "type": "TABLE",
+      "file": "tables/dhm_bib_surrender.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_bib_surrender_20180924",
+      "type": "TABLE",
+      "file": "tables/dhm_bib_surrender_20180924.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_city_activity_report",
+      "type": "TABLE",
+      "file": "tables/dhm_city_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_client_web_cust_model",
+      "type": "TABLE",
+      "file": "tables/dhm_client_web_cust_model.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_comment_asset_master",
+      "type": "TABLE",
+      "file": "tables/dhm_comment_asset_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_comment_reaction_master",
+      "type": "TABLE",
+      "file": "tables/dhm_comment_reaction_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_component",
+      "type": "TABLE",
+      "file": "tables/dhm_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_component_layout",
+      "type": "TABLE",
+      "file": "tables/dhm_component_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_component_type",
+      "type": "TABLE",
+      "file": "tables/dhm_component_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_contact",
+      "type": "TABLE",
+      "file": "tables/dhm_contact.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_container",
+      "type": "TABLE",
+      "file": "tables/dhm_container.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_content_provider",
+      "type": "TABLE",
+      "file": "tables/dhm_content_provider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_content_source",
+      "type": "TABLE",
+      "file": "tables/dhm_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_corporate_activity_report",
+      "type": "TABLE",
+      "file": "tables/dhm_corporate_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_category",
+      "type": "TABLE",
+      "file": "tables/dhm_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_group",
+      "type": "TABLE",
+      "file": "tables/dhm_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/dhm_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/dhm_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_master",
+      "type": "TABLE",
+      "file": "tables/dhm_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_partner",
+      "type": "TABLE",
+      "file": "tables/dhm_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_role",
+      "type": "TABLE",
+      "file": "tables/dhm_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/dhm_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_type",
+      "type": "TABLE",
+      "file": "tables/dhm_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_event_slot",
+      "type": "TABLE",
+      "file": "tables/dhm_event_slot.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_group",
+      "type": "TABLE",
+      "file": "tables/dhm_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_hero_rating",
+      "type": "TABLE",
+      "file": "tables/dhm_hero_rating.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_hero_rating_asset_map",
+      "type": "TABLE",
+      "file": "tables/dhm_hero_rating_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_image",
+      "type": "TABLE",
+      "file": "tables/dhm_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_language_master",
+      "type": "TABLE",
+      "file": "tables/dhm_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_layout",
+      "type": "TABLE",
+      "file": "tables/dhm_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_menu",
+      "type": "TABLE",
+      "file": "tables/dhm_menu.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_menu_page_map",
+      "type": "TABLE",
+      "file": "tables/dhm_menu_page_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_pacer_calculator_detail",
+      "type": "TABLE",
+      "file": "tables/dhm_pacer_calculator_detail.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_page",
+      "type": "TABLE",
+      "file": "tables/dhm_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_page_partner",
+      "type": "TABLE",
+      "file": "tables/dhm_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_page_template_component_menu_map",
+      "type": "TABLE",
+      "file": "tables/dhm_page_template_component_menu_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_partner",
+      "type": "TABLE",
+      "file": "tables/dhm_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_poll",
+      "type": "TABLE",
+      "file": "tables/dhm_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/dhm_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_poll_option",
+      "type": "TABLE",
+      "file": "tables/dhm_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_poll_response",
+      "type": "TABLE",
+      "file": "tables/dhm_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_press_release",
+      "type": "TABLE",
+      "file": "tables/dhm_press_release.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_press_release_asset_map",
+      "type": "TABLE",
+      "file": "tables/dhm_press_release_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_provider_author_map",
+      "type": "TABLE",
+      "file": "tables/dhm_provider_author_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_rating_week",
+      "type": "TABLE",
+      "file": "tables/dhm_rating_week.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_redirect",
+      "type": "TABLE",
+      "file": "tables/dhm_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_role",
+      "type": "TABLE",
+      "file": "tables/dhm_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_runner_feedback",
+      "type": "TABLE",
+      "file": "tables/dhm_runner_feedback.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_runner_performance_history",
+      "type": "TABLE",
+      "file": "tables/dhm_runner_performance_history.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_runners_target",
+      "type": "TABLE",
+      "file": "tables/dhm_runners_target.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_runners_year_data",
+      "type": "TABLE",
+      "file": "tables/dhm_runners_year_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_seo_data",
+      "type": "TABLE",
+      "file": "tables/dhm_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_seo_data_20181005",
+      "type": "TABLE",
+      "file": "tables/dhm_seo_data_20181005.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_seo_data_mg",
+      "type": "TABLE",
+      "file": "tables/dhm_seo_data_mg.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_site_master",
+      "type": "TABLE",
+      "file": "tables/dhm_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_site_partner",
+      "type": "TABLE",
+      "file": "tables/dhm_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_slot",
+      "type": "TABLE",
+      "file": "tables/dhm_slot.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_state_activity_report",
+      "type": "TABLE",
+      "file": "tables/dhm_state_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_template",
+      "type": "TABLE",
+      "file": "tables/dhm_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_template_181120",
+      "type": "TABLE",
+      "file": "tables/dhm_template_181120.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_template_191120",
+      "type": "TABLE",
+      "file": "tables/dhm_template_191120.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/dhm_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_template_component_content_map",
+      "type": "TABLE",
+      "file": "tables/dhm_template_component_content_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_template_component_map",
+      "type": "TABLE",
+      "file": "tables/dhm_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_topic",
+      "type": "TABLE",
+      "file": "tables/dhm_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user",
+      "type": "TABLE",
+      "file": "tables/dhm_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_activity",
+      "type": "TABLE",
+      "file": "tables/dhm_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_activity_detail",
+      "type": "TABLE",
+      "file": "tables/dhm_user_activity_detail.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_asset_reaction",
+      "type": "TABLE",
+      "file": "tables/dhm_user_asset_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_language_map",
+      "type": "TABLE",
+      "file": "tables/dhm_user_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_master",
+      "type": "TABLE",
+      "file": "tables/dhm_user_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_role",
+      "type": "TABLE",
+      "file": "tables/dhm_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_role_menu_action_map2",
+      "type": "TABLE",
+      "file": "tables/dhm_user_role_menu_action_map2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_video",
+      "type": "TABLE",
+      "file": "tables/dhm_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_visual_stories",
+      "type": "TABLE",
+      "file": "tables/dhm_visual_stories.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_visual_stories_position",
+      "type": "TABLE",
+      "file": "tables/dhm_visual_stories_position.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_web_user",
+      "type": "TABLE",
+      "file": "tables/dhm_web_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_web_user_audit",
+      "type": "TABLE",
+      "file": "tables/dhm_web_user_audit.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_ad_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_album_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_album_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_article_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_article_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_asset_comment_reaction_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_asset_comment_reaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_asset_delete_log_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_asset_draft_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_asset_entity_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_asset_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_asset_list_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_asset_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_asset_type_meta_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_author_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_bib_nomination_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_bib_nomination_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_bib_surrender_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_bib_surrender_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_city_activity_report",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_city_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_cm_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_cm_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_component_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_component_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_component_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_contact_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_content_provider_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_content_source_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_corporate_activity_report",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_corporate_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_custom_module_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_custom_module_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_entity_category_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_entity_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_entity_image_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_entity_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_entity_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_entity_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_entity_role_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_entity_social_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_entity_social_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_entity_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_event_slot_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_event_slot_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_hero_rating_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_hero_rating_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_language_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_menu_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_menu_page_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_pacer_calc_dtl_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_pacer_calc_dtl_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_page_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_page_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_page_template_component_menu_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_poll_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_poll_option_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_press_release_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_press_release_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_provider_author_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_rating_week_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_redirect_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_runner_feedback_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_runner_feedback_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_runner_performance_history_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_runner_performance_history_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_runner_target_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_runner_target_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_seo_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_site_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_site_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_social_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_social_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_state_activity_report",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_state_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_template_component_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_template_component_content_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_template_component_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_template_externalasset_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_template_externalasset_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_template_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_topic_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_topic_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_user_activity_detail",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_user_activity_detail.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_user_activity_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_user_asset_reaction_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_user_asset_reaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_user_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_user_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_user_role_menu_action_map",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_user_role_menu_action_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_video_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_web_user_audit_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_web_user_audit_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_web_users_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_web_users_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "seq_dhm_week_number",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dhm_week_number.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_app_status_20012018",
+      "type": "TABLE",
+      "file": "tables/tmm_app_status_20012018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_app_status_28sep2017",
+      "type": "TABLE",
+      "file": "tables/tmm_app_status_28sep2017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_app_status_bk30",
+      "type": "TABLE",
+      "file": "tables/tmm_app_status_bk30.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_article_20170721",
+      "type": "TABLE",
+      "file": "tables/tmm_article_20170721.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_article_20170722_8pm",
+      "type": "TABLE",
+      "file": "tables/tmm_article_20170722_8pm.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_article_asset_map_20170721",
+      "type": "TABLE",
+      "file": "tables/tmm_article_asset_map_20170721.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_article_asset_map_20170722",
+      "type": "TABLE",
+      "file": "tables/tmm_article_asset_map_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_asset_draft_20170721",
+      "type": "TABLE",
+      "file": "tables/tmm_asset_draft_20170721.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_asset_draft_20170722",
+      "type": "TABLE",
+      "file": "tables/tmm_asset_draft_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_asset_entity_map_20170721",
+      "type": "TABLE",
+      "file": "tables/tmm_asset_entity_map_20170721.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_asset_entity_map_20170722",
+      "type": "TABLE",
+      "file": "tables/tmm_asset_entity_map_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_asset_list_20170721",
+      "type": "TABLE",
+      "file": "tables/tmm_asset_list_20170721.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_asset_list_20170722",
+      "type": "TABLE",
+      "file": "tables/tmm_asset_list_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_author_action_20170721",
+      "type": "TABLE",
+      "file": "tables/tmm_author_action_20170721.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_author_action_20170722",
+      "type": "TABLE",
+      "file": "tables/tmm_author_action_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_page_20180620",
+      "type": "TABLE",
+      "file": "tables/tmm_page_20180620.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_seo_data_20170721",
+      "type": "TABLE",
+      "file": "tables/tmm_seo_data_20170721.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_seo_data_20170722",
+      "type": "TABLE",
+      "file": "tables/tmm_seo_data_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_template_15012018",
+      "type": "TABLE",
+      "file": "tables/tmm_template_15012018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_template_17012018",
+      "type": "TABLE",
+      "file": "tables/tmm_template_17012018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_template_20170722",
+      "type": "TABLE",
+      "file": "tables/tmm_template_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_template_20180621",
+      "type": "TABLE",
+      "file": "tables/tmm_template_20180621.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "tmm_template_component_map_20180620",
+      "type": "TABLE",
+      "file": "tables/tmm_template_component_map_20180620.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "up_seo_data",
+      "type": "TABLE",
+      "file": "tables/up_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ad_client ad_client_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_ad_client_ad_client_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_advertisement ad_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_advertisement_ad_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_app_status dhm_app_status_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_app_status_dhm_app_status_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_comment_reaction dhm_asset_comment_reaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_asset_comment_reaction_dhm_asset_comment_reaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_city_activity_report dhm_city_activity_report_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_city_activity_report_dhm_city_activity_report_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_comment_asset_master dhm_comment_asset_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_comment_asset_master_dhm_comment_asset_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_comment_reaction_master dhm_comment_reaction_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_comment_reaction_master_dhm_comment_reaction_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_corporate_activity_report dhm_corporate_activity_report_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_corporate_activity_report_dhm_corporate_activity_report_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_event_slot dhm_event_slot_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_event_slot_dhm_event_slot_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_group dhm_group_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_group_dhm_group_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_state_activity_report dhm_state_activity_report_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_state_activity_report_dhm_state_activity_report_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_activity_detail dhm_user_activity_detail_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_user_activity_detail_dhm_user_activity_detail_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_asset_reaction dhm_user_asset_reaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_user_asset_reaction_dhm_user_asset_reaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_master dhm_user_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_user_master_dhm_user_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_action mum_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_action_mum_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_ad mum_ad_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_ad_mum_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_album_asset_map mum_album_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_album_asset_map_mum_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_album mum_album_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_album_mum_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_article_asset_map mum_article_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_article_asset_map_mum_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_article mum_article_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_article_mum_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_delete_log mum_asset_delete_log_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_asset_delete_log_mum_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_draft mum_asset_draft_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_asset_draft_mum_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_entity_map mum_asset_entity_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_asset_entity_map_mum_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_group mum_asset_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_asset_group_mum_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_list mum_asset_list_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_asset_list_mum_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_type mum_asset_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_asset_type_mum_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_asset_type_meta mum_asset_type_meta_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_asset_type_meta_mum_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_author_action mum_author_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_author_action_mum_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_bib_nomination mum_bib_nomination_id_pk1",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_bib_nomination_mum_bib_nomination_id_pk1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_bib_surrender mum_bib_surrender_id_pk1",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_bib_surrender_mum_bib_surrender_id_pk1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_component mum_component_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_component_mum_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_component_layout mum_component_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_component_layout_mum_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_component_type mum_component_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_component_type_mum_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_content_provider mum_content_provider_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_content_provider_mum_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_content_source mum_content_source_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_content_source_mum_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_category mum_entity_category_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_entity_category_mum_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_group mum_entity_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_entity_group_mum_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_image_map mum_entity_image_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_entity_image_map_mum_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_language_map mum_entity_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_entity_language_map_mum_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_master mum_entity_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_entity_master_mum_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_partner mum_entity_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_entity_partner_mum_entity_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_role mum_entity_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_entity_role_mum_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_role_map mum_entity_role_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_entity_role_map_mum_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_entity_type mum_entity_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_entity_type_mum_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_hero_rating_asset_map mum_hero_rating_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_hero_rating_asset_map_mum_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_hero_rating mum_hero_rating_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_hero_rating_mum_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_image mum_image_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_image_mum_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_language_master mum_language_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_language_master_mum_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_layout mum_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_layout_mum_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_pacer_calculator_detail mum_pacer_calc_dtl_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_pacer_calculator_detail_mum_pacer_calc_dtl_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_page mum_page_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_page_mum_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_page_partner mum_page_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_page_partner_mum_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_partner mum_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_partner_mum_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_poll_asset_map mum_poll_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_poll_asset_map_mum_poll_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_poll mum_poll_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_poll_mum_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_poll_option mum_poll_option_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_poll_option_mum_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_poll_response mum_poll_response_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_poll_response_mum_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_press_release_asset_map mum_press_release_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_press_release_asset_map_mum_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_press_release mum_press_release_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_press_release_mum_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_provider_author_map mum_provider_author_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_provider_author_map_mum_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_rating_week mum_rating_week_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_rating_week_mum_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_redirect mum_redirect_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_redirect_mum_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_role mum_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_role_mum_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_runner_feedback mum_runner_feedback_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_runner_feedback_mum_runner_feedback_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_runner_performance_history mum_runner_performance_history_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_runner_performance_history_mum_runner_performance_history_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_runners_target mum_runner_target_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_runners_target_mum_runner_target_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_seo_data mum_seo_data_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_seo_data_mum_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_site_master mum_site_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_site_master_mum_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_site_partner mum_site_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_site_partner_mum_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_template_component_asset_map mum_template_component_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_template_component_asset_map_mum_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_template_component_content_map mum_template_component_content_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_template_component_content_map_mum_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_topic mum_topic_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_topic_mum_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_activity mum_user_activity_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_user_activity_mum_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user mum_user_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_user_mum_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_language_map mum_user_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_user_language_map_mum_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_user_role mum_user_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_user_role_mum_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_video mum_video_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_video_mum_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_web_user_audit pk_web_user_audit_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_web_user_audit_pk_web_user_audit_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_container swa_container_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_container_swa_container_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_contact tmm_contact_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_contact_tmm_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_menu utt_menu_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_menu_utt_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_menu_page_map utt_menu_page_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_menu_page_map_utt_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_page_template_component_menu_map utt_page_template_component_menu_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_page_template_component_menu_map_utt_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "dhm_web_user web_user_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/dhm_web_user_web_user_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "acr_aac_idx",
+      "type": "INDEX",
+      "file": "indexes/acr_aac_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "acr_cu_idx",
+      "type": "INDEX",
+      "file": "indexes/acr_cu_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "gix_mum_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/gix_mum_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "idx_city_activity_report",
+      "type": "INDEX",
+      "file": "indexes/idx_city_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "idx_corporate_activity_report",
+      "type": "INDEX",
+      "file": "indexes/idx_corporate_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "idx_state_activity_report",
+      "type": "INDEX",
+      "file": "indexes/idx_state_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_dhm_user_email",
+      "type": "INDEX",
+      "file": "indexes/ix_dhm_user_email.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_dhm_web_user_clientid",
+      "type": "INDEX",
+      "file": "indexes/ix_dhm_web_user_clientid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_dhm_web_user_clientidsocid",
+      "type": "INDEX",
+      "file": "indexes/ix_dhm_web_user_clientidsocid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_dhm_web_user_guid",
+      "type": "INDEX",
+      "file": "indexes/ix_dhm_web_user_guid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_ad_ad_type",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_ad_ad_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_album_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_album_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_article_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_article_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_article_title_alias_lower",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_article_title_alias_lower.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_asset_draft_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_asset_draft_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_asset_draft_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_asset_draft_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_asset_entity_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_asset_entity_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_asset_entity_map_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_asset_entity_map_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_asset_entity_map_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_asset_entity_map_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_asset_list_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_asset_list_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_asset_list_aidatid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_asset_list_aidatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_asset_list_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_asset_list_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_asset_list_permid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_asset_list_permid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_asset_list_published_date",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_asset_list_published_date.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_asset_list_sermid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_asset_list_sermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_asset_list_title_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_asset_list_title_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_asset_list_title_alias_lower",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_asset_list_title_alias_lower.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_author_action_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_author_action_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_author_action_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_author_action_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_entity_image_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_entity_image_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_entity_language_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_entity_language_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_entity_partner_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_entity_partner_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_entity_partner_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_entity_partner_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_entity_partner_lmid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_entity_partner_lmid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_entity_role_egid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_entity_role_egid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_entity_role_etid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_entity_role_etid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_entity_role_map_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_entity_role_map_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_entity_role_map_erid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_entity_role_map_erid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_entity_role_map_soid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_entity_role_map_soid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_hero_rating_asset_map_hrid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_hero_rating_asset_map_hrid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_hero_rating_rwid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_hero_rating_rwid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_hero_rating_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_hero_rating_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_page_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_page_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_poll_option_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_poll_option_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_poll_response_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_poll_response_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_poll_response_roid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_poll_response_roid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_rating_week_ry",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_rating_week_ry.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_rating_week_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_rating_week_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_rating_week_woty",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_rating_week_woty.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_runner_feedback_flname",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_runner_feedback_flname.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_runner_performance_history_f_l_name",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_runner_performance_history_f_l_name.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_runners_year_data_f_l_name",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_runners_year_data_f_l_name.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_seo_data_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_seo_data_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_site_partner_pgid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_site_partner_pgid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_site_partner_sid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_site_partner_sid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_user_activity_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_user_activity_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_user_activity_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_user_activity_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_user_emailid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_user_emailid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_user_role_rid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_user_role_rid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "ix_mum_user_role_uid",
+      "type": "INDEX",
+      "file": "indexes/ix_mum_user_role_uid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dhm",
+      "name": "uar_raaurp_idx",
+      "type": "INDEX",
+      "file": "indexes/uar_raaurp_idx.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 599,
+  "unclassified_count": 0
+}

@@ -1,0 +1,13 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "content-engine",
+      "type": "SCHEMA",
+      "file": "content-engine.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 1,
+  "unclassified_count": 0
+}

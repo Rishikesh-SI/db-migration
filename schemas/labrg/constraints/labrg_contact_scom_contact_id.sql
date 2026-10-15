@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labrg
+-- Object: labrg_contact scom_contact_id
+-- Type: CONSTRAINT
+
+-- Name: labrg_contact scom_contact_id; Type: CONSTRAINT; Schema: labrg; Owner: -
+--
+
+ALTER TABLE ONLY labrg.labrg_contact
+    ADD CONSTRAINT scom_contact_id PRIMARY KEY (contact_id);
+
+
+--

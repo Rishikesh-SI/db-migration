@@ -1,0 +1,706 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "eks",
+      "type": "SCHEMA",
+      "file": "eks.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "bkup_create_user_team_23jan2018(numeric, numeric, character varying, numeric, numeric, numeric, character varying, character varying, character varying, numeric[], numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/bkup_create_user_team_23jan2018(numeric,_numeric,_character_varying,_numeric,_numeric,_nu_5c0e3cc6e9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/eks_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/eks_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/eks_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_get_showcase_list_04022019_41cc(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/eks_get_showcase_list_04022019_41cc(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/eks_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_get_tem_comp_asset_map_detail_04022019_35d7(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/eks_get_tem_comp_asset_map_detail_04022019_35d7(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_get_tem_comp_asset_map_detail_28012019_b826(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/eks_get_tem_comp_asset_map_detail_28012019_b826(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/eks_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_numer_d59b3710d9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_get_tem_comp_asset_map_detail_by_page_r_04022019_ee58(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/eks_get_tem_comp_asset_map_detail_by_page_r_04022019_ee58(numeric,_numeric[],_numeric[],__ccda701e70.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/eks_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numeri_6cc744e01d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/eks_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/eks_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_ins_upd_temp_comp_asset_map_04022019_2d3a(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/eks_ins_upd_temp_comp_asset_map_04022019_2d3a(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "eks_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/eks_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "pk_user_team_get(numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pk_user_team_get(numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_admin_analytics_user_count(numeric, character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_admin_analytics_user_count(numeric,_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_admin_analytics_user_count(numeric, character varying, timestamp without time zone, timestamp without time zone, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_admin_analytics_user_count(numeric,_character_varying,_timestamp_without_time_zone,_ti_8281ad0b54.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_admin_analytics_user_count_bak(numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_admin_analytics_user_count_bak(numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_admin_analytics_user_count_bak(numeric, timestamp without time zone, timestamp without time zone, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_admin_analytics_user_count_bak(numeric,_timestamp_without_time_zone,_timestamp_without_1f84e57974.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_admin_display_flag_upd(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/ss_admin_display_flag_upd(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_admin_selected_per_team_get(integer, integer, integer, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_admin_selected_per_team_get(integer,_integer,_integer,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_create_user_team(numeric, numeric, character varying, numeric, numeric, numeric, character varying, character varying, character varying, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/ss_create_user_team(numeric,_numeric,_character_varying,_numeric,_numeric,_numeric,_chara_c84a0797e3.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_create_user_team_20180511_bak(numeric, numeric, character varying, numeric, numeric, numeric, character varying, character varying, character varying, numeric[], numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/ss_create_user_team_20180511_bak(numeric,_numeric,_character_varying,_numeric,_numeric,_n_e99b0b1282.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_create_user_team_20180518(numeric, numeric, character varying, numeric, numeric, numeric, character varying, character varying, character varying, numeric[], numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/ss_create_user_team_20180518(numeric,_numeric,_character_varying,_numeric,_numeric,_numer_d8182c4861.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_create_user_team_niu(numeric, numeric, character varying, numeric, numeric, numeric, character varying, character varying, character varying, numeric[], numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/ss_create_user_team_niu(numeric,_numeric,_character_varying,_numeric,_numeric,_numeric,_c_1ba9dccf50.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_log_ins(numeric, numeric, character varying, numeric, character varying, numeric, character varying, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/ss_log_ins(numeric,_numeric,_character_varying,_numeric,_character_varying,_numeric,_char_44cf2c12a4.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player_selected_percentage_upd(integer, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/ss_player_selected_percentage_upd(integer,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_tour_player_get(integer, integer, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_tour_player_get(integer,_integer,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_tour_player_get_1(integer, integer, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_tour_player_get_1(integer,_integer,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_tour_player_get_20180518(integer, integer, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_tour_player_get_20180518(integer,_integer,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_tour_team_get(integer, integer, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_tour_team_get(integer,_integer,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_lederboard_get(numeric, numeric, numeric[], numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_user_lederboard_get(numeric,_numeric,_numeric[],_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_lederboard_get_bak_20180523(numeric, numeric, numeric[], numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_user_lederboard_get_bak_20180523(numeric,_numeric,_numeric[],_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_lederboard_get_eksv1_test(numeric, numeric, numeric[], numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_user_lederboard_get_eksv1_test(numeric,_numeric,_numeric[],_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_source_get(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_user_source_get(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_team_get(numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_user_team_get(numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_winner_list_get(numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ss_user_winner_list_get(numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "tt22_user_team_get(numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/tt22_user_team_get(numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "tt3_user_team_get(numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/tt3_user_team_get(numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "tt5_user_team_get(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/tt5_user_team_get(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "tt6_user_team_get(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/tt6_user_team_get(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "tt_user_team_get(numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/tt_user_team_get(numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ttt_user_team_get(numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/ttt_user_team_get(numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "tttt_create_user_team(numeric, numeric, character varying, numeric, numeric, numeric, character varying, character varying, character varying, numeric[], numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/tttt_create_user_team(numeric,_numeric,_character_varying,_numeric,_numeric,_numeric,_cha_03548080e7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "tttt_user_team_get(numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/tttt_user_team_get(numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "tyyy_create_user_team(numeric, numeric, character varying, numeric, numeric, numeric, character varying, character varying, character varying, numeric[], numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/tyyy_create_user_team(numeric,_numeric,_character_varying,_numeric,_numeric,_numeric,_cha_dd1aad5cf9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_client_client_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/ss_client_client_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_client",
+      "type": "TABLE",
+      "file": "tables/ss_client.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_country_master",
+      "type": "TABLE",
+      "file": "tables/ss_country_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_log_cf_logid_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/ss_log_cf_logid_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_log",
+      "type": "TABLE",
+      "file": "tables/ss_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player",
+      "type": "TABLE",
+      "file": "tables/ss_player.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player_20180514",
+      "type": "TABLE",
+      "file": "tables/ss_player_20180514.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player_category_type",
+      "type": "TABLE",
+      "file": "tables/ss_player_category_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player_team_selection",
+      "type": "TABLE",
+      "file": "tables/ss_player_team_selection.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player_team_selection_20180520",
+      "type": "TABLE",
+      "file": "tables/ss_player_team_selection_20180520.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player_team_selection_20180520_6pm",
+      "type": "TABLE",
+      "file": "tables/ss_player_team_selection_20180520_6pm.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player_tour_selection",
+      "type": "TABLE",
+      "file": "tables/ss_player_tour_selection.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player_tour_selection_20180520",
+      "type": "TABLE",
+      "file": "tables/ss_player_tour_selection_20180520.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player_tour_selection_20180520_6pm",
+      "type": "TABLE",
+      "file": "tables/ss_player_tour_selection_20180520_6pm.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_selected_team_player",
+      "type": "TABLE",
+      "file": "tables/ss_selected_team_player.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_skill_master",
+      "type": "TABLE",
+      "file": "tables/ss_skill_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_source_type",
+      "type": "TABLE",
+      "file": "tables/ss_source_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_team",
+      "type": "TABLE",
+      "file": "tables/ss_team.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_tour",
+      "type": "TABLE",
+      "file": "tables/ss_tour.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_tour_player",
+      "type": "TABLE",
+      "file": "tables/ss_tour_player.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_tour_team",
+      "type": "TABLE",
+      "file": "tables/ss_tour_team.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_tournament_cf_tournamentid_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/ss_tournament_cf_tournamentid_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_tournament",
+      "type": "TABLE",
+      "file": "tables/ss_tournament.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_cf_userid_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/ss_user_cf_userid_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user",
+      "type": "TABLE",
+      "file": "tables/ss_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_team",
+      "type": "TABLE",
+      "file": "tables/ss_user_team.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_tour_map",
+      "type": "TABLE",
+      "file": "tables/ss_user_tour_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_client ss_client_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_client_ss_client_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_country_master ss_country_master_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_country_master_ss_country_master_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_log ss_log_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_log_ss_log_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player_category_type ss_player_category_type_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_player_category_type_ss_player_category_type_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player ss_player_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_player_ss_player_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player_team_selection ss_player_team_selection_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_player_team_selection_ss_player_team_selection_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_player_tour_selection ss_player_tour_selection_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_player_tour_selection_ss_player_tour_selection_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_skill_master ss_skill_master_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_skill_master_ss_skill_master_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_source_type ss_source_type_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_source_type_ss_source_type_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_team ss_team_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_team_ss_team_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_tour ss_tour_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_tour_ss_tour_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_tour_player ss_tour_player_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_tour_player_ss_tour_player_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_tour_team ss_tour_team_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_tour_team_ss_tour_team_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_tournament ss_tournament_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_tournament_ss_tournament_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user ss_user_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_user_ss_user_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_team ss_user_team_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_user_team_ss_user_team_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_tour_map ss_user_tour_map_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/ss_user_tour_map_ss_user_tour_map_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_log_ix",
+      "type": "INDEX",
+      "file": "indexes/ss_log_ix.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_mob_no_ix",
+      "type": "INDEX",
+      "file": "indexes/ss_user_mob_no_ix.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_socialid_ix",
+      "type": "INDEX",
+      "file": "indexes/ss_user_socialid_ix.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_team_category_ix",
+      "type": "INDEX",
+      "file": "indexes/ss_user_team_category_ix.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_tour_map_mob_no_ix",
+      "type": "INDEX",
+      "file": "indexes/ss_user_tour_map_mob_no_ix.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_tour_map_socialid_ix",
+      "type": "INDEX",
+      "file": "indexes/ss_user_tour_map_socialid_ix.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_tour_map_upper_email_id_ix",
+      "type": "INDEX",
+      "file": "indexes/ss_user_tour_map_upper_email_id_ix.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "eks",
+      "name": "ss_user_upper_email_id_ix",
+      "type": "INDEX",
+      "file": "indexes/ss_user_upper_email_id_ix.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 100,
+  "unclassified_count": 0
+}

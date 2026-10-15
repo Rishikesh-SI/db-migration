@@ -1,0 +1,3954 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "labsaw",
+      "type": "SCHEMA",
+      "file": "labsaw.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "_get_web_list_json(text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/get_web_list_json(text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "_ins_upd_article(text, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/ins_upd_article(text,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "data(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/data(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "get_element_list_fromjson_array(jsonb, text)",
+      "type": "FUNCTION",
+      "file": "functions/get_element_list_fromjson_array(jsonb,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_bulk_upd_asset_entity_map(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_bulk_upd_asset_entity_map(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_v_8433966421.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_bulk_upd_modify_date(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_bulk_upd_modify_date(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varyin_3ce5d321c8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_calculate_poll_points(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_calculate_poll_points(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_change_asset_lock_status(character, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_change_asset_lock_status(character,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_check_asset_ent_by_cat(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_check_asset_ent_by_cat(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_check_mobilenum_exist_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_check_mobilenum_exist_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_check_page_alias(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_check_page_alias(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_check_slugurl(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_check_slugurl(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_custom_login_email_verification(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_custom_login_email_verification(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_custom_login_forget_password(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_custom_login_forget_password(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_custom_login_update_password(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_custom_login_update_password(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_custom_signin(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_custom_signin(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_db_backup()",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_db_backup().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_del_image(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_del_image(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_del_topic(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_del_topic(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_delete_asset(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_delete_asset(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_edit_del_menu(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_edit_del_menu(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_edit_del_page(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_edit_del_page(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_edit_del_template(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_edit_del_template(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_gen_onthisday_article(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_gen_onthisday_article(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_generate_otp(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_generate_otp(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_ad_comp_cont_map_list(numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_ad_comp_cont_map_list(numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_ad_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_ad_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_ad_detail_r(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_ad_detail_r(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_ad_listing(numeric, numeric[], text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_ad_listing(numeric,_numeric[],_text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_ad_position_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_ad_position_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_ad_r(text, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_ad_r(text,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_ad_rbakup11042020(text, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_ad_rbakup11042020(text,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_ad_rtest(text, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_ad_rtest(text,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_affiliate_data_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_affiliate_data_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_album_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_album_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_album_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_album_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_album_detail_r(character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_album_detail_r(character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_album_detail_r_niu(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_album_detail_r_niu(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_album_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_album_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_album_detailtest(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_album_detailtest(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_734048a67e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_album_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_album_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_article_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_article_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_article_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_article_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_article_detail_r(character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_article_detail_r(character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_article_detail_r_28_04_2022(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_article_detail_r_28_04_2022(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_article_detail_r_niu(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_article_detail_r_niu(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_article_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_article_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric_cbf85b1316.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_count_by_cat_json_r(numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_count_by_cat_json_r(numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_count_by_cat_r(numeric[], numeric[], character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_count_by_cat_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_refcurs_059932b581.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_count_by_cat_rb_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_count_by_cat_rb_r(numeric[],_numeric[],_character_varying,_numeric,_refc_2763ad4509.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_detail_r_bak(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_detail_r_bak(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_detail_r_niu(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_detail_r_niu(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_detail_r_test(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_detail_r_test(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_listing(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_listing(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_listing_all(numeric, numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_listing_all(numeric,_numeric,_numeric,_numeric,_numeric[],_numeric[],_nu_88215f108a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_listing_by_cat_dk(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_listing_by_cat_dk(numeric,_numeric,_numeric[],_numeric[],_character_vary_851409458a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_listing_by_cat_json_r(numeric, numeric, numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_listing_by_cat_json_r(numeric,_numeric,_numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_listing_by_cat_r(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_listing_by_cat_r(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_listing_by_cat_r(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_listing_by_cat_r(numeric,_numeric,_numeric[],_numeric[],_character_varyi_3135658b73.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_listing_by_cat_r_testing(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_listing_by_cat_r_testing(numeric,_numeric,_numeric[],_numeric[],_charact_64fd369fc5.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_listing_by_cat_rbk30032020(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_listing_by_cat_rbk30032020(numeric,_numeric,_numeric[],_numeric[],_chara_a9714efb69.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_listing_by_cat_rold(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_listing_by_cat_rold(numeric,_numeric,_numeric[],_numeric[],_character_va_ce59400c12.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_listing_by_title(numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_listing_by_title(numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_listing_by_type_r(numeric, numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_listing_by_type_r(numeric,_numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_listing_for_any_ent_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_listing_for_any_ent_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_ch_00ba83f981.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_next_prev_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_next_prev_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_asset_type_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_asset_type_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_audio_listing_r(text, numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_audio_listing_r(text,_numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_author_detail_by_cat_r(numeric[], numeric[], character varying, numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_author_detail_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_numer_2946124e5e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_author_listing_by_lang_r(numeric, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_author_listing_by_lang_r(numeric,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_cachebuster_navigation_details_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_cachebuster_navigation_details_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_cachebuster_pageinfo_details_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_cachebuster_pageinfo_details_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_canonical_url_r(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_canonical_url_r(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_category_list_30082019_7e27(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_category_list_30082019_7e27(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_container_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_container_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_content_provider(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_content_provider(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_download_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_download_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_download_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_download_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeri_8f3db31bda.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_download_listing_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_download_listing_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_emailer_emails()",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_emailer_emails().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_ent_role_mapid(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_ent_role_mapid(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_ent_role_mapid_r(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_ent_role_mapid_r(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_entity_detail(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_entity_detail(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_entity_display_name_by_language(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_entity_display_name_by_language(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_entity_group_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_entity_group_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_entity_known_as(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_entity_known_as(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_entity_language_from_entities(numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_entity_language_from_entities(numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_entity_listing(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_entity_listing(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_entity_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_entity_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_entity_name_by_asset(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_entity_name_by_asset(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_entity_name_by_lang(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_entity_name_by_lang(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_entity_roles_30082019_7235(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_entity_roles_30082019_7235(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_entity_type_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_entity_type_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_files_list(numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_files_list(numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_heroes_detail_r(numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_heroes_detail_r(numeric,_numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_image_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_image_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_image_listing(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_image_listing(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_leaderboard_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_leaderboard_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_master_html_list_r()",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_master_html_list_r().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_match_contents_r(text[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_match_contents_r(text[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_menu_by_parent(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_menu_by_parent(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_menu_by_parent_r(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_menu_by_parent_r(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_menu_listing(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_menu_listing(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_menu_page_map_list(numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_menu_page_map_list(numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_menujson_r(numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_menujson_r(numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_navigation_r(numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_navigation_r(numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_navigation_r(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_navigation_r(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_navigation_r17(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_navigation_r17(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_navigation_r_niu(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_navigation_r_niu(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_navigation_r_test(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_navigation_r_test(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_navigation_rbkp_17092020(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_navigation_rbkp_17092020(numeric,_numeric[],_character_varying,_refcursor,_ref_b17976730f.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_navigation_rtesting(numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_navigation_rtesting(numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_new_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_new_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_by_service_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_by_service_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_new(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_new(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_new_bkp(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_new_bkp(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_new_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_new_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_ref_810bab2e06.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_r(character varying, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_r(character_varying,_numeric,_refcursor,_refcursor,_refcursor,_refcu_0425a0940d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_r(character varying, text, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_r(character_varying,_text,_refcursor,_refcursor,_refcursor,_refcurso_807976e3f9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_r_optimize(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_r_optimize(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_r_test(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_r_test(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_rbackup_05042021(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_rbackup_05042021(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_rbk31(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_rbk31(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_ropt(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_ropt(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_ropt31(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_ropt31(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_data_rtunning(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_data_rtunning(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_databk17092020(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_databk17092020(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_detail_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_detail_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_listing(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_listing(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_sitemap(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_sitemap(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_template_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_template_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_template_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_template_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_page_widget_data_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_page_widget_data_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_player_detail_by_cat_json_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_player_detail_by_cat_json_r(numeric,_numeric[],_numeric[],_character_varying,__715c8434b1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_player_detail_by_cat_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_player_detail_by_cat_r(numeric,_numeric[],_numeric[],_character_varying,_numer_855bde8f58.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_detail_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_detail_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_223ae12c39.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_listing_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_listing_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_listing_r(jsonb, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_listing_r(jsonb,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_listing_r(numeric, numeric, numeric[], refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_listing_r(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_listing_r(numeric, numeric, numeric[], character varying, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_listing_r(numeric,_numeric,_numeric[],_character_varying,_refcursor,_refc_12c181b3ec.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_listing_r17092020(numeric, numeric, numeric[], character varying, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_listing_r17092020(numeric,_numeric,_numeric[],_character_varying,_refcurs_97c4accc1e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_poll_listing_rtest(numeric, numeric, numeric[], character varying, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_poll_listing_rtest(numeric,_numeric,_numeric[],_character_varying,_refcursor,__b349929cd6.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_press_realease_listing_r(numeric, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_press_realease_listing_r(numeric,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_press_release_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_press_release_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_press_release_listing(numeric, numeric, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_press_release_listing(numeric,_numeric,_numeric,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_process_data_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_process_data_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_rating_week_r(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_rating_week_r(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_regex_page_data_r()",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_regex_page_data_r().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_search_listing_cat_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_search_listing_cat_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_series_detail_r(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_series_detail_r(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_showcase_det_r(character varying, numeric, numeric[], numeric[], numeric[], numeric, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_showcase_det_r(character_varying,_numeric,_numeric[],_numeric[],_numeric[],_nu_b9f9a10376.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_sitemap(character varying, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_sitemap(character_varying,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_sitemap_asset_count(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_sitemap_asset_count(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_sitemap_json(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_sitemap_json(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_team_player_detail_r(character varying, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_team_player_detail_r(character_varying,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_tem_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_tem_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_nu_1b720087c8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_tem_comp_asset_map_detail_by_page_r_debug_29_08_202(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_tem_comp_asset_map_detail_by_page_r_debug_29_08_202(numeric,_numeric[],_numeri_a01bfbd913.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_tem_comp_asset_map_detail_by_page_r_test(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_tem_comp_asset_map_detail_by_page_r_test(numeric,_numeric[],_numeric[],_numeri_2af8468a31.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_tem_comp_asset_map_detail_by_page_ropt(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_tem_comp_asset_map_detail_by_page_ropt(numeric,_numeric[],_numeric[],_numeric,_8a7ec1219c.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_tem_comp_asset_map_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_tem_comp_asset_map_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_tem_comp_asset_map_detail_r(numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_tem_comp_asset_map_detail_r(numeric,_numeric[],_refcursor,_refcursor,_refcurso_1cad07a770.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_tem_cop_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_tem_cop_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_temp_comp_cont_map_detail(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_temp_comp_cont_map_detail(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_num_eb68248dcf.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_template_comp_cont_map_list_01022019_eb7b(numeric, numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_template_comp_cont_map_list_01022019_eb7b(numeric,_numeric,_numeric,_numeric[]_c9e3db6ebf.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_template_component(numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_template_component(numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_template_data(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_template_data(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_template_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_template_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_template_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_template_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_top_user_data_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_top_user_data_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_topic_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_topic_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_topic_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_topic_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_topic_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_topic_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_afc0e18295.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, text)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_8f1946a09d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_topic_listing_r(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_topic_listing_r(numeric, numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_topic_listing_r_ak(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_topic_listing_r_ak(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_unsubscribe_r(text)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_unsubscribe_r(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_user_data(jsonb, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_user_data(jsonb,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_user_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_user_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_user_disp_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_user_disp_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_user_display_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_user_display_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_user_gratification_details(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_user_gratification_details(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_user_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_user_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_user_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_user_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_user_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_user_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_user_listing_with_param(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_user_listing_with_param(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_user_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_user_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_video_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_video_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_video_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_video_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_video_detail_r_bk(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_video_detail_r_bk(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_video_detail_rback(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_video_detail_rback(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_video_detail_rtest(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_video_detail_rtest(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_video_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_video_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_video_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_video_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_48eb2161e9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_video_listing_backup_18022017(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_video_listing_backup_18022017(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_visual_stories_list()",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_visual_stories_list().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_get_word_count(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_get_word_count(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_cookies_data(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_cookies_data(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_entity_language_map(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_entity_language_map(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_up_redirect(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_up_redirect(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_ad(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_ad(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_ad_13052019(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_ad_13052019(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_ad_26032020(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_ad_26032020(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_ad_management(numeric, text, text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_ad_management(numeric,_text,_text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_affiliate(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_affiliate(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_album(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_album(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_album_backup(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_album_backup(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_albumnew(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_albumnew(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_article(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_article(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_article_29012019(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_article_29012019(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_articlebk(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_articlebk(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_articlebkk(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_articlebkk(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_contact(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_contact(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_contact(character varying, character varying, character varying, character varying, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_contact(character_varying,_character_varying,_character_varying,_character_8f9880ed64.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_contact(character varying, character varying, character varying, character varying, numeric, text, text, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_contact(character_varying,_character_varying,_character_varying,_character_268010f0aa.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_contactbk2020(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_contactbk2020(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_container(numeric, character varying, numeric, numeric, numeric, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_container(numeric,_character_varying,_numeric,_numeric,_numeric,_character_6db3acbe94.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_download(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_download(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_entity(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_entity(numeric,_numeric[],_numeric[],_character_varying[],_character_varyi_cd2926bc75.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_entity_ar(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_entity_ar(numeric,_numeric[],_numeric[],_character_varying[],_character_va_d6a55ab3e6.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_file(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_file(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_get_web_users_login(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_get_web_users_login(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_get_web_users_login_old(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_get_web_users_login_old(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_get_web_users_login_prd(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_get_web_users_login_prd(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_get_web_users_login_test(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_get_web_users_login_test(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_get_web_users_login_v1(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_get_web_users_login_v1(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_get_web_users_loginbk17092020(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_get_web_users_loginbk17092020(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_get_web_users_loginbk300920(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_get_web_users_loginbk300920(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_heros(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_heros(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_image(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_image(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_layout(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_layout(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_menu(numeric, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric[], numeric[], character varying[], numeric[], numeric[], numeric[], numeric[], numeric[], character varying[], text[], character varying[], numeric[], numeric, jsonb, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_menu(numeric,_character_varying,_character_varying,_numeric,_numeric,_nume_5e23769041.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_menu_dk(numeric, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric[], numeric[], character varying[], numeric[], numeric[], numeric[], numeric[], numeric[], character varying[], text[], character varying[], numeric[], numeric, jsonb, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_menu_dk(numeric,_character_varying,_character_varying,_numeric,_numeric,_n_d65ce20dee.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_page(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_page(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_page_10032021(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_page_10032021(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_page_template_comp_menu_map(numeric[], numeric, numeric[], numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_page_template_comp_menu_map(numeric[],_numeric,_numeric[],_numeric,_numeri_5f547bceb8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_page_template_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_page_template_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_pagebk17092020(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_pagebk17092020(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_pagebkup_07112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_pagebkup_07112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_poll(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_poll(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_poll_automatedby_service(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_poll_automatedby_service(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_poll_response(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_poll_response(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_poll_response17092020(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_poll_response17092020(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_poll_response_dk(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_poll_response_dk(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_poll_response_prd(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_poll_response_prd(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_poll_responseniu(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_poll_responseniu(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_pollbk(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_pollbk(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_pollbk17092020(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_pollbk17092020(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_press_release(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_press_release(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_press_release_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_press_release_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_rating_week(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_rating_week(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_seo_data(numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_seo_data(numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_template(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_template(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_template_08032021(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_template_08032021(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_template_09032021(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_template_09032021(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_template_comp_cont_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_template_comp_cont_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_template_component_map(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_template_component_map(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_template_component_map_dk(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_template_component_map_dk(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_template_dk(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_template_dk(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_topic(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_topic(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_topic_partial(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_topic_partial(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_user_ar(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_user_ar(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_users_custom_registrastion(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_users_custom_registrastion(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_users_custom_registrastion_1(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_users_custom_registrastion_1(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_video(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_video(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_video_bak(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_video_bak(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_video_test(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_video_test(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_upd_web_users_login_dk(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_upd_web_users_login_dk(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ins_url_testing(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_ins_url_testing(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_is_poll_active(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_is_poll_active(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_process_content_data()",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_process_content_data().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_process_content_data(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_process_content_data(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_process_template_component_map_data(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_process_template_component_map_data(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_process_template_component_map_datatest(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_process_template_component_map_datatest(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_search_advertisement(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_search_advertisement(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_search_entity(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_search_entity(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_search_entity_by_page(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_search_entity_by_page(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_search_entity_by_page_28042020(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_search_entity_by_page_28042020(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_search_entity_by_page_all(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_search_entity_by_page_all(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_search_entity_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_search_entity_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_setup_new_client(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_setup_new_client(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_show_get_page_data(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_show_get_page_data(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_show_get_rss_data(numeric, numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_show_get_rss_data(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_show_get_site_map_data(numeric, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_show_get_site_map_data(numeric,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_social_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_social_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_upd_author(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_upd_author(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,_numeric_52afe019af.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_upd_del_user_asset_comments(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_upd_del_user_asset_comments(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_upd_emailer_email_status(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_upd_emailer_email_status(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_upd_page_hierarchy(numeric, character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_upd_page_hierarchy(numeric,_character_varying[],_numeric[],_numeric[],_numeric[],__ac518666f3.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_upd_user_gratification_details(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_upd_user_gratification_details(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_update_user_and_return_user_data(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_update_user_and_return_user_data(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_upload_excel(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_upload_excel(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_user_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_user_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_verified_otp(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsaw_verified_otp(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "regexp_count(text, text)",
+      "type": "FUNCTION",
+      "file": "functions/regexp_count(text,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_action",
+      "type": "TABLE",
+      "file": "tables/labsaw_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ad",
+      "type": "TABLE",
+      "file": "tables/labsaw_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_ad_client",
+      "type": "TABLE",
+      "file": "tables/labsaw_ad_client.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_advertisement",
+      "type": "TABLE",
+      "file": "tables/labsaw_advertisement.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_affliate_data",
+      "type": "TABLE",
+      "file": "tables/labsaw_affliate_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_album",
+      "type": "TABLE",
+      "file": "tables/labsaw_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_api_error_log",
+      "type": "TABLE",
+      "file": "tables/labsaw_api_error_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_article",
+      "type": "TABLE",
+      "file": "tables/labsaw_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_asset_comment_reaction",
+      "type": "TABLE",
+      "file": "tables/labsaw_asset_comment_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_asset_delete_log",
+      "type": "TABLE",
+      "file": "tables/labsaw_asset_delete_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_asset_draft",
+      "type": "TABLE",
+      "file": "tables/labsaw_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_asset_draftmig",
+      "type": "TABLE",
+      "file": "tables/labsaw_asset_draftmig.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_asset_entity_mapmig",
+      "type": "TABLE",
+      "file": "tables/labsaw_asset_entity_mapmig.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_asset_group",
+      "type": "TABLE",
+      "file": "tables/labsaw_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_asset_list",
+      "type": "TABLE",
+      "file": "tables/labsaw_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_asset_listmig",
+      "type": "TABLE",
+      "file": "tables/labsaw_asset_listmig.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_asset_type",
+      "type": "TABLE",
+      "file": "tables/labsaw_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/labsaw_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_asset_view_trac",
+      "type": "TABLE",
+      "file": "tables/labsaw_asset_view_trac.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_assets_view",
+      "type": "TABLE",
+      "file": "tables/labsaw_assets_view.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_author_action",
+      "type": "TABLE",
+      "file": "tables/labsaw_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_channel_master",
+      "type": "TABLE",
+      "file": "tables/labsaw_channel_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_component",
+      "type": "TABLE",
+      "file": "tables/labsaw_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_component_layout",
+      "type": "TABLE",
+      "file": "tables/labsaw_component_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_component_type",
+      "type": "TABLE",
+      "file": "tables/labsaw_component_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_contact",
+      "type": "TABLE",
+      "file": "tables/labsaw_contact.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_contactbk020720",
+      "type": "TABLE",
+      "file": "tables/labsaw_contactbk020720.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_contactbk06102020",
+      "type": "TABLE",
+      "file": "tables/labsaw_contactbk06102020.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_container",
+      "type": "TABLE",
+      "file": "tables/labsaw_container.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_content_provider",
+      "type": "TABLE",
+      "file": "tables/labsaw_content_provider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_content_source",
+      "type": "TABLE",
+      "file": "tables/labsaw_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_contents_temp",
+      "type": "TABLE",
+      "file": "tables/labsaw_contents_temp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_cookies_data",
+      "type": "TABLE",
+      "file": "tables/labsaw_cookies_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_emailer_emails",
+      "type": "TABLE",
+      "file": "tables/labsaw_emailer_emails.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_emailer_emailsbackup06102020",
+      "type": "TABLE",
+      "file": "tables/labsaw_emailer_emailsbackup06102020.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_emailer_emailsbk_10072020",
+      "type": "TABLE",
+      "file": "tables/labsaw_emailer_emailsbk_10072020.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_emailer_emailsbk_10072020b",
+      "type": "TABLE",
+      "file": "tables/labsaw_emailer_emailsbk_10072020b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_emailer_emailsk13102020",
+      "type": "TABLE",
+      "file": "tables/labsaw_emailer_emailsk13102020.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entities_temp",
+      "type": "TABLE",
+      "file": "tables/labsaw_entities_temp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_category",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_group",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_inj1",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_inj1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_master",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_master03082020",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_master03082020.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_master_bk04022021",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_master_bk04022021.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_masterbk31032020",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_masterbk31032020.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_partner",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_role",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_role_map_07072023",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_role_map_07072023.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_role_mapbk31032020",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_role_mapbk31032020.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_entity_type",
+      "type": "TABLE",
+      "file": "tables/labsaw_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_gratification_details",
+      "type": "TABLE",
+      "file": "tables/labsaw_gratification_details.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_gratification_details_2701",
+      "type": "TABLE",
+      "file": "tables/labsaw_gratification_details_2701.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_gratification_event",
+      "type": "TABLE",
+      "file": "tables/labsaw_gratification_event.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_gratification_gift",
+      "type": "TABLE",
+      "file": "tables/labsaw_gratification_gift.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_hero_rating",
+      "type": "TABLE",
+      "file": "tables/labsaw_hero_rating.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_hero_rating_asset_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_hero_rating_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_image",
+      "type": "TABLE",
+      "file": "tables/labsaw_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_language_entity_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_language_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_language_master",
+      "type": "TABLE",
+      "file": "tables/labsaw_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_layout",
+      "type": "TABLE",
+      "file": "tables/labsaw_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_menu",
+      "type": "TABLE",
+      "file": "tables/labsaw_menu.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_menu_page_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_menu_page_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_menu_page_mapbk",
+      "type": "TABLE",
+      "file": "tables/labsaw_menu_page_mapbk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_navigation",
+      "type": "TABLE",
+      "file": "tables/labsaw_navigation.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_otp_details",
+      "type": "TABLE",
+      "file": "tables/labsaw_otp_details.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_page",
+      "type": "TABLE",
+      "file": "tables/labsaw_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_page_data",
+      "type": "TABLE",
+      "file": "tables/labsaw_page_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_page_partner",
+      "type": "TABLE",
+      "file": "tables/labsaw_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_page_template_component_menu_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_page_template_component_menu_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_page_template_detail",
+      "type": "TABLE",
+      "file": "tables/labsaw_page_template_detail.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_partner",
+      "type": "TABLE",
+      "file": "tables/labsaw_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_poll",
+      "type": "TABLE",
+      "file": "tables/labsaw_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_poll_option",
+      "type": "TABLE",
+      "file": "tables/labsaw_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_poll_response",
+      "type": "TABLE",
+      "file": "tables/labsaw_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_press_release",
+      "type": "TABLE",
+      "file": "tables/labsaw_press_release.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_press_release_asset_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_press_release_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_provider_author_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_provider_author_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_rating_week",
+      "type": "TABLE",
+      "file": "tables/labsaw_rating_week.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_redirect",
+      "type": "TABLE",
+      "file": "tables/labsaw_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_role",
+      "type": "TABLE",
+      "file": "tables/labsaw_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_rolebk20",
+      "type": "TABLE",
+      "file": "tables/labsaw_rolebk20.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_seo_data",
+      "type": "TABLE",
+      "file": "tables/labsaw_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_seo_datamig",
+      "type": "TABLE",
+      "file": "tables/labsaw_seo_datamig.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_site_master",
+      "type": "TABLE",
+      "file": "tables/labsaw_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_site_partner",
+      "type": "TABLE",
+      "file": "tables/labsaw_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_template",
+      "type": "TABLE",
+      "file": "tables/labsaw_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_template_11_12_2020",
+      "type": "TABLE",
+      "file": "tables/labsaw_template_11_12_2020.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_template_component_content_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_template_component_content_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_template_component_data",
+      "type": "TABLE",
+      "file": "tables/labsaw_template_component_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_template_component_databk",
+      "type": "TABLE",
+      "file": "tables/labsaw_template_component_databk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_template_component_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_template_component_map_03072024",
+      "type": "TABLE",
+      "file": "tables/labsaw_template_component_map_03072024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_topic",
+      "type": "TABLE",
+      "file": "tables/labsaw_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_upload_data_filter",
+      "type": "TABLE",
+      "file": "tables/labsaw_upload_data_filter.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_user",
+      "type": "TABLE",
+      "file": "tables/labsaw_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_user1",
+      "type": "TABLE",
+      "file": "tables/labsaw_user1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_user_activity",
+      "type": "TABLE",
+      "file": "tables/labsaw_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_user_asset_reaction",
+      "type": "TABLE",
+      "file": "tables/labsaw_user_asset_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_user_data_filter",
+      "type": "TABLE",
+      "file": "tables/labsaw_user_data_filter.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_user_language_map",
+      "type": "TABLE",
+      "file": "tables/labsaw_user_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_user_poll_response",
+      "type": "TABLE",
+      "file": "tables/labsaw_user_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_user_poll_response_man_off_the_matchbk",
+      "type": "TABLE",
+      "file": "tables/labsaw_user_poll_response_man_off_the_matchbk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_user_role",
+      "type": "TABLE",
+      "file": "tables/labsaw_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_user_role_menu_action_map2",
+      "type": "TABLE",
+      "file": "tables/labsaw_user_role_menu_action_map2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_user_rolebkk",
+      "type": "TABLE",
+      "file": "tables/labsaw_user_rolebkk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_video",
+      "type": "TABLE",
+      "file": "tables/labsaw_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_web_user",
+      "type": "TABLE",
+      "file": "tables/labsaw_web_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_web_user_06_04_201",
+      "type": "TABLE",
+      "file": "tables/labsaw_web_user_06_04_201.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_web_user_audit",
+      "type": "TABLE",
+      "file": "tables/labsaw_web_user_audit.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labstmp_article_29052019",
+      "type": "TABLE",
+      "file": "tables/labstmp_article_29052019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labstmp_asset_draft04082020bk",
+      "type": "TABLE",
+      "file": "tables/labstmp_asset_draft04082020bk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labstmp_asset_draft_29052019",
+      "type": "TABLE",
+      "file": "tables/labstmp_asset_draft_29052019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labstmp_asset_draftbk10062019",
+      "type": "TABLE",
+      "file": "tables/labstmp_asset_draftbk10062019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labstmp_asset_list_13022020",
+      "type": "TABLE",
+      "file": "tables/labstmp_asset_list_13022020.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labstmp_asset_list_29052019",
+      "type": "TABLE",
+      "file": "tables/labstmp_asset_list_29052019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labstmp_asset_list_bk20200803",
+      "type": "TABLE",
+      "file": "tables/labstmp_asset_list_bk20200803.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labstmp_asset_list_bk_list20200804",
+      "type": "TABLE",
+      "file": "tables/labstmp_asset_list_bk_list20200804.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labstmp_asset_listbk14092020",
+      "type": "TABLE",
+      "file": "tables/labstmp_asset_listbk14092020.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labstmp_gratification_detail_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labstmp_gratification_detail_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labstmp_gratification_gift_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labstmp_gratification_gift_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labstmp_poll_gratify_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labstmp_poll_gratify_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labstmp_profile_complete_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labstmp_profile_complete_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_ad_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_affliate_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_affliate_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_album_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_album_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_api_error_log_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_api_error_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_article_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_article_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_asset_comment_reaction_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_asset_comment_reaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_asset_delete_log_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_asset_draft_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_asset_entity_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_asset_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_asset_list_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_asset_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_asset_type_meta_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_asset_view_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_asset_view_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_assets_view_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_assets_view_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_author_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_cm_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_cm_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_component_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_component_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_component_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_contact_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_content_provider_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_content_source_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_cookies_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_cookies_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_download_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_download_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_download_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_download_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_entity_category_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_entity_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_entity_image_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_entity_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_entity_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_entity_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_entity_role_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_entity_social_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_entity_social_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_entity_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_hero_rating_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_hero_rating_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_language_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_menu_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_menu_page_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_navigation_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_navigation_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_page_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_page_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_page_template_component_menu_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_page_template_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_page_template_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_poll_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_poll_option_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_press_release_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_press_release_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_provider_author_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_rating_week_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_redirect_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_seo_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_site_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_site_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_social_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_social_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_template_component_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_template_component_content_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_template_component_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_template_externalasset_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_template_externalasset_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_template_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_topic_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_topic_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_user_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_user_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_user_activity_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_user_asset_reaction_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_user_asset_reaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_user_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_user_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_user_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_user_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_user_role_menu_action_map",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_user_role_menu_action_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_video_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_web_user_audit_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_web_user_audit_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_web_users_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_web_users_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "seq_labsaw_week_number",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labsaw_week_number.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_advertisement labsaw_advertisement_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labsaw_advertisement_labsaw_advertisement_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_affliate_data labsaw_affliate_data_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labsaw_affliate_data_labsaw_affliate_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_api_error_log labsaw_api_error_log_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labsaw_api_error_log_labsaw_api_error_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_article labsaw_article_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labsaw_article_labsaw_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_navigation labsaw_navigation_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labsaw_navigation_labsaw_navigation_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_page_template_detail labsaw_page_template_detail_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labsaw_page_template_detail_labsaw_page_template_detail_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_role labsaw_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labsaw_role_labsaw_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_template_component_map labsaw_template_component_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labsaw_template_component_map_labsaw_template_component_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_topic labsaw_topic_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labsaw_topic_labsaw_topic_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_user labsaw_user_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labsaw_user_labsaw_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_asset_list pk_asset_list_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labsaw_asset_list_pk_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_page pk_page_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labsaw_page_pk_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "labsaw_template pk_template_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labsaw_template_pk_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "araay_index",
+      "type": "INDEX",
+      "file": "indexes/araay_index.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "asset_list_uniq",
+      "type": "INDEX",
+      "file": "indexes/asset_list_uniq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "idx_labsaw_template_id",
+      "type": "INDEX",
+      "file": "indexes/idx_labsaw_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "indx_asset_type_n_id",
+      "type": "INDEX",
+      "file": "indexes/indx_asset_type_n_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "indx_pub_date",
+      "type": "INDEX",
+      "file": "indexes/indx_pub_date.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "indx_tempcomp_id_page_id",
+      "type": "INDEX",
+      "file": "indexes/indx_tempcomp_id_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "indx_template_compo_map_id_n_tem_id",
+      "type": "INDEX",
+      "file": "indexes/indx_template_compo_map_id_n_tem_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "indx_template_component_map",
+      "type": "INDEX",
+      "file": "indexes/indx_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "indx_title_alias",
+      "type": "INDEX",
+      "file": "indexes/indx_title_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "ix_labsaw_template_component_data",
+      "type": "INDEX",
+      "file": "indexes/ix_labsaw_template_component_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsaw",
+      "name": "ix_ttmum_user_emailid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_user_emailid.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 564,
+  "unclassified_count": 0
+}

@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labpbl
+-- Object: labpbl_action labpbl_action_id
+-- Type: CONSTRAINT
+
+-- Name: labpbl_action labpbl_action_id; Type: CONSTRAINT; Schema: labpbl; Owner: -
+--
+
+ALTER TABLE ONLY labpbl.labpbl_action
+    ADD CONSTRAINT labpbl_action_id PRIMARY KEY (action_id);
+
+
+--

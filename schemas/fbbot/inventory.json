@@ -1,0 +1,356 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "fbbot",
+      "type": "SCHEMA",
+      "file": "fbbot.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/fbbot_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/fbbot_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_get_matches(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/fbbot_get_matches(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_get_messages(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/fbbot_get_messages(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_get_notification_labels(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/fbbot_get_notification_labels(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_get_schedule()",
+      "type": "FUNCTION",
+      "file": "functions/fbbot_get_schedule().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_get_schedule(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/fbbot_get_schedule(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_get_teams(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/fbbot_get_teams(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_get_user_list_changes(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/fbbot_get_user_list_changes(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_ins_image(character, text, numeric, numeric, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/fbbot_ins_image(character,_text,_numeric,_numeric,_numeric,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_upd_subscribe_unsubscribe_status(numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/fbbot_upd_subscribe_unsubscribe_status(numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_channels",
+      "type": "TABLE",
+      "file": "tables/fbbot_channels.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_clients",
+      "type": "TABLE",
+      "file": "tables/fbbot_clients.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_event_messages",
+      "type": "TABLE",
+      "file": "tables/fbbot_event_messages.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_events",
+      "type": "TABLE",
+      "file": "tables/fbbot_events.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_league_schedule",
+      "type": "TABLE",
+      "file": "tables/fbbot_league_schedule.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_league_team_map",
+      "type": "TABLE",
+      "file": "tables/fbbot_league_team_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_leagues",
+      "type": "TABLE",
+      "file": "tables/fbbot_leagues.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_list",
+      "type": "TABLE",
+      "file": "tables/fbbot_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_list_team_map",
+      "type": "TABLE",
+      "file": "tables/fbbot_list_team_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_matches",
+      "type": "TABLE",
+      "file": "tables/fbbot_matches.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_sports",
+      "type": "TABLE",
+      "file": "tables/fbbot_sports.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_teams",
+      "type": "TABLE",
+      "file": "tables/fbbot_teams.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_tv_day_schedule_json",
+      "type": "TABLE",
+      "file": "tables/fbbot_tv_day_schedule_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_tv_schedule",
+      "type": "TABLE",
+      "file": "tables/fbbot_tv_schedule.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_tv_schedule_process",
+      "type": "TABLE",
+      "file": "tables/fbbot_tv_schedule_process.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_user_client_map",
+      "type": "TABLE",
+      "file": "tables/fbbot_user_client_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_user_list_change",
+      "type": "TABLE",
+      "file": "tables/fbbot_user_list_change.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_user_team_map",
+      "type": "TABLE",
+      "file": "tables/fbbot_user_team_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_users",
+      "type": "TABLE",
+      "file": "tables/fbbot_users.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "seq_fbbot_user_client_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_fbbot_user_client_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "seq_fbbot_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_fbbot_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "seq_fbbot_user_list_change",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_fbbot_user_list_change.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "seq_fbbot_user_team_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_fbbot_user_team_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_channels fbbot_channels_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_channels_fbbot_channels_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_clients fbbot_clients_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_clients_fbbot_clients_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_event_messages fbbot_event_messages_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_event_messages_fbbot_event_messages_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_events fbbot_events_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_events_fbbot_events_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_league_team_map fbbot_league_team_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_league_team_map_fbbot_league_team_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_leagues fbbot_leagues_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_leagues_fbbot_leagues_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_list fbbot_list_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_list_fbbot_list_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_list_team_map fbbot_list_team_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_list_team_map_fbbot_list_team_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_matches fbbot_matches_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_matches_fbbot_matches_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_sports fbbot_sports_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_sports_fbbot_sports_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_teams fbbot_teams_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_teams_fbbot_teams_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_user_client_map fbbot_user_client_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_user_client_map_fbbot_user_client_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_user_list_change fbbot_user_list_change_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_user_list_change_fbbot_user_list_change_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_user_team_map fbbot_user_team_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_user_team_map_fbbot_user_team_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fbbot",
+      "name": "fbbot_users fbbot_users_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fbbot_users_fbbot_users_pkey.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 50,
+  "unclassified_count": 0
+}

@@ -1,0 +1,90 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "test13",
+      "type": "SCHEMA",
+      "file": "test13.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "test13",
+      "name": "test13_function_name(character varying)",
+      "type": "PROCEDURE",
+      "file": "procedures/test13_function_name(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "test13",
+      "name": "orders",
+      "type": "TABLE",
+      "file": "tables/orders.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "test13",
+      "name": "orders_order_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/orders_order_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "test13",
+      "name": "orders_order_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/orders_order_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "test13",
+      "name": "test13_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/test13_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "test13",
+      "name": "users",
+      "type": "TABLE",
+      "file": "tables/users.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "test13",
+      "name": "orders order_id",
+      "type": "DEFAULT",
+      "file": "defaults/orders_order_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "test13",
+      "name": "orders orders_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/orders_orders_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "test13",
+      "name": "users users_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/users_users_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "test13",
+      "name": "idx_orders_userid",
+      "type": "INDEX",
+      "file": "indexes/idx_orders_userid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "test13",
+      "name": "orders orders_user_id_fkey",
+      "type": "FK CONSTRAINT",
+      "file": "constraints/orders_orders_user_id_fkey.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 12,
+  "unclassified_count": 0
+}

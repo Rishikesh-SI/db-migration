@@ -1,0 +1,776 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "lb_wf",
+      "type": "SCHEMA",
+      "file": "lb_wf.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "color_type",
+      "type": "TYPE",
+      "file": "types/color_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "add_molecule_with_atoms(uuid, text, jsonb, jsonb, jsonb, jsonb, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/add_molecule_with_atoms(uuid,_text,_jsonb,_jsonb,_jsonb,_jsonb,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "atom_add(uuid, text, uuid, integer, text, text, text, text, text, text, text, text, text, text, boolean, jsonb, text, text, text, boolean, text, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/atom_add(uuid,_text,_uuid,_integer,_text,_text,_text,_text,_text,_text,_text,_text,_text,_8972bf2e05.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "atom_delete(uuid, uuid)",
+      "type": "FUNCTION",
+      "file": "functions/atom_delete(uuid,_uuid).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "atom_list(integer, integer)",
+      "type": "FUNCTION",
+      "file": "functions/atom_list(integer,_integer).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "atom_read(uuid)",
+      "type": "FUNCTION",
+      "file": "functions/atom_read(uuid).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "atom_update(uuid, uuid, text, integer, text, text, text, text, text, text, text, text, text, text, boolean, jsonb, text, text, text, boolean, text, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/atom_update(uuid,_uuid,_text,_integer,_text,_text,_text,_text,_text,_text,_text,_text,_te_5d61d4baf4.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "delete_color(integer, integer)",
+      "type": "FUNCTION",
+      "file": "functions/delete_color(integer,_integer).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "delete_radius(integer, integer)",
+      "type": "FUNCTION",
+      "file": "functions/delete_radius(integer,_integer).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "delete_spacing(integer, integer)",
+      "type": "FUNCTION",
+      "file": "functions/delete_spacing(integer,_integer).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "delete_typography(integer, integer)",
+      "type": "FUNCTION",
+      "file": "functions/delete_typography(integer,_integer).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "fetch_atoms_for_molecule(uuid)",
+      "type": "FUNCTION",
+      "file": "functions/fetch_atoms_for_molecule(uuid).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "fetch_molecules_for_atom(uuid)",
+      "type": "FUNCTION",
+      "file": "functions/fetch_molecules_for_atom(uuid).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "get_all_colors()",
+      "type": "FUNCTION",
+      "file": "functions/get_all_colors().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "get_all_radius()",
+      "type": "FUNCTION",
+      "file": "functions/get_all_radius().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "get_all_spacing()",
+      "type": "FUNCTION",
+      "file": "functions/get_all_spacing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "get_all_typography()",
+      "type": "FUNCTION",
+      "file": "functions/get_all_typography().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "insert_color_tokens(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/insert_color_tokens(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "insert_radius_tokens(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/insert_radius_tokens(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "insert_spacing_tokens(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/insert_spacing_tokens(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "insert_typography_tokens(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/insert_typography_tokens(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecule_add(uuid, text, jsonb, jsonb, jsonb, jsonb, uuid)",
+      "type": "FUNCTION",
+      "file": "functions/molecule_add(uuid,_text,_jsonb,_jsonb,_jsonb,_jsonb,_uuid).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecule_delete(uuid)",
+      "type": "FUNCTION",
+      "file": "functions/molecule_delete(uuid).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecule_read(uuid)",
+      "type": "FUNCTION",
+      "file": "functions/molecule_read(uuid).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecule_update(uuid, text, jsonb, jsonb, jsonb, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/molecule_update(uuid,_text,_jsonb,_jsonb,_jsonb,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "sync_token(character varying, character varying, character varying, character varying, integer)",
+      "type": "FUNCTION",
+      "file": "functions/sync_token(character_varying,_character_varying,_character_varying,_character_varying,_integer).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "update_color(integer, character varying, character varying, character varying, character varying, integer)",
+      "type": "FUNCTION",
+      "file": "functions/update_color(integer,_character_varying,_character_varying,_character_varying,_character__e8baf811db.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "update_radius(integer, text, integer, integer)",
+      "type": "FUNCTION",
+      "file": "functions/update_radius(integer,_text,_integer,_integer).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "update_spacing(integer, text, integer, integer)",
+      "type": "FUNCTION",
+      "file": "functions/update_spacing(integer,_text,_integer,_integer).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "update_typography(integer, text, text, integer, integer, text, text, integer)",
+      "type": "FUNCTION",
+      "file": "functions/update_typography(integer,_text,_text,_integer,_integer,_text,_text,_integer).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "SequelizeMeta",
+      "type": "TABLE",
+      "file": "tables/SequelizeMeta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "atoms",
+      "type": "TABLE",
+      "file": "tables/atoms.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "colors",
+      "type": "TABLE",
+      "file": "tables/colors.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "colors_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/colors_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "colors_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/colors_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_article",
+      "type": "TABLE",
+      "file": "tables/lb_wf_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_asset_draft",
+      "type": "TABLE",
+      "file": "tables/lb_wf_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/lb_wf_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_asset_list",
+      "type": "TABLE",
+      "file": "tables/lb_wf_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_entity_master",
+      "type": "TABLE",
+      "file": "tables/lb_wf_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/lb_wf_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_seo_data",
+      "type": "TABLE",
+      "file": "tables/lb_wf_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecule_atom_map",
+      "type": "TABLE",
+      "file": "tables/molecule_atom_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecule_atom_map_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/molecule_atom_map_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecule_atom_map_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/molecule_atom_map_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecules",
+      "type": "TABLE",
+      "file": "tables/molecules.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecules_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/molecules_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecules_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/molecules_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "radius",
+      "type": "TABLE",
+      "file": "tables/radius.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "radius_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/radius_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "radius_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/radius_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "spacing",
+      "type": "TABLE",
+      "file": "tables/spacing.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "spacing_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/spacing_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "spacing_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/spacing_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "typography",
+      "type": "TABLE",
+      "file": "tables/typography.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "typography_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/typography_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "typography_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/typography_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "users_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/users_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "users",
+      "type": "TABLE",
+      "file": "tables/users.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "colors id",
+      "type": "DEFAULT",
+      "file": "defaults/colors_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecule_atom_map id",
+      "type": "DEFAULT",
+      "file": "defaults/molecule_atom_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecules id",
+      "type": "DEFAULT",
+      "file": "defaults/molecules_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "radius id",
+      "type": "DEFAULT",
+      "file": "defaults/radius_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "spacing id",
+      "type": "DEFAULT",
+      "file": "defaults/spacing_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "typography id",
+      "type": "DEFAULT",
+      "file": "defaults/typography_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "SequelizeMeta SequelizeMeta_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/SequelizeMeta_SequelizeMeta_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "users Users_email_key",
+      "type": "CONSTRAINT",
+      "file": "constraints/users_Users_email_key.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "users Users_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/users_Users_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "atoms atoms_json_id_unique",
+      "type": "CONSTRAINT",
+      "file": "constraints/atoms_atoms_json_id_unique.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "atoms atoms_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/atoms_atoms_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "colors colors_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/colors_colors_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "colors colors_token_mode_key",
+      "type": "CONSTRAINT",
+      "file": "constraints/colors_colors_token_mode_key.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_article lb_wf_article_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/lb_wf_article_lb_wf_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_asset_draft lb_wf_asset_draft_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/lb_wf_asset_draft_lb_wf_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_asset_entity_map lb_wf_asset_entity_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/lb_wf_asset_entity_map_lb_wf_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_asset_list lb_wf_asset_list_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/lb_wf_asset_list_lb_wf_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_entity_master lb_wf_entity_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/lb_wf_entity_master_lb_wf_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_entity_role_map lb_wf_entity_role_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/lb_wf_entity_role_map_lb_wf_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "lb_wf_seo_data lb_wf_seo_data_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/lb_wf_seo_data_lb_wf_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecule_atom_map molecule_atom_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/molecule_atom_map_molecule_atom_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecules molecules_json_id_unique",
+      "type": "CONSTRAINT",
+      "file": "constraints/molecules_molecules_json_id_unique.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecules molecules_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/molecules_molecules_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "radius radius_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/radius_radius_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "spacing spacing_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/spacing_spacing_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "typography typography_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/typography_typography_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "spacing unique_spacing_token_value",
+      "type": "CONSTRAINT",
+      "file": "constraints/spacing_unique_spacing_token_value.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "radius unique_token_value",
+      "type": "CONSTRAINT",
+      "file": "constraints/radius_unique_token_value.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "typography unique_typography_token_device",
+      "type": "CONSTRAINT",
+      "file": "constraints/typography_unique_typography_token_device.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "gix_ttmum_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/gix_ttmum_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_asset_draft_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_draft_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_asset_draft_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_draft_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_asset_entity_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_entity_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_asset_entity_map_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_entity_map_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_asset_entity_map_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_entity_map_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_asset_list_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_asset_list_aidatid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_aidatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_asset_list_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_asset_list_permid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_permid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_asset_list_published_date",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_published_date.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_asset_list_sermid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_sermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_asset_list_title_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_title_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_asset_list_title_alias_lower",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_title_alias_lower.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_entity_role_map_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_role_map_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_entity_role_map_erid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_role_map_erid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_entity_role_map_soid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_role_map_soid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "ix_ttmum_seo_data_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_seo_data_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecule_atom_map fk_atom",
+      "type": "FK CONSTRAINT",
+      "file": "constraints/molecule_atom_map_fk_atom.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "lb_wf",
+      "name": "molecule_atom_map fk_molecule",
+      "type": "FK CONSTRAINT",
+      "file": "constraints/molecule_atom_map_fk_molecule.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 110,
+  "unclassified_count": 0
+}

@@ -1,0 +1,74 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labmsg
+-- Object: labmsg_get_page_sitemap(refcursor, refcursor)
+-- Type: FUNCTION
+
+-- Name: labmsg_get_page_sitemap(refcursor, refcursor); Type: FUNCTION; Schema: labmsg; Owner: -
+--
+
+CREATE FUNCTION labmsg.labmsg_get_page_sitemap(p_eng_page_cur refcursor, p_hin_page_cur refcursor) RETURNS SETOF refcursor
+    LANGUAGE plpgsql
+    AS $$ 
+
+begin
+
+	open p_eng_page_cur for
+    select alias as page_url
+    from
+    (
+        select p2.alias
+        from labmsg.labmsg_page p1
+        join labmsg.labmsg_page p2
+        on p1.page_id = p2.page_id
+        where p1.is_active = 1
+        and p1.is_deleted = 0
+        and p1.asset_type_id is null
+        and p1.is_published = 1
+        and p1.alias not like '(hi/)%'
+        and p2.alias not like 'hi%'
+        and p2.alias not like'(.*)/(.*)/(.*)/(attachment)/(.*)'
+        and p1.alias like replace(p2.alias,'^','^^')
+        union
+        select substring(alias,7) as alias
+        from labmsg.labmsg_page
+        where is_active = 1
+        and is_deleted = 0
+        and asset_type_id is null
+        and is_published = 1
+        and alias like '(hi/)%'
+        and  alias like replace(alias,'^','^^')
+    ) tab;
+    
+    open p_hin_page_cur for
+    select alias as page_url
+    from
+    (
+        select p2.alias
+        from labmsg.labmsg_page p1
+        join labmsg.labmsg_page p2
+        on p1.page_id = p2.page_id
+        where p1.is_active = 1
+        and p1.is_deleted = 0
+        and p1.asset_type_id is null
+        and p1.is_published = 1
+        and p1.alias not like '(hi/)%'
+        and p2.alias like 'hi/%'
+        and p2.alias not like'(.*)/(.*)/(.*)/(attachment)/(.*)'
+        and p1.alias like replace(p2.alias,'^','^^')
+        union
+        select 'hi/'||substring(alias,7) as alias
+        from labmsg.labmsg_page
+        where is_active = 1
+        and is_deleted = 0
+        and asset_type_id is null
+        and is_published = 1
+        and alias like '(hi/)%'
+        and  alias like replace(alias,'^','^^')
+    ) tab;
+    
+end;
+
+ $$;
+
+
+--

@@ -1,0 +1,1868 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "public",
+      "type": "SCHEMA",
+      "file": "public.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "-",
+      "name": "SCHEMA public",
+      "type": "COMMENT",
+      "file": "comments/SCHEMA_public.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "type_asset",
+      "type": "TYPE",
+      "file": "types/type_asset.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "type_draft_enti",
+      "type": "TYPE",
+      "file": "types/type_draft_enti.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "type_ext_asset",
+      "type": "TYPE",
+      "file": "types/type_ext_asset.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "add_questions(json)",
+      "type": "FUNCTION",
+      "file": "functions/add_questions(json).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "archive_old_data()",
+      "type": "FUNCTION",
+      "file": "functions/archive_old_data().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "colpivot(character varying, character varying, character varying[], character varying[], character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/colpivot(character_varying,_character_varying,_character_varying[],_character_varying[],__a39c24f6e8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "colpivot30072024(character varying, character varying, character varying[], character varying[], character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/colpivot30072024(character_varying,_character_varying,_character_varying[],_character_var_de4810d8ca.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "colpivot_26072024(character varying, character varying, character varying[], character varying[], character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/colpivot_26072024(character_varying,_character_varying,_character_varying[],_character_va_eea6f4abd1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "confirm_drop()",
+      "type": "FUNCTION",
+      "file": "functions/confirm_drop().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "copy_function(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/copy_function(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "create_client_user(text, text, text, text)",
+      "type": "FUNCTION",
+      "file": "functions/create_client_user(text,_text,_text,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "create_partition(timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/create_partition(timestamp_without_time_zone).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "encrypt_text(text)",
+      "type": "FUNCTION",
+      "file": "functions/encrypt_text(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "f_delfunc(text)",
+      "type": "FUNCTION",
+      "file": "functions/f_delfunc(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "fn_compare_labgt_schemas()",
+      "type": "FUNCTION",
+      "file": "functions/fn_compare_labgt_schemas().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "ins_upd_page_by_directus(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/ins_upd_page_by_directus(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "labmi_ins_upd_product_cart_payment_responce_17_03_2026(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labmi_ins_upd_product_cart_payment_responce_17_03_2026(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "public_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/public_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "recommend_index_columns()",
+      "type": "FUNCTION",
+      "file": "functions/recommend_index_columns().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "regexp_count(text, text)",
+      "type": "FUNCTION",
+      "file": "functions/regexp_count(text,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "scan_table_column_usage(text)",
+      "type": "FUNCTION",
+      "file": "functions/scan_table_column_usage(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "suggest_index_columns_for_table(text)",
+      "type": "FUNCTION",
+      "file": "functions/suggest_index_columns_for_table(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "sync_token(character varying, character varying, character varying, character varying, integer)",
+      "type": "FUNCTION",
+      "file": "functions/sync_token(character_varying,_character_varying,_character_varying,_character_varying,_integer).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "test_regex()",
+      "type": "FUNCTION",
+      "file": "functions/test_regex().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "upd_template_component_web_app(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/upd_template_component_web_app(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "update_skill_count()",
+      "type": "FUNCTION",
+      "file": "functions/update_skill_count().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "SequelizeMeta",
+      "type": "TABLE",
+      "file": "tables/SequelizeMeta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "_image_bk202117",
+      "type": "TABLE",
+      "file": "tables/image_bk202117.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "a",
+      "type": "TABLE",
+      "file": "tables/a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_1968",
+      "type": "TABLE",
+      "file": "tables/article_upd_1968.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2013",
+      "type": "TABLE",
+      "file": "tables/article_upd_2013.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2014",
+      "type": "TABLE",
+      "file": "tables/article_upd_2014.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2015",
+      "type": "TABLE",
+      "file": "tables/article_upd_2015.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2016",
+      "type": "TABLE",
+      "file": "tables/article_upd_2016.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2017",
+      "type": "TABLE",
+      "file": "tables/article_upd_2017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2018",
+      "type": "TABLE",
+      "file": "tables/article_upd_2018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2019",
+      "type": "TABLE",
+      "file": "tables/article_upd_2019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "b",
+      "type": "TABLE",
+      "file": "tables/b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "bookings",
+      "type": "TABLE",
+      "file": "tables/bookings.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "brightcove_video",
+      "type": "TABLE",
+      "file": "tables/brightcove_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "TABLE brightcove_video",
+      "type": "COMMENT",
+      "file": "comments/TABLE_brightcove_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "brightcove_video_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/brightcove_video_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "brightcove_video_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/brightcove_video_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "check_type",
+      "type": "TABLE",
+      "file": "tables/check_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "check_type1",
+      "type": "TABLE",
+      "file": "tables/check_type1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "colors",
+      "type": "TABLE",
+      "file": "tables/colors.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "colors_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/colors_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "colors_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/colors_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "dummy",
+      "type": "TABLE",
+      "file": "tables/dummy.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "dummy_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/dummy_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "dummy_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/dummy_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "dummy_table",
+      "type": "TABLE",
+      "file": "tables/dummy_table.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "emp",
+      "type": "TABLE",
+      "file": "tables/emp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "employee_detail",
+      "type": "TABLE",
+      "file": "tables/employee_detail.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "employee_detail_employee_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/employee_detail_employee_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "employee_detail_employee_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/employee_detail_employee_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "fruits",
+      "type": "TABLE",
+      "file": "tables/fruits.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "fruits_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/fruits_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "fruits_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/fruits_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "i",
+      "type": "TABLE",
+      "file": "tables/i.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "labgfg_press_release_map",
+      "type": "TABLE",
+      "file": "tables/labgfg_press_release_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "labgt.labgt_ca_seq_test_automation_campaign",
+      "type": "SEQUENCE",
+      "file": "sequences/labgt.labgt_ca_seq_test_automation_campaign.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "labpr_lsg",
+      "type": "TABLE",
+      "file": "tables/labpr_lsg.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "links_sheet",
+      "type": "TABLE",
+      "file": "tables/links_sheet.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "lsg",
+      "type": "TABLE",
+      "file": "tables/lsg.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "orders",
+      "type": "TABLE",
+      "file": "tables/orders.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "orders_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/orders_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "orders_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/orders_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "orders_replica",
+      "type": "TABLE",
+      "file": "tables/orders_replica.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "otp_details",
+      "type": "TABLE",
+      "file": "tables/otp_details.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "otp_details_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/otp_details_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "otp_details_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/otp_details_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "p_ad_json",
+      "type": "TABLE",
+      "file": "tables/p_ad_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "p_assetjson",
+      "type": "TABLE",
+      "file": "tables/p_assetjson.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "p_contactjson",
+      "type": "TABLE",
+      "file": "tables/p_contactjson.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "p_imagejson",
+      "type": "TABLE",
+      "file": "tables/p_imagejson.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "p_menu_json",
+      "type": "TABLE",
+      "file": "tables/p_menu_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "p_out_json",
+      "type": "TABLE",
+      "file": "tables/p_out_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "p_poll_data",
+      "type": "TABLE",
+      "file": "tables/p_poll_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "p_user_data",
+      "type": "TABLE",
+      "file": "tables/p_user_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "p_videojson",
+      "type": "TABLE",
+      "file": "tables/p_videojson.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "practice_questions",
+      "type": "TABLE",
+      "file": "tables/practice_questions.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "practice_questions_q_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/practice_questions_q_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "practice_questions_q_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/practice_questions_q_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "process_json",
+      "type": "TABLE",
+      "file": "tables/process_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "radius",
+      "type": "TABLE",
+      "file": "tables/radius.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "rental_by_category",
+      "type": "MATERIALIZED VIEW",
+      "file": "materialized_views/rental_by_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "seq_tsk_bib_coll_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_tsk_bib_coll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "series_json",
+      "type": "TABLE",
+      "file": "tables/series_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "series_json_upd",
+      "type": "TABLE",
+      "file": "tables/series_json_upd.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "sp_push",
+      "type": "TABLE",
+      "file": "tables/sp_push.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "swa_seo_data11",
+      "type": "TABLE",
+      "file": "tables/swa_seo_data11.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "test",
+      "type": "TABLE",
+      "file": "tables/test.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "test_1",
+      "type": "TABLE",
+      "file": "tables/test_1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "typography",
+      "type": "TABLE",
+      "file": "tables/typography.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v2_user_full_name",
+      "type": "TABLE",
+      "file": "tables/v2_user_full_name.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_ad_id",
+      "type": "TABLE",
+      "file": "tables/v_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_addon",
+      "type": "TABLE",
+      "file": "tables/v_addon.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_addons",
+      "type": "TABLE",
+      "file": "tables/v_addons.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_articleid",
+      "type": "TABLE",
+      "file": "tables/v_articleid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_assettype_liveblog",
+      "type": "TABLE",
+      "file": "tables/v_assettype_liveblog.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_bat_count",
+      "type": "TABLE",
+      "file": "tables/v_bat_count.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_cnt",
+      "type": "TABLE",
+      "file": "tables/v_cnt.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_codesku",
+      "type": "TABLE",
+      "file": "tables/v_codesku.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_correct_ans_id",
+      "type": "TABLE",
+      "file": "tables/v_correct_ans_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_correct_answer_attachement_id",
+      "type": "TABLE",
+      "file": "tables/v_correct_answer_attachement_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_count",
+      "type": "TABLE",
+      "file": "tables/v_count.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_country_name",
+      "type": "TABLE",
+      "file": "tables/v_country_name.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_coupon_code",
+      "type": "TABLE",
+      "file": "tables/v_coupon_code.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_created_date",
+      "type": "TABLE",
+      "file": "tables/v_created_date.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_email_count",
+      "type": "TABLE",
+      "file": "tables/v_email_count.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_ent",
+      "type": "TABLE",
+      "file": "tables/v_ent.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_ent_array",
+      "type": "TABLE",
+      "file": "tables/v_ent_array.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_ent_count",
+      "type": "TABLE",
+      "file": "tables/v_ent_count.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_ent_count1",
+      "type": "TABLE",
+      "file": "tables/v_ent_count1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_entity_array",
+      "type": "TABLE",
+      "file": "tables/v_entity_array.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_entity_data_json",
+      "type": "TABLE",
+      "file": "tables/v_entity_data_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_entity_json",
+      "type": "TABLE",
+      "file": "tables/v_entity_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_entity_region_array",
+      "type": "TABLE",
+      "file": "tables/v_entity_region_array.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_entity_role_id",
+      "type": "TABLE",
+      "file": "tables/v_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_entity_role_map_id",
+      "type": "TABLE",
+      "file": "tables/v_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_entityrole_mapid_1",
+      "type": "TABLE",
+      "file": "tables/v_entityrole_mapid_1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_eve",
+      "type": "TABLE",
+      "file": "tables/v_eve.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_guid_count",
+      "type": "TABLE",
+      "file": "tables/v_guid_count.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_image",
+      "type": "TABLE",
+      "file": "tables/v_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_image_caption",
+      "type": "TABLE",
+      "file": "tables/v_image_caption.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_image_path",
+      "type": "TABLE",
+      "file": "tables/v_image_path.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_is_amp",
+      "type": "TABLE",
+      "file": "tables/v_is_amp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_items",
+      "type": "TABLE",
+      "file": "tables/v_items.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_json",
+      "type": "TABLE",
+      "file": "tables/v_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_lang_canonical_url_1",
+      "type": "TABLE",
+      "file": "tables/v_lang_canonical_url_1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_lang_entity_role_map_id",
+      "type": "TABLE",
+      "file": "tables/v_lang_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_league_count",
+      "type": "TABLE",
+      "file": "tables/v_league_count.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_league_id",
+      "type": "TABLE",
+      "file": "tables/v_league_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_league_team_count",
+      "type": "TABLE",
+      "file": "tables/v_league_team_count.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_listing_json",
+      "type": "TABLE",
+      "file": "tables/v_listing_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_mast_template_id",
+      "type": "TABLE",
+      "file": "tables/v_mast_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_match_count",
+      "type": "TABLE",
+      "file": "tables/v_match_count.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_message_text",
+      "type": "TABLE",
+      "file": "tables/v_message_text.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_new_entity_path",
+      "type": "TABLE",
+      "file": "tables/v_new_entity_path.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_old_entity_path",
+      "type": "TABLE",
+      "file": "tables/v_old_entity_path.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_options",
+      "type": "TABLE",
+      "file": "tables/v_options.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_page_data",
+      "type": "TABLE",
+      "file": "tables/v_page_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_page_id",
+      "type": "TABLE",
+      "file": "tables/v_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_page_id_arr",
+      "type": "TABLE",
+      "file": "tables/v_page_id_arr.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_page_required_ent",
+      "type": "TABLE",
+      "file": "tables/v_page_required_ent.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_page_required_entity",
+      "type": "TABLE",
+      "file": "tables/v_page_required_entity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_par_page_id",
+      "type": "TABLE",
+      "file": "tables/v_par_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_parent_template_id",
+      "type": "TABLE",
+      "file": "tables/v_parent_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_pollid",
+      "type": "TABLE",
+      "file": "tables/v_pollid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_product_cart_id",
+      "type": "TABLE",
+      "file": "tables/v_product_cart_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_product_cartid",
+      "type": "TABLE",
+      "file": "tables/v_product_cartid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_question_answered_count",
+      "type": "TABLE",
+      "file": "tables/v_question_answered_count.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_referal_user_guid",
+      "type": "TABLE",
+      "file": "tables/v_referal_user_guid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_required_entities",
+      "type": "TABLE",
+      "file": "tables/v_required_entities.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_secondary_entity",
+      "type": "TABLE",
+      "file": "tables/v_secondary_entity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_sku_json",
+      "type": "TABLE",
+      "file": "tables/v_sku_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_source_object_details",
+      "type": "TABLE",
+      "file": "tables/v_source_object_details.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_string_entity_arr",
+      "type": "TABLE",
+      "file": "tables/v_string_entity_arr.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_subscribed_user_count",
+      "type": "TABLE",
+      "file": "tables/v_subscribed_user_count.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_template_id",
+      "type": "TABLE",
+      "file": "tables/v_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_topicjsondata",
+      "type": "TABLE",
+      "file": "tables/v_topicjsondata.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_url",
+      "type": "TABLE",
+      "file": "tables/v_url.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_user_data",
+      "type": "TABLE",
+      "file": "tables/v_user_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_user_full_name",
+      "type": "TABLE",
+      "file": "tables/v_user_full_name.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_user_id",
+      "type": "TABLE",
+      "file": "tables/v_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_user_league_team_count",
+      "type": "TABLE",
+      "file": "tables/v_user_league_team_count.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_uservotecount",
+      "type": "TABLE",
+      "file": "tables/v_uservotecount.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "v_web_listing_json",
+      "type": "TABLE",
+      "file": "tables/v_web_listing_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "waf_user_data",
+      "type": "TABLE",
+      "file": "tables/waf_user_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_1968",
+      "type": "TABLE",
+      "file": "tables/yho_article_test_1968.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2013",
+      "type": "TABLE",
+      "file": "tables/yho_article_test_2013.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2014",
+      "type": "TABLE",
+      "file": "tables/yho_article_test_2014.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2015",
+      "type": "TABLE",
+      "file": "tables/yho_article_test_2015.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2016",
+      "type": "TABLE",
+      "file": "tables/yho_article_test_2016.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2017",
+      "type": "TABLE",
+      "file": "tables/yho_article_test_2017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2018",
+      "type": "TABLE",
+      "file": "tables/yho_article_test_2018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2019",
+      "type": "TABLE",
+      "file": "tables/yho_article_test_2019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_1968",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/article_upd_1968.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2013",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/article_upd_2013.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2014",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/article_upd_2014.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2015",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/article_upd_2015.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2016",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/article_upd_2016.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2017",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/article_upd_2017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2018",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/article_upd_2018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2019",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/article_upd_2019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_1968",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/yho_article_test_1968.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2013",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/yho_article_test_2013.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2014",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/yho_article_test_2014.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2015",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/yho_article_test_2015.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2016",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/yho_article_test_2016.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2017",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/yho_article_test_2017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2018",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/yho_article_test_2018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2019",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/yho_article_test_2019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "brightcove_video id",
+      "type": "DEFAULT",
+      "file": "defaults/brightcove_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "colors id",
+      "type": "DEFAULT",
+      "file": "defaults/colors_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "dummy id",
+      "type": "DEFAULT",
+      "file": "defaults/dummy_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "employee_detail employee_id",
+      "type": "DEFAULT",
+      "file": "defaults/employee_detail_employee_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "fruits id",
+      "type": "DEFAULT",
+      "file": "defaults/fruits_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "orders id",
+      "type": "DEFAULT",
+      "file": "defaults/orders_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "otp_details id",
+      "type": "DEFAULT",
+      "file": "defaults/otp_details_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "practice_questions q_id",
+      "type": "DEFAULT",
+      "file": "defaults/practice_questions_q_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "SequelizeMeta SequelizeMeta_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/SequelizeMeta_SequelizeMeta_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "brightcove_video brightcove_video_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/brightcove_video_brightcove_video_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "colors colors_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/colors_colors_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "dummy dummy_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/dummy_dummy_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "fruits fruits_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/fruits_fruits_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "orders orders_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/orders_orders_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "otp_details otp_details_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/otp_details_otp_details_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "practice_questions practice_questions_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/practice_questions_practice_questions_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "radius unique_token_value",
+      "type": "CONSTRAINT",
+      "file": "constraints/radius_unique_token_value.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "typography unique_typography_token_device",
+      "type": "CONSTRAINT",
+      "file": "constraints/typography_unique_typography_token_device.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "brightcove_video uq_brightcove_video_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/brightcove_video_uq_brightcove_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_1968_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/article_upd_1968_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2013_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/article_upd_2013_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2014_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/article_upd_2014_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2015_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/article_upd_2015_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2016_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/article_upd_2016_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2017_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/article_upd_2017_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2018_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/article_upd_2018_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2019_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/article_upd_2019_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "idx_brightcove_video_bc_id",
+      "type": "INDEX",
+      "file": "indexes/idx_brightcove_video_bc_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "idx_brightcove_video_sync_status",
+      "type": "INDEX",
+      "file": "indexes/idx_brightcove_video_sync_status.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_1968_lower_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_1968_lower_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_1968_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_1968_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2013_lower_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2013_lower_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2013_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2013_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2014_lower_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2014_lower_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2014_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2014_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2015_lower_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2015_lower_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2015_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2015_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2016_lower_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2016_lower_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2016_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2016_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2017_lower_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2017_lower_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2017_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2017_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2018_lower_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2018_lower_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2018_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2018_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2019_lower_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2019_lower_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2019_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/yho_article_test_2019_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_1968_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/article_upd_1968_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2013_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/article_upd_2013_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2014_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/article_upd_2014_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2015_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/article_upd_2015_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2016_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/article_upd_2016_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2017_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/article_upd_2017_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2018_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/article_upd_2018_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "article_upd_2019_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/article_upd_2019_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_1968_lower_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_1968_lower_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_1968_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_1968_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2013_lower_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2013_lower_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2013_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2013_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2014_lower_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2014_lower_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2014_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2014_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2015_lower_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2015_lower_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2015_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2015_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2016_lower_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2016_lower_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2016_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2016_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2017_lower_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2017_lower_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2017_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2017_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2018_lower_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2018_lower_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2018_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2018_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2019_lower_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2019_lower_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "yho_article_test_2019_published_date_idx",
+      "type": "INDEX ATTACH",
+      "file": "indexes/yho_article_test_2019_published_date_idx__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "public",
+      "name": "test on_has_skills_insert1",
+      "type": "TRIGGER",
+      "file": "triggers/test_on_has_skills_insert1.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 266,
+  "unclassified_count": 0
+}

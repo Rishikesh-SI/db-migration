@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labgsoc
+-- Object: labgsoc_page labgsoc_page_id
+-- Type: CONSTRAINT
+
+-- Name: labgsoc_page labgsoc_page_id; Type: CONSTRAINT; Schema: labgsoc; Owner: -
+--
+
+ALTER TABLE ONLY labgsoc.labgsoc_page
+    ADD CONSTRAINT labgsoc_page_id PRIMARY KEY (page_id);
+
+
+--

@@ -1,0 +1,1049 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "sibot",
+      "type": "SCHEMA",
+      "file": "sibot.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_application_sport_league_team(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_application_sport_league_team(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_attendamatch_message_json(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_attendamatch_message_json(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_broadcast_targets(text, numeric, numeric, text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_broadcast_targets(text,_numeric,_numeric,_text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_budgetspeech_message_json(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_budgetspeech_message_json(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_default_message_json(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_default_message_json(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_event(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_event(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_event_json(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_event_json(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_event_json_14022019(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_event_json_14022019(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_event_json_220719(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_event_json_220719(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_event_json_old(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_event_json_old(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_event_json_test(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_event_json_test(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_event_old(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_event_old(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_getstarted_message_json(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_getstarted_message_json(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_getstarted_message_json_test(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_getstarted_message_json_test(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_ins_broadcast(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_ins_broadcast(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_knowyourplayer_message_json(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_knowyourplayer_message_json(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_liveupdates_message_json(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_liveupdates_message_json(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_matches(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_matches(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_nlp_data_insert(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_nlp_data_insert(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_nlp_intent_message_json(text, text, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_nlp_intent_message_json(text,_text,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_nlp_intent_message_json_test(text, text, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_nlp_intent_message_json_test(text,_text,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_nlp_message_json(text, text, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_nlp_message_json(text,_text,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_notification_json(text, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_notification_json(text,_numeric,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_past_matches(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_past_matches(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_pkl_kabaddi_insider_message_json(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_pkl_kabaddi_insider_message_json(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_pklretainedplayer_message_json(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_pklretainedplayer_message_json(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_quiz_message_json(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_quiz_message_json(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_quiz_user_analytics(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_quiz_user_analytics(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_schedule(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_schedule(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_startsport_fixturesandresults_message_json(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_startsport_fixturesandresults_message_json(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_tournamentguide_message_json(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_tournamentguide_message_json(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_tvguide_message_json(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_tvguide_message_json(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_understandingkabaddi_message_json(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_understandingkabaddi_message_json(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_user_analytics(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_user_analytics(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_users(text, numeric, numeric, text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_users(text,_numeric,_numeric,_text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_users_bat_bowl_mode(numeric, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_users_bat_bowl_mode(numeric,_numeric,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_get_venue_master(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_get_venue_master(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_ins__get_nlp_event_json(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_ins_get_nlp_event_json(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_ins_image(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_ins_image(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_ins_upd_get_bat_bowl_mode(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_ins_upd_get_bat_bowl_mode(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_ins_upd_get_channel_master(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_ins_upd_get_channel_master(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_ins_upd_get_kabaddi_insider(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_ins_upd_get_kabaddi_insider(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_ins_upd_get_league_master(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_ins_upd_get_league_master(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_ins_upd_get_main_menu_master(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_ins_upd_get_main_menu_master(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_ins_upd_get_match_master(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_ins_upd_get_match_master(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_ins_upd_get_match_trivia(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_ins_upd_get_match_trivia(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_ins_upd_get_sport_master(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_ins_upd_get_sport_master(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_ins_upd_get_team_master(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_ins_upd_get_team_master(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_upd_matchstory(numeric, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/sibot_upd_matchstory(numeric,_numeric,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_logs",
+      "type": "TABLE",
+      "file": "tables/sibot_application_logs.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_application_league_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_application_league_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_application_league_team_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_application_league_team_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_application_match_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_application_match_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_bat_bowl_mode_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_bat_bowl_mode_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_bs_user_budget_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_bs_user_budget_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_channel_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_channel_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_kabaddi_insider_post_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_kabaddi_insider_post_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_league_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_league_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_list_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_match_channel_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_match_channel_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_match_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_match_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_match_trivia_post_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_match_trivia_post_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_nlp_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_nlp_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_sport_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_sport_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_team_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_team_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_user_kabaddi_insider_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_user_kabaddi_insider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_user_league_bat_bowl_mode_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_user_league_bat_bowl_mode_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_user_league_team_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_user_league_team_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "seq_sibot_user_quiz_play_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_sibot_user_quiz_play_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application",
+      "type": "TABLE",
+      "file": "tables/sibot_application.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_bat_bowl_mode",
+      "type": "TABLE",
+      "file": "tables/sibot_application_bat_bowl_mode.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_entity_map",
+      "type": "TABLE",
+      "file": "tables/sibot_application_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_event_widget_button_map",
+      "type": "TABLE",
+      "file": "tables/sibot_application_event_widget_button_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_event_widget_conditional_message",
+      "type": "TABLE",
+      "file": "tables/sibot_application_event_widget_conditional_message.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_event_widget_conditional_message_05082019",
+      "type": "TABLE",
+      "file": "tables/sibot_application_event_widget_conditional_message_05082019.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_event_widget_conditional_message_for_icc_text",
+      "type": "TABLE",
+      "file": "tables/sibot_application_event_widget_conditional_message_for_icc_text.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_event_widget_conditional_message_new",
+      "type": "TABLE",
+      "file": "tables/sibot_application_event_widget_conditional_message_new.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_event_widget_map",
+      "type": "TABLE",
+      "file": "tables/sibot_application_event_widget_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_event_widget_message",
+      "type": "TABLE",
+      "file": "tables/sibot_application_event_widget_message.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_event_widget_message_old",
+      "type": "TABLE",
+      "file": "tables/sibot_application_event_widget_message_old.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_league_map",
+      "type": "TABLE",
+      "file": "tables/sibot_application_league_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_league_team_map",
+      "type": "TABLE",
+      "file": "tables/sibot_application_league_team_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_league_team_player_map",
+      "type": "TABLE",
+      "file": "tables/sibot_application_league_team_player_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_league_team_player_map_old",
+      "type": "TABLE",
+      "file": "tables/sibot_application_league_team_player_map_old.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_league_venue_day_map",
+      "type": "TABLE",
+      "file": "tables/sibot_application_league_venue_day_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_league_venue_day_map_old",
+      "type": "TABLE",
+      "file": "tables/sibot_application_league_venue_day_map_old.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_match_map",
+      "type": "TABLE",
+      "file": "tables/sibot_application_match_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_match_map_old",
+      "type": "TABLE",
+      "file": "tables/sibot_application_match_map_old.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_module_league_team_map",
+      "type": "TABLE",
+      "file": "tables/sibot_application_module_league_team_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_nlp_entity_intent_event_map",
+      "type": "TABLE",
+      "file": "tables/sibot_application_nlp_entity_intent_event_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_quiz",
+      "type": "TABLE",
+      "file": "tables/sibot_application_quiz.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_quiz_for_ipl",
+      "type": "TABLE",
+      "file": "tables/sibot_application_quiz_for_ipl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_quiz_for_pkl_old",
+      "type": "TABLE",
+      "file": "tables/sibot_application_quiz_for_pkl_old.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_application_venue_map",
+      "type": "TABLE",
+      "file": "tables/sibot_application_venue_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_bat_bowl_mode_post",
+      "type": "TABLE",
+      "file": "tables/sibot_bat_bowl_mode_post.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_bs_budget_failure_scenario",
+      "type": "TABLE",
+      "file": "tables/sibot_bs_budget_failure_scenario.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_bs_income_spend_category",
+      "type": "TABLE",
+      "file": "tables/sibot_bs_income_spend_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_bs_user_budget",
+      "type": "TABLE",
+      "file": "tables/sibot_bs_user_budget.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_bs_user_budget_archive",
+      "type": "TABLE",
+      "file": "tables/sibot_bs_user_budget_archive.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_channel",
+      "type": "TABLE",
+      "file": "tables/sibot_channel.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_country",
+      "type": "TABLE",
+      "file": "tables/sibot_country.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_dummy_table",
+      "type": "TABLE",
+      "file": "tables/sibot_dummy_table.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_event",
+      "type": "TABLE",
+      "file": "tables/sibot_event.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_kabaddi_insider_post",
+      "type": "TABLE",
+      "file": "tables/sibot_kabaddi_insider_post.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_league",
+      "type": "TABLE",
+      "file": "tables/sibot_league.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_league_team_map",
+      "type": "TABLE",
+      "file": "tables/sibot_league_team_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_list",
+      "type": "TABLE",
+      "file": "tables/sibot_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_list_user_map",
+      "type": "TABLE",
+      "file": "tables/sibot_list_user_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_match",
+      "type": "TABLE",
+      "file": "tables/sibot_match.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_match_channel_map",
+      "type": "TABLE",
+      "file": "tables/sibot_match_channel_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_match_channel_map_test",
+      "type": "TABLE",
+      "file": "tables/sibot_match_channel_map_test.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_match_dump",
+      "type": "TABLE",
+      "file": "tables/sibot_match_dump.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_match_old",
+      "type": "TABLE",
+      "file": "tables/sibot_match_old.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_match_test",
+      "type": "TABLE",
+      "file": "tables/sibot_match_test.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_match_trivia_post",
+      "type": "TABLE",
+      "file": "tables/sibot_match_trivia_post.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_mcm_dump",
+      "type": "TABLE",
+      "file": "tables/sibot_mcm_dump.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_module",
+      "type": "TABLE",
+      "file": "tables/sibot_module.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_player",
+      "type": "TABLE",
+      "file": "tables/sibot_player.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_team",
+      "type": "TABLE",
+      "file": "tables/sibot_team.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_venue",
+      "type": "TABLE",
+      "file": "tables/sibot_venue.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_nlp_assets",
+      "type": "VIEW",
+      "file": "views/sibot_nlp_assets.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_nlp_entity",
+      "type": "TABLE",
+      "file": "tables/sibot_nlp_entity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_nlp_intent",
+      "type": "TABLE",
+      "file": "tables/sibot_nlp_intent.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_nlp_user",
+      "type": "TABLE",
+      "file": "tables/sibot_nlp_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_player_old",
+      "type": "TABLE",
+      "file": "tables/sibot_player_old.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_player_team_map",
+      "type": "TABLE",
+      "file": "tables/sibot_player_team_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_player_team_map_old",
+      "type": "TABLE",
+      "file": "tables/sibot_player_team_map_old.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_position",
+      "type": "TABLE",
+      "file": "tables/sibot_position.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_quiz_question",
+      "type": "TABLE",
+      "file": "tables/sibot_quiz_question.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_quiz_question_for_ipl",
+      "type": "TABLE",
+      "file": "tables/sibot_quiz_question_for_ipl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_quiz_question_for_pkl_old",
+      "type": "TABLE",
+      "file": "tables/sibot_quiz_question_for_pkl_old.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_quiz_question_option",
+      "type": "TABLE",
+      "file": "tables/sibot_quiz_question_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_quiz_question_option_for_ipl",
+      "type": "TABLE",
+      "file": "tables/sibot_quiz_question_option_for_ipl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_sport",
+      "type": "TABLE",
+      "file": "tables/sibot_sport.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_star_users",
+      "type": "TABLE",
+      "file": "tables/sibot_star_users.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_template",
+      "type": "TABLE",
+      "file": "tables/sibot_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_test",
+      "type": "TABLE",
+      "file": "tables/sibot_test.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_user",
+      "type": "TABLE",
+      "file": "tables/sibot_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_user_kabaddi_insider",
+      "type": "TABLE",
+      "file": "tables/sibot_user_kabaddi_insider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_user_league_bat_bowl_mode",
+      "type": "TABLE",
+      "file": "tables/sibot_user_league_bat_bowl_mode.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_user_league_team_map",
+      "type": "TABLE",
+      "file": "tables/sibot_user_league_team_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_user_quiz_play",
+      "type": "TABLE",
+      "file": "tables/sibot_user_quiz_play.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_user_quiz_play_for_ipl",
+      "type": "TABLE",
+      "file": "tables/sibot_user_quiz_play_for_ipl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "sibot_widget",
+      "type": "TABLE",
+      "file": "tables/sibot_widget.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "test",
+      "type": "TABLE",
+      "file": "tables/test.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "sibot",
+      "name": "idx_sibot_user_id",
+      "type": "INDEX",
+      "file": "indexes/idx_sibot_user_id.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 149,
+  "unclassified_count": 0
+}

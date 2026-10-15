@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labetpl
+-- Object: labetpl_web_user mobile_unq
+-- Type: CONSTRAINT
+
+-- Name: labetpl_web_user mobile_unq; Type: CONSTRAINT; Schema: labetpl; Owner: -
+--
+
+ALTER TABLE ONLY labetpl.labetpl_web_user
+    ADD CONSTRAINT mobile_unq UNIQUE (mobile_no);
+
+
+--

@@ -1,0 +1,76 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "potptemp",
+      "type": "SCHEMA",
+      "file": "potptemp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "potptemp",
+      "name": "potptemp_get_user_data_r()",
+      "type": "FUNCTION",
+      "file": "functions/potptemp_get_user_data_r().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "potptemp",
+      "name": "potptemp_ins_upd_custom_web_model(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/potptemp_ins_upd_custom_web_model(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "potptemp",
+      "name": "potptemp_ins_upd_file(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/potptemp_ins_upd_file(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "potptemp",
+      "name": "potptemp_custom_web_json",
+      "type": "TABLE",
+      "file": "tables/potptemp_custom_web_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "potptemp",
+      "name": "potptemp_image",
+      "type": "TABLE",
+      "file": "tables/potptemp_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "potptemp",
+      "name": "seq_potptemp_custom_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_potptemp_custom_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "potptemp",
+      "name": "seq_potptemp_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_potptemp_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "potptemp",
+      "name": "potptemp_custom_web_json potptemp_custom_web_json_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/potptemp_custom_web_json_potptemp_custom_web_json_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "potptemp",
+      "name": "potptemp_image potptemp_image_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/potptemp_image_potptemp_image_id.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 10,
+  "unclassified_count": 0
+}

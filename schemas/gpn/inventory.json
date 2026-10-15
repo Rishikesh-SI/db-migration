@@ -1,0 +1,1014 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "gpn",
+      "type": "SCHEMA",
+      "file": "gpn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_showcase_list_04022019_a6fd(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_showcase_list_04022019_a6fd(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_tem_comp_asset_map_detail_04022019_a8ac(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_tem_comp_asset_map_detail_04022019_a8ac(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_tem_comp_asset_map_detail_28012019_20be(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_tem_comp_asset_map_detail_28012019_20be(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_numer_eb32c5cb63.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numeri_f70bfa3848.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_topic_change(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_topic_change(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_topic_change(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_topic_change(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_topic_chunk_data(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_topic_chunk_data(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_topics_to_delete(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_topics_to_delete(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_get_user_mig_data(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_user_mig_data(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_ins_chunk_get_topics(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_chunk_get_topics(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_ins_notification_get_topic(numeric, numeric, numeric, numeric, character varying, character varying, character varying, character varying, character varying, character varying, character varying[], character varying[], jsonb, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_notification_get_topic(numeric,_numeric,_numeric,_numeric,_character_varying,_cha_f79dae56a9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_ins_notification_get_topic(numeric, numeric, numeric, numeric, character varying, character varying, character varying, character varying, character varying, character varying, character varying[], character varying[], character varying[], jsonb, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_notification_get_topic(numeric,_numeric,_numeric,_numeric,_character_varying,_cha_644e3eab20.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_ins_notification_get_topic(numeric, numeric, numeric, numeric, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying[], character varying[], character varying[], jsonb, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_notification_get_topic(numeric,_numeric,_numeric,_numeric,_character_varying,_cha_74645de198.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_ins_topics(character varying, character varying, character varying, character varying, character varying, character varying, character varying, timestamp without time zone, timestamp without time zone, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_topics(character_varying,_character_varying,_character_varying,_character_varying_e0043d278e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_ins_topics_for_league_subscription(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_topics_for_league_subscription(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_ins_topics_for_team_subscription(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_topics_for_team_subscription(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_ins_upd_temp_comp_asset_map_04022019_d6be(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_upd_temp_comp_asset_map_04022019_d6be(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_ins_user_event_subscription(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_user_event_subscription(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_upd_failed_tokens(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_upd_failed_tokens(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_upd_notification(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_upd_notification(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_upd_topic_chunk_status(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_upd_topic_chunk_status(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_upd_topics(numeric[], character varying[])",
+      "type": "FUNCTION",
+      "file": "functions/gpn_upd_topics(numeric[],_character_varying[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_upd_user_subscription_arn(character varying[], character varying[], character varying[])",
+      "type": "FUNCTION",
+      "file": "functions/gpn_upd_user_subscription_arn(character_varying[],_character_varying[],_character_varying[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_upd_user_subscription_arn(character varying[], character varying[], character varying[], character varying[])",
+      "type": "FUNCTION",
+      "file": "functions/gpn_upd_user_subscription_arn(character_varying[],_character_varying[],_character_varying_cd0fa1190a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_user_login(jsonb, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_user_login(jsonb,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_admin_user",
+      "type": "TABLE",
+      "file": "tables/gpn_admin_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_application",
+      "type": "TABLE",
+      "file": "tables/gpn_application.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_application_event_subscription_map",
+      "type": "TABLE",
+      "file": "tables/gpn_application_event_subscription_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_application_language_map",
+      "type": "TABLE",
+      "file": "tables/gpn_application_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client",
+      "type": "TABLE",
+      "file": "tables/gpn_client.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client_application_map",
+      "type": "TABLE",
+      "file": "tables/gpn_client_application_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client_event_composition",
+      "type": "TABLE",
+      "file": "tables/gpn_client_event_composition.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client_event_image",
+      "type": "TABLE",
+      "file": "tables/gpn_client_event_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client_event_sound",
+      "type": "TABLE",
+      "file": "tables/gpn_client_event_sound.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client_league_map",
+      "type": "TABLE",
+      "file": "tables/gpn_client_league_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client_notification_map",
+      "type": "TABLE",
+      "file": "tables/gpn_client_notification_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_environment",
+      "type": "TABLE",
+      "file": "tables/gpn_environment.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_event",
+      "type": "TABLE",
+      "file": "tables/gpn_event.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_language",
+      "type": "TABLE",
+      "file": "tables/gpn_language.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_league",
+      "type": "TABLE",
+      "file": "tables/gpn_league.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_league_team_map",
+      "type": "TABLE",
+      "file": "tables/gpn_league_team_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_match",
+      "type": "TABLE",
+      "file": "tables/gpn_match.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_match_ak23aug2017",
+      "type": "TABLE",
+      "file": "tables/gpn_match_ak23aug2017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_notification",
+      "type": "TABLE",
+      "file": "tables/gpn_notification.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_notification_payload",
+      "type": "TABLE",
+      "file": "tables/gpn_notification_payload.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_platform",
+      "type": "TABLE",
+      "file": "tables/gpn_platform.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_sport",
+      "type": "TABLE",
+      "file": "tables/gpn_sport.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_subscription",
+      "type": "TABLE",
+      "file": "tables/gpn_subscription.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_team",
+      "type": "TABLE",
+      "file": "tables/gpn_team.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_topic",
+      "type": "TABLE",
+      "file": "tables/gpn_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_topic_ak23aug2017",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_ak23aug2017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_topic_bk",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_bk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_topic_chunk_map",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_chunk_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_user",
+      "type": "TABLE",
+      "file": "tables/gpn_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_user_event_subscription_map",
+      "type": "TABLE",
+      "file": "tables/gpn_user_event_subscription_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_user_topic_change",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_change.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_user_topic_map",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_user_topic_map_ak23aug2017",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map_ak23aug2017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_client_event_sound_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_client_event_sound_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_admin_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_admin_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_application_event_subscription_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_application_event_subscription_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_application_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_application_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_application_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_application_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_client_application_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_client_application_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_client_event_composition_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_client_event_composition_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_client_event_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_client_event_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_client_league_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_client_league_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_client_notification_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_client_notification_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_event_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_event_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_language_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_language_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_league_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_league_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_league_team_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_league_team_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_match_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_match_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_notification_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_notification_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_notification_payload_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_notification_payload_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_platform_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_platform_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_sport_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_sport_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_subscription_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_subscription_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_team_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_team_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_topic_chunck_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_topic_chunck_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_user_event_subscription_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_user_event_subscription_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_user_topic_change_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_user_topic_change_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "seq_gpn_user_topic_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_user_topic_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_admin_user gpn_admin_user_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_admin_user_gpn_admin_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_application_event_subscription_map gpn_application_event_subscription_map_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_application_event_subscription_map_gpn_application_event_subscription_map_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_application gpn_application_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_application_gpn_application_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_application_language_map gpn_application_language_map_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_application_language_map_gpn_application_language_map_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client_application_map gpn_client_application_map_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_client_application_map_gpn_client_application_map_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client_event_composition gpn_client_event_composition_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_client_event_composition_gpn_client_event_composition_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client_event_image gpn_client_event_image_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_client_event_image_gpn_client_event_image_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client_event_sound gpn_client_event_sound_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_client_event_sound_gpn_client_event_sound_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client gpn_client_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_client_gpn_client_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client_league_map gpn_client_league_map_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_client_league_map_gpn_client_league_map_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_client_notification_map gpn_client_notification_map_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_client_notification_map_gpn_client_notification_map_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_environment gpn_environment_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_environment_gpn_environment_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_event gpn_event_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_event_gpn_event_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_language gpn_language_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_language_gpn_language_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_league gpn_league_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_league_gpn_league_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_league_team_map gpn_league_team_map_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_league_team_map_gpn_league_team_map_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_match gpn_match_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_match_gpn_match_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_notification gpn_notification_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_notification_gpn_notification_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_notification_payload gpn_notification_payload_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_notification_payload_gpn_notification_payload_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_platform gpn_platform_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_platform_gpn_platform_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_sport gpn_sport_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_sport_gpn_sport_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_subscription gpn_subscription_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_subscription_gpn_subscription_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_team gpn_team_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_team_gpn_team_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_topic_chunk_map gpn_topic_chunck_map_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_topic_chunk_map_gpn_topic_chunck_map_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_topic gpn_topic_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_topic_gpn_topic_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_user_event_subscription_map gpn_user_event_subscription_map_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_user_event_subscription_map_gpn_user_event_subscription_map_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_user gpn_user_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_user_gpn_user_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_user_topic_change gpn_user_topic_change_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_user_topic_change_gpn_user_topic_change_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "gpn_user_topic_map gpn_user_topic_map_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_user_topic_map_gpn_user_topic_map_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_application_event_subscription_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_application_event_subscription_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_application_event_subscription_eid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_application_event_subscription_eid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_client_event_composition_cid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_client_event_composition_cid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_client_event_composition_eid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_client_event_composition_eid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_client_event_image_eid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_client_event_image_eid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_client_league_map_cid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_client_league_map_cid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_client_notification_map_nid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_client_notification_map_nid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_match_soid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_match_soid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_notification_cdate",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_notification_cdate.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_notification_payload_cdate",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_notification_payload_cdate.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_topic_cdate",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_topic_cdate.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_topic_chunk_map_tidcid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_topic_chunk_map_tidcid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_user_did",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_user_did.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_user_dt",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_user_dt.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_user_dtoken",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_user_dtoken.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_user_event_subscription_map_uid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_user_event_subscription_map_uid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_user_topic_change_tid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_user_topic_change_tid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_user_topic_change_uid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_user_topic_change_uid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_user_topic_map_tid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_user_topic_map_tid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpn",
+      "name": "ix_gpn_user_topic_map_uid",
+      "type": "INDEX",
+      "file": "indexes/ix_gpn_user_topic_map_uid.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 144,
+  "unclassified_count": 0
+}

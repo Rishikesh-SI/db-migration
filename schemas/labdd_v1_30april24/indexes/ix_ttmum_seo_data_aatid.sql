@@ -1,0 +1,12 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labdd_v1_30april24
+-- Object: ix_ttmum_seo_data_aatid
+-- Type: INDEX
+
+-- Name: ix_ttmum_seo_data_aatid; Type: INDEX; Schema: labdd_v1_30april24; Owner: -
+--
+
+CREATE INDEX ix_ttmum_seo_data_aatid ON labdd_v1_30april24.labdd_v1_seo_data USING btree (asset_id, asset_type_id);
+
+
+--

@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labpbl
+-- Object: labpbl_template_component_content_map labpbl_template_component_content_map_id
+-- Type: CONSTRAINT
+
+-- Name: labpbl_template_component_content_map labpbl_template_component_content_map_id; Type: CONSTRAINT; Schema: labpbl; Owner: -
+--
+
+ALTER TABLE ONLY labpbl.labpbl_template_component_content_map
+    ADD CONSTRAINT labpbl_template_component_content_map_id PRIMARY KEY (template_component_content_map_id);
+
+
+--

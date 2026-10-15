@@ -1,0 +1,20 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "encryptdecrypt",
+      "type": "SCHEMA",
+      "file": "encryptdecrypt.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "encryptdecrypt",
+      "name": "userdata",
+      "type": "TABLE",
+      "file": "tables/userdata.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 2,
+  "unclassified_count": 0
+}

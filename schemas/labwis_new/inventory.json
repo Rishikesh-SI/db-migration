@@ -1,0 +1,13 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "labwis_new",
+      "type": "SCHEMA",
+      "file": "labwis_new.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 1,
+  "unclassified_count": 0
+}

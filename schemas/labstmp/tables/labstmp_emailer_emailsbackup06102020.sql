@@ -1,0 +1,19 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labstmp
+-- Object: labstmp_emailer_emailsbackup06102020
+-- Type: TABLE
+
+-- Name: labstmp_emailer_emailsbackup06102020; Type: TABLE; Schema: labstmp; Owner: -
+--
+
+CREATE TABLE labstmp.labstmp_emailer_emailsbackup06102020 (
+    email_id text,
+    user_full_name text,
+    guid text,
+    status numeric,
+    created_date timestamp without time zone,
+    updated_date timestamp without time zone
+);
+
+
+--

@@ -1,0 +1,37 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: dd_30_04_24
+-- Object: dd_template_component_content_map_20180315
+-- Type: TABLE
+
+-- Name: dd_template_component_content_map_20180315; Type: TABLE; Schema: dd_30_04_24; Owner: -
+--
+
+CREATE TABLE dd_30_04_24.dd_template_component_content_map_20180315 (
+    template_component_content_map_id numeric,
+    template_component_map_id numeric,
+    tccmap_name character varying(1000),
+    tccmap_display_name character varying(1000),
+    tccmap_desc text,
+    order_number numeric,
+    asset_id numeric,
+    asset_type_id numeric,
+    asset_meta jsonb,
+    show_in_web numeric,
+    show_in_mobile numeric,
+    show_in_app numeric,
+    is_default numeric,
+    published_version_number numeric,
+    is_trashed numeric,
+    created_date timestamp without time zone,
+    updated_date timestamp without time zone,
+    created_by numeric,
+    updated_by numeric,
+    is_active numeric,
+    is_deleted numeric,
+    is_published numeric,
+    published_date timestamp without time zone,
+    asset_guid character varying(256)
+);
+
+
+--

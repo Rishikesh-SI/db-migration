@@ -1,0 +1,4283 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "labuww",
+      "type": "SCHEMA",
+      "file": "labuww.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "_get_web_list_json(text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/get_web_list_json(text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "_ins_upd_article(text, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/ins_upd_article(text,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "copy_function(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/copy_function(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "data(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/data(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_bulk_upd_asset_entity_map(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_bulk_upd_asset_entity_map(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_v_afeafcaf2c.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_bulk_upd_modify_date(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_bulk_upd_modify_date(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varyin_47791a64fc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_change_asset_lock_status(character, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_change_asset_lock_status(character,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_check_asset_ent_by_cat(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_check_asset_ent_by_cat(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_check_mobilenum_exist_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_check_mobilenum_exist_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_check_page_alias(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_check_page_alias(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_check_slugurl(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_check_slugurl(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_db_backup()",
+      "type": "FUNCTION",
+      "file": "functions/labuww_db_backup().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_del_image(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_del_image(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_del_topic(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_del_topic(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_del_unpublished_article_by_guid(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_del_unpublished_article_by_guid(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_del_unpublished_video_by_guid(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_del_unpublished_video_by_guid(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_delete_asset(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_delete_asset(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_edit_del_menu(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_edit_del_menu(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_edit_del_page(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_edit_del_page(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_edit_del_template(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_edit_del_template(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_gen_onthisday_article(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_gen_onthisday_article(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_generate_otp(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_generate_otp(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_ad_comp_cont_map_list(numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_ad_comp_cont_map_list(numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_ad_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_ad_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_ad_detail_r(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_ad_detail_r(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_ad_listing(numeric, numeric[], text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_ad_listing(numeric,_numeric[],_text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_ad_position_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_ad_position_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_ad_r(text, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_ad_r(text,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_ad_r(text, numeric, numeric[], numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_ad_r(text,_numeric,_numeric[],_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_album_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_album_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_album_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_album_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_album_detail_r(character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_album_detail_r(character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_album_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_album_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_af28e6dd02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_album_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_album_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_article_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_article_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_article_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_article_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_article_detail_r(character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_article_detail_r(character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_article_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_article_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric_6ba67d166d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_count_by_cat_json_r(numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_count_by_cat_json_r(numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_count_by_cat_r(numeric[], numeric[], character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_count_by_cat_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_refcurs_1f6e1823b3.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_count_by_cat_rb_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_count_by_cat_rb_r(numeric[],_numeric[],_character_varying,_numeric,_refc_084455d982.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_listing(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_listing(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_listing_all(numeric, numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_listing_all(numeric,_numeric,_numeric,_numeric,_numeric[],_numeric[],_nu_863f3021ba.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_listing_by_cat_json_r(numeric, numeric, numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_listing_by_cat_json_r(numeric,_numeric,_numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_listing_by_cat_mob_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_listing_by_cat_mob_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_listing_by_cat_mob_r_130722(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_listing_by_cat_mob_r_130722(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_listing_by_cat_r(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_listing_by_cat_r(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_listing_by_cat_r(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_listing_by_cat_r(numeric,_numeric,_numeric[],_numeric[],_character_varyi_92bae6aa11.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_listing_by_title(numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_listing_by_title(numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_listing_by_type_r(numeric, numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_listing_by_type_r(numeric,_numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_listing_for_any_ent_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_listing_for_any_ent_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_listing_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_listing_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_ch_7368bd12bf.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_ch_673f690016.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_next_prev_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_next_prev_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_asset_type_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_asset_type_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_author_detail_by_cat_r(numeric[], numeric[], character varying, numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_author_detail_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_numer_4b82d37a40.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_author_listing_by_lang_r(numeric, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_author_listing_by_lang_r(numeric,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_authorid_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_authorid_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_canonical_url_r(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_canonical_url_r(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_category_list_21082019_19a8(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_category_list_21082019_19a8(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_category_list_22082019_e5c3(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_category_list_22082019_e5c3(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_container_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_container_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_content_provider(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_content_provider(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_download_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_download_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_download_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_download_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeri_218b5e9a0a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_download_listing_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_download_listing_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_dynamic_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_dynamic_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numer_f0d2789eee.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_dynamic_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_dynamic_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numer_6f056f88a8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_dynamic_post_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_dynamic_post_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_ent_role_mapid(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_ent_role_mapid(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_ent_role_mapid_r(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_ent_role_mapid_r(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_detail(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_detail(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_detail_by_sourceobject_id(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_detail_by_sourceobject_id(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_detail_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_detail_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_detail_r_bkp(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_detail_r_bkp(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_display_name_by_language(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_display_name_by_language(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_group_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_group_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_known_as(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_known_as(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_language_from_entities(numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_language_from_entities(numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_listing(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_listing(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_listing_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_listing_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_name_by_asset(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_name_by_asset(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_name_by_lang(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_name_by_lang(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_roles_21082019_6245(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_roles_21082019_6245(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_roles_21082019_e1e3(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_roles_21082019_e1e3(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_roles_22082019_99fe(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_roles_22082019_99fe(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entity_type_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entity_type_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_entitydata_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_entitydata_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_files_list(numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_files_list(numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_heroes_detail_r(numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_heroes_detail_r(numeric,_numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_image_data_r()",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_image_data_r().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_image_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_image_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_image_listing(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_image_listing(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_last_24hr_audit_data()",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_last_24hr_audit_data().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_master_html_list_r()",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_master_html_list_r().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_menu_by_parent(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_menu_by_parent(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_menu_by_parent_r(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_menu_by_parent_r(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_menu_listing(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_menu_listing(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_menu_page_map_list(numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_menu_page_map_list(numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_menujson_r(numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_menujson_r(numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_navigation_r(numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_navigation_r(numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_navigation_r(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_navigation_r(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_new_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_new_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_page_data(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_page_data(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_page_data_by_service_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_page_data_by_service_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_page_data_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_page_data_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_page_data_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_page_data_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_ref_5142ad93d7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_page_data_r(character varying, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_page_data_r(character_varying,_numeric,_refcursor,_refcursor,_refcursor,_refcu_b65a77363a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_page_data_r(character varying, text, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_page_data_r(character_varying,_text,_refcursor,_refcursor,_refcursor,_refcurso_3ac4399952.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_page_data_r(character varying, numeric, text, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_page_data_r(character_varying,_numeric,_text,_refcursor,_refcursor,_refcursor,_965c5755ba.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_page_data_r_08082023(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_page_data_r_08082023(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_page_detail_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_page_detail_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_page_listing(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_page_listing(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_page_sitemap(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_page_sitemap(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_page_template_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_page_template_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_page_widget_data_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_page_widget_data_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_player_detail_by_cat_json_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_player_detail_by_cat_json_r(numeric,_numeric[],_numeric[],_character_varying,__951eeddb93.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_player_detail_by_cat_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_player_detail_by_cat_r(numeric,_numeric[],_numeric[],_character_varying,_numer_d939147c3e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_poll_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_poll_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_poll_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_poll_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_c4b8d0b25b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_poll_listing_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_poll_listing_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_poll_listing_r(numeric, numeric, numeric[], character varying, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_poll_listing_r(numeric,_numeric,_numeric[],_character_varying,_refcursor,_refc_f037347393.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_press_realease_listing_r(numeric, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_press_realease_listing_r(numeric,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_press_realease_listing_r(numeric, numeric, numeric, numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_press_realease_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_char_1ef7ce02a6.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_press_release_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_press_release_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_press_release_listing(numeric, numeric, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_press_release_listing(numeric,_numeric,_numeric,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_process_data_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_process_data_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_process_next_asset(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_process_next_asset(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_process_next_video(integer)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_process_next_video(integer).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_process_next_video(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_process_next_video(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_rating_week_r(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_rating_week_r(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_regex_page_data_r()",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_regex_page_data_r().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_series_detail(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_series_detail(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_series_detail_r(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_series_detail_r(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_showcase_det_r(character varying, numeric, numeric[], numeric[], numeric[], numeric, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_showcase_det_r(character_varying,_numeric,_numeric[],_numeric[],_numeric[],_nu_4a1fb35e91.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_sitemap(character varying, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_sitemap(character_varying,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_sitemap_asset_count(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_sitemap_asset_count(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_sub_menu(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_sub_menu(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_team_player_detail_r(character varying, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_team_player_detail_r(character_varying,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_tem_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_tem_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_nu_c7ee4c92a1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_tem_comp_asset_map_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_tem_comp_asset_map_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_tem_comp_asset_map_detail_r(numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_tem_comp_asset_map_detail_r(numeric,_numeric[],_refcursor,_refcursor,_refcurso_f7a089e36b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_tem_cop_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_tem_cop_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_temp_comp_cont_map_detail(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_temp_comp_cont_map_detail(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_num_f405f7b457.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_template_component(numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_template_component(numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_template_data(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_template_data(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_template_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_template_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_template_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_template_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_topic_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_topic_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_topic_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_topic_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_a257fecd7d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_topic_listing_r(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_topic_listing_r(numeric, numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_user_data(jsonb, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_user_data(jsonb,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_user_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_user_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_user_disp_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_user_disp_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_user_display_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_user_display_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_user_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_user_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_user_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_user_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_user_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_user_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_user_listing_with_param(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_user_listing_with_param(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_user_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_user_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_video_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_video_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_video_detail_by_url_r(json)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_video_detail_by_url_r(json).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_video_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_video_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_video_detail_r_bk(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_video_detail_r_bk(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_video_detail_rback(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_video_detail_rback(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_video_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_video_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_video_ingestion_report()",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_video_ingestion_report().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_video_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_video_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_d2f67d48bd.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_video_listing_backup_18022017(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_video_listing_backup_18022017(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_visual_stories_list()",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_visual_stories_list().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_get_word_count(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_get_word_count(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_cookies_data(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_cookies_data(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_entity_language_map(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_entity_language_map(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_payment_validation_log(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_payment_validation_log(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_up_redirect(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_up_redirect(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_ad(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_ad(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_ad_management(numeric, text, text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_ad_management(numeric,_text,_text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_album(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_album(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_albumnew(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_albumnew(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_article(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_article(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_article_29012019(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_article_29012019(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_article_by_guid(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_article_by_guid(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_article_by_guid_26_07_2022(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_article_by_guid_26_07_2022(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_article_by_guid_28_06_2022(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_article_by_guid_28_06_2022(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_article_by_guid_bkp(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_article_by_guid_bkp(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_article_by_guid_v2(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_article_by_guid_v2(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_contact(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_contact(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_container(numeric, character varying, numeric, numeric, numeric, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_container(numeric,_character_varying,_numeric,_numeric,_numeric,_character_f7d33fa745.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_custom_web_model(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_custom_web_model(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_del_entity_bulk(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_del_entity_bulk(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_del_entity_details(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_del_entity_details(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_download(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_download(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_entity(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_entity(numeric,_numeric[],_numeric[],_character_varying[],_character_varyi_803b3187c4.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_entity_ar(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_entity_ar(numeric,_numeric[],_numeric[],_character_varying[],_character_va_f744729738.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_file(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_file(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_get_web_users_login(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_get_web_users_login(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_heros(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_heros(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_image(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_image(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_layout(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_layout(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_menu(numeric, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric[], numeric[], character varying[], numeric[], numeric[], numeric[], numeric[], numeric[], character varying[], text[], character varying[], numeric[], numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_menu(numeric,_character_varying,_character_varying,_numeric,_numeric,_nume_19ad6eb7b2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_menu(numeric, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric[], numeric[], character varying[], numeric[], numeric[], numeric[], numeric[], numeric[], character varying[], text[], character varying[], numeric[], numeric, jsonb, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_menu(numeric,_character_varying,_character_varying,_numeric,_numeric,_nume_08e0e2c783.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_menu_bk(numeric, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric[], numeric[], character varying[], numeric[], numeric[], numeric[], numeric[], numeric[], character varying[], text[], character varying[], numeric[], numeric, jsonb, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_menu_bk(numeric,_character_varying,_character_varying,_numeric,_numeric,_n_af8dc1696b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_page(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_page(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_page_template_comp_menu_map(numeric[], numeric, numeric[], numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_page_template_comp_menu_map(numeric[],_numeric,_numeric[],_numeric,_numeri_50e906128a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_page_template_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_page_template_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_pagebkup_07112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_pagebkup_07112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_poll(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_poll(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_poll_response(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_poll_response(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_rating_week(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_rating_week(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_seo_data(numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_seo_data(numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_template(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_template(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_template_comp_cont_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_template_comp_cont_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_template_component_map(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_template_component_map(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_template_component_map_dk(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_template_component_map_dk(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_template_dk(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_template_dk(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_topic(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_topic(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_topic_partial(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_topic_partial(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_user_ar(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_user_ar(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_user_by_service(text, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_user_by_service(text,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_video(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_video(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_video_bak(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_video_bak(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_video_by_guid(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_video_by_guid(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_upd_web_users_login_dk(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_upd_web_users_login_dk(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ins_url_testing(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_ins_url_testing(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_is_poll_active(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_is_poll_active(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_process_content_data(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_process_content_data(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_process_next_video(integer)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_process_next_video(integer).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_process_template_component_map_data(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_process_template_component_map_data(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_search_entity(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_search_entity(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_search_entity_by_page(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_search_entity_by_page(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_search_entity_by_page_all(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_search_entity_by_page_all(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_search_entity_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_search_entity_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_setup_new_client(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_setup_new_client(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_show_get_page_data(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_show_get_page_data(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_show_get_rss_data(numeric, numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_show_get_rss_data(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_show_get_site_map_data(numeric, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_show_get_site_map_data(numeric,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_stage_asset_event(jsonb, smallint)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_stage_asset_event(jsonb,_smallint).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_stage_asset_event(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_stage_asset_event(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_stage_video_event(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_stage_video_event(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_stage_video_event(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_stage_video_event(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_upd_author(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_upd_author(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,_numeric_d4ceb9bcfe.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_upd_del_user_asset_comments(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_upd_del_user_asset_comments(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_upd_image_status(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_upd_image_status(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_upd_page_hierarchy(numeric, character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_upd_page_hierarchy(numeric,_character_varying[],_numeric[],_numeric[],_numeric[],__c59bab4658.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_upd_template_component_web_app(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_upd_template_component_web_app(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_user_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_verified_otp(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labuww_verified_otp(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "regexp_count(text, text)",
+      "type": "FUNCTION",
+      "file": "functions/regexp_count(text,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_academy",
+      "type": "TABLE",
+      "file": "tables/labuww_academy.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_academy_fee",
+      "type": "TABLE",
+      "file": "tables/labuww_academy_fee.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_academy_user_registration",
+      "type": "TABLE",
+      "file": "tables/labuww_academy_user_registration.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_action",
+      "type": "TABLE",
+      "file": "tables/labuww_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ad",
+      "type": "TABLE",
+      "file": "tables/labuww_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ad_client",
+      "type": "TABLE",
+      "file": "tables/labuww_ad_client.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_advertisement",
+      "type": "TABLE",
+      "file": "tables/labuww_advertisement.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_album",
+      "type": "TABLE",
+      "file": "tables/labuww_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/labuww_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_api_error_log",
+      "type": "TABLE",
+      "file": "tables/labuww_api_error_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_article",
+      "type": "TABLE",
+      "file": "tables/labuww_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/labuww_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_article_ingestion_audit_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labuww_article_ingestion_audit_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_article_ingestion_audit",
+      "type": "TABLE",
+      "file": "tables/labuww_article_ingestion_audit.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_article_process_log",
+      "type": "TABLE",
+      "file": "tables/labuww_article_process_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_comment_reaction",
+      "type": "TABLE",
+      "file": "tables/labuww_asset_comment_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_delete_log",
+      "type": "TABLE",
+      "file": "tables/labuww_asset_delete_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_draft",
+      "type": "TABLE",
+      "file": "tables/labuww_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/labuww_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_group",
+      "type": "TABLE",
+      "file": "tables/labuww_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_ingestion_audit_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labuww_asset_ingestion_audit_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_ingestion_audit",
+      "type": "TABLE",
+      "file": "tables/labuww_asset_ingestion_audit.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_list",
+      "type": "TABLE",
+      "file": "tables/labuww_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_process_log_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labuww_asset_process_log_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_process_log",
+      "type": "TABLE",
+      "file": "tables/labuww_asset_process_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_type",
+      "type": "TABLE",
+      "file": "tables/labuww_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/labuww_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_assets_view",
+      "type": "TABLE",
+      "file": "tables/labuww_assets_view.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_author_action",
+      "type": "TABLE",
+      "file": "tables/labuww_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_component",
+      "type": "TABLE",
+      "file": "tables/labuww_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_component_layout",
+      "type": "TABLE",
+      "file": "tables/labuww_component_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_component_type",
+      "type": "TABLE",
+      "file": "tables/labuww_component_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_contact",
+      "type": "TABLE",
+      "file": "tables/labuww_contact.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_container",
+      "type": "TABLE",
+      "file": "tables/labuww_container.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_content_provider",
+      "type": "TABLE",
+      "file": "tables/labuww_content_provider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_content_source",
+      "type": "TABLE",
+      "file": "tables/labuww_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_custom_web_json",
+      "type": "TABLE",
+      "file": "tables/labuww_custom_web_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_category",
+      "type": "TABLE",
+      "file": "tables/labuww_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_group",
+      "type": "TABLE",
+      "file": "tables/labuww_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/labuww_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/labuww_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_master",
+      "type": "TABLE",
+      "file": "tables/labuww_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_partner",
+      "type": "TABLE",
+      "file": "tables/labuww_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_role",
+      "type": "TABLE",
+      "file": "tables/labuww_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/labuww_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_type",
+      "type": "TABLE",
+      "file": "tables/labuww_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_gratification_detail_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labuww_gratification_detail_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_gratification_details",
+      "type": "TABLE",
+      "file": "tables/labuww_gratification_details.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_gratification_event",
+      "type": "TABLE",
+      "file": "tables/labuww_gratification_event.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_gratification_gift",
+      "type": "TABLE",
+      "file": "tables/labuww_gratification_gift.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_gratification_gift_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labuww_gratification_gift_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_hero_rating",
+      "type": "TABLE",
+      "file": "tables/labuww_hero_rating.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_hero_rating_asset_map",
+      "type": "TABLE",
+      "file": "tables/labuww_hero_rating_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_image",
+      "type": "TABLE",
+      "file": "tables/labuww_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_language_master",
+      "type": "TABLE",
+      "file": "tables/labuww_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_layout",
+      "type": "TABLE",
+      "file": "tables/labuww_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_menu",
+      "type": "TABLE",
+      "file": "tables/labuww_menu.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_menu_page_map",
+      "type": "TABLE",
+      "file": "tables/labuww_menu_page_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_navigation",
+      "type": "TABLE",
+      "file": "tables/labuww_navigation.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_page",
+      "type": "TABLE",
+      "file": "tables/labuww_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_page_partner",
+      "type": "TABLE",
+      "file": "tables/labuww_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_page_template_component_menu_map",
+      "type": "TABLE",
+      "file": "tables/labuww_page_template_component_menu_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_page_template_detail",
+      "type": "TABLE",
+      "file": "tables/labuww_page_template_detail.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_partner",
+      "type": "TABLE",
+      "file": "tables/labuww_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_payment_validation_log",
+      "type": "TABLE",
+      "file": "tables/labuww_payment_validation_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_payment_validation_log_log_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labuww_payment_validation_log_log_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_payment_validation_log_log_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/labuww_payment_validation_log_log_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_poll",
+      "type": "TABLE",
+      "file": "tables/labuww_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/labuww_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_poll_gratify_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labuww_poll_gratify_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_poll_option",
+      "type": "TABLE",
+      "file": "tables/labuww_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_poll_response",
+      "type": "TABLE",
+      "file": "tables/labuww_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_press_release",
+      "type": "TABLE",
+      "file": "tables/labuww_press_release.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_press_release_asset_map",
+      "type": "TABLE",
+      "file": "tables/labuww_press_release_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_profile_complete_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labuww_profile_complete_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_provider_author_map",
+      "type": "TABLE",
+      "file": "tables/labuww_provider_author_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_rating_week",
+      "type": "TABLE",
+      "file": "tables/labuww_rating_week.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_redirect",
+      "type": "TABLE",
+      "file": "tables/labuww_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_role",
+      "type": "TABLE",
+      "file": "tables/labuww_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_seo_data",
+      "type": "TABLE",
+      "file": "tables/labuww_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_site_master",
+      "type": "TABLE",
+      "file": "tables/labuww_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_site_partner",
+      "type": "TABLE",
+      "file": "tables/labuww_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_template",
+      "type": "TABLE",
+      "file": "tables/labuww_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/labuww_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_template_component_content_map",
+      "type": "TABLE",
+      "file": "tables/labuww_template_component_content_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_template_component_data",
+      "type": "TABLE",
+      "file": "tables/labuww_template_component_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_template_component_map",
+      "type": "TABLE",
+      "file": "tables/labuww_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_template_component_map_02082023",
+      "type": "TABLE",
+      "file": "tables/labuww_template_component_map_02082023.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_topic",
+      "type": "TABLE",
+      "file": "tables/labuww_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user",
+      "type": "TABLE",
+      "file": "tables/labuww_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_activity",
+      "type": "TABLE",
+      "file": "tables/labuww_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_asset_reaction",
+      "type": "TABLE",
+      "file": "tables/labuww_user_asset_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_data_filter",
+      "type": "TABLE",
+      "file": "tables/labuww_user_data_filter.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_language_map",
+      "type": "TABLE",
+      "file": "tables/labuww_user_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_poll_response",
+      "type": "TABLE",
+      "file": "tables/labuww_user_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_role",
+      "type": "TABLE",
+      "file": "tables/labuww_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_role_menu_action_map2",
+      "type": "TABLE",
+      "file": "tables/labuww_user_role_menu_action_map2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_transaction",
+      "type": "TABLE",
+      "file": "tables/labuww_user_transaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_video",
+      "type": "TABLE",
+      "file": "tables/labuww_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_video_ingestion_audit",
+      "type": "TABLE",
+      "file": "tables/labuww_video_ingestion_audit.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_video_ingestion_audit_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labuww_video_ingestion_audit_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_video_ingestion_audit_id_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/labuww_video_ingestion_audit_id_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_video_process_log",
+      "type": "TABLE",
+      "file": "tables/labuww_video_process_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_web_user",
+      "type": "TABLE",
+      "file": "tables/labuww_web_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_web_user_audit",
+      "type": "TABLE",
+      "file": "tables/labuww_web_user_audit.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_ad_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_album_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_album_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_api_error_log_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_api_error_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_article_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_article_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_asset_comment_reaction_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_asset_comment_reaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_asset_delete_log_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_asset_draft_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_asset_entity_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_asset_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_asset_list_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_asset_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_asset_type_meta_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_assets_view_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_assets_view_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_author_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_cm_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_cm_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_component_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_component_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_component_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_contact_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_content_provider_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_content_source_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_cookies_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_cookies_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_custom_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_custom_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_download_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_download_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_download_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_download_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_entity_category_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_entity_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_entity_image_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_entity_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_entity_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_entity_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_entity_role_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_entity_social_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_entity_social_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_entity_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_hero_rating_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_hero_rating_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_language_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_menu_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_menu_page_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_navigation_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_navigation_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_page_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_page_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_page_template_component_menu_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_page_template_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_page_template_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_poll_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_poll_option_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_press_release_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_press_release_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_press_release_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_press_release_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_provider_author_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_rating_week_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_redirect_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_seo_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_site_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_site_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_social_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_social_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_template_component_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_template_component_content_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_template_component_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_template_externalasset_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_template_externalasset_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_template_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_topic_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_topic_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_user_activity_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_user_asset_reaction_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_user_asset_reaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_user_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_user_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_user_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_user_registration_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_user_registration_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_user_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_user_role_menu_action_map",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_user_role_menu_action_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_user_transaction_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_user_transaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_video_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_web_user_audit_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_web_user_audit_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_web_users_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_web_users_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "seq_labuww_week_number",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labuww_week_number.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_payment_validation_log log_id",
+      "type": "DEFAULT",
+      "file": "defaults/labuww_payment_validation_log_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_video_ingestion_audit id",
+      "type": "DEFAULT",
+      "file": "defaults/labuww_video_ingestion_audit_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ad_client ad_client_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_ad_client_ad_client_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_advertisement ad_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_advertisement_ad_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_academy_fee dd_academy_fee_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_academy_fee_dd_academy_fee_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_academy dd_academy_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_academy_dd_academy_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_transaction dd_user_transaction_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_user_transaction_dd_user_transaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_poll_response isl_user_poll_response_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_user_poll_response_isl_user_poll_response_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_api_error_log labsaw_api_error_log_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_api_error_log_labsaw_api_error_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_page_template_detail labsaw_page_template_detail_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_page_template_detail_labsaw_page_template_detail_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_academy_user_registration labuww_academy_user_registration_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_academy_user_registration_labuww_academy_user_registration_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_action labuww_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_action_labuww_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_ad labuww_ad_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_ad_labuww_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_album_asset_map labuww_album_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_album_asset_map_labuww_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_album labuww_album_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_album_labuww_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_article_asset_map labuww_article_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_article_asset_map_labuww_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_article labuww_article_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_article_labuww_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_article_ingestion_audit labuww_article_ingestion_audit_log_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_article_ingestion_audit_labuww_article_ingestion_audit_log_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_article_process_log labuww_article_process_log_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_article_process_log_labuww_article_process_log_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_comment_reaction labuww_asset_comment_reaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_asset_comment_reaction_labuww_asset_comment_reaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_delete_log labuww_asset_delete_log_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_asset_delete_log_labuww_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_draft labuww_asset_draft_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_asset_draft_labuww_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_entity_map labuww_asset_entity_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_asset_entity_map_labuww_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_group labuww_asset_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_asset_group_labuww_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_ingestion_audit labuww_asset_ingestion_audit_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_asset_ingestion_audit_labuww_asset_ingestion_audit_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_list labuww_asset_list_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_asset_list_labuww_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_process_log labuww_asset_process_log_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_asset_process_log_labuww_asset_process_log_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_type labuww_asset_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_asset_type_labuww_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_asset_type_meta labuww_asset_type_meta_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_asset_type_meta_labuww_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_assets_view labuww_assets_view_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_assets_view_labuww_assets_view_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_author_action labuww_author_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_author_action_labuww_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_component labuww_component_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_component_labuww_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_component_layout labuww_component_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_component_layout_labuww_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_component_type labuww_component_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_component_type_labuww_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_container labuww_container_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_container_labuww_container_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_content_provider labuww_content_provider_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_content_provider_labuww_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_content_source labuww_content_source_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_content_source_labuww_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_custom_web_json labuww_custom_web_json_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_custom_web_json_labuww_custom_web_json_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_category labuww_entity_category_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_entity_category_labuww_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_group labuww_entity_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_entity_group_labuww_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_image_map labuww_entity_image_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_entity_image_map_labuww_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_language_map labuww_entity_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_entity_language_map_labuww_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_master labuww_entity_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_entity_master_labuww_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_partner labuww_entity_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_entity_partner_labuww_entity_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_role labuww_entity_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_entity_role_labuww_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_role_map labuww_entity_role_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_entity_role_map_labuww_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_entity_type labuww_entity_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_entity_type_labuww_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_gratification_details labuww_gatification_details_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_gratification_details_labuww_gatification_details_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_gratification_event labuww_gratification_event_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_gratification_event_labuww_gratification_event_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_gratification_gift labuww_gratification_gift_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_gratification_gift_labuww_gratification_gift_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_hero_rating_asset_map labuww_hero_rating_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_hero_rating_asset_map_labuww_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_hero_rating labuww_hero_rating_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_hero_rating_labuww_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_image labuww_image_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_image_labuww_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_language_master labuww_language_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_language_master_labuww_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_layout labuww_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_layout_labuww_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_menu labuww_menu_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_menu_labuww_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_menu_page_map labuww_menu_page_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_menu_page_map_labuww_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_navigation labuww_navigation_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_navigation_labuww_navigation_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_page labuww_page_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_page_labuww_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_page_partner labuww_page_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_page_partner_labuww_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_page_template_component_menu_map labuww_page_template_component_menu_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_page_template_component_menu_map_labuww_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_partner labuww_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_partner_labuww_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_payment_validation_log labuww_payment_validation_log_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_payment_validation_log_labuww_payment_validation_log_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_poll_asset_map labuww_poll_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_poll_asset_map_labuww_poll_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_poll labuww_poll_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_poll_labuww_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_poll_option labuww_poll_option_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_poll_option_labuww_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_poll_response labuww_poll_response_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_poll_response_labuww_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_press_release_asset_map labuww_press_release_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_press_release_asset_map_labuww_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_press_release labuww_press_release_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_press_release_labuww_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_provider_author_map labuww_provider_author_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_provider_author_map_labuww_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_rating_week labuww_rating_week_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_rating_week_labuww_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_redirect labuww_redirect_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_redirect_labuww_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_role labuww_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_role_labuww_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_seo_data labuww_seo_data_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_seo_data_labuww_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_site_master labuww_site_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_site_master_labuww_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_site_partner labuww_site_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_site_partner_labuww_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_template_component_asset_map labuww_template_component_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_template_component_asset_map_labuww_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_template_component_content_map labuww_template_component_content_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_template_component_content_map_labuww_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_template_component_map labuww_template_component_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_template_component_map_labuww_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_template labuww_template_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_template_labuww_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_topic labuww_topic_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_topic_labuww_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_activity labuww_user_activity_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_user_activity_labuww_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_asset_reaction labuww_user_asset_reaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_user_asset_reaction_labuww_user_asset_reaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user labuww_user_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_user_labuww_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_language_map labuww_user_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_user_language_map_labuww_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_role labuww_user_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_user_role_labuww_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_video labuww_video_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_video_labuww_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_video_ingestion_audit labuww_video_ingestion_audit_log_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_video_ingestion_audit_labuww_video_ingestion_audit_log_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_video_process_log labuww_video_process_log_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_video_process_log_labuww_video_process_log_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_web_user_audit pk_web_user_audit_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_web_user_audit_pk_web_user_audit_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_user_role_menu_action_map2 role_menu_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_user_role_menu_action_map2_role_menu_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_contact scom_contact_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_contact_scom_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "labuww_web_user web_user_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/labuww_web_user_web_user_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "araay_index",
+      "type": "INDEX",
+      "file": "indexes/araay_index.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "gix_ttmum_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/gix_ttmum_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "idx_labuww_asset_id",
+      "type": "INDEX",
+      "file": "indexes/idx_labuww_asset_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "idx_labuww_template_id",
+      "type": "INDEX",
+      "file": "indexes/idx_labuww_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "indx_tempcomp_id_page_id",
+      "type": "INDEX",
+      "file": "indexes/indx_tempcomp_id_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "indx_template_component_map",
+      "type": "INDEX",
+      "file": "indexes/indx_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_author_action_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_author_action_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_author_action_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_author_action_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_labuww_template_component_data",
+      "type": "INDEX",
+      "file": "indexes/ix_labuww_template_component_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_template_component_map_cid",
+      "type": "INDEX",
+      "file": "indexes/ix_template_component_map_cid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_template_component_map_tid",
+      "type": "INDEX",
+      "file": "indexes/ix_template_component_map_tid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_ad_ad_type",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_ad_ad_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_album_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_album_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_article_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_article_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_asset_draft_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_draft_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_asset_draft_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_draft_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_asset_entity_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_entity_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_asset_entity_map_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_entity_map_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_asset_entity_map_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_entity_map_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_asset_list_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_asset_list_aidatid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_aidatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_asset_list_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_asset_list_permid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_permid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_asset_list_published_date",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_published_date.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_asset_list_sermid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_sermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_asset_list_title_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_title_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_asset_list_title_alias_lower",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_title_alias_lower.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_assets_view_viewdate",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_assets_view_viewdate.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_entity_image_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_image_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_entity_language_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_language_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_entity_partner_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_partner_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_entity_partner_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_partner_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_entity_partner_lmid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_partner_lmid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_entity_role_egid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_role_egid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_entity_role_etid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_role_etid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_entity_role_map_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_role_map_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_entity_role_map_erid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_role_map_erid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_entity_role_map_soid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_role_map_soid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_hero_rating_asset_map_hrid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_hero_rating_asset_map_hrid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_hero_rating_rwid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_hero_rating_rwid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_hero_rating_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_hero_rating_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_page_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_page_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_poll_option_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_poll_option_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_poll_response_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_poll_response_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_poll_response_roid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_poll_response_roid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_rating_week_ry",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_rating_week_ry.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_rating_week_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_rating_week_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_rating_week_woty",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_rating_week_woty.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_seo_data_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_seo_data_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_site_partner_pgid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_site_partner_pgid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_site_partner_sid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_site_partner_sid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_user_activity_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_user_activity_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_user_activity_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_user_activity_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_user_emailid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_user_emailid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_user_role_rid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_user_role_rid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "ix_ttmum_user_role_uid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_user_role_uid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labuww",
+      "name": "uar_idx",
+      "type": "INDEX",
+      "file": "indexes/uar_idx.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 611,
+  "unclassified_count": 0
+}

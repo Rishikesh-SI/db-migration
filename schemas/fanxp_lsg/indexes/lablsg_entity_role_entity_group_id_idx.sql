@@ -1,0 +1,12 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: fanxp_lsg
+-- Object: lablsg_entity_role_entity_group_id_idx
+-- Type: INDEX
+
+-- Name: lablsg_entity_role_entity_group_id_idx; Type: INDEX; Schema: fanxp_lsg; Owner: -
+--
+
+CREATE INDEX lablsg_entity_role_entity_group_id_idx ON fanxp_lsg.lablsg_entity_role USING btree (entity_group_id);
+
+
+--

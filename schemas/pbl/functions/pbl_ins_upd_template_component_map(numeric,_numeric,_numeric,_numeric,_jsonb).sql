@@ -1,0 +1,250 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: pbl
+-- Object: pbl_ins_upd_template_component_map(numeric, numeric, numeric, numeric, jsonb)
+-- Type: FUNCTION
+
+-- Name: pbl_ins_upd_template_component_map(numeric, numeric, numeric, numeric, jsonb); Type: FUNCTION; Schema: pbl; Owner: -
+--
+
+CREATE FUNCTION pbl.pbl_ins_upd_template_component_map(p_template_id numeric, p_updated_by numeric, p_status numeric, p_parent_tcmap_id numeric, p_json jsonb, OUT p_result numeric, OUT p_data jsonb) RETURNS record
+    LANGUAGE plpgsql
+    AS $$  
+
+declare
+
+v_json 								jsonb;
+--V_template_id        					pbl.pbl_template.template_id%TYPE;
+--
+--V_template_name        				pbl.pbl_template.template_name%TYPE;
+--V_template_desc        				pbl.pbl_template.template_desc%TYPE;
+--v_page_id							pbl.pbl_template.page_id%type;
+--v_layout_id							pbl.pbl_template.layout_id%type;
+--v_parent_id							pbl.pbl_template.parent_id%type;
+--v_is_inherited							pbl.pbl_template.is_inherited%type;
+--V_published_version_number        	pbl.pbl_template.published_version_number%TYPE:=1;
+--V_created_date        				pbl.pbl_template.created_date%TYPE;
+--V_updated_date        				pbl.pbl_template.updated_date%TYPE;
+--V_created_by        				pbl.pbl_template.created_by%TYPE;
+V_updated_by        				pbl.pbl_template.updated_by%TYPE;
+--V_is_active        					pbl.pbl_template.is_active%TYPE;
+--V_is_deleted        				pbl.pbl_template.is_deleted%TYPE;
+--V_is_published        				pbl.pbl_template.is_published%TYPE;
+--V_template_guid        				pbl.pbl_template.template_guid%TYPE;
+--v_master_id						pbl.pbl_template.is_master%type;
+
+v_sysdate 							 timestamp;
+--V_is_master                             numeric;
+--V_master_template_id                    numeric;
+--V_template_html        				pbl.pbl_layout.layout_html%TYPE;
+
+--V_version_number numeric;
+v_status numeric;
+--v_guid varchar(256);
+
+v_componentjson json; 
+v_componentdata json;
+--v_is_responsive pbl.pbl_template.is_responsive%type;
+--v_desktop_html  pbl.pbl_template.desktop_html%type;
+--v_mobile_html  pbl.pbl_template.mobile_html%type;
+
+-- template component variables
+v_co_template_component_map_id numeric;
+v_co_component_id numeric;
+v_co_title VARCHAR(500);
+v_co_display_title VARCHAR(500);
+v_co_title_mobile VARCHAR(500);
+v_co_title_app VARCHAR(500);
+v_co_show_in_web NUMERIC;
+v_co_show_in_mobile NUMERIC;
+v_co_show_in_app NUMERIC;
+v_co_fetch_from NUMERIC;
+v_co_parent_container_id VARCHAR(256); 
+v_co_meta json;
+
+-- child component variables
+v_childcomponentjson json;
+--v_childcomponentdata json;
+--
+--v_coc_template_component_map_id numeric;
+--v_coc_component_id numeric;
+--v_coc_title VARCHAR(500);
+--v_coc_display_title VARCHAR(500);
+--v_coc_title_mobile VARCHAR(500);
+--v_coc_title_app VARCHAR(500);
+--v_coc_show_in_web NUMERIC;
+--v_coc_show_in_mobile NUMERIC;
+--v_coc_show_in_app NUMERIC;
+--v_coc_fetch_from NUMERIC;
+--v_coc_parent_container_id VARCHAR(256); 
+--v_c_template_component_map_id NUMERIC;
+--v_c_asset_guid1 VARCHAR(256);
+--v_coc_meta json;
+
+--V_template_component_map_id NUMERIC;
+v_asset_guid1 VARCHAR(256);
+
+--  ENTITY VARIABLES
+v_entityjson json;
+v_entity json; 
+v_assetentitymapid numeric;
+v_assetentitymapguid varchar(256);
+v_entityrolemapid numeric;
+v_priority numeric;
+v_islinkable numeric;
+v_isvisible  numeric;
+v_asset_type NUMERIC:=13;
+
+-- Recursion variables
+v_child_ret numeric;
+BEGIN
+
+		select current_timestamp at time zone 'utc'
+		into   v_sysdate;
+		-------------------------------------------------------------
+		v_json :=p_json;
+    v_updated_by:=P_updated_by;
+    v_status:=P_status;
+		-------------------------------------------------------------
+		/***
+		Get data from JSON
+		***/
+		-------------------------------------------------------------
+		
+		---------------------------------------------------------------        
+    
+    UPDATE pbl.pbl_TEMPLATE_COMPONENT_MAP
+    SET IS_DELETED=1,IS_ACTIVE=0
+    WHERE template_id = p_template_id;
+    
+    -- ==============
+          select v_json->>'componentdata'
+               into   v_componentjson; 
+          raise notice '%' ,6;
+          
+          if v_componentjson is not null then 
+
+            for v_componentdata in select * from json_array_elements(v_componentjson)
+              loop
+             -- raise notice '%' ,7;
+    
+                 select 
+                       v_componentdata->>'template_component_map_id',
+                       v_componentdata->>'component_id',
+                       v_componentdata->>'title',
+                       v_componentdata->>'display_title',
+                       v_componentdata->>'title_mobile',
+                       v_componentdata->>'title_app',
+                       v_componentdata->>'show_in_web',
+                       v_componentdata->>'show_in_mobile',
+                       v_componentdata->>'show_in_app',
+                       v_componentdata->>'fetch_from',
+                       v_componentdata->>'parent_container_id' ,
+                       v_componentdata->>'meta' 
+                     into  
+                        v_co_template_component_map_id ,
+                        v_co_component_id ,
+                        v_co_title ,
+                        v_co_display_title ,
+                        v_co_title_mobile ,
+                        v_co_title_app ,
+                        v_co_show_in_web ,
+                        v_co_show_in_mobile ,
+                        v_co_show_in_app ,
+                        v_co_fetch_from ,
+                        v_co_parent_container_id ,
+                        v_co_meta
+                        ;
+        
+                IF  v_co_template_component_map_id IS NULL THEN
+                        
+                        v_co_template_component_map_id :=nextval('pbl.seq_pbl_template_component_map_id');
+                        v_asset_guid1       := uuid_generate_v4();
+               -- raise notice '%' ,8;
+                         INSERT INTO pbl.pbl_template_component_map(
+                        template_component_map_id, template_id, component_id, title, display_title,
+                        title_mobile, title_app,  show_in_web, show_in_mobile, show_in_app, fetch_from, 
+                        created_date, updated_date, created_by, updated_by, 
+                          is_active, is_deleted, is_published, tcmap_guid, parent_container_id, parent_tcmap_id,meta_info)
+                        VALUES (v_co_template_component_map_id, p_template_id,v_co_component_id,v_co_title,
+                        v_co_display_title, v_co_title_mobile, v_co_title_app,  v_co_show_in_web ,
+                        v_co_show_in_mobile ,v_co_show_in_app ,v_co_fetch_from , 
+                        v_sysdate, v_sysdate, V_updated_by, V_updated_by, 1, 0, V_status,
+                        v_asset_guid1, v_co_parent_container_id,P_parent_tcmap_id,v_co_meta);
+                 ELSE
+                        UPDATE pbl.pbl_template_component_map
+                        SET   component_id=v_co_component_id, title=v_co_title, 
+                        display_title=v_co_display_title, title_mobile=v_co_title_mobile,
+                        title_app=v_co_title_app , show_in_web=v_co_show_in_web, show_in_mobile=v_co_show_in_mobile, 
+                        show_in_app=v_co_show_in_app, fetch_from=v_co_fetch_from, updated_date=v_sysdate,  
+                        updated_by=V_updated_by, is_active=1, is_deleted=0, is_published=V_status, 
+                        parent_container_id=v_co_parent_container_id,meta_info=v_co_meta,
+                        parent_tcmap_id=P_parent_tcmap_id
+                        WHERE template_component_map_id=v_co_template_component_map_id;
+                        
+                 END IF;
+                 
+              -- raise notice '%' ,10; 
+                     --  ENTITY DATA---     
+                     DELETE FROM pbl.pbl_asset_entity_map 
+                     WHERE ASSET_TYPE_ID=v_asset_type
+                     AND ASSET_ID=v_co_template_component_map_id;
+                     
+                     select v_componentdata->'entitydata'
+                         into   v_entityjson;
+
+                        if v_entityjson is not null then
+
+                         for v_entity in select * from json_array_elements(v_entityjson)
+                           loop
+  
+                           select v_entity->>'entity_role_map_id',
+                                  v_entity->>'priority',
+                                  v_entity->>'is_linkable',
+                                  v_entity->>'is_visible'
+                           into   v_entityrolemapid,
+                                  v_priority,
+                                  v_islinkable,
+                                  v_isvisible;
+
+                      if (v_entityrolemapid is not null and v_priority is not null) then
+
+                           v_assetentitymapid   := nextval('pbl.seq_pbl_asset_entity_map_id');
+                           v_assetentitymapguid := uuid_generate_v4();
+
+                           insert into pbl.pbl_asset_entity_map
+                           (asset_entity_map_id, asset_id, asset_type_id,  entity_role_map_id, is_linkable,
+                            is_visible, priority, created_date, updated_date, created_by, updated_by, is_active,
+                            is_deleted, is_published, aemap_guid)
+                          values(v_assetentitymapid, v_co_template_component_map_id, v_asset_type, 
+                          v_entityrolemapid, COALESCE(v_islinkable,0), v_isvisible, v_priority,
+                          v_sysdate, v_sysdate, v_updated_by, v_updated_by, 1, 0, 
+                          1, v_assetentitymapguid);
+                       END IF;
+                      END LOOP;
+                    END IF;
+              -- ENTITY DATA --
+                   
+                   --  CHILD COMPONENTS START
+                          select v_componentdata->>'child_components'
+                               into   v_childcomponentjson; 
+                          raise notice '%' ,6;
+                          
+                          if v_childcomponentjson is not null then 
+                               SELECT S.p_result INTO v_child_ret  
+                               FROM pbl.pbl_ins_upd_template_component_map  
+                                      (p_template_id,P_updated_by ,P_status ,v_co_template_component_map_id, v_childcomponentjson::jsonb) S;
+                          end if;
+                   --  CHILD COMPONENTS END
+             end loop;     
+          end if;
+    -- ==============
+		p_result := v_co_template_component_map_id;
+
+		p_data := v_json;
+
+END;
+
+  $$;
+
+
+--

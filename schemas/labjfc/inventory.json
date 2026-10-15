@@ -1,0 +1,3331 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "labjfc",
+      "type": "SCHEMA",
+      "file": "labjfc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "data(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/data(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_bulk_upd_asset_entity_map(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_bulk_upd_asset_entity_map(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_v_b81096088b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_bulk_upd_modify_date(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_bulk_upd_modify_date(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varyin_7a61128717.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_change_asset_lock_status(character, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_change_asset_lock_status(character,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_check_asset_ent_by_cat(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_check_asset_ent_by_cat(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_check_page_alias(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_check_page_alias(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_check_slugurl(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_check_slugurl(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_db_backup()",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_db_backup().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_del_image(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_del_image(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_del_topic(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_del_topic(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_delete_asset(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_delete_asset(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_edit_del_menu(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_edit_del_menu(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_edit_del_page(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_edit_del_page(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_edit_del_template(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_edit_del_template(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_gen_onthisday_article(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_gen_onthisday_article(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_ad_comp_cont_map_list(numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_ad_comp_cont_map_list(numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_ad_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_ad_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_ad_detail(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_ad_detail(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_ad_detail_r(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_ad_detail_r(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_ad_listing(numeric, numeric[], text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_ad_listing(numeric,_numeric[],_text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_ad_listing(numeric, numeric, numeric, character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_ad_listing(numeric,_numeric,_numeric,_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_ad_position_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_ad_position_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_ad_r(text, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_ad_r(text,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_album_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_album_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_album_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_album_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_album_detail_r_1(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_album_detail_r_1(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_album_detail_rtest(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_album_detail_rtest(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_album_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_album_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_aefcf77e33.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_album_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_album_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_application_details(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_application_details(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_application_details(character varying, character varying, timestamp without time zone, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_application_details(character_varying,_character_varying,_timestamp_without_ti_f13f9e14d7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_article_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_article_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_article_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_article_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_article_detail_r_bak(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_article_detail_r_bak(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_article_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_article_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric_87a6a2b1c9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric_2daeedf8ed.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_count_by_cat_json_r(numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_count_by_cat_json_r(numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_count_by_cat_r(numeric[], numeric[], character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_count_by_cat_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_refcurs_9c5c66097a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_count_by_cat_rb_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_count_by_cat_rb_r(numeric[],_numeric[],_character_varying,_numeric,_refc_9c615af934.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_listing(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_listing(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_listing_all(numeric, numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_listing_all(numeric,_numeric,_numeric,_numeric,_numeric[],_numeric[],_nu_247a522715.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_listing_by_cat_json_r(numeric, numeric, numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_listing_by_cat_json_r(numeric,_numeric,_numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_listing_by_cat_r(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_listing_by_cat_r(numeric,_numeric,_numeric[],_numeric[],_character_varyi_0cb6252d79.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_listing_by_cat_r_20180523(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_listing_by_cat_r_20180523(numeric,_numeric,_numeric[],_numeric[],_charac_1f6ec37ffa.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_listing_by_title(numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_listing_by_title(numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_listing_by_type_r(numeric, numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_listing_by_type_r(numeric,_numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_listing_for_any_ent_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_listing_for_any_ent_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_ch_d8359470e7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_ch_48bfe8372e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_ch_ee6b764c37.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_next_prev_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_next_prev_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_asset_type_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_asset_type_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_author_detail_by_cat_r(numeric[], numeric[], character varying, numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_author_detail_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_numer_891bfcd341.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_author_listing_by_lang_r(numeric, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_author_listing_by_lang_r(numeric,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_canonical_url_r(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_canonical_url_r(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_category_list_21082019_b72c(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_category_list_21082019_b72c(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_container_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_container_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_content_provider(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_content_provider(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_date_sitemap(character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_date_sitemap(character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_entity_display_name_by_language(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_entity_display_name_by_language(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_entity_group_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_entity_group_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_entity_known_as(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_entity_known_as(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_entity_language_from_entities(numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_entity_language_from_entities(numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_entity_listing(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_entity_listing(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_entity_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_entity_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_entity_name_by_asset(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_entity_name_by_asset(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_entity_roles_21082019_2afb(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_entity_roles_21082019_2afb(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_entity_type_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_entity_type_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_heroes_detail_r(numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_heroes_detail_r(numeric,_numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_image_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_image_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_image_listing(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_image_listing(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_menu_by_parent(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_menu_by_parent(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_menu_by_parent_r(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_menu_by_parent_r(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_menu_listing(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_menu_listing(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_menu_page_map_list(numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_menu_page_map_list(numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_navigation_r(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_navigation_r(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_new_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_new_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_page_data(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_page_data(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_page_data_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_page_data_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_ref_9e285c6451.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_page_data_r(character varying, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_page_data_r(character_varying,_numeric,_refcursor,_refcursor,_refcursor,_refcu_d243f80507.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_page_data_r(character varying, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_page_data_r(character_varying,_numeric,_numeric,_refcursor,_refcursor,_refcurs_280a367e77.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_page_data_r_20180223(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_page_data_r_20180223(character_varying,_refcursor,_refcursor,_refcursor,_refcu_aa3d589803.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_page_data_r_test(character varying, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_page_data_r_test(character_varying,_numeric,_refcursor,_refcursor,_refcursor,__e5eeafc6f7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_page_listing(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_page_listing(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_page_sitemap(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_page_sitemap(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_player_detail_by_cat_json_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_player_detail_by_cat_json_r(numeric,_numeric[],_numeric[],_character_varying,__a12d487343.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_player_detail_by_cat_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_player_detail_by_cat_r(numeric,_numeric[],_numeric[],_character_varying,_numer_c1c471bce3.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_poll_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_poll_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_poll_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_poll_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_poll_detail_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_poll_detail_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_poll_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_077e4f1afe.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_poll_listing_r(numeric, numeric, numeric[], refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_poll_listing_r(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_press_release_listing(numeric, numeric, numeric, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_press_release_listing(numeric,_numeric,_numeric,_timestamp_without_time_zone).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_rating_week_r(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_rating_week_r(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_sitemap(character varying, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_sitemap(character_varying,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_sitemap_asset_count(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_sitemap_asset_count(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_team_player_detail_r(character varying, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_team_player_detail_r(character_varying,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_tem_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_tem_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_nu_43f98590af.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_tem_comp_asset_map_detail_by_page_r_20112017(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_tem_comp_asset_map_detail_by_page_r_20112017(numeric,_numeric[],_numeric[],_nu_419b1988cc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_tem_comp_asset_map_detail_by_page_r_old(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_tem_comp_asset_map_detail_by_page_r_old(numeric,_numeric[],_numeric[],_numeric_f16780fae9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_tem_comp_asset_map_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_tem_comp_asset_map_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_tem_comp_asset_map_detail_r(numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_tem_comp_asset_map_detail_r(numeric,_numeric[],_refcursor,_refcursor,_refcurso_deaafdf997.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_tem_cop_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_tem_cop_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_temp_comp_cont_map_detail(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_temp_comp_cont_map_detail(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_template(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_template(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_num_e64aed6ade.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_template_component(numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_template_component(numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_template_data(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_template_data(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_template_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_template_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_template_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_template_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_topic_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_topic_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_topic_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_topic_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_c921de5709.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_topic_listing_r(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_topic_listing_r(numeric, numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_topic_listing_r_ak(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_topic_listing_r_ak(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_user_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_user_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_user_disp_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_user_disp_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_user_display_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_user_display_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_user_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_user_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_user_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_user_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_user_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_user_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_user_listing_with_param(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_user_listing_with_param(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_user_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_user_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_video_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_video_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_video_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_video_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_video_detail_r_bk(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_video_detail_r_bk(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_video_detail_rback(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_video_detail_rback(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_video_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_video_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_video_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_video_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_3621efe22c.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_video_listing_backup_18022017(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_video_listing_backup_18022017(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_get_word_count(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_get_word_count(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_bib_surrender(json)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_bib_surrender(json).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_bib_surrender(character varying, character varying, character varying, character varying, numeric, numeric, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, numeric, character varying, character varying, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_bib_surrender(character_varying,_character_varying,_character_varying,_charact_ecaf006fc9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_entity_language_map(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_entity_language_map(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_up_redirect(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_up_redirect(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_ad(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_ad(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_ad(numeric, numeric, text, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, timestamp without time zone, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_ad(numeric,_numeric,_text,_numeric,_numeric,_numeric,_numeric,_numeric,_nu_7f1d385735.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_ad_management(numeric, text, text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_ad_management(numeric,_text,_text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_album(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_album(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_article(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_article(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_contact(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_contact(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_contact_bak(character varying, character varying, character varying, character varying, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_contact_bak(character_varying,_character_varying,_character_varying,_chara_d38811c4bf.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_contact_bak(character varying, character varying, character varying, character varying, numeric, text, date, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_contact_bak(character_varying,_character_varying,_character_varying,_chara_2fb744a6e8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_container(numeric, character varying, numeric, numeric, numeric, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_container(numeric,_character_varying,_numeric,_numeric,_numeric,_character_1dc5ab1b0d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_entity(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_entity(numeric,_numeric[],_numeric[],_character_varying[],_character_varyi_35c4a72ae1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_entity_ar(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_entity_ar(numeric,_numeric[],_numeric[],_character_varying[],_character_va_7a4722fc3b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_file(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_file(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_heros(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_heros(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_image(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_image(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_image_20112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_image_20112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_layout(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_layout(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_menu(numeric, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric[], numeric[], character varying[], numeric[], numeric[], numeric[], numeric[], numeric[], character varying[], text[], character varying[], numeric[], numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_menu(numeric,_character_varying,_character_varying,_numeric,_numeric,_nume_b00f4e4406.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_page(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_page(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_page_template_comp_menu_map(numeric[], numeric, numeric[], numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_page_template_comp_menu_map(numeric[],_numeric,_numeric[],_numeric,_numeri_d735822d7e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_pagebkup_07112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_pagebkup_07112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_poll(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_poll(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_poll_response(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_poll_response(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_rating_week(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_rating_week(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_registration_coach_player(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_registration_coach_player(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_seo_data(numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_seo_data(numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_template(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_template(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_template_comp_cont_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_template_comp_cont_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_template_component_map(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_template_component_map(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_topic(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_topic(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_topic_partial(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_topic_partial(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_user_ar(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_user_ar(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_upd_video(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_upd_video(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ins_url_testing(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_ins_url_testing(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_is_poll_active(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_is_poll_active(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_search_entity(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_search_entity(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_search_entity_by_page(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_search_entity_by_page(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_search_entity_by_page_18052020(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_search_entity_by_page_18052020(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_search_entity_by_page_all(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_search_entity_by_page_all(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_search_entity_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_search_entity_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_setup_new_client(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_setup_new_client(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_show_get_page_data(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_show_get_page_data(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_show_get_rss_data(numeric, numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_show_get_rss_data(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_show_get_site_map_data(numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_show_get_site_map_data(numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_show_get_site_map_data(numeric, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_show_get_site_map_data(numeric,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_upd_author(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_upd_author(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,_numeric_e7eb345a9d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_upd_page_hierarchy(numeric, character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_upd_page_hierarchy(numeric,_character_varying[],_numeric[],_numeric[],_numeric[],__4e5e99d470.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_user_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labjfc_user_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "regexp_count(text, text)",
+      "type": "FUNCTION",
+      "file": "functions/regexp_count(text,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_action",
+      "type": "TABLE",
+      "file": "tables/labjfc_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ad",
+      "type": "TABLE",
+      "file": "tables/labjfc_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_album",
+      "type": "TABLE",
+      "file": "tables/labjfc_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_article",
+      "type": "TABLE",
+      "file": "tables/labjfc_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_delete_log",
+      "type": "TABLE",
+      "file": "tables/labjfc_asset_delete_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_draft",
+      "type": "TABLE",
+      "file": "tables/labjfc_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_draft_20181128",
+      "type": "TABLE",
+      "file": "tables/labjfc_asset_draft_20181128.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_draftbk",
+      "type": "TABLE",
+      "file": "tables/labjfc_asset_draftbk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_group",
+      "type": "TABLE",
+      "file": "tables/labjfc_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_list",
+      "type": "TABLE",
+      "file": "tables/labjfc_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_type",
+      "type": "TABLE",
+      "file": "tables/labjfc_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/labjfc_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_author_action",
+      "type": "TABLE",
+      "file": "tables/labjfc_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_component",
+      "type": "TABLE",
+      "file": "tables/labjfc_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_component_layout",
+      "type": "TABLE",
+      "file": "tables/labjfc_component_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_component_type",
+      "type": "TABLE",
+      "file": "tables/labjfc_component_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_contact",
+      "type": "TABLE",
+      "file": "tables/labjfc_contact.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_container",
+      "type": "TABLE",
+      "file": "tables/labjfc_container.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_content_provider",
+      "type": "TABLE",
+      "file": "tables/labjfc_content_provider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_content_source",
+      "type": "TABLE",
+      "file": "tables/labjfc_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_category",
+      "type": "TABLE",
+      "file": "tables/labjfc_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_group",
+      "type": "TABLE",
+      "file": "tables/labjfc_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_master",
+      "type": "TABLE",
+      "file": "tables/labjfc_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_partner",
+      "type": "TABLE",
+      "file": "tables/labjfc_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_role",
+      "type": "TABLE",
+      "file": "tables/labjfc_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_type",
+      "type": "TABLE",
+      "file": "tables/labjfc_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_hero_rating",
+      "type": "TABLE",
+      "file": "tables/labjfc_hero_rating.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_hero_rating_asset_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_hero_rating_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_image",
+      "type": "TABLE",
+      "file": "tables/labjfc_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_image_20181128",
+      "type": "TABLE",
+      "file": "tables/labjfc_image_20181128.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_language_master",
+      "type": "TABLE",
+      "file": "tables/labjfc_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_layout",
+      "type": "TABLE",
+      "file": "tables/labjfc_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_menu",
+      "type": "TABLE",
+      "file": "tables/labjfc_menu.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_menu_page_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_menu_page_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_page",
+      "type": "TABLE",
+      "file": "tables/labjfc_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_page_partner",
+      "type": "TABLE",
+      "file": "tables/labjfc_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_page_template_component_menu_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_page_template_component_menu_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_partner",
+      "type": "TABLE",
+      "file": "tables/labjfc_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_pdf_master",
+      "type": "TABLE",
+      "file": "tables/labjfc_pdf_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_poll",
+      "type": "TABLE",
+      "file": "tables/labjfc_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_poll_option",
+      "type": "TABLE",
+      "file": "tables/labjfc_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_poll_response",
+      "type": "TABLE",
+      "file": "tables/labjfc_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_press_release",
+      "type": "TABLE",
+      "file": "tables/labjfc_press_release.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_press_release_asset_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_press_release_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_press_release_asset_master",
+      "type": "TABLE",
+      "file": "tables/labjfc_press_release_asset_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_provider_author_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_provider_author_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_rating_week",
+      "type": "TABLE",
+      "file": "tables/labjfc_rating_week.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_redirect",
+      "type": "TABLE",
+      "file": "tables/labjfc_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_registration_form",
+      "type": "TABLE",
+      "file": "tables/labjfc_registration_form.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_role",
+      "type": "TABLE",
+      "file": "tables/labjfc_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_seo_data",
+      "type": "TABLE",
+      "file": "tables/labjfc_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_site_master",
+      "type": "TABLE",
+      "file": "tables/labjfc_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_site_partner",
+      "type": "TABLE",
+      "file": "tables/labjfc_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_template",
+      "type": "TABLE",
+      "file": "tables/labjfc_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_template_component_content_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_template_component_content_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_template_component_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_topic",
+      "type": "TABLE",
+      "file": "tables/labjfc_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_user",
+      "type": "TABLE",
+      "file": "tables/labjfc_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_user_activity",
+      "type": "TABLE",
+      "file": "tables/labjfc_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_user_language_map",
+      "type": "TABLE",
+      "file": "tables/labjfc_user_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_user_role",
+      "type": "TABLE",
+      "file": "tables/labjfc_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_video",
+      "type": "TABLE",
+      "file": "tables/labjfc_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_visual_stories",
+      "type": "TABLE",
+      "file": "tables/labjfc_visual_stories.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_visual_stories_position",
+      "type": "TABLE",
+      "file": "tables/labjfc_visual_stories_position.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_ad_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_album_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_album_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_article_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_article_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_asset_delete_log_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_asset_draft_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_asset_entity_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_asset_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_asset_list_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_asset_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_asset_type_meta_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_author_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_cm_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_cm_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_component_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_component_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_component_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_contact_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_container_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_container_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_content_provider_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_content_source_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_entity_category_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_entity_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_entity_image_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_entity_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_entity_master_bakv1_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_entity_master_bakv1_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_entity_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_entity_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_entity_role_map_bakv1_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_entity_role_map_bakv1_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_entity_role_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_entity_social_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_entity_social_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_entity_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_hero_rating_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_hero_rating_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_language_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_menu_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_menu_page_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_page_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_page_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_page_template_component_menu_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_pdf_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_pdf_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_poll_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_poll_option_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_press_release_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_press_release_asset_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_press_release_asset_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_press_release_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_press_release_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_press_release_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_provider_author_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_rating_week_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_redirect_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_registration_form_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_registration_form_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_seo_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_site_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_site_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_social_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_social_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_template_component_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_template_component_content_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_template_component_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_template_externalasset_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_template_externalasset_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_template_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_topic_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_topic_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_user_activity_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_user_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_user_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_video_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_visual_stories_position_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_visual_stories_position_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_labjfc_week_number",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labjfc_week_number.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_wf_custom_userid",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_wf_custom_userid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "seq_wf_userid",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_wf_userid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "wf_user",
+      "type": "TABLE",
+      "file": "tables/wf_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "wf_user_custom",
+      "type": "TABLE",
+      "file": "tables/wf_user_custom.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "wf_user_fp_req",
+      "type": "TABLE",
+      "file": "tables/wf_user_fp_req.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "wf_user_fp_req_cf_user_fbid_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/wf_user_fp_req_cf_user_fbid_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_registration_form jafc_registration_form_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_registration_form_jafc_registration_form_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_action labjfc_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_action_labjfc_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_ad labjfc_ad_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_ad_labjfc_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_album_asset_map labjfc_album_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_album_asset_map_labjfc_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_album labjfc_album_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_album_labjfc_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_article_asset_map labjfc_article_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_article_asset_map_labjfc_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_article labjfc_article_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_article_labjfc_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_delete_log labjfc_asset_delete_log_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_asset_delete_log_labjfc_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_draft labjfc_asset_draft_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_asset_draft_labjfc_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_entity_map labjfc_asset_entity_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_asset_entity_map_labjfc_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_group labjfc_asset_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_asset_group_labjfc_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_list labjfc_asset_list_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_asset_list_labjfc_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_type labjfc_asset_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_asset_type_labjfc_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_asset_type_meta labjfc_asset_type_meta_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_asset_type_meta_labjfc_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_author_action labjfc_author_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_author_action_labjfc_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_component labjfc_component_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_component_labjfc_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_component_layout labjfc_component_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_component_layout_labjfc_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_component_type labjfc_component_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_component_type_labjfc_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_content_provider labjfc_content_provider_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_content_provider_labjfc_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_content_source labjfc_content_source_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_content_source_labjfc_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_category labjfc_entity_category_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_entity_category_labjfc_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_group labjfc_entity_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_entity_group_labjfc_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_image_map labjfc_entity_image_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_entity_image_map_labjfc_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_language_map labjfc_entity_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_entity_language_map_labjfc_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_master labjfc_entity_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_entity_master_labjfc_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_partner labjfc_entity_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_entity_partner_labjfc_entity_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_role labjfc_entity_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_entity_role_labjfc_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_role_map labjfc_entity_role_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_entity_role_map_labjfc_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_entity_type labjfc_entity_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_entity_type_labjfc_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_hero_rating_asset_map labjfc_hero_rating_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_hero_rating_asset_map_labjfc_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_hero_rating labjfc_hero_rating_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_hero_rating_labjfc_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_image labjfc_image_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_image_labjfc_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_language_master labjfc_language_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_language_master_labjfc_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_layout labjfc_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_layout_labjfc_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_menu labjfc_menu_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_menu_labjfc_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_menu_page_map labjfc_menu_page_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_menu_page_map_labjfc_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_page labjfc_page_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_page_labjfc_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_page_partner labjfc_page_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_page_partner_labjfc_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_page_template_component_menu_map labjfc_page_template_component_menu_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_page_template_component_menu_map_labjfc_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_partner labjfc_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_partner_labjfc_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_pdf_master labjfc_pdf_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_pdf_master_labjfc_pdf_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_poll_asset_map labjfc_poll_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_poll_asset_map_labjfc_poll_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_poll labjfc_poll_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_poll_labjfc_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_poll_option labjfc_poll_option_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_poll_option_labjfc_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_poll_response labjfc_poll_response_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_poll_response_labjfc_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_press_release_asset_map labjfc_press_release_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_press_release_asset_map_labjfc_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_press_release_asset_master labjfc_press_release_asset_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_press_release_asset_master_labjfc_press_release_asset_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_press_release labjfc_press_release_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_press_release_labjfc_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_provider_author_map labjfc_provider_author_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_provider_author_map_labjfc_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_rating_week labjfc_rating_week_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_rating_week_labjfc_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_redirect labjfc_redirect_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_redirect_labjfc_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_role labjfc_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_role_labjfc_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_seo_data labjfc_seo_data_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_seo_data_labjfc_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_site_master labjfc_site_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_site_master_labjfc_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_site_partner labjfc_site_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_site_partner_labjfc_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_template_component_asset_map labjfc_template_component_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_template_component_asset_map_labjfc_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_template_component_content_map labjfc_template_component_content_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_template_component_content_map_labjfc_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_topic labjfc_topic_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_topic_labjfc_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_user_activity labjfc_user_activity_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_user_activity_labjfc_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_user labjfc_user_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_user_labjfc_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_user_language_map labjfc_user_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_user_language_map_labjfc_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_user_role labjfc_user_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_user_role_labjfc_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_video labjfc_video_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_video_labjfc_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_visual_stories_position pk_visual_stories_position_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_visual_stories_position_pk_visual_stories_position_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_contact scom_contact_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_contact_scom_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "labjfc_container swa_container_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labjfc_container_swa_container_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "wf_user_custom wf_user_custom_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/wf_user_custom_wf_user_custom_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "wf_user_fp_req wf_user_fp_req_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/wf_user_fp_req_wf_user_fp_req_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "wf_user wf_user_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/wf_user_wf_user_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "gix_pkl_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/gix_pkl_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_ad_ad_type",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_ad_ad_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_album_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_album_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_article_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_article_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_asset_draft_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_draft_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_asset_draft_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_draft_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_asset_entity_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_entity_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_asset_entity_map_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_entity_map_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_asset_entity_map_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_entity_map_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_asset_list_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_asset_list_aidatid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_aidatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_asset_list_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_asset_list_permid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_permid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_asset_list_published_date",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_published_date.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_asset_list_sermid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_sermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_asset_list_title_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_title_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_asset_list_title_alias_lower",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_title_alias_lower.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_author_action_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_author_action_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_author_action_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_author_action_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_entity_image_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_image_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_entity_language_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_language_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_entity_partner_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_partner_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_entity_partner_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_partner_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_entity_partner_lmid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_partner_lmid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_entity_role_egid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_egid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_entity_role_etid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_etid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_entity_role_map_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_map_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_entity_role_map_erid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_map_erid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_entity_role_map_soid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_map_soid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_hero_rating_asset_map_hrid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_hero_rating_asset_map_hrid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_hero_rating_rwid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_hero_rating_rwid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_hero_rating_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_hero_rating_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_page_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_page_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_poll_option_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_poll_option_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_poll_response_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_poll_response_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_poll_response_roid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_poll_response_roid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_rating_week_ry",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_rating_week_ry.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_rating_week_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_rating_week_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_rating_week_woty",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_rating_week_woty.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_seo_data_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_seo_data_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_site_partner_pgid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_site_partner_pgid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_site_partner_sid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_site_partner_sid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_user_activity_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_activity_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_user_activity_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_activity_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_user_emailid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_emailid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_user_role_rid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_role_rid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labjfc",
+      "name": "ix_pkl_user_role_uid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_role_uid.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 475,
+  "unclassified_count": 0
+}

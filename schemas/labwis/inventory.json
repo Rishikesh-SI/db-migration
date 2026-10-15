@@ -1,0 +1,5606 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "labwis",
+      "type": "SCHEMA",
+      "file": "labwis.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "_get_dynamic_list_json(text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/get_dynamic_list_json(text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "_get_web_list_json(text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/get_web_list_json(text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "_get_web_list_json_01082024(text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/get_web_list_json_01082024(text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "_ins_upd_article(text, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/ins_upd_article(text,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "copy_function(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/copy_function(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "data(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/data(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "data_06092024(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/data_06092024(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "get_master_player_list_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/get_master_player_list_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_bulk_upd_asset_entity_map(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_bulk_upd_asset_entity_map(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_v_df8abc87aa.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_bulk_upd_modify_date(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_bulk_upd_modify_date(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varyin_6b951fd129.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_change_asset_lock_status(character, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_change_asset_lock_status(character,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_change_asset_lock_status_01082024(character, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_change_asset_lock_status_01082024(character,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_change_asset_lock_status_18072024(character, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_change_asset_lock_status_18072024(character,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_check_asset_ent_by_cat(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_check_asset_ent_by_cat(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_check_mobilenum_exist_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_check_mobilenum_exist_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_check_page_alias(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_check_page_alias(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_check_slugurl(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_check_slugurl(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_custom_login_email_verification(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_custom_login_email_verification(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_custom_login_forget_password(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_custom_login_forget_password(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_custom_login_update_password(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_custom_login_update_password(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_custom_signin(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_custom_signin(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_db_backup()",
+      "type": "FUNCTION",
+      "file": "functions/labwis_db_backup().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_del_entity_and_content(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_del_entity_and_content(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_del_image(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_del_image(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_del_topic(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_del_topic(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_del_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_del_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_del_user_verification(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_del_user_verification(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_del_users_permanently(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_del_users_permanently(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_delete_asset(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_delete_asset(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_edit_del_menu(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_edit_del_menu(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_edit_del_page(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_edit_del_page(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_edit_del_template(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_edit_del_template(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_gen_onthisday_article(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_gen_onthisday_article(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_generate_otp(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_generate_otp(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_ad_comp_cont_map_list(numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_ad_comp_cont_map_list(numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_ad_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_ad_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_ad_detail_r(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_ad_detail_r(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_ad_listing(numeric, numeric[], text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_ad_listing(numeric,_numeric[],_text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_ad_position_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_ad_position_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_ad_r(text, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_ad_r(text,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_ad_r(text, numeric, numeric[], numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_ad_r(text,_numeric,_numeric[],_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_album_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_album_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_album_detail_preview_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_album_detail_preview_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_album_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_album_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_album_detail_r(character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_album_detail_r(character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_album_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_album_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_8aaf593435.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_album_listing_18072024(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_album_listing_18072024(numeric,_numeric,_numeric,_numeric,_character_varying,__6be0601826.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_album_listing_20102023(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_album_listing_20102023(numeric,_numeric,_numeric,_numeric,_character_varying,__3894fbc2a9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_album_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_album_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_article_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_article_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_article_detail_01082024(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_article_detail_01082024(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_article_detail_draft_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_article_detail_draft_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_article_detail_preview_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_article_detail_preview_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_article_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_article_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_article_detail_r(character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_article_detail_r(character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_article_detail_r_18072024(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_article_detail_r_18072024(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_article_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_article_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric_92540ddac8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_article_listing_18072024(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_article_listing_18072024(numeric,_numeric,_numeric,_numeric,_character_varying_69c25e0068.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_article_listing_20102023(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_article_listing_20102023(numeric,_numeric,_numeric,_numeric,_character_varying_d4abd3d6e7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_count_by_cat_json_r(numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_count_by_cat_json_r(numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_count_by_cat_r(numeric[], numeric[], character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_count_by_cat_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_refcurs_974367d6aa.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_count_by_cat_rb_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_count_by_cat_rb_r(numeric[],_numeric[],_character_varying,_numeric,_refc_731498333f.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_detail_lite(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_detail_lite(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_all(numeric, numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_all(numeric,_numeric,_numeric,_numeric,_numeric[],_numeric[],_nu_2af9d9f29d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_by_cat_json_r(numeric, numeric, numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_by_cat_json_r(numeric,_numeric,_numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_by_cat_mob_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_by_cat_mob_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_by_cat_r(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_by_cat_r(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_by_cat_r(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_by_cat_r(numeric,_numeric,_numeric[],_numeric[],_character_varyi_28e61c578d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_by_cat_r_03122024_special_char(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_by_cat_r_03122024_special_char(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_by_cat_r_21_08_25(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_by_cat_r_21_08_25(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_by_cat_r_23_06_2025(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_by_cat_r_23_06_2025(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_by_cat_r_testbkp(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_by_cat_r_testbkp(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_by_title(numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_by_title(numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_by_type_r(numeric, numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_by_type_r(numeric,_numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_for_any_ent_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_for_any_ent_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_ch_031ee0bc29.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_ch_f8a652d20e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[], jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_ch_9992585a2b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_listing_r_010323(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_listing_r_010323(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_next_prev_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_next_prev_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_asset_type_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_asset_type_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_author_detail_by_cat_r(numeric[], numeric[], character varying, numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_author_detail_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_numer_a796358328.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_author_detail_r(numeric, numeric, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_author_detail_r(numeric,_numeric,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_author_listing_by_lang_r(numeric, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_author_listing_by_lang_r(numeric,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_author_listing_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_author_listing_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_author_listing_r(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_author_listing_r(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_author_listing_r(numeric, numeric, numeric, numeric, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_author_listing_r(numeric,_numeric,_numeric,_numeric,_character_varying,_charac_c1ad86c0aa.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_author_listing_r_test(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_author_listing_r_test(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_break_out_listing_r(numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_break_out_listing_r(numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_breakout_content_type_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_breakout_content_type_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_canonical_url_r(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_canonical_url_r(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_category_list_21082019_19a8(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_category_list_21082019_19a8(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_category_list_22082019_e5c3(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_category_list_22082019_e5c3(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_container_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_container_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_content_provider(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_content_provider(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_content_type_data_r()",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_content_type_data_r().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_content_type_detail_r(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_content_type_detail_r(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_content_type_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_content_type_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_content_type_listing_r(numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_content_type_listing_r(numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_deleted_users_data_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_deleted_users_data_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_download_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_download_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_download_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_download_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeri_700e2ed737.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_download_listing_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_download_listing_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_dynamic_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_dynamic_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numer_7d1a466fde.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_dynamic_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_dynamic_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numer_01ea6a2cdf.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_dynamic_content_detail_r(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_dynamic_content_detail_r(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_dynamic_content_post_listing_r(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_dynamic_content_post_listing_r(numeric,_numeric,_numeric,_numeric,_character_v_2dc20a69cb.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_dynamic_content_type_listing_r(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_dynamic_content_type_listing_r(numeric,_numeric,_numeric,_numeric,_character_v_146113578a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_dynamic_post_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_dynamic_post_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_dynamic_post_process_data_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_dynamic_post_process_data_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_ent_role_mapid(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_ent_role_mapid(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_ent_role_mapid_r(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_ent_role_mapid_r(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_data_by_game_code(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_data_by_game_code(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_detail(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_detail(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_details_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_details_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_details_r_10062024(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_details_r_10062024(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_display_name_by_language(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_display_name_by_language(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_group_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_group_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_known_as(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_known_as(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_language_from_entities(numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_language_from_entities(numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_listing(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_listing(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_listing_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_listing_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_name_by_asset(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_name_by_asset(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_name_by_lang(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_name_by_lang(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_roles_21082019_6245(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_roles_21082019_6245(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_roles_21082019_e1e3(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_roles_21082019_e1e3(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_roles_22082019_99fe(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_roles_22082019_99fe(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_type_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_type_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_url_draft_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_url_draft_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_entity_url_r(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_entity_url_r(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_files_list(numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_files_list(numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_gallery_listing(numeric, numeric, numeric, numeric, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_gallery_listing(numeric,_numeric,_numeric,_numeric,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_gallery_listing_r(numeric, numeric, numeric, numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_gallery_listing_r(numeric,_numeric,_numeric,_numeric,_numeric,_numeric,_numeri_d0ddcf806b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_gallery_listing_r(numeric, numeric, numeric, numeric, numeric, numeric, numeric, character varying, date, date)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_gallery_listing_r(numeric,_numeric,_numeric,_numeric,_numeric,_numeric,_numeri_84fefb958e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_gallery_listing_web_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_gallery_listing_web_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_heroes_detail_r(numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_heroes_detail_r(numeric,_numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_image_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_image_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_image_listing(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_image_listing(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_master_html_list_r()",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_master_html_list_r().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_master_player_list_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_master_player_list_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_menu_by_parent(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_menu_by_parent(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_menu_by_parent_r(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_menu_by_parent_r(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_menu_listing(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_menu_listing(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_menu_page_map_list(numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_menu_page_map_list(numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_menujson_r(numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_menujson_r(numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_navigation_r(numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_navigation_r(numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_navigation_r(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_navigation_r(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_navigation_r_18032023(numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_navigation_r_18032023(numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_new_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_new_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_data(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_data(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_data_by_service_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_data_by_service_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_data_by_service_r_11062024(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_data_by_service_r_11062024(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_data_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_data_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_data_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_data_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_ref_876ff728a4.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_data_r(character varying, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_data_r(character_varying,_numeric,_refcursor,_refcursor,_refcursor,_refcu_24b86a73cc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_data_r(character varying, text, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_data_r(character_varying,_text,_refcursor,_refcursor,_refcursor,_refcurso_76b8a848eb.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_data_r(character varying, numeric, text, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_data_r(character_varying,_numeric,_text,_refcursor,_refcursor,_refcursor,_0c23934ac9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_data_r_20042022(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_data_r_20042022(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_data_r_22_10_2024(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_data_r_22_10_2024(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_data_r_bkp(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_data_r_bkp(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_detail_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_detail_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_listing(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_listing(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_sitemap(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_sitemap(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_template_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_template_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_page_widget_data_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_page_widget_data_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_player_detail_by_cat_json_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_player_detail_by_cat_json_r(numeric,_numeric[],_numeric[],_character_varying,__5574349735.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_player_detail_by_cat_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_player_detail_by_cat_r(numeric,_numeric[],_numeric[],_character_varying,_numer_3f2fe07948.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_poll_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_poll_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_poll_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_poll_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_a329c86774.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_poll_listing_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_poll_listing_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_poll_listing_r(numeric, numeric, numeric[], character varying, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_poll_listing_r(numeric,_numeric,_numeric[],_character_varying,_refcursor,_refc_f7804be949.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_press_realease_listing_r(numeric, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_press_realease_listing_r(numeric,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_press_realease_listing_r(numeric, numeric, numeric, numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_press_realease_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_char_de7078e48c.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_press_release_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_press_release_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_press_release_listing(numeric, numeric, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_press_release_listing(numeric,_numeric,_numeric,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_process_data_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_process_data_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_process_data_r_18072024(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_process_data_r_18072024(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_rating_week_r(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_rating_week_r(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_regex_page_data_r()",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_regex_page_data_r().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_series_detail(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_series_detail(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_series_detail_r(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_series_detail_r(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_showcase_det_r(character varying, numeric, numeric[], numeric[], numeric[], numeric, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_showcase_det_r(character_varying,_numeric,_numeric[],_numeric[],_numeric[],_nu_924824a200.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_showcase_det_r(character varying, numeric, numeric[], numeric[], numeric[], numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_showcase_det_r(character_varying,_numeric,_numeric[],_numeric[],_numeric[],_nu_77068de5bd.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_showcase_det_r_01082024(character varying, numeric, numeric[], numeric[], numeric[], numeric, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_showcase_det_r_01082024(character_varying,_numeric,_numeric[],_numeric[],_nume_a9343471b7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_showcase_det_r_18072024(character varying, numeric, numeric[], numeric[], numeric[], numeric, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_showcase_det_r_18072024(character_varying,_numeric,_numeric[],_numeric[],_nume_387d68afd5.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_sitemap(character varying, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_sitemap(character_varying,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_sitemap_asset_count(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_sitemap_asset_count(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_sitemap_category_data_r(character varying, character varying, numeric, numeric, character varying, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_sitemap_category_data_r(character_varying,_character_varying,_numeric,_numeric_91efcc5028.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_sitemap_json(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_sitemap_json(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_sub_menu(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_sub_menu(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_sub_menu(numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_sub_menu(numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_sub_menu(jsonb, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_sub_menu(jsonb,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_sub_menu_21032023(numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_sub_menu_21032023(numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_team_player_detail_r(character varying, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_team_player_detail_r(character_varying,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_tem_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_tem_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_nu_3071bf1e9c.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_tem_comp_asset_map_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_tem_comp_asset_map_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_tem_comp_asset_map_detail_r(numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_tem_comp_asset_map_detail_r(numeric,_numeric[],_refcursor,_refcursor,_refcurso_6bc7491d85.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_tem_cop_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_tem_cop_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_temp_comp_cont_map_detail(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_temp_comp_cont_map_detail(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_num_39fbaab970.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_template_component(numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_template_component(numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_template_data(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_template_data(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_template_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_template_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_template_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_template_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_topic_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_topic_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_topic_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_topic_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_topic_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_topic_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_a27e75008a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, text)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_444c2f1c2d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_topic_listing_r(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_topic_listing_r(numeric, numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_user_data(jsonb, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_user_data(jsonb,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_user_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_user_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_user_disp_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_user_disp_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_user_display_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_user_display_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_user_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_user_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_user_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_user_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_user_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_user_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_user_listing_with_param(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_user_listing_with_param(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_user_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_user_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_user_photobooth_uploadcount(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_user_photobooth_uploadcount(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_video_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_video_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_video_detail_preview_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_video_detail_preview_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_video_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_video_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_video_detail_r_bk(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_video_detail_r_bk(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_video_detail_rback(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_video_detail_rback(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_video_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_video_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_video_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_video_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_f3935036b7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_video_listing_18072024(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_video_listing_18072024(numeric,_numeric,_numeric,_numeric,_character_varying,__881ff635c5.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_video_listing_20102023(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_video_listing_20102023(numeric,_numeric,_numeric,_numeric,_character_varying,__be1d96031e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_video_listing_backup_18022017(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_video_listing_backup_18022017(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_visual_stories_list()",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_visual_stories_list().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_web_stories_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_web_stories_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_web_stories_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_web_stories_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric_d185ba43a6.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_webstories_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_webstories_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_webstories_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_webstories_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_nume_b0ec4dd912.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_get_word_count(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_get_word_count(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_article_by_service(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_article_by_service(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_cookies_data(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_cookies_data(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_entity_by_service(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_entity_by_service(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_entity_language_map(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_entity_language_map(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_transaction_error(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_transaction_error(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_up_redirect(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_up_redirect(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_ad(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_ad(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_ad_management(numeric, text, text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_ad_management(numeric,_text,_text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_album(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_album(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_albumnew(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_albumnew(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_article(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_article(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_article_01082024(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_article_01082024(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_article_29012019(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_article_29012019(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_article_6_12_2024(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_article_6_12_2024(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_article_by_guid(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_article_by_guid(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_break_out_code(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_break_out_code(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_contact(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_contact(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_container(numeric, character varying, numeric, numeric, numeric, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_container(numeric,_character_varying,_numeric,_numeric,_numeric,_character_12bf6365a9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_content_type(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_content_type(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_custom_web_model(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_custom_web_model(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_del_entity_details(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_del_entity_details(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_download(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_download(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_dynamic_content_type(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_dynamic_content_type(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_entity(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_entity(numeric,_numeric[],_numeric[],_character_varying[],_character_varyi_2c3efd1117.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_entity_ar(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_entity_ar(numeric,_numeric[],_numeric[],_character_varying[],_character_va_55367db635.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_file(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_file(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_gallery(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_gallery(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_get_web_users_login(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_get_web_users_login(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_heros(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_heros(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_image(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_image(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_layout(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_layout(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_menu(numeric, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric[], numeric[], character varying[], numeric[], numeric[], numeric[], numeric[], numeric[], character varying[], text[], character varying[], numeric[], numeric, jsonb, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_menu(numeric,_character_varying,_character_varying,_numeric,_numeric,_nume_3ecd3292b0.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_menu_bk(numeric, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric[], numeric[], character varying[], numeric[], numeric[], numeric[], numeric[], numeric[], character varying[], text[], character varying[], numeric[], numeric, jsonb, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_menu_bk(numeric,_character_varying,_character_varying,_numeric,_numeric,_n_787f9e28ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_page(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_page(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_page_template_comp_menu_map(numeric[], numeric, numeric[], numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_page_template_comp_menu_map(numeric[],_numeric,_numeric[],_numeric,_numeri_a80df4045d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_page_template_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_page_template_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_pagebkup_07112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_pagebkup_07112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_poll(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_poll(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_poll_response(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_poll_response(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_rating_week(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_rating_week(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_seo_data(numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_seo_data(numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_temp_comp_asset_map_17092024(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_temp_comp_asset_map_17092024(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_template(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_template(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_template_comp_cont_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_template_comp_cont_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_template_component_map(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_template_component_map(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_template_component_map_dk(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_template_component_map_dk(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_template_component_map_dk_06092024(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_template_component_map_dk_06092024(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_template_dk(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_template_dk(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_topic(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_topic(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_topic_partial(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_topic_partial(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_user_ar(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_user_ar(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_users_custom_registrastion(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_users_custom_registrastion(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_video(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_video(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_video_bak(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_video_bak(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_video_ser(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_video_ser(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_web_users_login_dk(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_web_users_login_dk(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_upd_webstories(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_upd_webstories(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_url_testing(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_url_testing(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ins_user_by_service(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_ins_user_by_service(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_is_poll_active(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_is_poll_active(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_otp_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_otp_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_process_content_data(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_process_content_data(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_process_template_component_map_data(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_process_template_component_map_data(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_process_template_component_map_data_28062022(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_process_template_component_map_data_28062022(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_remove_duplicate_content(numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labwis_remove_duplicate_content(numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_search_entity(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_search_entity(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_search_entity_by_page(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_search_entity_by_page(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_search_entity_by_page_all(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_search_entity_by_page_all(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_search_entity_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_search_entity_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_setup_new_client(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_setup_new_client(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_show_get_page_data(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_show_get_page_data(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_show_get_rss_data(numeric, numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_show_get_rss_data(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_show_get_site_map_data(numeric, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_show_get_site_map_data(numeric,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_social_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_social_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_unpublish_article(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_unpublish_article(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_upd_article_by_channel_id(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_upd_article_by_channel_id(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_upd_author(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_upd_author(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,_numeric_e7ff93c0a4.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_upd_del_user_asset_comments(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_upd_del_user_asset_comments(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_upd_page_hierarchy(numeric, character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_upd_page_hierarchy(numeric,_character_varying[],_numeric[],_numeric[],_numeric[],__fba4b6c011.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_upd_topic_data(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_upd_topic_data(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_update_asset_list_json(character varying, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_update_asset_list_json(character_varying,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_update_mail_status(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_update_mail_status(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_update_user_and_return_user_data(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_update_user_and_return_user_data(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_upload_excel(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_upload_excel(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_account_recovery(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_user_account_recovery(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_account_recovery_and_verification(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_user_account_recovery_and_verification(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_user_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_verified_otp(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_verified_otp(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_verify_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_verify_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_webstories_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labwis_webstories_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "regexp_count(text, text)",
+      "type": "FUNCTION",
+      "file": "functions/regexp_count(text,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_academy",
+      "type": "TABLE",
+      "file": "tables/labwis_academy.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_academy_fee",
+      "type": "TABLE",
+      "file": "tables/labwis_academy_fee.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_academy_user_registration",
+      "type": "TABLE",
+      "file": "tables/labwis_academy_user_registration.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_action",
+      "type": "TABLE",
+      "file": "tables/labwis_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ad",
+      "type": "TABLE",
+      "file": "tables/labwis_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ad_client",
+      "type": "TABLE",
+      "file": "tables/labwis_ad_client.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_addional_web_user_data",
+      "type": "TABLE",
+      "file": "tables/labwis_addional_web_user_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_advertisement",
+      "type": "TABLE",
+      "file": "tables/labwis_advertisement.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_album",
+      "type": "TABLE",
+      "file": "tables/labwis_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_album_27092024",
+      "type": "TABLE",
+      "file": "tables/labwis_album_27092024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwis_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_api_error_log",
+      "type": "TABLE",
+      "file": "tables/labwis_api_error_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_article",
+      "type": "TABLE",
+      "file": "tables/labwis_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_article_01082024",
+      "type": "TABLE",
+      "file": "tables/labwis_article_01082024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_article_26082024",
+      "type": "TABLE",
+      "file": "tables/labwis_article_26082024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_article_27092024",
+      "type": "TABLE",
+      "file": "tables/labwis_article_27092024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwis_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_comment_reaction",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_comment_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_delete_log",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_delete_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_01082024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_01082024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_03_04_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_03_04_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_05_01_2025_final",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_05_01_2025_final.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_05_02_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_05_02_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_07062024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_07062024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_08maybkp",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_08maybkp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_09052024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_09052024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_13022024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_13022024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_13_03_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_13_03_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_14072024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_14072024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_15_01_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_15_01_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_16_01_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_16_01_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_17092024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_17092024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_17_01_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_17_01_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_17_02_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_17_02_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_19_02_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_19_02_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_20_02_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_20_02_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_20_03_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_20_03_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_21102024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_21102024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_24072024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_24072024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_24_03_2025_nan",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_24_03_2025_nan.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_26082024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_26082024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_27092024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_27092024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_bkp_07062024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_bkp_07062024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_nilesh_02072025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_nilesh_02072025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft_published_null_json",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draft_published_null_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draftmig",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_draftmig.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_entity_map_07062024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_entity_map_07062024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_entity_map_08maybkp",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_entity_map_08maybkp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_entity_map_14072024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_entity_map_14072024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_entity_map_21102024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_entity_map_21102024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_entity_map_24072024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_entity_map_24072024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_entity_map_bkp_07062024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_entity_map_bkp_07062024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_entity_mapmig",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_entity_mapmig.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_group",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_01082024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_01082024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_03_04_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_03_04_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_05_01_2025_final",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_05_01_2025_final.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_05_02_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_05_02_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_07062024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_07062024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_08maybkp",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_08maybkp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_09052024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_09052024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_13022024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_13022024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_13112024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_13112024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_13_03_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_13_03_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_13_12_2024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_13_12_2024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_14072024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_14072024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_15_01_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_15_01_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_16_01_2024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_16_01_2024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_17092024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_17092024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_17_02_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_17_02_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_18_12_2024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_18_12_2024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_19_02_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_19_02_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_20_02_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_20_02_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_20_03_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_20_03_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_21102024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_21102024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_21_01_2025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_21_01_2025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_23_01_2024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_23_01_2024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_24072024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_24072024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_24_03_2025_nan",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_24_03_2025_nan.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_26082024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_26082024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_27092024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_27092024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_3_12_2024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_3_12_2024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_bkp_07062024",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_bkp_07062024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list_nilesh_02072025",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_list_nilesh_02072025.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_type",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/labwis_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_assets_view",
+      "type": "TABLE",
+      "file": "tables/labwis_assets_view.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_author_action",
+      "type": "TABLE",
+      "file": "tables/labwis_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_author_action_27092024",
+      "type": "TABLE",
+      "file": "tables/labwis_author_action_27092024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_bkp_table",
+      "type": "TABLE",
+      "file": "tables/labwis_bkp_table.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_break_out_code_fields",
+      "type": "TABLE",
+      "file": "tables/labwis_break_out_code_fields.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_component",
+      "type": "TABLE",
+      "file": "tables/labwis_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_component_layout",
+      "type": "TABLE",
+      "file": "tables/labwis_component_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_component_type",
+      "type": "TABLE",
+      "file": "tables/labwis_component_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_contact",
+      "type": "TABLE",
+      "file": "tables/labwis_contact.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_container",
+      "type": "TABLE",
+      "file": "tables/labwis_container.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_content_provider",
+      "type": "TABLE",
+      "file": "tables/labwis_content_provider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_content_source",
+      "type": "TABLE",
+      "file": "tables/labwis_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_content_type_fields",
+      "type": "TABLE",
+      "file": "tables/labwis_content_type_fields.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_cookies_data",
+      "type": "TABLE",
+      "file": "tables/labwis_cookies_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_custom_web_json",
+      "type": "TABLE",
+      "file": "tables/labwis_custom_web_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_dynamic_content_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwis_dynamic_content_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_dynamic_content_type_data",
+      "type": "TABLE",
+      "file": "tables/labwis_dynamic_content_type_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_category",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_group",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_master",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_master_08112024",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_master_08112024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_master_08junebkp",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_master_08junebkp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_master_1312_2024",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_master_1312_2024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_master_17092024",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_master_17092024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_master_18072024",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_master_18072024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_master_18_12_2024",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_master_18_12_2024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_master_21102024",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_master_21102024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_master_bkp",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_master_bkp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_partner",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_role",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_role_map_08112024",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_role_map_08112024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_role_map_1312_2024",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_role_map_1312_2024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_role_map_17092024",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_role_map_17092024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_role_map_18072024",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_role_map_18072024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_role_map_21102024",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_role_map_21102024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_role_map_bkp",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_role_map_bkp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_type",
+      "type": "TABLE",
+      "file": "tables/labwis_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_example",
+      "type": "TABLE",
+      "file": "tables/labwis_example.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_gallery",
+      "type": "TABLE",
+      "file": "tables/labwis_gallery.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_gratification_detail_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labwis_gratification_detail_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_gratification_details",
+      "type": "TABLE",
+      "file": "tables/labwis_gratification_details.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_gratification_event",
+      "type": "TABLE",
+      "file": "tables/labwis_gratification_event.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_gratification_gift",
+      "type": "TABLE",
+      "file": "tables/labwis_gratification_gift.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_gratification_gift_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labwis_gratification_gift_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_hero_rating",
+      "type": "TABLE",
+      "file": "tables/labwis_hero_rating.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_hero_rating_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwis_hero_rating_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_image",
+      "type": "TABLE",
+      "file": "tables/labwis_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_language_master",
+      "type": "TABLE",
+      "file": "tables/labwis_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_layout",
+      "type": "TABLE",
+      "file": "tables/labwis_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_menu",
+      "type": "TABLE",
+      "file": "tables/labwis_menu.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_menu_page_map",
+      "type": "TABLE",
+      "file": "tables/labwis_menu_page_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_navigation",
+      "type": "TABLE",
+      "file": "tables/labwis_navigation.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_nonseries",
+      "type": "TABLE",
+      "file": "tables/labwis_nonseries.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_otp_details",
+      "type": "TABLE",
+      "file": "tables/labwis_otp_details.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_page",
+      "type": "TABLE",
+      "file": "tables/labwis_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_page_data",
+      "type": "TABLE",
+      "file": "tables/labwis_page_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_page_partner",
+      "type": "TABLE",
+      "file": "tables/labwis_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_page_template_component_menu_map",
+      "type": "TABLE",
+      "file": "tables/labwis_page_template_component_menu_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_page_template_detail",
+      "type": "TABLE",
+      "file": "tables/labwis_page_template_detail.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_partner",
+      "type": "TABLE",
+      "file": "tables/labwis_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_poll",
+      "type": "TABLE",
+      "file": "tables/labwis_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwis_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_poll_gratify_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labwis_poll_gratify_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_poll_option",
+      "type": "TABLE",
+      "file": "tables/labwis_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_poll_response",
+      "type": "TABLE",
+      "file": "tables/labwis_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_press_release",
+      "type": "TABLE",
+      "file": "tables/labwis_press_release.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_press_release_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwis_press_release_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_press_release_map",
+      "type": "TABLE",
+      "file": "tables/labwis_press_release_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_press_release_master",
+      "type": "TABLE",
+      "file": "tables/labwis_press_release_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_profile_complete_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labwis_profile_complete_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_provider_author_map",
+      "type": "TABLE",
+      "file": "tables/labwis_provider_author_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_rating_week",
+      "type": "TABLE",
+      "file": "tables/labwis_rating_week.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_redirect",
+      "type": "TABLE",
+      "file": "tables/labwis_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_role",
+      "type": "TABLE",
+      "file": "tables/labwis_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_seo_data",
+      "type": "TABLE",
+      "file": "tables/labwis_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_series_redirect",
+      "type": "TABLE",
+      "file": "tables/labwis_series_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_series_redirect_12062024",
+      "type": "TABLE",
+      "file": "tables/labwis_series_redirect_12062024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_series_redirect_14112024",
+      "type": "TABLE",
+      "file": "tables/labwis_series_redirect_14112024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_series_redirect_18072024",
+      "type": "TABLE",
+      "file": "tables/labwis_series_redirect_18072024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_series_redirect_18_12_2024",
+      "type": "TABLE",
+      "file": "tables/labwis_series_redirect_18_12_2024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_series_redirect_19_11_2024",
+      "type": "TABLE",
+      "file": "tables/labwis_series_redirect_19_11_2024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_series_redirect_21_11_2024",
+      "type": "TABLE",
+      "file": "tables/labwis_series_redirect_21_11_2024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_series_redirect_22_11_2024",
+      "type": "TABLE",
+      "file": "tables/labwis_series_redirect_22_11_2024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_series_redirect_26062024",
+      "type": "TABLE",
+      "file": "tables/labwis_series_redirect_26062024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_series_redirect_5_12_2024_bef_pd_sheet",
+      "type": "TABLE",
+      "file": "tables/labwis_series_redirect_5_12_2024_bef_pd_sheet.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_series_redirect_6_12_2024_bef_pd_script",
+      "type": "TABLE",
+      "file": "tables/labwis_series_redirect_6_12_2024_bef_pd_script.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_site_master",
+      "type": "TABLE",
+      "file": "tables/labwis_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_site_partner",
+      "type": "TABLE",
+      "file": "tables/labwis_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_temp_test",
+      "type": "TABLE",
+      "file": "tables/labwis_temp_test.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_template",
+      "type": "TABLE",
+      "file": "tables/labwis_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwis_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_template_component_content_map",
+      "type": "TABLE",
+      "file": "tables/labwis_template_component_content_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_template_component_data",
+      "type": "TABLE",
+      "file": "tables/labwis_template_component_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_template_component_map",
+      "type": "TABLE",
+      "file": "tables/labwis_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_topic",
+      "type": "TABLE",
+      "file": "tables/labwis_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_transaction_logs",
+      "type": "TABLE",
+      "file": "tables/labwis_transaction_logs.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_upload_data_filter",
+      "type": "TABLE",
+      "file": "tables/labwis_upload_data_filter.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_url_redirect",
+      "type": "TABLE",
+      "file": "tables/labwis_url_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user",
+      "type": "TABLE",
+      "file": "tables/labwis_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_activity",
+      "type": "TABLE",
+      "file": "tables/labwis_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_asset_reaction",
+      "type": "TABLE",
+      "file": "tables/labwis_user_asset_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_data_filter",
+      "type": "TABLE",
+      "file": "tables/labwis_user_data_filter.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_language_map",
+      "type": "TABLE",
+      "file": "tables/labwis_user_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_poll_response",
+      "type": "TABLE",
+      "file": "tables/labwis_user_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_role",
+      "type": "TABLE",
+      "file": "tables/labwis_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_role_menu_action_map2",
+      "type": "TABLE",
+      "file": "tables/labwis_user_role_menu_action_map2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_transaction",
+      "type": "TABLE",
+      "file": "tables/labwis_user_transaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_video",
+      "type": "TABLE",
+      "file": "tables/labwis_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_video_27092024",
+      "type": "TABLE",
+      "file": "tables/labwis_video_27092024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_web_user",
+      "type": "TABLE",
+      "file": "tables/labwis_web_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_web_user_audit",
+      "type": "TABLE",
+      "file": "tables/labwis_web_user_audit.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_web_user_bkp",
+      "type": "TABLE",
+      "file": "tables/labwis_web_user_bkp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_webstory",
+      "type": "TABLE",
+      "file": "tables/labwis_webstory.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_webstory_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwis_webstory_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_ad_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_album_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_album_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_api_error_log_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_api_error_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_article_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_article_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_asset_comment_reaction_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_asset_comment_reaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_asset_delete_log_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_asset_draft_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_asset_entity_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_asset_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_asset_list_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_asset_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_asset_type_meta_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_assets_view_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_assets_view_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_author_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_cm_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_cm_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_component_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_component_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_component_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_contact_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_content_provider_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_content_source_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_content_type_field_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_content_type_field_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_cookies_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_cookies_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_custom_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_custom_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_download_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_download_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_download_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_download_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_dynamic_content_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_dynamic_content_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_entity_category_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_entity_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_entity_image_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_entity_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_entity_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_entity_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_entity_role_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_entity_social_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_entity_social_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_entity_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_gallery_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_gallery_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_hero_rating_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_hero_rating_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_language_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_menu_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_menu_page_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_navigation_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_navigation_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_page_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_page_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_page_template_component_menu_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_page_template_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_page_template_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_poll_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_poll_option_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_press_release_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_press_release_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_press_release_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_press_release_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_provider_author_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_rating_week_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_redirect_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_seo_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_site_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_site_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_social_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_social_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_template_component_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_template_component_content_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_template_component_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_template_externalasset_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_template_externalasset_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_template_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_topic_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_topic_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_topic_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_topic_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_user_activity_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_user_asset_reaction_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_user_asset_reaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_user_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_user_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_user_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_user_registration_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_user_registration_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_user_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_user_role_menu_action_map",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_user_role_menu_action_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_user_transaction_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_user_transaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_video_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_web_user_audit_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_web_user_audit_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_web_users_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_web_users_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_webstories_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_webstories_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_webstory_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_webstory_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_webstory_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_webstory_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "seq_labwis_week_number",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labwis_week_number.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ad_client ad_client_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_ad_client_ad_client_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_advertisement ad_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_advertisement_ad_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_academy_fee dd_academy_fee_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_academy_fee_dd_academy_fee_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_academy dd_academy_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_academy_dd_academy_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_transaction dd_user_transaction_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_user_transaction_dd_user_transaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_web_user email_id_unq",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_web_user_email_id_unq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_poll_response isl_user_poll_response_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_user_poll_response_isl_user_poll_response_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_api_error_log labsaw_api_error_log_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_api_error_log_labsaw_api_error_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_page_template_detail labsaw_page_template_detail_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_page_template_detail_labsaw_page_template_detail_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_academy_user_registration labwis_academy_user_registration_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_academy_user_registration_labwis_academy_user_registration_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_action labwis_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_action_labwis_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_ad labwis_ad_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_ad_labwis_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_album_asset_map labwis_album_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_album_asset_map_labwis_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_album labwis_album_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_album_labwis_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_article_asset_map labwis_article_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_article_asset_map_labwis_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_article labwis_article_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_article_labwis_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_comment_reaction labwis_asset_comment_reaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_asset_comment_reaction_labwis_asset_comment_reaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_delete_log labwis_asset_delete_log_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_asset_delete_log_labwis_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_draft labwis_asset_draft_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_asset_draft_labwis_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_entity_map labwis_asset_entity_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_asset_entity_map_labwis_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_group labwis_asset_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_asset_group_labwis_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_list labwis_asset_list_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_asset_list_labwis_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_type labwis_asset_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_asset_type_labwis_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_asset_type_meta labwis_asset_type_meta_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_asset_type_meta_labwis_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_assets_view labwis_assets_view_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_assets_view_labwis_assets_view_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_author_action labwis_author_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_author_action_labwis_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_break_out_code_fields labwis_break_out_code_fields_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_break_out_code_fields_labwis_break_out_code_fields_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_component labwis_component_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_component_labwis_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_component_layout labwis_component_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_component_layout_labwis_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_component_type labwis_component_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_component_type_labwis_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_container labwis_container_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_container_labwis_container_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_content_provider labwis_content_provider_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_content_provider_labwis_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_content_source labwis_content_source_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_content_source_labwis_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_content_type_fields labwis_content_type_fields_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_content_type_fields_labwis_content_type_fields_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_custom_web_json labwis_custom_web_json_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_custom_web_json_labwis_custom_web_json_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_category labwis_entity_category_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_entity_category_labwis_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_group labwis_entity_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_entity_group_labwis_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_image_map labwis_entity_image_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_entity_image_map_labwis_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_language_map labwis_entity_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_entity_language_map_labwis_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_master labwis_entity_master_canonical_url_key",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_entity_master_labwis_entity_master_canonical_url_key.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_master labwis_entity_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_entity_master_labwis_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_partner labwis_entity_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_entity_partner_labwis_entity_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_role labwis_entity_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_entity_role_labwis_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_role_map labwis_entity_role_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_entity_role_map_labwis_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_entity_type labwis_entity_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_entity_type_labwis_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_gallery labwis_gallery_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_gallery_labwis_gallery_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_gratification_details labwis_gatification_details_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_gratification_details_labwis_gatification_details_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_gratification_event labwis_gratification_event_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_gratification_event_labwis_gratification_event_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_gratification_gift labwis_gratification_gift_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_gratification_gift_labwis_gratification_gift_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_hero_rating_asset_map labwis_hero_rating_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_hero_rating_asset_map_labwis_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_hero_rating labwis_hero_rating_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_hero_rating_labwis_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_image labwis_image_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_image_labwis_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_language_master labwis_language_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_language_master_labwis_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_layout labwis_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_layout_labwis_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_menu labwis_menu_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_menu_labwis_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_menu_page_map labwis_menu_page_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_menu_page_map_labwis_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_navigation labwis_navigation_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_navigation_labwis_navigation_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_page labwis_page_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_page_labwis_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_page_partner labwis_page_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_page_partner_labwis_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_page_template_component_menu_map labwis_page_template_component_menu_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_page_template_component_menu_map_labwis_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_partner labwis_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_partner_labwis_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_poll_asset_map labwis_poll_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_poll_asset_map_labwis_poll_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_poll labwis_poll_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_poll_labwis_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_poll_option labwis_poll_option_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_poll_option_labwis_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_poll_response labwis_poll_response_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_poll_response_labwis_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_press_release_asset_map labwis_press_release_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_press_release_asset_map_labwis_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_press_release labwis_press_release_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_press_release_labwis_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_provider_author_map labwis_provider_author_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_provider_author_map_labwis_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_rating_week labwis_rating_week_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_rating_week_labwis_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_redirect labwis_redirect_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_redirect_labwis_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_role labwis_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_role_labwis_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_seo_data labwis_seo_data_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_seo_data_labwis_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_series_redirect labwis_series_redirect_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_series_redirect_labwis_series_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_site_master labwis_site_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_site_master_labwis_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_site_partner labwis_site_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_site_partner_labwis_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_template_component_asset_map labwis_template_component_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_template_component_asset_map_labwis_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_template_component_content_map labwis_template_component_content_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_template_component_content_map_labwis_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_template_component_map labwis_template_component_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_template_component_map_labwis_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_template labwis_template_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_template_labwis_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_topic labwis_topic_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_topic_labwis_topic_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_upload_data_filter labwis_upload_data_filter_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_upload_data_filter_labwis_upload_data_filter_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_activity labwis_user_activity_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_user_activity_labwis_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_asset_reaction labwis_user_asset_reaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_user_asset_reaction_labwis_user_asset_reaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user labwis_user_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_user_labwis_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_language_map labwis_user_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_user_language_map_labwis_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_role labwis_user_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_user_role_labwis_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_video labwis_video_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_video_labwis_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_webstory_asset_map labwis_webstory_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_webstory_asset_map_labwis_webstory_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_webstory labwis_webstory_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_webstory_labwis_webstory_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_web_user mobile_unq",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_web_user_mobile_unq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_web_user_audit pk_web_user_audit_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_web_user_audit_pk_web_user_audit_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_user_role_menu_action_map2 role_menu_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_user_role_menu_action_map2_role_menu_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_contact scom_contact_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_contact_scom_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_template_component_data temp_unq",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_template_component_data_temp_unq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "labwis_web_user web_user_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwis_web_user_web_user_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "gix_ttmum_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/gix_ttmum_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "idx_asset_id_status",
+      "type": "INDEX",
+      "file": "indexes/idx_asset_id_status.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "idx_assetlist_author",
+      "type": "INDEX",
+      "file": "indexes/idx_assetlist_author.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "idx_assetlist_core_partial",
+      "type": "INDEX",
+      "file": "indexes/idx_assetlist_core_partial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "idx_assetlist_corefilter",
+      "type": "INDEX",
+      "file": "indexes/idx_assetlist_corefilter.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "idx_labwis_album_asset_map_album",
+      "type": "INDEX",
+      "file": "indexes/idx_labwis_album_asset_map_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "idx_labwis_asset_list_tagged_entity_gin_published",
+      "type": "INDEX",
+      "file": "indexes/idx_labwis_asset_list_tagged_entity_gin_published.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_author_action_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_author_action_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_author_action_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_author_action_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_template_component_map_cid",
+      "type": "INDEX",
+      "file": "indexes/ix_template_component_map_cid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_template_component_map_tid",
+      "type": "INDEX",
+      "file": "indexes/ix_template_component_map_tid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_album_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_album_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_article_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_article_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_asset_draft_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_draft_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_asset_draft_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_draft_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_asset_entity_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_entity_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_asset_entity_map_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_entity_map_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_asset_entity_map_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_entity_map_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_asset_list_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_asset_list_aidatid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_aidatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_asset_list_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_asset_list_permid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_permid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_asset_list_published_date",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_published_date.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_asset_list_sermid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_sermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_asset_list_title_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_title_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_asset_list_title_alias_lower",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_asset_list_title_alias_lower.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_assets_view_viewdate",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_assets_view_viewdate.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_entity_image_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_image_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_entity_language_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_language_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_entity_partner_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_partner_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_entity_partner_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_partner_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_entity_partner_lmid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_partner_lmid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_entity_role_egid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_role_egid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_entity_role_etid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_role_etid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_entity_role_map_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_role_map_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_entity_role_map_erid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_role_map_erid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_entity_role_map_soid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_entity_role_map_soid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_hero_rating_asset_map_hrid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_hero_rating_asset_map_hrid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_hero_rating_rwid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_hero_rating_rwid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_hero_rating_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_hero_rating_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_page_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_page_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_poll_option_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_poll_option_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_poll_response_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_poll_response_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_poll_response_roid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_poll_response_roid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_rating_week_ry",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_rating_week_ry.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_rating_week_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_rating_week_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_rating_week_woty",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_rating_week_woty.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_seo_data_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_seo_data_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_site_partner_pgid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_site_partner_pgid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_site_partner_sid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_site_partner_sid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_user_activity_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_user_activity_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_user_activity_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_user_activity_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_user_emailid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_user_emailid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_user_role_rid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_user_role_rid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_user_role_uid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_user_role_uid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "ix_ttmum_webstory_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_ttmum_webstory_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labwis",
+      "name": "uar_idx",
+      "type": "INDEX",
+      "file": "indexes/uar_idx.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 800,
+  "unclassified_count": 0
+}

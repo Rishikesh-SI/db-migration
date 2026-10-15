@@ -1,0 +1,3331 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "pkl",
+      "type": "SCHEMA",
+      "file": "pkl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ins_pkl_entity_role(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/ins_pkl_entity_role(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ins_update_entity_group(numeric, numeric, numeric, character varying, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/ins_update_entity_group(numeric,_numeric,_numeric,_character_varying,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ins_update_entity_group2(numeric, numeric, numeric, character varying, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/ins_update_entity_group2(numeric,_numeric,_numeric,_character_varying,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ins_update_entity_type(numeric, numeric, numeric, character varying, character varying, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/ins_update_entity_type(numeric,_numeric,_numeric,_character_varying,_character_varying,_n_45ed9c951a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "kf_ist_time_get()",
+      "type": "FUNCTION",
+      "file": "functions/kf_ist_time_get().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_change_asset_lock_status(character, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_change_asset_lock_status(character,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_check_asset_ent_by_cat(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_check_asset_ent_by_cat(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_check_slugurl(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_check_slugurl(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_del_image(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_del_image(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_gen_onthisday_article(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_gen_onthisday_article(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_ad_detail(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_ad_detail(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_ad_detail_r(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_ad_detail_r(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_ad_listing(numeric, numeric, numeric, character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_ad_listing(numeric,_numeric,_numeric,_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_album_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_album_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_album_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_album_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_album_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_album_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_215fc705c1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_51325bc818.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_ce815e8826.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_article_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_article_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_article_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_article_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_article_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_article_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_0b6dcb20de.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_541f3cc373.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_37a50748f7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_asset_count_by_cat_r(numeric[], numeric[], character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_asset_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_asset_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_asset_listing(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_asset_listing(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_asset_listing_all(numeric, numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_asset_listing_all(numeric,_numeric,_numeric,_numeric,_numeric[],_numeric[],_numer_73165c3a79.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_asset_listing_by_cat_r(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_asset_listing_by_cat_r(numeric,_numeric,_numeric[],_numeric[],_character_varying,_91d1be8872.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_asset_listing_by_title(numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_asset_listing_by_title(numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_asset_listing_by_type_r(numeric, numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_asset_listing_by_type_r(numeric,_numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_asset_listing_for_any_ent_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_asset_listing_for_any_ent_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_asset_listing_press_coverage_r(numeric, numeric, numeric, numeric[], numeric[], timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_asset_listing_press_coverage_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_t_8576fff2f5.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_asset_listing_r(numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_asset_listing_r(numeric,_numeric,_numeric[],_numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_chara_f7a4e5d298.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_asset_next_prev_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_asset_next_prev_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_asset_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_asset_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_category_list_21082019_d862(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_category_list_21082019_d862(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_content_provider(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_content_provider(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_ent_role_mapid(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_ent_role_mapid(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_ent_role_mapid(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_ent_role_mapid(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_entity_detail(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_entity_detail(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_entity_display_name_by_language(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_entity_display_name_by_language(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_entity_group_listing()",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_entity_group_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_entity_known_as(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_entity_known_as(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_entity_language_from_entities(numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_entity_language_from_entities(numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_entity_listing(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_entity_listing(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_entity_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_entity_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_entity_name_by_asset(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_entity_name_by_asset(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_entity_roles_21082019_ed43(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_entity_roles_21082019_ed43(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_entity_type_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_entity_type_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_heroes_detail_r(numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_heroes_detail_r(numeric,_numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_image_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_image_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_image_listing(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_image_listing(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_menu_by_parent(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_menu_by_parent(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_menu_by_parent_r(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_menu_by_parent_r(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_new_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_new_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_page_data_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_page_data_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_refcur_f195712bf2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_pdf_detail()",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_pdf_detail().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_poll_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_poll_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_ti_7301e4f06e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_poll_listing_r(numeric, numeric, numeric[], refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_poll_listing_r(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_press_release_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_press_release_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_press_release_detail(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_press_release_detail(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_press_release_detail_bak(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_press_release_detail_bak(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_press_release_listing(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_press_release_listing(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_press_release_listing(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_press_release_listing(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_press_release_listing(numeric, numeric, numeric, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_press_release_listing(numeric,_numeric,_numeric,_timestamp_without_time_zone).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_press_release_listing(numeric, numeric, numeric, character varying, timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_press_release_listing(numeric,_numeric,_numeric,_character_varying,_timestamp_wit_66062d2317.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_rating_week_r(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_rating_week_r(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_showcase_list_04022019_4922(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_showcase_list_04022019_4922(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_showcase_list_28012019_1aab(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_showcase_list_28012019_1aab(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_tem_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_tem_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_tem_comp_asset_map_detail_04022019_2210(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_tem_comp_asset_map_detail_04022019_2210(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_tem_comp_asset_map_detail_28012019_911d(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_tem_comp_asset_map_detail_28012019_911d(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_tem_comp_asset_map_detail_28012019_ecb7(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_tem_comp_asset_map_detail_28012019_ecb7(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_numer_843e7f7f80.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_tem_comp_asset_map_detail_by_page_r_04022019_8e1f(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_tem_comp_asset_map_detail_by_page_r_04022019_8e1f(numeric,_numeric[],_numeric[],__1af94cb1e2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_tem_comp_asset_map_detail_by_page_r_17092018(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_tem_comp_asset_map_detail_by_page_r_17092018(numeric,_numeric[],_numeric[],_numer_d9826d4e32.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_tem_comp_asset_map_detail_by_page_r_ar(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_tem_comp_asset_map_detail_by_page_r_ar(numeric,_numeric[],_numeric[],_numeric,_nu_c4c4acc173.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_tem_comp_asset_map_detail_r(numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_tem_comp_asset_map_detail_r(numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_tem_cop_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_tem_cop_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numeri_e97a9fe7bd.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_topic_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_topic_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_topic_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_topic_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_f09fe00abf.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_topic_listing_r(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_user_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_user_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_user_disp_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_user_disp_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_user_display_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_user_display_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_user_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_user_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_user_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_user_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_user_listing_with_param(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_user_listing_with_param(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_user_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_user_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_video_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_video_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_video_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_video_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_video_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_video_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_video_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_video_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_455a7b116b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_video_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_video_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_4c63f07fbe.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_video_listing1(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_video_listing1(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],__9128aea1bc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_get_word_count(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_get_word_count(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_ent_master_role()",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_ent_master_role().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_entity_language_map(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_entity_language_map(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_up_redirect(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_up_redirect(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_ad(numeric, numeric, text, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, timestamp without time zone, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_ad(numeric,_numeric,_text,_numeric,_numeric,_numeric,_numeric,_numeric,_numer_6777c4f998.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_ad_management(numeric, text, text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_ad_management(numeric,_text,_text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_album(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_album(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_article(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_article(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_component(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_component(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_entity(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_entity(numeric,_numeric[],_numeric[],_character_varying[],_character_varying[_56ec634155.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_entity_ar(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_entity_ar(numeric,_numeric[],_numeric[],_character_varying[],_character_varyi_97555a03a1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_heros(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_heros(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_image(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_image(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_layout(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_layout(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_page(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_page(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_poll(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_poll(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_poll_response(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_poll_response(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_press_release(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_press_release(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_rating_week(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_rating_week(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_seo_data(numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_seo_data(numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_temp_comp_asset_map_04022019_8d89(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_temp_comp_asset_map_04022019_8d89(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_temp_comp_asset_map_28012019_2d4f(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_temp_comp_asset_map_28012019_2d4f(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_template(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_template(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_template_component_map(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_template_component_map(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_topic(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_topic(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_topic_partial(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_topic_partial(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_user_ar(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_user_ar(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_upd_video(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_upd_video(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ins_url_testing(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_ins_url_testing(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_is_poll_active(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_is_poll_active(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_search_entity(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_search_entity(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_search_entity_by_page(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_search_entity_by_page(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_setup_new_client(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_setup_new_client(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_show_get_page_data(character varying, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_show_get_page_data(character_varying,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_show_get_rss_data(numeric, numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_show_get_rss_data(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_show_get_site_map_data(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_show_get_site_map_data(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_upd_author(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_upd_author(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_upd_draft_entities()",
+      "type": "FUNCTION",
+      "file": "functions/pkl_upd_draft_entities().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_user_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/pkl_user_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "regexp_count(text, text)",
+      "type": "FUNCTION",
+      "file": "functions/regexp_count(text,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_cp_req(numeric, numeric, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/wf_user_cp_req(numeric,_numeric,_character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_fp_req(numeric, character varying, character varying, character varying, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/wf_user_fp_req(numeric,_character_varying,_character_varying,_character_varying,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_get(numeric, numeric, character varying, numeric, character varying, character varying, character varying, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/wf_user_get(numeric,_numeric,_character_varying,_numeric,_character_varying,_character_va_1a00d10429.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_action",
+      "type": "TABLE",
+      "file": "tables/pkl_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ad",
+      "type": "TABLE",
+      "file": "tables/pkl_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_album",
+      "type": "TABLE",
+      "file": "tables/pkl_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_album_10jul2017ak",
+      "type": "TABLE",
+      "file": "tables/pkl_album_10jul2017ak.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/pkl_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_article",
+      "type": "TABLE",
+      "file": "tables/pkl_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_article_20170722",
+      "type": "TABLE",
+      "file": "tables/pkl_article_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_article_20170724",
+      "type": "TABLE",
+      "file": "tables/pkl_article_20170724.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_article_20170725",
+      "type": "TABLE",
+      "file": "tables/pkl_article_20170725.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_article_20170725_12_33pm",
+      "type": "TABLE",
+      "file": "tables/pkl_article_20170725_12_33pm.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/pkl_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_article_asset_map_20170722",
+      "type": "TABLE",
+      "file": "tables/pkl_article_asset_map_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_article_asset_map_20170725",
+      "type": "TABLE",
+      "file": "tables/pkl_article_asset_map_20170725.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_article_asset_map_20170725_12_33pm",
+      "type": "TABLE",
+      "file": "tables/pkl_article_asset_map_20170725_12_33pm.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_delete_log",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_delete_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_draft",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_draft_20170722",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_draft_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_draft_20170724",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_draft_20170724.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_draft_20170725",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_draft_20170725.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_draft_20170725_12_33pm",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_draft_20170725_12_33pm.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_draft_25072017",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_draft_25072017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_entity_map_20170719",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_entity_map_20170719.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_entity_map_20170722",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_entity_map_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_entity_map_20170724",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_entity_map_20170724.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_entity_map_20170724_all",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_entity_map_20170724_all.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_entity_map_20170725",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_entity_map_20170725.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_entity_map_20170725_12_33pm",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_entity_map_20170725_12_33pm.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_entity_map_24072017",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_entity_map_24072017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_entity_map_back",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_entity_map_back.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_entity_map_back_19072017",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_entity_map_back_19072017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_group",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_list",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_list_20170722",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_list_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_list_20170724",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_list_20170724.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_list_20170725",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_list_20170725.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_list_20170725_12_33pm",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_list_20170725_12_33pm.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_type",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/pkl_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_author_action",
+      "type": "TABLE",
+      "file": "tables/pkl_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_author_action_20170722",
+      "type": "TABLE",
+      "file": "tables/pkl_author_action_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_author_action_20170725",
+      "type": "TABLE",
+      "file": "tables/pkl_author_action_20170725.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_author_action_20170725_12_33pm",
+      "type": "TABLE",
+      "file": "tables/pkl_author_action_20170725_12_33pm.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_component",
+      "type": "TABLE",
+      "file": "tables/pkl_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_component_layout",
+      "type": "TABLE",
+      "file": "tables/pkl_component_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_component_type",
+      "type": "TABLE",
+      "file": "tables/pkl_component_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_container",
+      "type": "TABLE",
+      "file": "tables/pkl_container.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_content_provider",
+      "type": "TABLE",
+      "file": "tables/pkl_content_provider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_content_source",
+      "type": "TABLE",
+      "file": "tables/pkl_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_category",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_group",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_group_back",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_group_back.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_maste_bak_200717",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_maste_bak_200717.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_master",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_master_1907",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_master_1907.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_master_20170719",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_master_20170719.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_master_back_250717",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_master_back_250717.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_master_bakv1",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_master_bakv1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_partner",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_role",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_role_back",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_role_back.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_role_map_1907",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_role_map_1907.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_role_map_20170719",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_role_map_20170719.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_role_map_29062017",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_role_map_29062017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_role_map_back_250717",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_role_map_back_250717.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_role_map_bakv1",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_role_map_bakv1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_type",
+      "type": "TABLE",
+      "file": "tables/pkl_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_hero_rating",
+      "type": "TABLE",
+      "file": "tables/pkl_hero_rating.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_hero_rating_asset_map",
+      "type": "TABLE",
+      "file": "tables/pkl_hero_rating_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_image",
+      "type": "TABLE",
+      "file": "tables/pkl_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_language_master",
+      "type": "TABLE",
+      "file": "tables/pkl_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_layout",
+      "type": "TABLE",
+      "file": "tables/pkl_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_menu",
+      "type": "TABLE",
+      "file": "tables/pkl_menu.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_page",
+      "type": "TABLE",
+      "file": "tables/pkl_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_page_20180611",
+      "type": "TABLE",
+      "file": "tables/pkl_page_20180611.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_page_partner",
+      "type": "TABLE",
+      "file": "tables/pkl_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_page_template_component_menu_map",
+      "type": "TABLE",
+      "file": "tables/pkl_page_template_component_menu_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_partner",
+      "type": "TABLE",
+      "file": "tables/pkl_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_pdf_master",
+      "type": "TABLE",
+      "file": "tables/pkl_pdf_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_poll",
+      "type": "TABLE",
+      "file": "tables/pkl_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/pkl_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_poll_option",
+      "type": "TABLE",
+      "file": "tables/pkl_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_poll_response",
+      "type": "TABLE",
+      "file": "tables/pkl_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_press_release",
+      "type": "TABLE",
+      "file": "tables/pkl_press_release.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_press_release_20170724",
+      "type": "TABLE",
+      "file": "tables/pkl_press_release_20170724.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_press_release_asset_map",
+      "type": "TABLE",
+      "file": "tables/pkl_press_release_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_press_release_asset_map_20170724",
+      "type": "TABLE",
+      "file": "tables/pkl_press_release_asset_map_20170724.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_press_release_asset_master",
+      "type": "TABLE",
+      "file": "tables/pkl_press_release_asset_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_provider_author_map",
+      "type": "TABLE",
+      "file": "tables/pkl_provider_author_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_rating_week",
+      "type": "TABLE",
+      "file": "tables/pkl_rating_week.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_redirect",
+      "type": "TABLE",
+      "file": "tables/pkl_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_role",
+      "type": "TABLE",
+      "file": "tables/pkl_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_sea_5_match_data",
+      "type": "TABLE",
+      "file": "tables/pkl_sea_5_match_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_season_5_matches",
+      "type": "TABLE",
+      "file": "tables/pkl_season_5_matches.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_seo_data",
+      "type": "TABLE",
+      "file": "tables/pkl_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_seo_data_20170722",
+      "type": "TABLE",
+      "file": "tables/pkl_seo_data_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_seo_data_20170724",
+      "type": "TABLE",
+      "file": "tables/pkl_seo_data_20170724.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_seo_data_20170725",
+      "type": "TABLE",
+      "file": "tables/pkl_seo_data_20170725.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_seo_data_20170725_12_33pm",
+      "type": "TABLE",
+      "file": "tables/pkl_seo_data_20170725_12_33pm.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_site_master",
+      "type": "TABLE",
+      "file": "tables/pkl_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_site_partner",
+      "type": "TABLE",
+      "file": "tables/pkl_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_template",
+      "type": "TABLE",
+      "file": "tables/pkl_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_template_200717",
+      "type": "TABLE",
+      "file": "tables/pkl_template_200717.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_template_20170717",
+      "type": "TABLE",
+      "file": "tables/pkl_template_20170717.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_template_20170722",
+      "type": "TABLE",
+      "file": "tables/pkl_template_20170722.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_template_20180611",
+      "type": "TABLE",
+      "file": "tables/pkl_template_20180611.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/pkl_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_template_component_content_map",
+      "type": "TABLE",
+      "file": "tables/pkl_template_component_content_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_template_component_map",
+      "type": "TABLE",
+      "file": "tables/pkl_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_template_component_map_20180611",
+      "type": "TABLE",
+      "file": "tables/pkl_template_component_map_20180611.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_topic",
+      "type": "TABLE",
+      "file": "tables/pkl_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_user",
+      "type": "TABLE",
+      "file": "tables/pkl_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_user_activity",
+      "type": "TABLE",
+      "file": "tables/pkl_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_user_language_map",
+      "type": "TABLE",
+      "file": "tables/pkl_user_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_user_role",
+      "type": "TABLE",
+      "file": "tables/pkl_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_video",
+      "type": "TABLE",
+      "file": "tables/pkl_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_ad_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_album_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_album_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_article_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_article_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_asset_delete_log_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_asset_draft_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_asset_entity_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_asset_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_asset_list_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_asset_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_asset_type_meta_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_author_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_cm_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_cm_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_component_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_component_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_component_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_content_provider_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_content_source_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_entity_category_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_entity_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_entity_image_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_entity_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_entity_master_bakv1_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_entity_master_bakv1_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_entity_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_entity_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_entity_role_map_bakv1_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_entity_role_map_bakv1_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_entity_role_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_entity_social_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_entity_social_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_entity_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_hero_rating_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_hero_rating_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_language_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_menu_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_page_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_page_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_page_template_component_menu_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_pdf_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_pdf_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_poll_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_poll_option_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_press_release_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_press_release_asset_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_press_release_asset_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_press_release_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_provider_author_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_rating_week_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_redirect_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_seo_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_site_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_site_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_social_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_social_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_template_component_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_template_component_content_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_template_component_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_template_externalasset_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_template_externalasset_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_template_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_topic_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_topic_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_user_activity_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_user_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_user_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_video_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_pkl_week_number",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_pkl_week_number.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_wf_custom_userid",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_wf_custom_userid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "seq_wf_userid",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_wf_userid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user",
+      "type": "TABLE",
+      "file": "tables/wf_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_27jul2017",
+      "type": "TABLE",
+      "file": "tables/wf_user_27jul2017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_custom",
+      "type": "TABLE",
+      "file": "tables/wf_user_custom.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_custom_27jul2017",
+      "type": "TABLE",
+      "file": "tables/wf_user_custom_27jul2017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_fp_req",
+      "type": "TABLE",
+      "file": "tables/wf_user_fp_req.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_fp_req_27jul2017",
+      "type": "TABLE",
+      "file": "tables/wf_user_fp_req_27jul2017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_fp_req_cf_user_fbid_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/wf_user_fp_req_cf_user_fbid_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_fp_req_cf_user_fbid_seq",
+      "type": "SEQUENCE OWNED BY",
+      "file": "sequences/wf_user_fp_req_cf_user_fbid_seq__02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_fp_req cf_user_fbid",
+      "type": "DEFAULT",
+      "file": "defaults/wf_user_fp_req_cf_user_fbid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_action pkl_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_action_pkl_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_ad pkl_ad_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_ad_pkl_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_album_asset_map pkl_album_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_album_asset_map_pkl_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_album pkl_album_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_album_pkl_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_article_asset_map pkl_article_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_article_asset_map_pkl_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_article pkl_article_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_article_pkl_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_delete_log pkl_asset_delete_log_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_asset_delete_log_pkl_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_draft pkl_asset_draft_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_asset_draft_pkl_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_entity_map pkl_asset_entity_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_asset_entity_map_pkl_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_group pkl_asset_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_asset_group_pkl_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_list pkl_asset_list_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_asset_list_pkl_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_type pkl_asset_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_asset_type_pkl_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_asset_type_meta pkl_asset_type_meta_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_asset_type_meta_pkl_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_author_action pkl_author_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_author_action_pkl_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_component pkl_component_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_component_pkl_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_component_layout pkl_component_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_component_layout_pkl_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_component_type pkl_component_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_component_type_pkl_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_container pkl_container_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_container_pkl_container_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_content_provider pkl_content_provider_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_content_provider_pkl_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_content_source pkl_content_source_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_content_source_pkl_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_category pkl_entity_category_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_entity_category_pkl_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_group pkl_entity_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_entity_group_pkl_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_image_map pkl_entity_image_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_entity_image_map_pkl_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_language_map pkl_entity_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_entity_language_map_pkl_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_master pkl_entity_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_entity_master_pkl_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_partner pkl_entity_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_entity_partner_pkl_entity_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_role pkl_entity_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_entity_role_pkl_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_role_map pkl_entity_role_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_entity_role_map_pkl_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_entity_type pkl_entity_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_entity_type_pkl_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_hero_rating_asset_map pkl_hero_rating_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_hero_rating_asset_map_pkl_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_hero_rating pkl_hero_rating_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_hero_rating_pkl_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_image pkl_image_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_image_pkl_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_language_master pkl_language_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_language_master_pkl_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_layout pkl_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_layout_pkl_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_menu pkl_menu_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_menu_pkl_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_page pkl_page_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_page_pkl_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_page_partner pkl_page_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_page_partner_pkl_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_page_template_component_menu_map pkl_page_template_component_menu_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_page_template_component_menu_map_pkl_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_partner pkl_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_partner_pkl_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_pdf_master pkl_pdf_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_pdf_master_pkl_pdf_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_poll_asset_map pkl_poll_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_poll_asset_map_pkl_poll_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_poll pkl_poll_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_poll_pkl_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_poll_option pkl_poll_option_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_poll_option_pkl_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_poll_response pkl_poll_response_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_poll_response_pkl_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_press_release_asset_map pkl_press_release_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_press_release_asset_map_pkl_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_press_release_asset_master pkl_press_release_asset_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_press_release_asset_master_pkl_press_release_asset_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_press_release pkl_press_release_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_press_release_pkl_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_provider_author_map pkl_provider_author_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_provider_author_map_pkl_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_rating_week pkl_rating_week_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_rating_week_pkl_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_redirect pkl_redirect_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_redirect_pkl_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_role pkl_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_role_pkl_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_seo_data pkl_seo_data_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_seo_data_pkl_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_site_master pkl_site_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_site_master_pkl_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_site_partner pkl_site_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_site_partner_pkl_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_template_component_asset_map pkl_template_component_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_template_component_asset_map_pkl_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_template_component_content_map pkl_template_component_content_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_template_component_content_map_pkl_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_template_component_map pkl_template_component_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_template_component_map_pkl_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_template pkl_template_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_template_pkl_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_topic pkl_topic_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_topic_pkl_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_user_activity pkl_user_activity_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_user_activity_pkl_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_user pkl_user_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_user_pkl_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_user_language_map pkl_user_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_user_language_map_pkl_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_user_role pkl_user_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_user_role_pkl_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "pkl_video pkl_video_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/pkl_video_pkl_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_custom wf_user_custom_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/wf_user_custom_wf_user_custom_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_fp_req wf_user_fp_req_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/wf_user_fp_req_wf_user_fp_req_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user wf_user_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/wf_user_wf_user_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "gix_pkl_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/gix_pkl_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_ad_ad_type",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_ad_ad_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_album_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_album_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_article_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_article_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_draft_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_draft_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_draft_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_draft_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_entity_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_entity_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_entity_map_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_entity_map_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_entity_map_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_entity_map_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_entity_map_uqid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_entity_map_uqid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_list_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_list_aidatid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_aidatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_list_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_list_permid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_permid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_list_published_date",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_published_date.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_list_sermid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_sermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_list_title_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_title_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_asset_list_title_alias_lower",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_title_alias_lower.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_author_action_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_author_action_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_author_action_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_author_action_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_entity_image_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_image_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_entity_language_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_language_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_entity_partner_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_partner_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_entity_partner_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_partner_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_entity_partner_lmid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_partner_lmid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_entity_role_egid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_egid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_entity_role_etid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_etid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_entity_role_map_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_map_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_entity_role_map_erid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_map_erid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_entity_role_map_soid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_map_soid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_hero_rating_asset_map_hrid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_hero_rating_asset_map_hrid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_hero_rating_rwid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_hero_rating_rwid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_hero_rating_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_hero_rating_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_page_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_page_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_poll_option_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_poll_option_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_poll_response_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_poll_response_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_poll_response_roid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_poll_response_roid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_rating_week_ry",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_rating_week_ry.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_rating_week_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_rating_week_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_rating_week_woty",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_rating_week_woty.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_redirect_old_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_redirect_old_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_seo_data_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_seo_data_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_site_partner_pgid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_site_partner_pgid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_site_partner_sid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_site_partner_sid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_template_component_map_cid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_template_component_map_cid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_template_component_map_tid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_template_component_map_tid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_user_activity_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_activity_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_user_activity_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_activity_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_user_emailid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_emailid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_user_role_rid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_role_rid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_user_role_uid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_role_uid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "ix_pkl_user_uname",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_uname.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_social_id_ix",
+      "type": "INDEX",
+      "file": "indexes/wf_user_social_id_ix.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "pkl",
+      "name": "wf_user_upper_email_id_ix",
+      "type": "INDEX",
+      "file": "indexes/wf_user_upper_email_id_ix.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 475,
+  "unclassified_count": 0
+}

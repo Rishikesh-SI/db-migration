@@ -1,0 +1,38 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: tmm
+-- Object: tmm_training_program
+-- Type: TABLE
+
+-- Name: tmm_training_program; Type: TABLE; Schema: tmm; Owner: -
+--
+
+CREATE TABLE tmm.tmm_training_program (
+    training_program_id numeric,
+    name text,
+    age numeric,
+    gender character varying(200),
+    dob timestamp without time zone,
+    best_event_date timestamp without time zone,
+    best_event_time text,
+    best_event_name text,
+    email_id character varying(2000),
+    phone_number text,
+    pdf_flag numeric,
+    pdf_category text,
+    pdf_path text,
+    running_group jsonb,
+    category_flag numeric,
+    category text,
+    created_date timestamp without time zone,
+    updated_date timestamp without time zone,
+    address character varying(4000),
+    pincode character varying(10),
+    occupation character varying(200),
+    designation character varying(200),
+    emergency_contact_name character varying(200),
+    emergency_contactno character varying(20),
+    program_json jsonb
+);
+
+
+--

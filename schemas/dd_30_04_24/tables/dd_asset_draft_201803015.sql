@@ -1,0 +1,25 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: dd_30_04_24
+-- Object: dd_asset_draft_201803015
+-- Type: TABLE
+
+-- Name: dd_asset_draft_201803015; Type: TABLE; Schema: dd_30_04_24; Owner: -
+--
+
+CREATE TABLE dd_30_04_24.dd_asset_draft_201803015 (
+    asset_draft_id numeric,
+    asset_id numeric,
+    asset_type_id numeric,
+    version_number numeric,
+    asset_data jsonb,
+    created_date timestamp without time zone,
+    updated_date timestamp without time zone,
+    created_by numeric,
+    updated_by numeric,
+    is_active numeric,
+    is_deleted numeric,
+    asset_draft_guid character varying(256)
+);
+
+
+--

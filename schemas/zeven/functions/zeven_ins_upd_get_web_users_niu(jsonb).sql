@@ -1,0 +1,266 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: zeven
+-- Object: zeven_ins_upd_get_web_users_niu(jsonb)
+-- Type: FUNCTION
+
+-- Name: zeven_ins_upd_get_web_users_niu(jsonb); Type: FUNCTION; Schema: zeven; Owner: -
+--
+
+CREATE FUNCTION zeven.zeven_ins_upd_get_web_users_niu(p_user_json jsonb, OUT p_result_json jsonb, OUT p_result numeric) RETURNS record
+    LANGUAGE plpgsql
+    AS $$
+
+declare
+	
+    v_current_timestamp timestamp without time zone := current_timestamp at time zone 'utc';
+    v_opt_type numeric;
+    v_client_id numeric;
+    v_social_user_name character varying(100);
+    v_user_full_name character varying(100);
+    v_email_id character varying(100);
+    v_user_password character varying(100);
+    v_social_id character varying(100);
+    v_upper_email_id character varying(100);
+    v_web_user_id numeric;
+    v_user_guid character varying(256);
+    v_is_active numeric;
+    v_is_deleted numeric;
+    v_created_by numeric;
+    v_updated_by numeric;
+    v_created_date timestamp without time zone;
+    v_updated_date timestamp without time zone;
+    v_reset_key character varying(256);
+    v_key_expiry_date timestamp without time zone;
+    v_reset_key_status numeric;
+    v_dob date;
+    v_profile_picture_url character varying(100);
+    v_city character varying(100);
+    v_mobile_no character varying(20);
+    v_sport_skill jsonb;
+    v_sport_skill_map json; 
+    v_sport_id numeric;
+    v_skill_level numeric;
+    
+begin
+	
+    select p_user_json->'data'->'opt_type'
+    into   v_opt_type;
+    
+    if v_opt_type in (1,3) then
+    	
+        select p_user_json->'data'->>'client_id',
+        		p_user_json->'data'->>'social_user_name',
+                p_user_json->'data'->>'user_full_name',
+                p_user_json->'data'->>'email_id',
+                p_user_json->'data'->>'user_password',
+                p_user_json->'data'->>'social_id'
+    	into   v_client_id,
+        		v_social_user_name,
+                v_user_full_name,
+                v_email_id,
+                v_user_password,
+                v_social_id;
+		
+        v_upper_email_id := upper(v_email_id);
+        
+        if not exists(select 1 from zeven.zeven_web_user where client_id = v_client_id and social_id = v_social_id) then
+        	
+        	v_web_user_id := nextval('zeven.seq_zeven_web_users_id');
+        	v_user_guid := uuid_generate_v4();
+        	v_is_active := 1;
+        	v_is_deleted := 0;
+        	v_created_by := 1;
+        	v_updated_by := 1;
+        	v_created_date := v_current_timestamp;
+        	v_updated_date := v_current_timestamp;
+        	
+        	insert into zeven.zeven_web_user(user_id, client_id, social_user_name, user_full_name, email_id, upper_email_id, user_password,
+                                              social_id, user_guid, is_active, is_deleted, created_by, updated_by, created_date, updated_date)
+			values(v_web_user_id, v_client_id, v_social_user_name, v_user_full_name, v_email_id, v_upper_email_id, v_user_password, v_social_id,
+                   v_user_guid, v_is_active, v_is_deleted, v_created_by, v_updated_by, v_created_date, v_updated_date);
+			
+		else
+        	
+            select user_id
+			into   v_web_user_id
+			from   zeven.zeven_web_user
+            where  upper_email_id = v_upper_email_id
+            and    user_password = v_user_password
+            and    client_id = v_client_id;
+            
+		end if;
+        
+	elsif v_opt_type = 2 then
+    	
+        select p_user_json->'data'->>'client_id',
+                p_user_json->'data'->>'user_full_name',
+                p_user_json->'data'->>'email_id',
+                p_user_json->'data'->>'user_password'
+    	into   v_client_id,
+                v_user_full_name,
+                v_email_id,
+                v_user_password;
+		
+        v_upper_email_id := upper(v_email_id);
+        
+        v_web_user_id := nextval('zeven.seq_zeven_web_users_id');
+        v_user_guid := uuid_generate_v4();
+        v_is_active := 1;
+        v_is_deleted := 0;
+        v_created_by := 1;
+        v_updated_by := 1;
+        v_created_date := v_current_timestamp;
+        v_updated_date := v_current_timestamp;
+        
+        insert into zeven.zeven_web_user(user_id, client_id, user_full_name, email_id, upper_email_id, user_password, user_guid, is_active,
+                                          is_deleted, created_by, updated_by, created_date, updated_date)
+		values(v_web_user_id, v_client_id, v_user_full_name, v_email_id, v_upper_email_id, v_user_password, v_user_guid, v_is_active, v_is_deleted,
+               v_created_by, v_updated_by, v_created_date, v_updated_date);
+        
+	elsif v_opt_type = 4 then
+    	
+        select p_user_json->'data'->>'email_id',
+                p_user_json->'data'->>'user_password'
+    	into   v_email_id,
+                v_user_password;
+		
+        v_upper_email_id := upper(v_email_id);
+        
+        select user_id
+		into   v_web_user_id
+		from   zeven.zeven_web_user
+        where  upper_email_id = v_upper_email_id
+        and    user_password = v_user_password;
+        
+	elsif v_opt_type = 5 then
+    	
+        select p_user_json->'data'->>'email_id',
+        		p_user_json->'data'->>'client_id'
+        into   v_email_id,
+        		v_client_id;
+        
+        v_upper_email_id := upper(v_email_id);
+        
+        v_reset_key := uuid_generate_v4();
+        v_key_expiry_date := v_current_timestamp + interval '24 hours';
+        v_reset_key_status := 1;
+        
+        update zeven.zeven_web_user
+        set    reset_key = v_reset_key,
+        		key_expiry_date = v_key_expiry_date,
+                reset_key_status = v_reset_key_status,
+                updated_date = v_current_timestamp
+		where  upper_email_id = v_upper_email_id
+        and    client_id = v_client_id;
+        
+        select user_id
+		from   zeven.zeven_web_user
+        into   v_web_user_id
+		where  upper_email_id = v_upper_email_id
+        and    client_id = v_client_id;
+        
+	elsif v_opt_type = 6 then
+    	
+        select p_user_json->'data'->>'email_id',
+        		p_user_json->'data'->>'client_id',
+                p_user_json->'data'->>'reset_key',
+                p_user_json->'data'->>'user_password'
+        into   v_email_id,
+        		v_client_id
+                v_reset_key,
+                v_user_password;
+		
+        v_upper_email_id := upper(v_email_id);
+        
+        select key_expiry_date, reset_key_status
+        into   v_key_expiry_date, v_reset_key_status
+        from   zeven.zeven_web_user
+        where  upper_email_id = v_upper_email_id
+        and    client_id = v_client_id
+        and    reset_key = v_reset_key;
+        
+        if v_reset_key_status = 1 and v_key_expiry_date < v_current_timestamp and v_key_expiry_date is not null then
+        	
+            update zeven.zeven_web_user
+            set    old_password = user_password,
+            	   user_password = v_user_password,
+                   reset_key_status = 0,
+                   reset_key = null
+			where  upper_email_id = v_upper_email_id
+        	and    client_id = v_client_id
+        	and    reset_key = v_reset_key;
+            
+		else
+            
+            update zeven.zeven_web_user
+            set    reset_key_status = 0,
+                   reset_key = null
+			where  upper_email_id = v_upper_email_id
+        	and    client_id = v_client_id
+        	and    reset_key = v_reset_key;
+            
+        end if;
+        
+	elsif v_opt_type = 7 then
+    	
+        select p_user_json->'data'->>'user_id',
+        		p_user_json->'data'->>'dob',
+                p_user_json->'data'->>'profile_picture_url',
+                p_user_json->'data'->>'city',
+                p_user_json->'data'->>'mobile_no',
+                p_user_json->'data'->'sport_skill'
+        into   v_web_user_id,
+        		v_dob
+                v_profile_picture_url,
+                v_city,
+                v_mobile_no,
+                v_sport_skill;
+		
+        update zeven.zeven_web_user
+        set    dob = v_dob,
+        	   profile_picture_url = v_profile_picture_url,
+               city = v_city,
+               is_registered = 1
+		where  user_id = v_web_user_id;
+        
+        delete from zeven.zeven_user_sport_skill_map where user_id = v_web_user_id;
+        
+        for v_sport_skill_map in select * from json_array_elements(v_sport_skill)
+        loop
+        	
+            select v_sport_skill_map->>'sport_id',
+            		v_sport_skill_map->>'skill_level'
+			into   v_sport_id,
+            		v_skill_level;
+            
+            insert into zeven.zeven_user_sport_skill_map(user_sport_skill_map_id, user_id, sport_id, skill_level, is_active, is_deleted, created_by,
+                                                         updated_by, created_date, updated_date)
+            values(nextval('zeven.seq_zeven_user_sport_skill_map_id'), v_web_user_id, v_sport_id, v_skill_level, 1, 0, 1, 1, v_current_timestamp,
+                   v_current_timestamp);
+            
+        end loop;
+        
+    end if;
+    
+    select '{"data":'||row_to_json(row)||'}'
+    from
+    (
+        select *,(select array_to_json(array_agg(a))
+                  from(select sport_id, skill_level
+                       from   zeven.zeven_user_sport_skill_map
+                       where  user_id = user_id
+                      )a
+                 )sport_skill
+        from   zeven.zeven_web_user
+        where  user_id = v_web_user_id
+    ) as row
+    into   p_result_json;
+    
+    p_result := 1;
+    
+end;
+
+$$;
+
+
+--

@@ -1,0 +1,4955 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "labupstox",
+      "type": "SCHEMA",
+      "file": "labupstox.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "_get_web_list_json(text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/get_web_list_json(text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "_ins_upd_article(text, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/ins_upd_article(text,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "copy_function(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/copy_function(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "data(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/data(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_bulk_upd_asset_entity_map(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_bulk_upd_asset_entity_map(numeric,_numeric,_numeric[],_jsonb,_numeric,_characte_3d7197ba64.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_bulk_upd_modify_date(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_bulk_upd_modify_date(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_var_969d25d794.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_change_asset_lock_status(character, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_change_asset_lock_status(character,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_check_asset_ent_by_cat(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_check_asset_ent_by_cat(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_check_page_alias(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_check_page_alias(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_check_slugurl(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_check_slugurl(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_db_backup()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_db_backup().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_del_image(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_del_image(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_del_topic(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_del_topic(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_delete_asset(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_delete_asset(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_delete_run(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_delete_run(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_edit_del_menu(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_edit_del_menu(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_edit_del_page(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_edit_del_page(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_edit_del_template(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_edit_del_template(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_gen_onthisday_article(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_gen_onthisday_article(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_activity_feed()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_activity_feed().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_ad_comp_cont_map_list(numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_ad_comp_cont_map_list(numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_ad_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_ad_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_ad_detail_r(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_ad_detail_r(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_ad_listing(numeric, numeric[], text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_ad_listing(numeric,_numeric[],_text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_ad_position_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_ad_position_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_ad_r(text, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_ad_r(text,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_album_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_album_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_album_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_album_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_album_detail_r(character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_album_detail_r(character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_album_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_album_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeri_2152e3b7e2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_album_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_album_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_article_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_article_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_article_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_article_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_article_detail_r(character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_article_detail_r(character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_article_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_article_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_nume_1812a3dbb3.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_count_by_cat_json_r(numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_count_by_cat_json_r(numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_count_by_cat_r(numeric[], numeric[], character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_count_by_cat_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_refc_259a8f6007.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_count_by_cat_rb_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_count_by_cat_rb_r(numeric[],_numeric[],_character_varying,_numeric,_r_1005d770ac.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_detail_r_checking(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_detail_r_checking(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_listing(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_listing(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_listing_all(numeric, numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_listing_all(numeric,_numeric,_numeric,_numeric,_numeric[],_numeric[],_1b6a701cd9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_listing_by_cat_json_r(numeric, numeric, numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_listing_by_cat_json_r(numeric,_numeric,_numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_listing_by_cat_r(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_listing_by_cat_r(numeric,_numeric,_numeric[],_numeric[],_character_va_8bd7ce6f58.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_listing_by_title(numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_listing_by_title(numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_listing_by_type_r(numeric, numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_listing_by_type_r(numeric,_numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_listing_for_any_ent_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_listing_for_any_ent_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_a7f6e6282b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_d1fc738e88.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_next_prev_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_next_prev_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_asset_type_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_asset_type_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_author_detail_by_cat_r(numeric[], numeric[], character varying, numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_author_detail_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_nu_0fd755e904.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_author_listing_by_lang_r(numeric, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_author_listing_by_lang_r(numeric,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_canonical_url_r(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_canonical_url_r(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_category_list_21082019_19a8(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_category_list_21082019_19a8(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_category_list_22082019_e5c3(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_category_list_22082019_e5c3(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_city_activity_report(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_city_activity_report(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_container_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_container_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_content_provider(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_content_provider(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_corporate_activity_report(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_corporate_activity_report(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_download_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_download_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_download_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_download_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_num_576bc3c1a7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_download_listing_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_download_listing_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_ent_role_mapid(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_ent_role_mapid(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_ent_role_mapid_r(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_ent_role_mapid_r(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_detail(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_detail(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_display_name_by_language(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_display_name_by_language(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_group_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_group_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_known_as(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_known_as(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_language_from_entities(numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_language_from_entities(numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_listing(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_listing(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_name_by_asset(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_name_by_asset(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_name_by_lang(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_name_by_lang(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_roles_21082019_6245(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_roles_21082019_6245(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_roles_21082019_e1e3(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_roles_21082019_e1e3(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_roles_22082019_99fe(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_roles_22082019_99fe(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_entity_type_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_entity_type_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_export_details(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_export_details(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_files_list(numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_files_list(numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_heroes_detail_r(numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_heroes_detail_r(numeric,_numeric,_refcursor,_refcursor,_refcursor,_refcurso_eeb0209f0b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_image_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_image_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_image_listing(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_image_listing(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_leaderboard_listing_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_leaderboard_listing_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_leaderboard_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_leaderboard_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_menu_by_parent(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_menu_by_parent(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_menu_by_parent_r(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_menu_by_parent_r(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_menu_listing(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_menu_listing(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_menu_page_map_list(numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_menu_page_map_list(numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_my_journey_data()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_my_journey_data().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_navigation_r(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_navigation_r(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_new_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_new_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_overall_stats()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_overall_stats().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_page_data(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_page_data(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_page_data_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_page_data_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,__63cb221099.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_page_data_r(character varying, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_page_data_r(character_varying,_numeric,_refcursor,_refcursor,_refcursor,_re_3cf44014c6.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_page_data_r(character varying, text, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_page_data_r(character_varying,_text,_refcursor,_refcursor,_refcursor,_refcu_ff8b8769ae.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_page_data_r(character varying, numeric, text, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_page_data_r(character_varying,_numeric,_text,_refcursor,_refcursor,_refcurs_d38df703dc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_page_listing(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_page_listing(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_page_sitemap(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_page_sitemap(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_player_detail_by_cat_json_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_player_detail_by_cat_json_r(numeric,_numeric[],_numeric[],_character_varyin_2f1e0cc4ec.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_player_detail_by_cat_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_player_detail_by_cat_r(numeric,_numeric[],_numeric[],_character_varying,_nu_5dfb4f3a80.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_poll_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_poll_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_poll_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_poll_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric_2a47793728.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_poll_listing_r(numeric, numeric, numeric[], character varying, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_poll_listing_r(numeric,_numeric,_numeric[],_character_varying,_refcursor,_r_7966beea10.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_poll_listing_r_201021(numeric, numeric, numeric[], character varying, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_poll_listing_r_201021(numeric,_numeric,_numeric[],_character_varying,_refcu_3ed6115d67.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_poll_vote_listing_r(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_poll_vote_listing_r(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_press_realease_listing_r(numeric, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_press_realease_listing_r(numeric,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_press_release_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_press_release_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_press_release_listing(numeric, numeric, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_press_release_listing(numeric,_numeric,_numeric,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_rating_week_r(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_rating_week_r(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_series_detail(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_series_detail(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_series_detail_r(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_series_detail_r(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_sitemap(character varying, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_sitemap(character_varying,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_sitemap_asset_count(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_sitemap_asset_count(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_state_activity_report(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_state_activity_report(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_state_stat()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_state_stat().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_team_player_detail_r(character varying, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_team_player_detail_r(character_varying,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_tem_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_tem_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_b4c7f5076e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_tem_comp_asset_map_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_tem_comp_asset_map_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_tem_comp_asset_map_detail_r(numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_tem_comp_asset_map_detail_r(numeric,_numeric[],_refcursor,_refcursor,_refcu_ecd59658e2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_tem_cop_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_tem_cop_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_temp_comp_cont_map_detail(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_temp_comp_cont_map_detail(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,__e32d1400fa.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_template_component(numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_template_component(numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_template_data(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_template_data(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_template_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_template_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_template_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_template_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_topic_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_topic_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_topic_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_topic_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeri_5733544609.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_topic_listing_r(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_topic_listing_r(numeric, numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_user_activity(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_user_activity(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_user_activity_report(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_user_activity_report(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_user_data(jsonb, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_user_data(jsonb,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_user_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_user_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_user_detail(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_user_detail(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_user_disp_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_user_disp_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_user_display_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_user_display_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_user_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_user_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_user_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_user_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_user_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_user_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_user_listing_with_param(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_user_listing_with_param(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_user_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_user_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_user_profile(text)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_user_profile(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_users_pending_transaction_r()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_users_pending_transaction_r().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_video_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_video_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_video_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_video_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_video_detail_r_bk(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_video_detail_r_bk(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_video_detail_rback(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_video_detail_rback(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_video_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_video_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_video_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_video_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeri_8912bbb12a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_video_listing_backup_18022017(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_video_listing_backup_18022017(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_visual_stories_list()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_visual_stories_list().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_get_word_count(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_get_word_count(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ingest_fund_raise_data(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ingest_fund_raise_data(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ingest_user_activity_master(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ingest_user_activity_master(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_cookies_data(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_cookies_data(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_entity_language_map(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_entity_language_map(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_up_redirect(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_up_redirect(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_activity_report()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_activity_report().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_ad(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_ad(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_ad_management(numeric, text, text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_ad_management(numeric,_text,_text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_album(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_album(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_albumnew(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_albumnew(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_article(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_article(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_article_29012019(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_article_29012019(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_city_report()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_city_report().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_contact(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_contact(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_container(numeric, character varying, numeric, numeric, numeric, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_container(numeric,_character_varying,_numeric,_numeric,_numeric,_charac_67c179403f.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_corporate_report()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_corporate_report().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_download(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_download(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_entity(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_entity(numeric,_numeric[],_numeric[],_character_varying[],_character_va_604af77d02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_entity_ar(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_entity_ar(numeric,_numeric[],_numeric[],_character_varying[],_character_0972f4826d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_file(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_file(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_get_web_users_login(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_get_web_users_login(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_get_web_users_login_bkp(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_get_web_users_login_bkp(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_group_registration(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_group_registration(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_heros(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_heros(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_image(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_image(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_layout(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_layout(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_menu(numeric, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric[], numeric[], character varying[], numeric[], numeric[], numeric[], numeric[], numeric[], character varying[], text[], character varying[], numeric[], numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_menu(numeric,_character_varying,_character_varying,_numeric,_numeric,_n_4768a57763.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_page(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_page(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_page_template_comp_menu_map(numeric[], numeric, numeric[], numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_page_template_comp_menu_map(numeric[],_numeric,_numeric[],_numeric,_num_ed7401f778.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_pagebkup_07112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_pagebkup_07112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_poll(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_poll(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_poll_response(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_poll_response(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_rating_week(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_rating_week(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_seo_data(numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_seo_data(numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_state_report()",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_state_report().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_template(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_template(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_template_comp_cont_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_template_comp_cont_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_template_component_map(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_template_component_map(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_topic(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_topic(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_topic_partial(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_topic_partial(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_user_ar(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_user_ar(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_user_login(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_user_login(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_user_registration(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_user_registration(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_video(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_video(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_video_bak(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_video_bak(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_upd_web_users_login_dk(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_upd_web_users_login_dk(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ins_url_testing(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_ins_url_testing(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_is_poll_active(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_is_poll_active(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_search_entity(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_search_entity(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_search_entity_by_page(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_search_entity_by_page(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_search_entity_by_page_all(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_search_entity_by_page_all(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_search_entity_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_search_entity_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_setup_new_client(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_setup_new_client(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_show_get_page_data(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_show_get_page_data(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_show_get_rss_data(numeric, numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_show_get_rss_data(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_show_get_site_map_data(numeric, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_show_get_site_map_data(numeric,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_upd_author(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_upd_author(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,_nume_6a3cb013f8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_upd_badge_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_upd_badge_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_upd_badge_detail(text)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_upd_badge_detail(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_upd_del_user_asset_comments(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_upd_del_user_asset_comments(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_upd_one_time_activity(text)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_upd_one_time_activity(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_upd_page_hierarchy(numeric, character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_upd_page_hierarchy(numeric,_character_varying[],_numeric[],_numeric[],_numeric[_dca641dbbf.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_upd_user_detail(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_upd_user_detail(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_upd_user_pending_transaction(json)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_upd_user_pending_transaction(json).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_upd_user_transaction(json)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_upd_user_transaction(json).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_user_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_validate_user_email(text)",
+      "type": "FUNCTION",
+      "file": "functions/labupstox_validate_user_email(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "regexp_count(text, text)",
+      "type": "FUNCTION",
+      "file": "functions/regexp_count(text,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_academy",
+      "type": "TABLE",
+      "file": "tables/labupstox_academy.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_academy_fee",
+      "type": "TABLE",
+      "file": "tables/labupstox_academy_fee.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_academy_user_registration",
+      "type": "TABLE",
+      "file": "tables/labupstox_academy_user_registration.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_action",
+      "type": "TABLE",
+      "file": "tables/labupstox_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_activity_date",
+      "type": "TABLE",
+      "file": "tables/labupstox_activity_date.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ad",
+      "type": "TABLE",
+      "file": "tables/labupstox_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ad_client",
+      "type": "TABLE",
+      "file": "tables/labupstox_ad_client.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_advertisement",
+      "type": "TABLE",
+      "file": "tables/labupstox_advertisement.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_age_group",
+      "type": "TABLE",
+      "file": "tables/labupstox_age_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_album",
+      "type": "TABLE",
+      "file": "tables/labupstox_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_article",
+      "type": "TABLE",
+      "file": "tables/labupstox_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_comment_reaction",
+      "type": "TABLE",
+      "file": "tables/labupstox_asset_comment_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_delete_log",
+      "type": "TABLE",
+      "file": "tables/labupstox_asset_delete_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_draft",
+      "type": "TABLE",
+      "file": "tables/labupstox_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_group",
+      "type": "TABLE",
+      "file": "tables/labupstox_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_list",
+      "type": "TABLE",
+      "file": "tables/labupstox_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_type",
+      "type": "TABLE",
+      "file": "tables/labupstox_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/labupstox_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_assets_view",
+      "type": "TABLE",
+      "file": "tables/labupstox_assets_view.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_author_action",
+      "type": "TABLE",
+      "file": "tables/labupstox_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_bib_no",
+      "type": "TABLE",
+      "file": "tables/labupstox_bib_no.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_city_activity_report",
+      "type": "TABLE",
+      "file": "tables/labupstox_city_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_city_report",
+      "type": "TABLE",
+      "file": "tables/labupstox_city_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_city_state_fund",
+      "type": "TABLE",
+      "file": "tables/labupstox_city_state_fund.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_client_web_cust_model",
+      "type": "TABLE",
+      "file": "tables/labupstox_client_web_cust_model.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_component",
+      "type": "TABLE",
+      "file": "tables/labupstox_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_component_layout",
+      "type": "TABLE",
+      "file": "tables/labupstox_component_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_component_type",
+      "type": "TABLE",
+      "file": "tables/labupstox_component_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_contact",
+      "type": "TABLE",
+      "file": "tables/labupstox_contact.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_container",
+      "type": "TABLE",
+      "file": "tables/labupstox_container.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_content_provider",
+      "type": "TABLE",
+      "file": "tables/labupstox_content_provider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_content_source",
+      "type": "TABLE",
+      "file": "tables/labupstox_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_corporate_activity_report",
+      "type": "TABLE",
+      "file": "tables/labupstox_corporate_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_corporate_fund",
+      "type": "TABLE",
+      "file": "tables/labupstox_corporate_fund.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_deleted_activity_detail",
+      "type": "TABLE",
+      "file": "tables/labupstox_deleted_activity_detail.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_category",
+      "type": "TABLE",
+      "file": "tables/labupstox_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_group",
+      "type": "TABLE",
+      "file": "tables/labupstox_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_master",
+      "type": "TABLE",
+      "file": "tables/labupstox_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_partner",
+      "type": "TABLE",
+      "file": "tables/labupstox_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_role",
+      "type": "TABLE",
+      "file": "tables/labupstox_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_type",
+      "type": "TABLE",
+      "file": "tables/labupstox_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_fast_n_up_code",
+      "type": "TABLE",
+      "file": "tables/labupstox_fast_n_up_code.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_gratification_detail_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labupstox_gratification_detail_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_gratification_detail_seqserial",
+      "type": "SEQUENCE",
+      "file": "sequences/labupstox_gratification_detail_seqserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_gratification_details",
+      "type": "TABLE",
+      "file": "tables/labupstox_gratification_details.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_gratification_event",
+      "type": "TABLE",
+      "file": "tables/labupstox_gratification_event.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_gratification_gift",
+      "type": "TABLE",
+      "file": "tables/labupstox_gratification_gift.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_gratification_gift_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labupstox_gratification_gift_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_gratification_gift_seqserial",
+      "type": "SEQUENCE",
+      "file": "sequences/labupstox_gratification_gift_seqserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_group",
+      "type": "TABLE",
+      "file": "tables/labupstox_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_group_report",
+      "type": "TABLE",
+      "file": "tables/labupstox_group_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_hero_rating",
+      "type": "TABLE",
+      "file": "tables/labupstox_hero_rating.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_hero_rating_asset_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_hero_rating_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_image",
+      "type": "TABLE",
+      "file": "tables/labupstox_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_language_master",
+      "type": "TABLE",
+      "file": "tables/labupstox_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_layout",
+      "type": "TABLE",
+      "file": "tables/labupstox_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_menu",
+      "type": "TABLE",
+      "file": "tables/labupstox_menu.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_menu_page_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_menu_page_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_nonprofit_fund",
+      "type": "TABLE",
+      "file": "tables/labupstox_nonprofit_fund.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_overall_fund",
+      "type": "TABLE",
+      "file": "tables/labupstox_overall_fund.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_page",
+      "type": "TABLE",
+      "file": "tables/labupstox_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_page_partner",
+      "type": "TABLE",
+      "file": "tables/labupstox_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_page_template_component_menu_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_page_template_component_menu_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_partner",
+      "type": "TABLE",
+      "file": "tables/labupstox_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_poll",
+      "type": "TABLE",
+      "file": "tables/labupstox_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_poll_gratify_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labupstox_poll_gratify_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_poll_gratify_seqserial",
+      "type": "SEQUENCE",
+      "file": "sequences/labupstox_poll_gratify_seqserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_poll_option",
+      "type": "TABLE",
+      "file": "tables/labupstox_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_poll_response",
+      "type": "TABLE",
+      "file": "tables/labupstox_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_press_release",
+      "type": "TABLE",
+      "file": "tables/labupstox_press_release.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_press_release_asset_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_press_release_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_profile_complete_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labupstox_profile_complete_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_profile_complete_seqserial",
+      "type": "SEQUENCE",
+      "file": "sequences/labupstox_profile_complete_seqserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_provider_author_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_provider_author_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_race_category",
+      "type": "TABLE",
+      "file": "tables/labupstox_race_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_rating_week",
+      "type": "TABLE",
+      "file": "tables/labupstox_rating_week.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_redirect",
+      "type": "TABLE",
+      "file": "tables/labupstox_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_role",
+      "type": "TABLE",
+      "file": "tables/labupstox_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_runner_group_data",
+      "type": "TABLE",
+      "file": "tables/labupstox_runner_group_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_seo_data",
+      "type": "TABLE",
+      "file": "tables/labupstox_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_site_master",
+      "type": "TABLE",
+      "file": "tables/labupstox_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_site_partner",
+      "type": "TABLE",
+      "file": "tables/labupstox_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_state_activity_report",
+      "type": "TABLE",
+      "file": "tables/labupstox_state_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_state_master",
+      "type": "TABLE",
+      "file": "tables/labupstox_state_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_state_report",
+      "type": "TABLE",
+      "file": "tables/labupstox_state_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_template",
+      "type": "TABLE",
+      "file": "tables/labupstox_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_template_component_content_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_template_component_content_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_template_component_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_topic",
+      "type": "TABLE",
+      "file": "tables/labupstox_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user",
+      "type": "TABLE",
+      "file": "tables/labupstox_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_activity",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_activity_detail",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_activity_detail.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_activity_master",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_activity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_activity_report",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_asset_reaction",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_asset_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_badge_detail",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_badge_detail.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_data_filter",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_data_filter.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_language_map",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_master",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_poll_response",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_race_challange",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_race_challange.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_report",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_role",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_role_menu_action_map2",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_role_menu_action_map2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_transaction",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_transaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_transaction_history",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_transaction_history.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_week_activity",
+      "type": "TABLE",
+      "file": "tables/labupstox_user_week_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_video",
+      "type": "TABLE",
+      "file": "tables/labupstox_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_web_user",
+      "type": "TABLE",
+      "file": "tables/labupstox_web_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_web_user_audit",
+      "type": "TABLE",
+      "file": "tables/labupstox_web_user_audit.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_action_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_action_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_ad_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_ad_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_ad_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_album_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_album_asset_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_album_asset_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_album_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_album_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_album_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_article_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_article_asset_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_article_asset_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_article_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_article_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_article_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_comment_reaction_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_comment_reaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_comment_reaction_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_comment_reaction_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_delete_log_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_delete_log_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_delete_log_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_draft_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_draft_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_draft_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_entity_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_entity_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_entity_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_group_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_group_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_list_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_list_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_list_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_type_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_type_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_type_meta_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_asset_type_meta_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_asset_type_meta_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_assets_view_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_assets_view_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_assets_view_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_assets_view_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_author_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_author_action_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_author_action_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_city_activity_report",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_city_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_city_activity_reportserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_city_activity_reportserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_city_report",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_city_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_city_reportserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_city_reportserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_city_state_fund",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_city_state_fund.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_city_state_fundserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_city_state_fundserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_cm_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_cm_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_cm_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_cm_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_component_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_component_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_component_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_component_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_component_layout_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_component_layout_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_component_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_component_type_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_component_type_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_contact_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_contact_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_contact_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_content_provider_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_content_provider_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_content_provider_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_content_source_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_content_source_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_content_source_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_cookies_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_cookies_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_cookies_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_cookies_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_corporate_activity_report",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_corporate_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_corporate_activity_reportserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_corporate_activity_reportserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_corporate_fund",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_corporate_fund.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_corporate_fundserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_corporate_fundserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_custom_module_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_custom_module_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_download_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_download_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_download_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_download_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_download_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_download_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_download_master_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_download_master_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_category_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_category_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_category_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_group_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_group_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_image_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_image_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_image_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_language_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_language_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_master_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_master_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_role_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_role_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_role_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_role_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_role_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_social_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_social_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_social_detail_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_social_detail_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_entity_type_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_entity_type_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_group_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_group_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_group_report",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_group_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_group_reportserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_group_reportserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_hero_rating_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_hero_rating_asset_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_hero_rating_asset_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_hero_rating_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_hero_rating_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_hero_rating_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_image_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_image_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_language_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_language_master_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_language_master_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_layout_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_layout_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_menu_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_menu_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_menu_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_menu_page_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_menu_page_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_menu_page_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_nonprofit_fund",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_nonprofit_fund.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_nonprofit_fundserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_nonprofit_fundserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_overall_fund",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_overall_fund.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_overall_fundserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_overall_fundserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_page_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_page_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_page_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_page_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_page_partner_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_page_partner_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_page_template_component_menu_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_page_template_component_menu_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_page_template_component_menu_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_poll_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_poll_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_poll_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_poll_option_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_poll_option_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_poll_option_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_poll_response_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_poll_response_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_press_release_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_press_release_asset_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_press_release_asset_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_press_release_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_press_release_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_press_release_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_provider_author_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_provider_author_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_provider_author_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_rating_week_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_rating_week_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_rating_week_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_redirect_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_redirect_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_redirect_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_role_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_role_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_runner_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_runner_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_runner_group_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_runner_group_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_seo_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_seo_data_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_seo_data_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_site_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_site_master_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_site_master_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_site_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_site_partner_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_site_partner_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_social_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_social_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_social_client_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_social_client_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_state_activity_report",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_state_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_state_activity_reportserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_state_activity_reportserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_state_report",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_state_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_state_reportserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_state_reportserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_template_component_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_template_component_asset_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_template_component_asset_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_template_component_content_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_template_component_content_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_template_component_content_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_template_component_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_template_component_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_template_component_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_template_externalasset_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_template_externalasset_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_template_externalasset_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_template_externalasset_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_template_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_template_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_template_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_topic_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_topic_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_topic_asset_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_topic_asset_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_topic_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_topic_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_activity_detail",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_activity_detail.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_activity_detailserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_activity_detailserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_activity_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_activity_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_activity_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_activity_master",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_activity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_activity_masterserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_activity_masterserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_activity_report",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_activity_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_activity_reportserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_activity_reportserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_asset_reaction_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_asset_reaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_asset_reaction_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_asset_reaction_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_bib_no",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_bib_no.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_bib_noserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_bib_noserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_language_map_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_language_map_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_master_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_master_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_poll_response_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_poll_response_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_registration_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_registration_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_registration_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_registration_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_report",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_report.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_reportserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_reportserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_role_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_role_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_role_menu_action_map",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_role_menu_action_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_role_menu_action_mapserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_role_menu_action_mapserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_transaction_history_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_transaction_history_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_transaction_history_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_transaction_history_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_transaction_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_transaction_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_user_transaction_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_user_transaction_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_video_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_video_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_video_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_web_user_audit_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_web_user_audit_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_web_user_audit_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_web_user_audit_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_web_users_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_web_users_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_web_users_idserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_web_users_idserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_week_number",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_week_number.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "seq_labupstox_week_numberserial",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labupstox_week_numberserial.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_academy_fee upstox_academy_fee_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_academy_fee_upstox_academy_fee_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_academy upstox_academy_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_academy_upstox_academy_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_academy_user_registration upstox_academy_user_registration_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_academy_user_registration_upstox_academy_user_registration_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_action upstox_action_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_action_upstox_action_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ad_client upstox_ad_client_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_ad_client_upstox_ad_client_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_ad upstox_ad_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_ad_upstox_ad_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_advertisement upstox_advertisement_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_advertisement_upstox_advertisement_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_album_asset_map upstox_album_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_album_asset_map_upstox_album_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_album upstox_album_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_album_upstox_album_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_article_asset_map upstox_article_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_article_asset_map_upstox_article_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_article upstox_article_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_article_upstox_article_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_comment_reaction upstox_asset_comment_reaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_asset_comment_reaction_upstox_asset_comment_reaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_delete_log upstox_asset_delete_log_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_asset_delete_log_upstox_asset_delete_log_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_draft upstox_asset_draft_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_asset_draft_upstox_asset_draft_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_entity_map upstox_asset_entity_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_asset_entity_map_upstox_asset_entity_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_group upstox_asset_group_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_asset_group_upstox_asset_group_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_list upstox_asset_list_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_asset_list_upstox_asset_list_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_type_meta upstox_asset_type_meta_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_asset_type_meta_upstox_asset_type_meta_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_asset_type upstox_asset_type_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_asset_type_upstox_asset_type_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_assets_view upstox_assets_view_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_assets_view_upstox_assets_view_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_author_action upstox_author_action_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_author_action_upstox_author_action_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_city_activity_report upstox_city_activity_report_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_city_activity_report_upstox_city_activity_report_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_city_report upstox_city_report_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_city_report_upstox_city_report_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_component_layout upstox_component_layout_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_component_layout_upstox_component_layout_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_component upstox_component_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_component_upstox_component_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_component_type upstox_component_type_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_component_type_upstox_component_type_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_contact upstox_contact_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_contact_upstox_contact_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_container upstox_container_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_container_upstox_container_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_content_provider upstox_content_provider_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_content_provider_upstox_content_provider_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_content_source upstox_content_source_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_content_source_upstox_content_source_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_corporate_activity_report upstox_corporate_activity_report_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_corporate_activity_report_upstox_corporate_activity_report_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_category upstox_entity_category_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_entity_category_upstox_entity_category_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_group upstox_entity_group_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_entity_group_upstox_entity_group_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_image_map upstox_entity_image_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_entity_image_map_upstox_entity_image_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_language_map upstox_entity_language_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_entity_language_map_upstox_entity_language_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_master upstox_entity_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_entity_master_upstox_entity_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_partner upstox_entity_partner_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_entity_partner_upstox_entity_partner_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_role_map upstox_entity_role_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_entity_role_map_upstox_entity_role_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_role upstox_entity_role_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_entity_role_upstox_entity_role_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_entity_type upstox_entity_type_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_entity_type_upstox_entity_type_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_gratification_details upstox_gratification_details_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_gratification_details_upstox_gratification_details_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_gratification_event upstox_gratification_event_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_gratification_event_upstox_gratification_event_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_gratification_gift upstox_gratification_gift_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_gratification_gift_upstox_gratification_gift_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_group upstox_group_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_group_upstox_group_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_group_report upstox_group_report_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_group_report_upstox_group_report_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_hero_rating_asset_map upstox_hero_rating_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_hero_rating_asset_map_upstox_hero_rating_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_hero_rating upstox_hero_rating_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_hero_rating_upstox_hero_rating_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_image upstox_image_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_image_upstox_image_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_language_master upstox_language_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_language_master_upstox_language_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_layout upstox_layout_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_layout_upstox_layout_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_menu_page_map upstox_menu_page_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_menu_page_map_upstox_menu_page_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_menu upstox_menu_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_menu_upstox_menu_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_page_partner upstox_page_partner_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_page_partner_upstox_page_partner_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_page upstox_page_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_page_upstox_page_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_page_template_component_menu_map upstox_page_template_component_menu_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_page_template_component_menu_map_upstox_page_template_component_menu_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_partner upstox_partner_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_partner_upstox_partner_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_poll_asset_map upstox_poll_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_poll_asset_map_upstox_poll_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_poll_option upstox_poll_option_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_poll_option_upstox_poll_option_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_poll upstox_poll_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_poll_upstox_poll_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_poll_response upstox_poll_response_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_poll_response_upstox_poll_response_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_press_release_asset_map upstox_press_release_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_press_release_asset_map_upstox_press_release_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_press_release upstox_press_release_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_press_release_upstox_press_release_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_provider_author_map upstox_provider_author_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_provider_author_map_upstox_provider_author_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_rating_week upstox_rating_week_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_rating_week_upstox_rating_week_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_redirect upstox_redirect_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_redirect_upstox_redirect_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_role upstox_role_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_role_upstox_role_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_runner_group_data upstox_runner_group_data_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_runner_group_data_upstox_runner_group_data_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_seo_data upstox_seo_data_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_seo_data_upstox_seo_data_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_site_master upstox_site_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_site_master_upstox_site_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_site_partner upstox_site_partner_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_site_partner_upstox_site_partner_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_state_activity_report upstox_state_activity_report_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_state_activity_report_upstox_state_activity_report_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_state_master upstox_state_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_state_master_upstox_state_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_state_report upstox_state_report_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_state_report_upstox_state_report_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_template_component_asset_map upstox_template_component_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_template_component_asset_map_upstox_template_component_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_template_component_content_map upstox_template_component_content_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_template_component_content_map_upstox_template_component_content_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_template_component_map upstox_template_component_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_template_component_map_upstox_template_component_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_template upstox_template_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_template_upstox_template_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_topic upstox_topic_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_topic_upstox_topic_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_activity_detail upstox_user_activity_detail_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_user_activity_detail_upstox_user_activity_detail_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_activity_master upstox_user_activity_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_user_activity_master_upstox_user_activity_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_activity upstox_user_activity_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_user_activity_upstox_user_activity_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_activity_report upstox_user_activity_report_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_user_activity_report_upstox_user_activity_report_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_asset_reaction upstox_user_asset_reaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_user_asset_reaction_upstox_user_asset_reaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_language_map upstox_user_language_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_user_language_map_upstox_user_language_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_master upstox_user_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_user_master_upstox_user_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user upstox_user_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_user_upstox_user_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_report upstox_user_report_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_user_report_upstox_user_report_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_role_menu_action_map2 upstox_user_role_menu_action_map2_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_user_role_menu_action_map2_upstox_user_role_menu_action_map2_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_role upstox_user_role_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_user_role_upstox_user_role_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_transaction_history upstox_user_transaction_history_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_user_transaction_history_upstox_user_transaction_history_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_user_transaction upstox_user_transaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_user_transaction_upstox_user_transaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_video upstox_video_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_video_upstox_video_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_web_user_audit upstox_web_user_audit_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_web_user_audit_upstox_web_user_audit_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "labupstox_web_user upstox_web_user_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labupstox_web_user_upstox_web_user_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_ad_ad_type_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_ad_ad_type_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_album_asset_map_album_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_album_asset_map_album_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_article_asset_map_article_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_article_asset_map_article_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_asset_draft_asset_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_asset_draft_asset_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_asset_draft_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_asset_draft_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_asset_entity_map_asset_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_asset_entity_map_asset_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_asset_entity_map_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_asset_entity_map_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_asset_entity_map_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_asset_entity_map_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_asset_list_asset_id_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_asset_list_asset_id_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_asset_list_asset_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_asset_list_asset_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_asset_list_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_asset_list_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_asset_list_lower_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_asset_list_lower_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_asset_list_primary_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_asset_list_primary_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_asset_list_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_asset_list_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_asset_list_secondary_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_asset_list_secondary_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_asset_list_title_alias_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_asset_list_title_alias_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_assets_view_view_date_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_assets_view_view_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_author_action_asset_type_id_asset_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_author_action_asset_type_id_asset_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_author_action_author_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_author_action_author_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_city_activity_report_city_state_name_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_city_activity_report_city_state_name_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_corporate_activity_report_group_name_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_corporate_activity_report_group_name_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_entity_image_map_entity_master_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_entity_image_map_entity_master_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_entity_language_map_entity_master_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_entity_language_map_entity_master_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_entity_language_map_entity_name_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_entity_language_map_entity_name_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_entity_language_map_language_master_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_entity_language_map_language_master_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_entity_master_entity_name_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_entity_master_entity_name_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_entity_master_to_tsvector_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_entity_master_to_tsvector_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_entity_partner_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_entity_partner_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_entity_role_entity_group_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_entity_role_entity_group_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_entity_role_entity_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_entity_role_entity_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_entity_role_map_entity_master_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_entity_role_map_entity_master_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_entity_role_map_entity_role_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_entity_role_map_entity_role_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_entity_role_map_source_object_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_entity_role_map_source_object_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_hero_rating_asset_map_hero_rating_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_hero_rating_asset_map_hero_rating_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_hero_rating_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_hero_rating_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_hero_rating_rating_week_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_hero_rating_rating_week_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_page_alias_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_page_alias_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_page_partner_page_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_page_partner_page_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_poll_option_poll_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_poll_option_poll_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_poll_response_poll_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_poll_response_poll_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_poll_response_response_option_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_poll_response_response_option_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_rating_week_rating_year_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_rating_week_rating_year_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_rating_week_week_number_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_rating_week_week_number_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_rating_week_week_of_year_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_rating_week_week_of_year_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_seo_data_asset_id_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_seo_data_asset_id_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_site_partner_site_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_site_partner_site_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_state_activity_report_state_name_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_state_activity_report_state_name_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_template_component_map_component_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_template_component_map_component_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_template_component_map_template_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_template_component_map_template_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_user_activity_asset_id_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_user_activity_asset_id_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_user_activity_report_user_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_user_activity_report_user_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_user_activity_user_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_user_activity_user_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_user_asset_reaction_asset_id_asset_type_id_user_id_p_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_user_asset_reaction_asset_id_asset_type_id_user_id_p_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_user_email_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_user_email_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_user_role_role_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_user_role_role_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_user_role_user_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_user_role_user_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_web_user_social_id_client_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_web_user_social_id_client_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_web_user_upper_email_id_client_id_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_web_user_upper_email_id_client_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labupstox",
+      "name": "upstox_web_user_user_guid_idx",
+      "type": "INDEX",
+      "file": "indexes/upstox_web_user_user_guid_idx.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 707,
+  "unclassified_count": 0
+}

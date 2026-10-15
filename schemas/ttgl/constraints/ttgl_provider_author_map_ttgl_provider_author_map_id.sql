@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: ttgl
+-- Object: ttgl_provider_author_map ttgl_provider_author_map_id
+-- Type: CONSTRAINT
+
+-- Name: ttgl_provider_author_map ttgl_provider_author_map_id; Type: CONSTRAINT; Schema: ttgl; Owner: -
+--
+
+ALTER TABLE ONLY ttgl.ttgl_provider_author_map
+    ADD CONSTRAINT ttgl_provider_author_map_id PRIMARY KEY (provider_author_map_id);
+
+
+--

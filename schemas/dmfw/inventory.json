@@ -1,0 +1,209 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "dmfw",
+      "type": "SCHEMA",
+      "file": "dmfw.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_get_showcase_list_04022019_0730(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_get_showcase_list_04022019_0730(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_get_tem_comp_asset_map_detail_04022019_31f6(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_get_tem_comp_asset_map_detail_04022019_31f6(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_get_tem_comp_asset_map_detail_28012019_86e0(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_get_tem_comp_asset_map_detail_28012019_86e0(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_nume_e471e20c6c.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numer_5be1f78449.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_ins_tweet(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_ins_tweet(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_ins_upd_temp_comp_asset_map_04022019_3f48(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_ins_upd_temp_comp_asset_map_04022019_3f48(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/dmfw_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_teams",
+      "type": "TABLE",
+      "file": "tables/dmfw_teams.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_tweets_json",
+      "type": "TABLE",
+      "file": "tables/dmfw_tweets_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_tweets_link",
+      "type": "TABLE",
+      "file": "tables/dmfw_tweets_link.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_tweets_reference",
+      "type": "TABLE",
+      "file": "tables/dmfw_tweets_reference.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_twitter_users",
+      "type": "TABLE",
+      "file": "tables/dmfw_twitter_users.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_user_tweets",
+      "type": "TABLE",
+      "file": "tables/dmfw_user_tweets.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_user_tweets_team_map",
+      "type": "TABLE",
+      "file": "tables/dmfw_user_tweets_team_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "seq_dmfw_tweet_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dmfw_tweet_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "seq_dmfw_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dmfw_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "seq_dmfw_user_tweets_team_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_dmfw_user_tweets_team_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_teams dmfw_team_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/dmfw_teams_dmfw_team_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_user_tweets dmfw_tweet_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/dmfw_user_tweets_dmfw_tweet_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_twitter_users dmfw_user_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/dmfw_twitter_users_dmfw_user_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "dmfw",
+      "name": "dmfw_user_tweets_team_map dmfw_user_tweets_team_map_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/dmfw_user_tweets_team_map_dmfw_user_tweets_team_map_id_pk.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 29,
+  "unclassified_count": 0
+}

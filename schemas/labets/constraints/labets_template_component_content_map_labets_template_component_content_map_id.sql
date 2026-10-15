@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labets
+-- Object: labets_template_component_content_map labets_template_component_content_map_id
+-- Type: CONSTRAINT
+
+-- Name: labets_template_component_content_map labets_template_component_content_map_id; Type: CONSTRAINT; Schema: labets; Owner: -
+--
+
+ALTER TABLE ONLY labets.labets_template_component_content_map
+    ADD CONSTRAINT labets_template_component_content_map_id PRIMARY KEY (template_component_content_map_id);
+
+
+--

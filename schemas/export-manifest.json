@@ -1,0 +1,1063 @@
+{
+  "database": "siwafmasstg",
+  "host": "siwafint.clmquhxxma0y.us-east-1.rds.amazonaws.com",
+  "exported_schemas": [
+    {
+      "schema": "abpp",
+      "folder": "abpp",
+      "object_count": 581,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "cfc",
+      "folder": "cfc",
+      "object_count": 432,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "cli_stp_v1",
+      "folder": "cli_stp_v1",
+      "object_count": 602,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "content-engine",
+      "folder": "content-engine",
+      "object_count": 1,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "dd",
+      "folder": "dd",
+      "object_count": 671,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "dd_30_04_24",
+      "folder": "dd_30_04_24",
+      "object_count": 672,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "dhm",
+      "folder": "dhm",
+      "object_count": 599,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "dmfw",
+      "folder": "dmfw",
+      "object_count": 29,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "eks",
+      "folder": "eks",
+      "object_count": 100,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "elms",
+      "folder": "elms",
+      "object_count": 363,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "emc",
+      "folder": "emc",
+      "object_count": 5,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "encryptdecrypt",
+      "folder": "encryptdecrypt",
+      "object_count": 2,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "equibase",
+      "folder": "equibase",
+      "object_count": 2,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "fanxp_lsg",
+      "folder": "fanxp_lsg",
+      "object_count": 247,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "fanxp_wf",
+      "folder": "fanxp_wf",
+      "object_count": 239,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "fbbot",
+      "folder": "fbbot",
+      "object_count": 50,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "gfg",
+      "folder": "gfg",
+      "object_count": 465,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "gpn",
+      "folder": "gpn",
+      "object_count": 144,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "gpn_v2",
+      "folder": "gpn_v2",
+      "object_count": 90,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "gpnv2",
+      "folder": "gpnv2",
+      "object_count": 195,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "gsf",
+      "folder": "gsf",
+      "object_count": 467,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "hsl",
+      "folder": "hsl",
+      "object_count": 391,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "isl",
+      "folder": "isl",
+      "object_count": 745,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "jafc",
+      "folder": "jafc",
+      "object_count": 436,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "khi",
+      "folder": "khi",
+      "object_count": 490,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "kxp",
+      "folder": "kxp",
+      "object_count": 470,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labacko",
+      "folder": "labacko",
+      "object_count": 601,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labadkr",
+      "folder": "labadkr",
+      "object_count": 525,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labadkr_beta",
+      "folder": "labadkr_beta",
+      "object_count": 509,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labal_nassr",
+      "folder": "labal_nassr",
+      "object_count": 601,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labbg",
+      "folder": "labbg",
+      "object_count": 540,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labboost",
+      "folder": "labboost",
+      "object_count": 498,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labbr",
+      "folder": "labbr",
+      "object_count": 561,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labbsc",
+      "folder": "labbsc",
+      "object_count": 624,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labbsc_dev",
+      "folder": "labbsc_dev",
+      "object_count": 699,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labbsc_old",
+      "folder": "labbsc_old",
+      "object_count": 518,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labctkr",
+      "folder": "labctkr",
+      "object_count": 501,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labdd_v1",
+      "folder": "labdd_v1",
+      "object_count": 663,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labdd_v1_30april24",
+      "folder": "labdd_v1_30april24",
+      "object_count": 599,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labdms",
+      "folder": "labdms",
+      "object_count": 626,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labdsg",
+      "folder": "labdsg",
+      "object_count": 565,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labdsp",
+      "folder": "labdsp",
+      "object_count": 520,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labdv",
+      "folder": "labdv",
+      "object_count": 568,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labecn",
+      "folder": "labecn",
+      "object_count": 528,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labecn_bkp03092024",
+      "folder": "labecn_bkp03092024",
+      "object_count": 528,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labecn_bkp05092024",
+      "folder": "labecn_bkp05092024",
+      "object_count": 528,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labecn_bkp07062024",
+      "folder": "labecn_bkp07062024",
+      "object_count": 527,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labecn_ruf",
+      "folder": "labecn_ruf",
+      "object_count": 394,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labecn_v1",
+      "folder": "labecn_v1",
+      "object_count": 705,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labecn_v1_bkp_29012025",
+      "folder": "labecn_v1_bkp_29012025",
+      "object_count": 696,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labeisl",
+      "folder": "labeisl",
+      "object_count": 538,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labetpl",
+      "folder": "labetpl",
+      "object_count": 604,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labets",
+      "folder": "labets",
+      "object_count": 495,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labfg",
+      "folder": "labfg",
+      "object_count": 502,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labfih",
+      "folder": "labfih",
+      "object_count": 654,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labgfg",
+      "folder": "labgfg",
+      "object_count": 539,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labgg",
+      "folder": "labgg",
+      "object_count": 547,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labgmr",
+      "folder": "labgmr",
+      "object_count": 546,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labgmr_01082024",
+      "folder": "labgmr_01082024",
+      "object_count": 546,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labgrl",
+      "folder": "labgrl",
+      "object_count": 606,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labgsoc",
+      "folder": "labgsoc",
+      "object_count": 678,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labgt",
+      "folder": "labgt",
+      "object_count": 865,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labgt01_v1",
+      "folder": "labgt01_v1",
+      "object_count": 758,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labgt_02042024",
+      "folder": "labgt_02042024",
+      "object_count": 659,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labgt_bkp",
+      "folder": "labgt_bkp",
+      "object_count": 613,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labhkind",
+      "folder": "labhkind",
+      "object_count": 557,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labhsl",
+      "folder": "labhsl",
+      "object_count": 474,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labiis",
+      "folder": "labiis",
+      "object_count": 516,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labilt",
+      "folder": "labilt",
+      "object_count": 610,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labirao",
+      "folder": "labirao",
+      "object_count": 596,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labisl_v1",
+      "folder": "labisl_v1",
+      "object_count": 666,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labisp",
+      "folder": "labisp",
+      "object_count": 552,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labjdtest",
+      "folder": "labjdtest",
+      "object_count": 590,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labjfc",
+      "folder": "labjfc",
+      "object_count": 475,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labkc",
+      "folder": "labkc",
+      "object_count": 507,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labkc_v1",
+      "folder": "labkc_v1",
+      "object_count": 709,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labkc_v1_02042024",
+      "folder": "labkc_v1_02042024",
+      "object_count": 623,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labkc_v1_bkp",
+      "folder": "labkc_v1_bkp",
+      "object_count": 578,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labkiug",
+      "folder": "labkiug",
+      "object_count": 446,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labkiyg",
+      "folder": "labkiyg",
+      "object_count": 450,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labkkr",
+      "folder": "labkkr",
+      "object_count": 572,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labkkr_30012024",
+      "folder": "labkkr_30012024",
+      "object_count": 572,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labkkr_beta",
+      "folder": "labkkr_beta",
+      "object_count": 569,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labkkr_v1",
+      "folder": "labkkr_v1",
+      "object_count": 644,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labkxip",
+      "folder": "labkxip",
+      "object_count": 689,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labkxp",
+      "folder": "labkxp",
+      "object_count": 517,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labkxp1",
+      "folder": "labkxp1",
+      "object_count": 517,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "lablakr",
+      "folder": "lablakr",
+      "object_count": 590,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "lablsg",
+      "folder": "lablsg",
+      "object_count": 609,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "lablsg_v1",
+      "folder": "lablsg_v1",
+      "object_count": 617,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labman",
+      "folder": "labman",
+      "object_count": 542,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labmao",
+      "folder": "labmao",
+      "object_count": 619,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labmao_bkp",
+      "folder": "labmao_bkp",
+      "object_count": 599,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labmcfc",
+      "folder": "labmcfc",
+      "object_count": 518,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labmcfc_v1",
+      "folder": "labmcfc_v1",
+      "object_count": 557,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labmi",
+      "folder": "labmi",
+      "object_count": 905,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labmi_beta_22042024",
+      "folder": "labmi_beta_22042024",
+      "object_count": 806,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labmi_v1",
+      "folder": "labmi_v1",
+      "object_count": 853,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labmi_v1_bkp",
+      "folder": "labmi_v1_bkp",
+      "object_count": 604,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labmsg",
+      "folder": "labmsg",
+      "object_count": 604,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labos",
+      "folder": "labos",
+      "object_count": 601,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labpbl",
+      "folder": "labpbl",
+      "object_count": 462,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labpc",
+      "folder": "labpc",
+      "object_count": 555,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labpcm",
+      "folder": "labpcm",
+      "object_count": 480,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labpkl",
+      "folder": "labpkl",
+      "object_count": 546,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labpkl_v1",
+      "folder": "labpkl_v1",
+      "object_count": 635,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labpotp_temp",
+      "folder": "labpotp_temp",
+      "object_count": 7,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labpr",
+      "folder": "labpr",
+      "object_count": 617,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labpvl",
+      "folder": "labpvl",
+      "object_count": 544,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labrao",
+      "folder": "labrao",
+      "object_count": 603,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labrg",
+      "folder": "labrg",
+      "object_count": 545,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labrlp",
+      "folder": "labrlp",
+      "object_count": 601,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labrr",
+      "folder": "labrr",
+      "object_count": 880,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labrr_beta_08042024",
+      "folder": "labrr_beta_08042024",
+      "object_count": 771,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labrs",
+      "folder": "labrs",
+      "object_count": 507,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labrs_2602",
+      "folder": "labrs_2602",
+      "object_count": 502,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labrstg",
+      "folder": "labrstg",
+      "object_count": 569,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labsaw",
+      "folder": "labsaw",
+      "object_count": 564,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labsfcc",
+      "folder": "labsfcc",
+      "object_count": 4,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labsm",
+      "folder": "labsm",
+      "object_count": 604,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labso_bkp",
+      "folder": "labso_bkp",
+      "object_count": 601,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labspz_v1",
+      "folder": "labspz_v1",
+      "object_count": 598,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labsrk",
+      "folder": "labsrk",
+      "object_count": 604,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labstlz",
+      "folder": "labstlz",
+      "object_count": 514,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labstmp",
+      "folder": "labstmp",
+      "object_count": 598,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labstrd",
+      "folder": "labstrd",
+      "object_count": 507,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labtcs",
+      "folder": "labtcs",
+      "object_count": 602,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labtkr",
+      "folder": "labtkr",
+      "object_count": 511,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labtkr_beta",
+      "folder": "labtkr_beta",
+      "object_count": 503,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labtkrold",
+      "folder": "labtkrold",
+      "object_count": 501,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labtmum",
+      "folder": "labtmum",
+      "object_count": 463,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labtri",
+      "folder": "labtri",
+      "object_count": 622,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labukk",
+      "folder": "labukk",
+      "object_count": 538,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labupstox",
+      "folder": "labupstox",
+      "object_count": 707,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labupw",
+      "folder": "labupw",
+      "object_count": 579,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labuww",
+      "folder": "labuww",
+      "object_count": 611,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labw88",
+      "folder": "labw88",
+      "object_count": 544,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labwafdemo",
+      "folder": "labwafdemo",
+      "object_count": 530,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labwf",
+      "folder": "labwf",
+      "object_count": 605,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labwis",
+      "folder": "labwis",
+      "object_count": 800,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labwis_new",
+      "folder": "labwis_new",
+      "object_count": 1,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labwpl",
+      "folder": "labwpl",
+      "object_count": 597,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labwskl",
+      "folder": "labwskl",
+      "object_count": 604,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "labyho",
+      "folder": "labyho",
+      "object_count": 631,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "lb_wf",
+      "folder": "lb_wf",
+      "object_count": 110,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "msl",
+      "folder": "msl",
+      "object_count": 448,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "pbl",
+      "folder": "pbl",
+      "object_count": 453,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "pcm",
+      "folder": "pcm",
+      "object_count": 394,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "pkl",
+      "folder": "pkl",
+      "object_count": 475,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "potptemp",
+      "folder": "potptemp",
+      "object_count": 10,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "ppb",
+      "folder": "ppb",
+      "object_count": 403,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "public",
+      "folder": "public",
+      "object_count": 266,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "rfg",
+      "folder": "rfg",
+      "object_count": 470,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "scom",
+      "folder": "scom",
+      "object_count": 460,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "sibot",
+      "folder": "sibot",
+      "object_count": 149,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "siwaf",
+      "folder": "siwaf",
+      "object_count": 168,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "spz",
+      "folder": "spz",
+      "object_count": 480,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "stn",
+      "folder": "stn",
+      "object_count": 488,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "swa",
+      "folder": "swa",
+      "object_count": 670,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "tcs",
+      "folder": "tcs",
+      "object_count": 422,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "test13",
+      "folder": "test13",
+      "object_count": 12,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "test14",
+      "folder": "test14",
+      "object_count": 13,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "tfa",
+      "folder": "tfa",
+      "object_count": 473,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "tmm",
+      "folder": "tmm",
+      "object_count": 619,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "tmmimg_upd",
+      "folder": "tmmimg_upd",
+      "object_count": 571,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "tsk",
+      "folder": "tsk",
+      "object_count": 518,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "ttgl",
+      "folder": "ttgl",
+      "object_count": 394,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "ttmum",
+      "folder": "ttmum",
+      "object_count": 443,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "u17wc",
+      "folder": "u17wc",
+      "object_count": 460,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "upp",
+      "folder": "upp",
+      "object_count": 435,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "upstox",
+      "folder": "upstox",
+      "object_count": 705,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "upy",
+      "folder": "upy",
+      "object_count": 467,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "utt",
+      "folder": "utt",
+      "object_count": 440,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "waf_master",
+      "folder": "waf_master",
+      "object_count": 241,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "yho",
+      "folder": "yho",
+      "object_count": 449,
+      "unclassified_count": 0
+    },
+    {
+      "schema": "zeven",
+      "folder": "zeven",
+      "object_count": 675,
+      "unclassified_count": 0
+    }
+  ],
+  "note": "Schema definitions only; no table data. Review object coverage and dependencies before deployment."
+}

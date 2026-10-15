@@ -1,0 +1,34 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "labsfcc",
+      "type": "SCHEMA",
+      "file": "labsfcc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsfcc",
+      "name": "labsfcc_ins_upd_contest(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labsfcc_ins_upd_contest(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsfcc",
+      "name": "labsfcc_contest",
+      "type": "TABLE",
+      "file": "tables/labsfcc_contest.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labsfcc",
+      "name": "labsfcc_contest_contest_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labsfcc_contest_contest_id_seq.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 4,
+  "unclassified_count": 0
+}

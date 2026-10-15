@@ -1,0 +1,20 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "equibase",
+      "type": "SCHEMA",
+      "file": "equibase.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "equibase",
+      "name": "eq_log",
+      "type": "TABLE",
+      "file": "tables/eq_log.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 2,
+  "unclassified_count": 0
+}

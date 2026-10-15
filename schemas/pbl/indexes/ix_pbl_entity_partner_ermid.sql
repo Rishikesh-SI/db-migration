@@ -1,0 +1,12 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: pbl
+-- Object: ix_pbl_entity_partner_ermid
+-- Type: INDEX
+
+-- Name: ix_pbl_entity_partner_ermid; Type: INDEX; Schema: pbl; Owner: -
+--
+
+CREATE INDEX ix_pbl_entity_partner_ermid ON pbl.pbl_entity_partner USING btree (entity_role_map_id);
+
+
+--

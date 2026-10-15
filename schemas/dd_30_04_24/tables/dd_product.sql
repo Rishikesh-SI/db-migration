@@ -1,0 +1,51 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: dd_30_04_24
+-- Object: dd_product
+-- Type: TABLE
+
+-- Name: dd_product; Type: TABLE; Schema: dd_30_04_24; Owner: -
+--
+
+CREATE TABLE dd_30_04_24.dd_product (
+    product_id numeric NOT NULL,
+    product_name character varying(1000) NOT NULL,
+    product_title character varying(1000) NOT NULL,
+    title_alias character varying NOT NULL,
+    short_desc character varying(1000),
+    description character varying(4000),
+    product_type_id numeric NOT NULL,
+    product_code character varying,
+    product_price numeric,
+    is_visible_individually numeric,
+    gtin_number character varying(100) NOT NULL,
+    manufacturer_part_number character varying(100),
+    is_show_homepage numeric,
+    is_allow_customer_review numeric,
+    available_start_date timestamp without time zone,
+    available_end_date timestamp without time zone,
+    discounts numeric,
+    is_fix_percentage numeric,
+    is_tax_exempt numeric,
+    tax_category numeric,
+    product_json json,
+    is_mark_new numeric,
+    is_shipping_enabled numeric,
+    admin_comment character varying(4000),
+    created_date timestamp without time zone NOT NULL,
+    updated_date timestamp without time zone,
+    created_by numeric NOT NULL,
+    updated_by numeric,
+    product_guid character varying(100) NOT NULL,
+    is_active numeric,
+    is_deleted numeric,
+    is_published numeric,
+    is_trashed numeric,
+    show_in_web numeric,
+    show_in_mobile numeric,
+    show_in_app numeric,
+    published_date timestamp without time zone,
+    published_version_number numeric
+);
+
+
+--

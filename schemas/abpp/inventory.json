@@ -1,0 +1,4073 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "abpp",
+      "type": "SCHEMA",
+      "file": "abpp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_change_asset_lock_status(character, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_change_asset_lock_status(character,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_check_asset_ent_by_cat(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_check_asset_ent_by_cat(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_check_slugurl(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_check_slugurl(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_del_image(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_del_image(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_gen_onthisday_article(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_gen_onthisday_article(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_ad_comp_cont_map_list(numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_ad_comp_cont_map_list(numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_ad_comp_cont_map_list_niu(numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_ad_comp_cont_map_list_niu(numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_ad_detail(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_ad_detail(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_ad_detail_r(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_ad_detail_r(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_ad_listing(numeric, numeric, numeric, character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_ad_listing(numeric,_numeric,_numeric,_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_album_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_album_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_album_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_album_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_album_detail_r_test(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_album_detail_r_test(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_album_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_album_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_95d8e228db.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_35ad2b8647.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_album_listing_bak_20170804(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_album_listing_bak_20170804(numeric,_numeric,_numeric,_numeric,_character_varying,_7c2809147b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_album_listing_bak_20170922(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_album_listing_bak_20170922(numeric,_numeric,_numeric,_numeric,_character_varying,_eb490c00d3.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_article_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_article_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_article_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_article_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_article_detail_r_test(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_article_detail_r_test(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_article_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_article_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_263f776d92.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_06452e5a96.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_article_listing21122017(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_article_listing21122017(numeric,_numeric,_numeric,_numeric,_character_varying,_nu_7a3f477921.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_article_listing_bak_20170804(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_article_listing_bak_20170804(numeric,_numeric,_numeric,_numeric,_character_varyin_26bc41a76e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_article_listing_bak_20170919(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_article_listing_bak_20170919(numeric,_numeric,_numeric,_numeric,_character_varyin_c5feaa7458.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_count_by_cat_r(numeric[], numeric[], character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_count_by_cat_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_detail_rtest(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_detail_rtest(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_draft(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_draft(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_id(character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_id(character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_all(numeric, numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_all(numeric,_numeric,_numeric,_numeric,_numeric[],_numeric[],_numer_a9fe36a022.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_by_cat_r(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_by_cat_r(numeric,_numeric,_numeric[],_numeric[],_character_varying,_bc1bece6fb.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_by_cat_r_31052018(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_by_cat_r_31052018(numeric,_numeric,_numeric[],_numeric[],_character_ee8b4f0f82.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_by_title(numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_by_title(numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_by_type_r(numeric, numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_by_type_r(numeric,_numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_for_any_ent_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_for_any_ent_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_r(numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_r(numeric,_numeric,_numeric[],_numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_chara_d3dde2151a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_chara_9723aa7b60.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_r_07022018(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_r_07022018(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric_f0dad337d9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_r_26062018(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_r_26062018(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric_3329f105f7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_r_niu(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_r_niu(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_c_930771794e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_r_test(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_r_test(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],__2e146ad2b1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_r_test(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_r_test(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],__2c35ec3cf7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_listing_rbk(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_listing_rbk(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_cha_d47efc95a3.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_next_prev_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_next_prev_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_asset_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_asset_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_author_detail_by_cat_r(numeric[], numeric[], character varying, numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_author_detail_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_numeric,_6064045505.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_author_listing_by_lang_r(numeric, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_author_listing_by_lang_r(numeric,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_author_test(character varying, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_author_test(character_varying,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_category_list_21082019_f9ed(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_category_list_21082019_f9ed(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_content_provider(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_content_provider(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_date_sitemap(character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_date_sitemap(character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_ent_role_mapid(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_ent_role_mapid(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_ent_role_mapid_r(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_ent_role_mapid_r(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_entity_detail(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_entity_detail(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_entity_display_name_by_language(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_entity_display_name_by_language(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_entity_group_listing()",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_entity_group_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_entity_known_as(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_entity_known_as(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_entity_language_from_entities(numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_entity_language_from_entities(numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_entity_listing(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_entity_listing(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_entity_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_entity_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_entity_name_by_asset(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_entity_name_by_asset(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_entity_roles_21082019_431b(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_entity_roles_21082019_431b(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_entity_type_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_entity_type_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_heroes_detail_r(numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_heroes_detail_r(numeric,_numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_image_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_image_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_image_listing(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_image_listing(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_image_listing(numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_image_listing(numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_latest_feeds_data(numeric, numeric, numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_latest_feeds_data(numeric,_numeric,_numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_menu_by_parent(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_menu_by_parent(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_menu_by_parent_r(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_menu_by_parent_r(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_menu_by_parent_r_20180710(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_menu_by_parent_r_20180710(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_menu_by_parent_r_20180711_bak(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_menu_by_parent_r_20180711_bak(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_menu_by_parent_r_v1(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_menu_by_parent_r_v1(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_new_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_new_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_page_data_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_page_data_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_refcur_65aa343fe6.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_page_data_r(character varying, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_page_data_r(character_varying,_numeric,_refcursor,_refcursor,_refcursor,_refcurso_f80898732a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_page_data_r_ak(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_page_data_r_ak(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_ref_2c1664327e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_page_data_r_ak_11052017(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_page_data_r_ak_11052017(character_varying,_refcursor,_refcursor,_refcursor,_refcu_b991a56fee.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_poll_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_poll_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_poll_detail_r_11052017(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_poll_detail_r_11052017(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_ti_efd27d85c1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_poll_listing_r(numeric, numeric, numeric[], refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_poll_listing_r(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_rating_week_r(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_rating_week_r(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_showcase_list_04022019_d39f(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_showcase_list_04022019_d39f(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_source_role_asset_listing(character varying, integer, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_source_role_asset_listing(character_varying,_integer,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_team_player_detail_r(character varying, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_team_player_detail_r(character_varying,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_team_player_detail_r_13042018(character varying, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_team_player_detail_r_13042018(character_varying,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_tem_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_tem_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_tem_comp_asset_map_detail_04022019_f8ee(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_tem_comp_asset_map_detail_04022019_f8ee(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_numer_96705a2a81.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_tem_comp_asset_map_detail_by_page_r_04022019_6848(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_tem_comp_asset_map_detail_by_page_r_04022019_6848(numeric,_numeric[],_numeric[],__a61ffccca6.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_tem_comp_asset_map_detail_by_page_r_09112017(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_tem_comp_asset_map_detail_by_page_r_09112017(numeric,_numeric[],_numeric[],_numer_e0392d9df5.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_tem_comp_asset_map_detail_by_page_r_old(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_tem_comp_asset_map_detail_by_page_r_old(numeric,_numeric[],_numeric[],_numeric,_n_f59e71b84a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_tem_comp_asset_map_detail_by_page_r_test(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_tem_comp_asset_map_detail_by_page_r_test(numeric,_numeric[],_numeric[],_numeric,__acbf9ecb76.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_tem_comp_asset_map_detail_r(numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_tem_comp_asset_map_detail_r(numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_tem_cop_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_tem_cop_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_temp_comp_cont_map_detail(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_temp_comp_cont_map_detail(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_template(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_template(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numeri_077cfe39e3.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_template_component(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_template_component(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_template_component(numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_template_component(numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_template_component(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_template_component(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_topic_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_topic_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_topic_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_topic_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_topic_detail_preview_r(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_topic_detail_preview_r(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_topic_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_topic_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_5ab5aa3b66.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, text)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_680b99b47c.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_topic_listing_r(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_topic_listing_r(numeric, numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_topic_listing_r_ak(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_topic_listing_r_ak(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_trending_assets(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_trending_assets(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_trending_assets_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_trending_assets_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_trending_assets_r_test(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_trending_assets_r_test(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_user_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_user_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_user_disp_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_user_disp_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_user_display_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_user_display_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_user_id(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_user_id(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_user_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_user_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_user_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_user_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_user_listing_with_param(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_user_listing_with_param(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_user_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_user_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_video_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_video_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_video_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_video_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_video_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_video_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_video_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_video_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_97b0506732.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_video_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_video_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_7d527a5d8f.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_video_listing_backup_18022017(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_video_listing_backup_18022017(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_video_listing_bak_20170804(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_video_listing_bak_20170804(numeric,_numeric,_numeric,_numeric,_character_varying,_867773a9c3.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_get_word_count(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_get_word_count(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ingest_video(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ingest_video(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_assets_view(text)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_assets_view(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_ent_master_role()",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_ent_master_role().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_entity_language_map(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_entity_language_map(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_get_content_provider(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_get_content_provider(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_get_content_provider(character varying, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_get_content_provider(character_varying,_character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_up_redirect(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_up_redirect(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_up_redirect_11012018(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_up_redirect_11012018(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_ad(numeric, numeric, text, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, timestamp without time zone, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_ad(numeric,_numeric,_text,_numeric,_numeric,_numeric,_numeric,_numeric,_numer_7d33d022da.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_ad_management(numeric, text, text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_ad_management(numeric,_text,_text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_album(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_album(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_album_guid(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_album_guid(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_article(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_article(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_component(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_component(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_entity(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_entity(numeric,_numeric[],_numeric[],_character_varying[],_character_varying[_fba48f66b6.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_entity_ar(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_entity_ar(numeric,_numeric[],_numeric[],_character_varying[],_character_varyi_b7dde97180.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_heros(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_heros(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_image(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_image(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_layout(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_layout(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_page(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_page(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_poll(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_poll(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_poll_response(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_poll_response(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_rating_week(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_rating_week(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_seo_data(numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_seo_data(numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_temp_comp_asset_map_04022019_4e4d(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_temp_comp_asset_map_04022019_4e4d(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_temp_comp_asset_map_bak_20170918(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_temp_comp_asset_map_bak_20170918(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_template(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_template(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_template_11052017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_template_11052017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_template_comp_cont_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_template_comp_cont_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_template_component_map(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_template_component_map(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_topic(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_topic(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_topic_partial(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_topic_partial(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_user_ar(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_user_ar(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_video(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_video(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_upd_video_guid(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_upd_video_guid(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ins_url_testing(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_ins_url_testing(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_is_poll_active(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_is_poll_active(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_log_function_call_error(text, jsonb, text)",
+      "type": "FUNCTION",
+      "file": "functions/abp_log_function_call_error(text,_jsonb,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_search_entity(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_search_entity(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_search_entity_by_page(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_search_entity_by_page(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_search_entity_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_search_entity_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_show_get_page_data(character varying, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_show_get_page_data(character_varying,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_show_get_rss_data(numeric, numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_show_get_rss_data(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_show_get_rss_data_20180710(numeric, numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_show_get_rss_data_20180710(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcurs_7c46f56a8e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_show_get_rss_data_24052018(numeric, numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_show_get_rss_data_24052018(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcurs_b57aa28493.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_show_get_site_map_data(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_show_get_site_map_data(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_show_get_site_map_data(numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/abp_show_get_site_map_data(numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_upd_author(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_upd_author(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_upd_user_password(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/abp_upd_user_password(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_update_showcase_meta(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/abp_update_showcase_meta(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_user_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/abp_user_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ins_abp_entity_role(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/ins_abp_entity_role(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ins_update_entity_group(numeric, numeric, numeric, character varying, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/ins_update_entity_group(numeric,_numeric,_numeric,_character_varying,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ins_update_entity_type(numeric, numeric, numeric, character varying, character varying, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/ins_update_entity_type(numeric,_numeric,_numeric,_character_varying,_character_varying,_n_45ed9c951a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "regexp_count(text, text)",
+      "type": "FUNCTION",
+      "file": "functions/regexp_count(text,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "yho_ins_upd_video_guid(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/yho_ins_upd_video_guid(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_action",
+      "type": "TABLE",
+      "file": "tables/abp_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ad",
+      "type": "TABLE",
+      "file": "tables/abp_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_album",
+      "type": "TABLE",
+      "file": "tables/abp_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_album_15102017",
+      "type": "TABLE",
+      "file": "tables/abp_album_15102017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_album_20170817_2",
+      "type": "TABLE",
+      "file": "tables/abp_album_20170817_2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_album_20170924",
+      "type": "TABLE",
+      "file": "tables/abp_album_20170924.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/abp_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_album_asset_map_20170817",
+      "type": "TABLE",
+      "file": "tables/abp_album_asset_map_20170817.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_album_asset_map_20170924",
+      "type": "TABLE",
+      "file": "tables/abp_album_asset_map_20170924.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article",
+      "type": "TABLE",
+      "file": "tables/abp_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article_20170808",
+      "type": "TABLE",
+      "file": "tables/abp_article_20170808.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article_20170816",
+      "type": "TABLE",
+      "file": "tables/abp_article_20170816.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article_20170824",
+      "type": "TABLE",
+      "file": "tables/abp_article_20170824.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article_20170828",
+      "type": "TABLE",
+      "file": "tables/abp_article_20170828.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article_20170924",
+      "type": "TABLE",
+      "file": "tables/abp_article_20170924.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article_27102017",
+      "type": "TABLE",
+      "file": "tables/abp_article_27102017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/abp_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article_asset_map_20170808",
+      "type": "TABLE",
+      "file": "tables/abp_article_asset_map_20170808.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article_asset_map_20170816",
+      "type": "TABLE",
+      "file": "tables/abp_article_asset_map_20170816.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article_asset_map_20170824",
+      "type": "TABLE",
+      "file": "tables/abp_article_asset_map_20170824.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article_asset_map_20170828",
+      "type": "TABLE",
+      "file": "tables/abp_article_asset_map_20170828.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article_asset_map_20170924",
+      "type": "TABLE",
+      "file": "tables/abp_article_asset_map_20170924.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_delete_log",
+      "type": "TABLE",
+      "file": "tables/abp_asset_delete_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_draft",
+      "type": "TABLE",
+      "file": "tables/abp_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_draft_01082018",
+      "type": "TABLE",
+      "file": "tables/abp_asset_draft_01082018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_draft_10112017",
+      "type": "TABLE",
+      "file": "tables/abp_asset_draft_10112017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_draft_20170808",
+      "type": "TABLE",
+      "file": "tables/abp_asset_draft_20170808.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_draft_20170817",
+      "type": "TABLE",
+      "file": "tables/abp_asset_draft_20170817.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_draft_20170824",
+      "type": "TABLE",
+      "file": "tables/abp_asset_draft_20170824.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_draft_20170828",
+      "type": "TABLE",
+      "file": "tables/abp_asset_draft_20170828.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_draft_20170924",
+      "type": "TABLE",
+      "file": "tables/abp_asset_draft_20170924.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_draft_20170925",
+      "type": "TABLE",
+      "file": "tables/abp_asset_draft_20170925.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_draft_20171005",
+      "type": "TABLE",
+      "file": "tables/abp_asset_draft_20171005.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_draft_25072018",
+      "type": "TABLE",
+      "file": "tables/abp_asset_draft_25072018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_draft_26072018",
+      "type": "TABLE",
+      "file": "tables/abp_asset_draft_26072018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/abp_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_entity_map_20170808",
+      "type": "TABLE",
+      "file": "tables/abp_asset_entity_map_20170808.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_entity_map_20170816",
+      "type": "TABLE",
+      "file": "tables/abp_asset_entity_map_20170816.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_entity_map_20170817",
+      "type": "TABLE",
+      "file": "tables/abp_asset_entity_map_20170817.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_entity_map_20170824",
+      "type": "TABLE",
+      "file": "tables/abp_asset_entity_map_20170824.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_entity_map_20170828",
+      "type": "TABLE",
+      "file": "tables/abp_asset_entity_map_20170828.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_entity_map_20170924",
+      "type": "TABLE",
+      "file": "tables/abp_asset_entity_map_20170924.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_entity_map_20170925",
+      "type": "TABLE",
+      "file": "tables/abp_asset_entity_map_20170925.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_entity_map_20170926",
+      "type": "TABLE",
+      "file": "tables/abp_asset_entity_map_20170926.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_entity_map_20171005",
+      "type": "TABLE",
+      "file": "tables/abp_asset_entity_map_20171005.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_group",
+      "type": "TABLE",
+      "file": "tables/abp_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_list",
+      "type": "TABLE",
+      "file": "tables/abp_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_list_20170808",
+      "type": "TABLE",
+      "file": "tables/abp_asset_list_20170808.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_list_20170817",
+      "type": "TABLE",
+      "file": "tables/abp_asset_list_20170817.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_list_20170828",
+      "type": "TABLE",
+      "file": "tables/abp_asset_list_20170828.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_list_20170924",
+      "type": "TABLE",
+      "file": "tables/abp_asset_list_20170924.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_list_20170925",
+      "type": "TABLE",
+      "file": "tables/abp_asset_list_20170925.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_list_20171005",
+      "type": "TABLE",
+      "file": "tables/abp_asset_list_20171005.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_search_view",
+      "type": "VIEW",
+      "file": "views/abp_asset_search_view.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_type",
+      "type": "TABLE",
+      "file": "tables/abp_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/abp_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_assets_view",
+      "type": "TABLE",
+      "file": "tables/abp_assets_view.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_assets_view_04012018",
+      "type": "TABLE",
+      "file": "tables/abp_assets_view_04012018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_author_action",
+      "type": "TABLE",
+      "file": "tables/abp_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_author_action_20170808",
+      "type": "TABLE",
+      "file": "tables/abp_author_action_20170808.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_author_action_20170816",
+      "type": "TABLE",
+      "file": "tables/abp_author_action_20170816.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_author_action_20170816_1pm",
+      "type": "TABLE",
+      "file": "tables/abp_author_action_20170816_1pm.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_author_action_20170817",
+      "type": "TABLE",
+      "file": "tables/abp_author_action_20170817.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_author_action_20170824",
+      "type": "TABLE",
+      "file": "tables/abp_author_action_20170824.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_author_action_20170828",
+      "type": "TABLE",
+      "file": "tables/abp_author_action_20170828.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_author_action_20170924",
+      "type": "TABLE",
+      "file": "tables/abp_author_action_20170924.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_author_action_20170925",
+      "type": "TABLE",
+      "file": "tables/abp_author_action_20170925.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_author_action_20171005",
+      "type": "TABLE",
+      "file": "tables/abp_author_action_20171005.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_author_action_20171014",
+      "type": "TABLE",
+      "file": "tables/abp_author_action_20171014.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_code_master",
+      "type": "TABLE",
+      "file": "tables/abp_code_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_component",
+      "type": "TABLE",
+      "file": "tables/abp_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_component_layout",
+      "type": "TABLE",
+      "file": "tables/abp_component_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_component_type",
+      "type": "TABLE",
+      "file": "tables/abp_component_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_container",
+      "type": "TABLE",
+      "file": "tables/abp_container.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_content_provider",
+      "type": "TABLE",
+      "file": "tables/abp_content_provider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_content_source",
+      "type": "TABLE",
+      "file": "tables/abp_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_dummy",
+      "type": "TABLE",
+      "file": "tables/abp_dummy.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_english_metainfo",
+      "type": "TABLE",
+      "file": "tables/abp_english_metainfo.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_category",
+      "type": "TABLE",
+      "file": "tables/abp_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_group",
+      "type": "TABLE",
+      "file": "tables/abp_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/abp_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/abp_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_master",
+      "type": "TABLE",
+      "file": "tables/abp_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_master_back_21082017",
+      "type": "TABLE",
+      "file": "tables/abp_entity_master_back_21082017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_masterbackup27072018",
+      "type": "TABLE",
+      "file": "tables/abp_entity_masterbackup27072018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_partner",
+      "type": "TABLE",
+      "file": "tables/abp_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_role",
+      "type": "TABLE",
+      "file": "tables/abp_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/abp_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_role_map_21082017",
+      "type": "TABLE",
+      "file": "tables/abp_entity_role_map_21082017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_type",
+      "type": "TABLE",
+      "file": "tables/abp_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_function_call_error_log",
+      "type": "TABLE",
+      "file": "tables/abp_function_call_error_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_hero_rating",
+      "type": "TABLE",
+      "file": "tables/abp_hero_rating.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_hero_rating_asset_map",
+      "type": "TABLE",
+      "file": "tables/abp_hero_rating_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_hindi_metainfo",
+      "type": "TABLE",
+      "file": "tables/abp_hindi_metainfo.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_image",
+      "type": "TABLE",
+      "file": "tables/abp_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_image_15102017",
+      "type": "TABLE",
+      "file": "tables/abp_image_15102017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_language_master",
+      "type": "TABLE",
+      "file": "tables/abp_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_layout",
+      "type": "TABLE",
+      "file": "tables/abp_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_menu",
+      "type": "TABLE",
+      "file": "tables/abp_menu.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_menu_page_map",
+      "type": "TABLE",
+      "file": "tables/abp_menu_page_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ora_entities",
+      "type": "TABLE",
+      "file": "tables/abp_ora_entities.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_page",
+      "type": "TABLE",
+      "file": "tables/abp_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_page_20180703",
+      "type": "TABLE",
+      "file": "tables/abp_page_20180703.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_page_partner",
+      "type": "TABLE",
+      "file": "tables/abp_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_page_template_component_menu_map",
+      "type": "TABLE",
+      "file": "tables/abp_page_template_component_menu_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_pagebk12112081",
+      "type": "TABLE",
+      "file": "tables/abp_pagebk12112081.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_partner",
+      "type": "TABLE",
+      "file": "tables/abp_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_player_list",
+      "type": "TABLE",
+      "file": "tables/abp_player_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_poll",
+      "type": "TABLE",
+      "file": "tables/abp_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/abp_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_poll_option",
+      "type": "TABLE",
+      "file": "tables/abp_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_poll_response",
+      "type": "TABLE",
+      "file": "tables/abp_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_press_release",
+      "type": "TABLE",
+      "file": "tables/abp_press_release.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_press_release_asset_map",
+      "type": "TABLE",
+      "file": "tables/abp_press_release_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_provider_author_map",
+      "type": "TABLE",
+      "file": "tables/abp_provider_author_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_rating_week",
+      "type": "TABLE",
+      "file": "tables/abp_rating_week.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_redirect",
+      "type": "TABLE",
+      "file": "tables/abp_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_redirect_20180807",
+      "type": "TABLE",
+      "file": "tables/abp_redirect_20180807.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_role",
+      "type": "TABLE",
+      "file": "tables/abp_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_seo_data",
+      "type": "TABLE",
+      "file": "tables/abp_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_seo_data_20170808",
+      "type": "TABLE",
+      "file": "tables/abp_seo_data_20170808.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_seo_data_20170816",
+      "type": "TABLE",
+      "file": "tables/abp_seo_data_20170816.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_seo_data_20170817",
+      "type": "TABLE",
+      "file": "tables/abp_seo_data_20170817.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_seo_data_20170817_2",
+      "type": "TABLE",
+      "file": "tables/abp_seo_data_20170817_2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_seo_data_20170824",
+      "type": "TABLE",
+      "file": "tables/abp_seo_data_20170824.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_seo_data_20170828",
+      "type": "TABLE",
+      "file": "tables/abp_seo_data_20170828.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_seo_data_20170924",
+      "type": "TABLE",
+      "file": "tables/abp_seo_data_20170924.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_seo_data_20170925",
+      "type": "TABLE",
+      "file": "tables/abp_seo_data_20170925.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_seo_data_20171005",
+      "type": "TABLE",
+      "file": "tables/abp_seo_data_20171005.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_seo_data_20180702",
+      "type": "TABLE",
+      "file": "tables/abp_seo_data_20180702.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_site_config_parameter",
+      "type": "TABLE",
+      "file": "tables/abp_site_config_parameter.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_site_master",
+      "type": "TABLE",
+      "file": "tables/abp_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_site_partner",
+      "type": "TABLE",
+      "file": "tables/abp_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_temp_data",
+      "type": "TABLE",
+      "file": "tables/abp_temp_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_temp_data1",
+      "type": "TABLE",
+      "file": "tables/abp_temp_data1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_tempdata",
+      "type": "TABLE",
+      "file": "tables/abp_tempdata.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template",
+      "type": "TABLE",
+      "file": "tables/abp_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template127bk",
+      "type": "TABLE",
+      "file": "tables/abp_template127bk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_04062018",
+      "type": "TABLE",
+      "file": "tables/abp_template_04062018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_06082018",
+      "type": "TABLE",
+      "file": "tables/abp_template_06082018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_10052018",
+      "type": "TABLE",
+      "file": "tables/abp_template_10052018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_17082018",
+      "type": "TABLE",
+      "file": "tables/abp_template_17082018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_20180628",
+      "type": "TABLE",
+      "file": "tables/abp_template_20180628.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_20180703",
+      "type": "TABLE",
+      "file": "tables/abp_template_20180703.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_20180725",
+      "type": "TABLE",
+      "file": "tables/abp_template_20180725.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_20180807",
+      "type": "TABLE",
+      "file": "tables/abp_template_20180807.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_20181030",
+      "type": "TABLE",
+      "file": "tables/abp_template_20181030.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_26042018",
+      "type": "TABLE",
+      "file": "tables/abp_template_26042018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_28052018",
+      "type": "TABLE",
+      "file": "tables/abp_template_28052018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_bk12092018",
+      "type": "TABLE",
+      "file": "tables/abp_template_bk12092018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/abp_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_component_asset_mapbk31oct2018",
+      "type": "TABLE",
+      "file": "tables/abp_template_component_asset_mapbk31oct2018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_component_content_map",
+      "type": "TABLE",
+      "file": "tables/abp_template_component_content_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_component_map",
+      "type": "TABLE",
+      "file": "tables/abp_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_component_map_20180628",
+      "type": "TABLE",
+      "file": "tables/abp_template_component_map_20180628.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_component_map_20180914",
+      "type": "TABLE",
+      "file": "tables/abp_template_component_map_20180914.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_component_map_20181030",
+      "type": "TABLE",
+      "file": "tables/abp_template_component_map_20181030.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_component_mapbk",
+      "type": "TABLE",
+      "file": "tables/abp_template_component_mapbk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_templatebk10042018",
+      "type": "TABLE",
+      "file": "tables/abp_templatebk10042018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_templatebk11062018",
+      "type": "TABLE",
+      "file": "tables/abp_templatebk11062018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_templatebk12042018",
+      "type": "TABLE",
+      "file": "tables/abp_templatebk12042018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_templatebk20032018",
+      "type": "TABLE",
+      "file": "tables/abp_templatebk20032018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_templatebk_11042018",
+      "type": "TABLE",
+      "file": "tables/abp_templatebk_11042018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_templatebk_19062018",
+      "type": "TABLE",
+      "file": "tables/abp_templatebk_19062018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_topic",
+      "type": "TABLE",
+      "file": "tables/abp_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_topic_asset_map",
+      "type": "TABLE",
+      "file": "tables/abp_topic_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_user",
+      "type": "TABLE",
+      "file": "tables/abp_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_user_07022018",
+      "type": "TABLE",
+      "file": "tables/abp_user_07022018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_user_20180921",
+      "type": "TABLE",
+      "file": "tables/abp_user_20180921.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_user_activity",
+      "type": "TABLE",
+      "file": "tables/abp_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_user_language_map",
+      "type": "TABLE",
+      "file": "tables/abp_user_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_user_language_map_30012018",
+      "type": "TABLE",
+      "file": "tables/abp_user_language_map_30012018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_user_role",
+      "type": "TABLE",
+      "file": "tables/abp_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_video",
+      "type": "TABLE",
+      "file": "tables/abp_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_video_20170817",
+      "type": "TABLE",
+      "file": "tables/abp_video_20170817.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_video_20170924",
+      "type": "TABLE",
+      "file": "tables/abp_video_20170924.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_video_20170925",
+      "type": "TABLE",
+      "file": "tables/abp_video_20170925.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_video_20171005",
+      "type": "TABLE",
+      "file": "tables/abp_video_20171005.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_visual_stories",
+      "type": "TABLE",
+      "file": "tables/abp_visual_stories.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_visual_stories_position",
+      "type": "TABLE",
+      "file": "tables/abp_visual_stories_position.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "player",
+      "type": "TABLE",
+      "file": "tables/player.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_ad_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_album_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_album_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_article_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_article_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_asset_delete_log_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_asset_draft_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_asset_entity_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_asset_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_asset_list_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_asset_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_asset_type_meta_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_assets_view_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_assets_view_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_author_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_cm_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_cm_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_component_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_component_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_component_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_content_provider_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_content_source_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_entity_category_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_entity_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_entity_image_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_entity_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_entity_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_entity_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_entity_role_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_entity_social_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_entity_social_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_entity_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_hero_rating_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_hero_rating_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_language_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_menu_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_menu_page_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_page_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_page_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_page_template_component_menu_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_poll_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_poll_option_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_press_release_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_press_release_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_provider_author_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_rating_week_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_redirect_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_seo_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_site_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_site_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_social_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_social_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_template_component_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_template_component_content_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_template_component_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_template_externalasset_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_template_externalasset_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_template_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_topic_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_topic_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_topic_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_topic_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_user_activity_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_user_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_user_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_video_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "seq_abp_week_number",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_abp_week_number.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "v_articlejsondata",
+      "type": "TABLE",
+      "file": "tables/v_articlejsondata.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_action abp_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_action_abp_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_ad abp_ad_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_ad_abp_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_album_asset_map abp_album_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_album_asset_map_abp_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_album abp_album_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_album_abp_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article_asset_map abp_article_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_article_asset_map_abp_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_article abp_article_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_article_abp_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_delete_log abp_asset_delete_log_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_asset_delete_log_abp_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_draft abp_asset_draft_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_asset_draft_abp_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_entity_map abp_asset_entity_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_asset_entity_map_abp_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_group abp_asset_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_asset_group_abp_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_list abp_asset_list_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_asset_list_abp_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_type abp_asset_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_asset_type_abp_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_asset_type_meta abp_asset_type_meta_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_asset_type_meta_abp_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_assets_view abp_assets_view_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_assets_view_abp_assets_view_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_author_action abp_author_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_author_action_abp_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_component abp_component_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_component_abp_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_component_layout abp_component_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_component_layout_abp_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_component_type abp_component_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_component_type_abp_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_container abp_container_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_container_abp_container_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_content_provider abp_content_provider_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_content_provider_abp_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_content_source abp_content_source_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_content_source_abp_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_category abp_entity_category_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_entity_category_abp_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_group abp_entity_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_entity_group_abp_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_image_map abp_entity_image_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_entity_image_map_abp_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_language_map abp_entity_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_entity_language_map_abp_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_master abp_entity_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_entity_master_abp_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_partner abp_entity_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_entity_partner_abp_entity_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_role abp_entity_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_entity_role_abp_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_role_map abp_entity_role_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_entity_role_map_abp_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_entity_type abp_entity_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_entity_type_abp_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_hero_rating_asset_map abp_hero_rating_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_hero_rating_asset_map_abp_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_hero_rating abp_hero_rating_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_hero_rating_abp_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_image abp_image_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_image_abp_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_language_master abp_language_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_language_master_abp_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_layout abp_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_layout_abp_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_menu abp_menu_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_menu_abp_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_menu_page_map abp_menu_page_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_menu_page_map_abp_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_page abp_page_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_page_abp_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_page_partner abp_page_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_page_partner_abp_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_page_template_component_menu_map abp_page_template_component_menu_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_page_template_component_menu_map_abp_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_partner abp_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_partner_abp_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_poll_asset_map abp_poll_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_poll_asset_map_abp_poll_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_poll abp_poll_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_poll_abp_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_poll_option abp_poll_option_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_poll_option_abp_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_poll_response abp_poll_response_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_poll_response_abp_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_press_release_asset_map abp_press_release_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_press_release_asset_map_abp_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_press_release abp_press_release_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_press_release_abp_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_provider_author_map abp_provider_author_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_provider_author_map_abp_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_rating_week abp_rating_week_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_rating_week_abp_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_redirect abp_redirect_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_redirect_abp_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_role abp_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_role_abp_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_seo_data abp_seo_data_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_seo_data_abp_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_site_master abp_site_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_site_master_abp_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_site_partner abp_site_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_site_partner_abp_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_component_asset_map abp_template_component_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_template_component_asset_map_abp_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_component_content_map abp_template_component_content_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_template_component_content_map_abp_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template_component_map abp_template_component_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_template_component_map_abp_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_template abp_template_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_template_abp_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_topic_asset_map abp_topic_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_topic_asset_map_abp_topic_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_topic abp_topic_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_topic_abp_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_user_activity abp_user_activity_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_user_activity_abp_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_user abp_user_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_user_abp_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_user_language_map abp_user_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_user_language_map_abp_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_user_role abp_user_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_user_role_abp_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "abp_video abp_video_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/abp_video_abp_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "gix_abp_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/gix_abp_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_ad_ad_type",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_ad_ad_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_album_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_album_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_album_id",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_album_title_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_album_title_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_article_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_article_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_article_id",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_article_title_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_article_title_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_draft_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_draft_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_draft_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_draft_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_entity_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_entity_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_entity_map_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_entity_map_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_entity_map_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_entity_map_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_entity_map_uqid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_entity_map_uqid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_list_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_list_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_list_aidatid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_list_aidatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_list_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_list_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_list_permid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_list_permid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_list_published_date",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_list_published_date.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_list_sermid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_list_sermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_list_title_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_list_title_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_asset_list_title_alias_lower",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_asset_list_title_alias_lower.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_assets_view_viewdate",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_assets_view_viewdate.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_author_action_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_author_action_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_author_action_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_author_action_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_dummy_aiatipvn",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_dummy_aiatipvn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_entity_image_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_entity_image_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_entity_language_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_entity_language_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_entity_partner_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_entity_partner_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_entity_partner_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_entity_partner_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_entity_partner_lmid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_entity_partner_lmid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_entity_role_egid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_entity_role_egid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_entity_role_etid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_entity_role_etid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_entity_role_map_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_entity_role_map_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_entity_role_map_erid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_entity_role_map_erid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_entity_role_map_soid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_entity_role_map_soid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_hero_rating_asset_map_hrid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_hero_rating_asset_map_hrid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_hero_rating_rwid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_hero_rating_rwid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_hero_rating_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_hero_rating_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_page_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_page_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_poll_option_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_poll_option_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_poll_response_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_poll_response_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_poll_response_roid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_poll_response_roid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_rating_week_ry",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_rating_week_ry.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_rating_week_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_rating_week_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_rating_week_woty",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_rating_week_woty.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_redirect_old_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_redirect_old_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_seo_data_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_seo_data_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_site_partner_pgid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_site_partner_pgid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_site_partner_sid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_site_partner_sid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_template_component_map_cid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_template_component_map_cid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_template_component_map_tid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_template_component_map_tid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_user_activity_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_user_activity_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_user_activity_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_user_activity_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_user_emailid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_user_emailid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_user_role_rid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_user_role_rid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_user_role_uid",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_user_role_uid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_user_uname",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_user_uname.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_video_id",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_abp_video_title_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_abp_video_title_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_author_action_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_author_action_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "abpp",
+      "name": "ix_author_action_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_author_action_aid.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 581,
+  "unclassified_count": 0
+}

@@ -1,0 +1,1679 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "fanxp_wf",
+      "type": "SCHEMA",
+      "file": "fanxp_wf.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_academy",
+      "type": "TABLE",
+      "file": "tables/labwf_academy.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_academy_fee",
+      "type": "TABLE",
+      "file": "tables/labwf_academy_fee.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_academy_user_registration",
+      "type": "TABLE",
+      "file": "tables/labwf_academy_user_registration.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_action",
+      "type": "TABLE",
+      "file": "tables/labwf_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_ad",
+      "type": "TABLE",
+      "file": "tables/labwf_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_ad_client",
+      "type": "TABLE",
+      "file": "tables/labwf_ad_client.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_advertisement",
+      "type": "TABLE",
+      "file": "tables/labwf_advertisement.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_album",
+      "type": "TABLE",
+      "file": "tables/labwf_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwf_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_api_error_log",
+      "type": "TABLE",
+      "file": "tables/labwf_api_error_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_article",
+      "type": "TABLE",
+      "file": "tables/labwf_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwf_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_comment_reaction",
+      "type": "TABLE",
+      "file": "tables/labwf_asset_comment_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_delete_log",
+      "type": "TABLE",
+      "file": "tables/labwf_asset_delete_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_draft",
+      "type": "TABLE",
+      "file": "tables/labwf_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_draftmig",
+      "type": "TABLE",
+      "file": "tables/labwf_asset_draftmig.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/labwf_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_entity_mapmig",
+      "type": "TABLE",
+      "file": "tables/labwf_asset_entity_mapmig.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_group",
+      "type": "TABLE",
+      "file": "tables/labwf_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_list",
+      "type": "TABLE",
+      "file": "tables/labwf_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_type",
+      "type": "TABLE",
+      "file": "tables/labwf_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/labwf_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_assets_view",
+      "type": "TABLE",
+      "file": "tables/labwf_assets_view.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_author_action",
+      "type": "TABLE",
+      "file": "tables/labwf_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_component",
+      "type": "TABLE",
+      "file": "tables/labwf_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_component_layout",
+      "type": "TABLE",
+      "file": "tables/labwf_component_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_component_type",
+      "type": "TABLE",
+      "file": "tables/labwf_component_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_contact",
+      "type": "TABLE",
+      "file": "tables/labwf_contact.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_container",
+      "type": "TABLE",
+      "file": "tables/labwf_container.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_content_provider",
+      "type": "TABLE",
+      "file": "tables/labwf_content_provider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_content_source",
+      "type": "TABLE",
+      "file": "tables/labwf_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_content_type_fields",
+      "type": "TABLE",
+      "file": "tables/labwf_content_type_fields.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_cookies_data",
+      "type": "TABLE",
+      "file": "tables/labwf_cookies_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_custom_web_json",
+      "type": "TABLE",
+      "file": "tables/labwf_custom_web_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_dynamic_content_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwf_dynamic_content_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_dynamic_content_type_data",
+      "type": "TABLE",
+      "file": "tables/labwf_dynamic_content_type_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_category",
+      "type": "TABLE",
+      "file": "tables/labwf_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_group",
+      "type": "TABLE",
+      "file": "tables/labwf_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/labwf_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/labwf_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_master",
+      "type": "TABLE",
+      "file": "tables/labwf_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_partner",
+      "type": "TABLE",
+      "file": "tables/labwf_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_role",
+      "type": "TABLE",
+      "file": "tables/labwf_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/labwf_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_type",
+      "type": "TABLE",
+      "file": "tables/labwf_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_example",
+      "type": "TABLE",
+      "file": "tables/labwf_example.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_gratification_details",
+      "type": "TABLE",
+      "file": "tables/labwf_gratification_details.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_gratification_event",
+      "type": "TABLE",
+      "file": "tables/labwf_gratification_event.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_gratification_gift",
+      "type": "TABLE",
+      "file": "tables/labwf_gratification_gift.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_hero_rating",
+      "type": "TABLE",
+      "file": "tables/labwf_hero_rating.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_hero_rating_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwf_hero_rating_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_image",
+      "type": "TABLE",
+      "file": "tables/labwf_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_language_master",
+      "type": "TABLE",
+      "file": "tables/labwf_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_layout",
+      "type": "TABLE",
+      "file": "tables/labwf_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_menu",
+      "type": "TABLE",
+      "file": "tables/labwf_menu.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_menu_page_map",
+      "type": "TABLE",
+      "file": "tables/labwf_menu_page_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_navigation",
+      "type": "TABLE",
+      "file": "tables/labwf_navigation.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_otp_details",
+      "type": "TABLE",
+      "file": "tables/labwf_otp_details.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_page",
+      "type": "TABLE",
+      "file": "tables/labwf_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_page_data",
+      "type": "TABLE",
+      "file": "tables/labwf_page_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_page_partner",
+      "type": "TABLE",
+      "file": "tables/labwf_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_page_template_component_menu_map",
+      "type": "TABLE",
+      "file": "tables/labwf_page_template_component_menu_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_page_template_detail",
+      "type": "TABLE",
+      "file": "tables/labwf_page_template_detail.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_partner",
+      "type": "TABLE",
+      "file": "tables/labwf_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_poll",
+      "type": "TABLE",
+      "file": "tables/labwf_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwf_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_poll_option",
+      "type": "TABLE",
+      "file": "tables/labwf_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_poll_response",
+      "type": "TABLE",
+      "file": "tables/labwf_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_press_release",
+      "type": "TABLE",
+      "file": "tables/labwf_press_release.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_press_release_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwf_press_release_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_press_release_map",
+      "type": "TABLE",
+      "file": "tables/labwf_press_release_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_press_release_master",
+      "type": "TABLE",
+      "file": "tables/labwf_press_release_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_provider_author_map",
+      "type": "TABLE",
+      "file": "tables/labwf_provider_author_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_rating_week",
+      "type": "TABLE",
+      "file": "tables/labwf_rating_week.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_redirect",
+      "type": "TABLE",
+      "file": "tables/labwf_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_role",
+      "type": "TABLE",
+      "file": "tables/labwf_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_seo_data",
+      "type": "TABLE",
+      "file": "tables/labwf_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_site_master",
+      "type": "TABLE",
+      "file": "tables/labwf_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_site_partner",
+      "type": "TABLE",
+      "file": "tables/labwf_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_temp_test",
+      "type": "TABLE",
+      "file": "tables/labwf_temp_test.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_template",
+      "type": "TABLE",
+      "file": "tables/labwf_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/labwf_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_template_component_content_map",
+      "type": "TABLE",
+      "file": "tables/labwf_template_component_content_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_template_component_data",
+      "type": "TABLE",
+      "file": "tables/labwf_template_component_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_template_component_map",
+      "type": "TABLE",
+      "file": "tables/labwf_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_topic",
+      "type": "TABLE",
+      "file": "tables/labwf_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user",
+      "type": "TABLE",
+      "file": "tables/labwf_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_activity",
+      "type": "TABLE",
+      "file": "tables/labwf_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_asset_reaction",
+      "type": "TABLE",
+      "file": "tables/labwf_user_asset_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_data_filter",
+      "type": "TABLE",
+      "file": "tables/labwf_user_data_filter.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_language_map",
+      "type": "TABLE",
+      "file": "tables/labwf_user_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_poll_response",
+      "type": "TABLE",
+      "file": "tables/labwf_user_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_role",
+      "type": "TABLE",
+      "file": "tables/labwf_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_role_menu_action_map2",
+      "type": "TABLE",
+      "file": "tables/labwf_user_role_menu_action_map2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_transaction",
+      "type": "TABLE",
+      "file": "tables/labwf_user_transaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_video",
+      "type": "TABLE",
+      "file": "tables/labwf_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_web_user",
+      "type": "TABLE",
+      "file": "tables/labwf_web_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_web_user_audit",
+      "type": "TABLE",
+      "file": "tables/labwf_web_user_audit.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_academy_fee labwf_academy_fee_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_academy_fee_labwf_academy_fee_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_academy labwf_academy_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_academy_labwf_academy_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_academy_user_registration labwf_academy_user_registration_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_academy_user_registration_labwf_academy_user_registration_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_action labwf_action_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_action_labwf_action_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_ad_client labwf_ad_client_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_ad_client_labwf_ad_client_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_ad labwf_ad_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_ad_labwf_ad_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_advertisement labwf_advertisement_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_advertisement_labwf_advertisement_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_album_asset_map labwf_album_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_album_asset_map_labwf_album_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_album labwf_album_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_album_labwf_album_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_api_error_log labwf_api_error_log_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_api_error_log_labwf_api_error_log_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_article_asset_map labwf_article_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_article_asset_map_labwf_article_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_article labwf_article_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_article_labwf_article_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_comment_reaction labwf_asset_comment_reaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_asset_comment_reaction_labwf_asset_comment_reaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_delete_log labwf_asset_delete_log_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_asset_delete_log_labwf_asset_delete_log_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_draft labwf_asset_draft_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_asset_draft_labwf_asset_draft_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_entity_map labwf_asset_entity_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_asset_entity_map_labwf_asset_entity_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_group labwf_asset_group_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_asset_group_labwf_asset_group_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_list labwf_asset_list_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_asset_list_labwf_asset_list_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_type_meta labwf_asset_type_meta_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_asset_type_meta_labwf_asset_type_meta_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_type labwf_asset_type_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_asset_type_labwf_asset_type_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_assets_view labwf_assets_view_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_assets_view_labwf_assets_view_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_author_action labwf_author_action_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_author_action_labwf_author_action_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_component_layout labwf_component_layout_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_component_layout_labwf_component_layout_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_component labwf_component_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_component_labwf_component_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_component_type labwf_component_type_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_component_type_labwf_component_type_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_contact labwf_contact_email_address_unique",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_contact_labwf_contact_email_address_unique.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_contact labwf_contact_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_contact_labwf_contact_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_container labwf_container_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_container_labwf_container_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_content_provider labwf_content_provider_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_content_provider_labwf_content_provider_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_content_source labwf_content_source_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_content_source_labwf_content_source_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_content_type_fields labwf_content_type_fields_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_content_type_fields_labwf_content_type_fields_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_custom_web_json labwf_custom_web_json_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_custom_web_json_labwf_custom_web_json_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_category labwf_entity_category_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_entity_category_labwf_entity_category_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_group labwf_entity_group_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_entity_group_labwf_entity_group_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_image_map labwf_entity_image_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_entity_image_map_labwf_entity_image_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_language_map labwf_entity_language_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_entity_language_map_labwf_entity_language_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_master labwf_entity_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_entity_master_labwf_entity_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_partner labwf_entity_partner_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_entity_partner_labwf_entity_partner_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_role_map labwf_entity_role_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_entity_role_map_labwf_entity_role_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_role labwf_entity_role_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_entity_role_labwf_entity_role_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_type labwf_entity_type_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_entity_type_labwf_entity_type_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_gratification_details labwf_gratification_details_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_gratification_details_labwf_gratification_details_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_gratification_event labwf_gratification_event_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_gratification_event_labwf_gratification_event_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_gratification_gift labwf_gratification_gift_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_gratification_gift_labwf_gratification_gift_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_hero_rating_asset_map labwf_hero_rating_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_hero_rating_asset_map_labwf_hero_rating_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_hero_rating labwf_hero_rating_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_hero_rating_labwf_hero_rating_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_image labwf_image_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_image_labwf_image_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_language_master labwf_language_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_language_master_labwf_language_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_layout labwf_layout_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_layout_labwf_layout_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_menu_page_map labwf_menu_page_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_menu_page_map_labwf_menu_page_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_menu labwf_menu_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_menu_labwf_menu_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_navigation labwf_navigation_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_navigation_labwf_navigation_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_page_partner labwf_page_partner_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_page_partner_labwf_page_partner_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_page labwf_page_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_page_labwf_page_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_page_template_component_menu_map labwf_page_template_component_menu_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_page_template_component_menu_map_labwf_page_template_component_menu_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_page_template_detail labwf_page_template_detail_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_page_template_detail_labwf_page_template_detail_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_partner labwf_partner_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_partner_labwf_partner_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_poll_asset_map labwf_poll_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_poll_asset_map_labwf_poll_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_poll_option labwf_poll_option_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_poll_option_labwf_poll_option_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_poll labwf_poll_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_poll_labwf_poll_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_poll_response labwf_poll_response_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_poll_response_labwf_poll_response_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_press_release_asset_map labwf_press_release_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_press_release_asset_map_labwf_press_release_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_press_release labwf_press_release_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_press_release_labwf_press_release_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_provider_author_map labwf_provider_author_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_provider_author_map_labwf_provider_author_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_rating_week labwf_rating_week_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_rating_week_labwf_rating_week_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_redirect labwf_redirect_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_redirect_labwf_redirect_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_role labwf_role_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_role_labwf_role_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_seo_data labwf_seo_data_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_seo_data_labwf_seo_data_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_site_master labwf_site_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_site_master_labwf_site_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_site_partner labwf_site_partner_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_site_partner_labwf_site_partner_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_template_component_asset_map labwf_template_component_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_template_component_asset_map_labwf_template_component_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_template_component_content_map labwf_template_component_content_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_template_component_content_map_labwf_template_component_content_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_template_component_data labwf_template_component_data_template_component_map_id_tem_key",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_template_component_data_labwf_template_component_data_template_component_map_id_tem_key.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_template_component_map labwf_template_component_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_template_component_map_labwf_template_component_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_template labwf_template_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_template_labwf_template_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_topic labwf_topic_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_topic_labwf_topic_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_activity labwf_user_activity_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_user_activity_labwf_user_activity_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_asset_reaction labwf_user_asset_reaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_user_asset_reaction_labwf_user_asset_reaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_language_map labwf_user_language_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_user_language_map_labwf_user_language_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user labwf_user_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_user_labwf_user_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_poll_response labwf_user_poll_response_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_user_poll_response_labwf_user_poll_response_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_role_menu_action_map2 labwf_user_role_menu_action_map2_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_user_role_menu_action_map2_labwf_user_role_menu_action_map2_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_role labwf_user_role_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_user_role_labwf_user_role_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_transaction labwf_user_transaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_user_transaction_labwf_user_transaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_video labwf_video_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_video_labwf_video_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_web_user_audit labwf_web_user_audit_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_web_user_audit_labwf_web_user_audit_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_web_user labwf_web_user_email_id_key",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_web_user_labwf_web_user_email_id_key.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_web_user labwf_web_user_mobile_no_key",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_web_user_labwf_web_user_mobile_no_key.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_web_user labwf_web_user_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labwf_web_user_labwf_web_user_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_album_asset_map_album_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_album_asset_map_album_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_article_asset_map_article_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_article_asset_map_article_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_draft_asset_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_asset_draft_asset_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_draft_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_asset_draft_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_entity_map_asset_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_asset_entity_map_asset_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_entity_map_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_asset_entity_map_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_entity_map_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_asset_entity_map_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_list_asset_id_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_asset_list_asset_id_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_list_asset_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_asset_list_asset_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_list_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_asset_list_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_list_lower_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_asset_list_lower_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_list_primary_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_asset_list_primary_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_list_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_asset_list_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_list_secondary_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_asset_list_secondary_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_asset_list_title_alias_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_asset_list_title_alias_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_assets_view_view_date_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_assets_view_view_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_author_action_asset_type_id_asset_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_author_action_asset_type_id_asset_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_author_action_author_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_author_action_author_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_image_map_entity_master_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_entity_image_map_entity_master_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_language_map_entity_master_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_entity_language_map_entity_master_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_language_map_entity_name_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_entity_language_map_entity_name_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_language_map_language_master_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_entity_language_map_language_master_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_master_entity_name_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_entity_master_entity_name_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_master_to_tsvector_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_entity_master_to_tsvector_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_partner_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_entity_partner_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_role_entity_group_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_entity_role_entity_group_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_role_entity_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_entity_role_entity_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_role_map_entity_master_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_entity_role_map_entity_master_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_role_map_entity_role_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_entity_role_map_entity_role_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_entity_role_map_source_object_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_entity_role_map_source_object_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_hero_rating_asset_map_hero_rating_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_hero_rating_asset_map_hero_rating_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_hero_rating_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_hero_rating_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_hero_rating_rating_week_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_hero_rating_rating_week_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_page_alias_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_page_alias_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_page_partner_page_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_page_partner_page_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_poll_option_poll_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_poll_option_poll_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_poll_response_poll_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_poll_response_poll_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_poll_response_response_option_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_poll_response_response_option_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_rating_week_rating_year_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_rating_week_rating_year_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_rating_week_week_number_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_rating_week_week_number_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_rating_week_week_of_year_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_rating_week_week_of_year_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_seo_data_asset_id_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_seo_data_asset_id_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_site_partner_site_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_site_partner_site_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_template_component_map_component_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_template_component_map_component_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_template_component_map_template_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_template_component_map_template_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_activity_asset_id_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_user_activity_asset_id_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_activity_user_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_user_activity_user_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_asset_reaction_asset_id_asset_type_id_user_id_pa_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_user_asset_reaction_asset_id_asset_type_id_user_id_pa_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_email_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_user_email_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_role_role_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_user_role_role_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_wf",
+      "name": "labwf_user_role_user_id_idx",
+      "type": "INDEX",
+      "file": "indexes/labwf_user_role_user_id_idx.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 239,
+  "unclassified_count": 0
+}

@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: dhm
+-- Object: dhm_provider_author_map mum_provider_author_map_id
+-- Type: CONSTRAINT
+
+-- Name: dhm_provider_author_map mum_provider_author_map_id; Type: CONSTRAINT; Schema: dhm; Owner: -
+--
+
+ALTER TABLE ONLY dhm.dhm_provider_author_map
+    ADD CONSTRAINT mum_provider_author_map_id PRIMARY KEY (provider_author_map_id);
+
+
+--

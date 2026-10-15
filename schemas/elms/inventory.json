@@ -1,0 +1,2547 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "elms",
+      "type": "SCHEMA",
+      "file": "elms.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "data(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/data(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_bulk_upd_asset_entity_map(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_bulk_upd_asset_entity_map(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_var_b74b5e1469.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_bulk_upd_modify_date(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/elms_bulk_upd_modify_date(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,_f346c91337.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_change_asset_lock_status(character, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_change_asset_lock_status(character,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_check_asset_ent_by_cat(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_check_asset_ent_by_cat(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_check_page_alias(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_check_page_alias(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_check_slugurl(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_check_slugurl(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_db_backup()",
+      "type": "FUNCTION",
+      "file": "functions/elms_db_backup().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_del_image(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_del_image(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_del_topic(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_del_topic(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_delete_asset(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_delete_asset(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_edit_del_menu(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_edit_del_menu(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_edit_del_page(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_edit_del_page(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_edit_del_template(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_edit_del_template(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_gen_onthisday_article(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_gen_onthisday_article(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_ad_comp_cont_map_list(numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_ad_comp_cont_map_list(numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_ad_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_ad_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_ad_detail(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_ad_detail(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_ad_detail_r(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_ad_detail_r(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_ad_listing(numeric, numeric[], text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_ad_listing(numeric,_numeric[],_text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_ad_listing(numeric, numeric, numeric, character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_ad_listing(numeric,_numeric,_numeric,_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_ad_position_listing()",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_ad_position_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_ad_r(text, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_ad_r(text,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_album_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_album_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_album_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_album_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_album_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_album_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],__0054e3310a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_album_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_album_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_article_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_article_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_article_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_article_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_article_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_article_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_2100a54c02.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_bcae3173d6.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_count_by_cat_json_r(numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_count_by_cat_json_r(numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_count_by_cat_r(numeric[], numeric[], character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_count_by_cat_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_refcursor_ad658d49df.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_count_by_cat_rb_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_count_by_cat_rb_r(numeric[],_numeric[],_character_varying,_numeric,_refcur_d835ec250c.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_listing(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_listing(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_listing_all(numeric, numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_listing_all(numeric,_numeric,_numeric,_numeric,_numeric[],_numeric[],_nume_c5e300dfbc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_listing_by_cat_json_r(numeric, numeric, numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_listing_by_cat_json_r(numeric,_numeric,_numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_listing_by_cat_r(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_listing_by_cat_r(numeric,_numeric,_numeric[],_numeric[],_character_varying_3de707f0e9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_listing_by_cat_r_20180523(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_listing_by_cat_r_20180523(numeric,_numeric,_numeric[],_numeric[],_characte_45a02a40f4.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_listing_by_title(numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_listing_by_title(numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_listing_by_type_r(numeric, numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_listing_by_type_r(numeric,_numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_listing_for_any_ent_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_listing_for_any_ent_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_char_4f7544173c.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_char_2598a705d5.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_char_b01b79fa38.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_listing_r_2412(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_listing_r_2412(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_57a50c71d7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_next_prev_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_next_prev_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_asset_type_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_asset_type_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_author_detail_by_cat_r(numeric[], numeric[], character varying, numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_author_detail_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_numeric_0930a432f0.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_author_listing_by_lang_r(numeric, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_author_listing_by_lang_r(numeric,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_canonical_url_r(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_canonical_url_r(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_category_list_21082019_b17c(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_category_list_21082019_b17c(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_container_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_container_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_content_provider(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_content_provider(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_entity_display_name_by_language(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_entity_display_name_by_language(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_entity_group_listing()",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_entity_group_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_entity_known_as(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_entity_known_as(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_entity_language_from_entities(numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_entity_language_from_entities(numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_entity_listing(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_entity_listing(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_entity_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_entity_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_entity_name_by_asset(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_entity_name_by_asset(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_entity_roles_21082019_7491(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_entity_roles_21082019_7491(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_entity_type_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_entity_type_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_files_list(numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_files_list(numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_heroes_detail_r(numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_heroes_detail_r(numeric,_numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_image_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_image_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_image_listing(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_image_listing(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_menu_by_parent(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_menu_by_parent(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_menu_by_parent_r(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_menu_by_parent_r(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_menu_listing(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_menu_listing(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_menu_page_map_list(numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_menu_page_map_list(numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_navigation_r(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_navigation_r(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_new_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_new_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_page_data(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_page_data(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_page_data_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_page_data_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_refcu_dd52bb2a96.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_page_data_r(character varying, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_page_data_r(character_varying,_numeric,_refcursor,_refcursor,_refcursor,_refcurs_93925fdb92.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_page_data_r(character varying, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_page_data_r(character_varying,_numeric,_numeric,_refcursor,_refcursor,_refcursor_8089eea498.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_page_data_r_old(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_page_data_r_old(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_r_0a92998345.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_page_listing(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_page_listing(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_page_sitemap(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_page_sitemap(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_player_detail_by_cat_json_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_player_detail_by_cat_json_r(numeric,_numeric[],_numeric[],_character_varying,_nu_5e218e93e7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_player_detail_by_cat_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_player_detail_by_cat_r(numeric,_numeric[],_numeric[],_character_varying,_numeric_b26a053f5e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_poll_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_poll_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_poll_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_poll_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_poll_detail_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_poll_detail_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_poll_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_ba623dbd58.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_poll_listing_r(numeric, numeric, numeric[], refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_poll_listing_r(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_press_realease_listing_r(numeric, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_press_realease_listing_r(numeric,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_press_release_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_press_release_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_press_release_listing(numeric, numeric, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_press_release_listing(numeric,_numeric,_numeric,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_rating_week_r(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_rating_week_r(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_sitemap(character varying, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_sitemap(character_varying,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_sitemap_asset_count(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_sitemap_asset_count(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_team_player_detail_r(character varying, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_team_player_detail_r(character_varying,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_tem_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_tem_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_nume_9e1435a1bf.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_tem_comp_asset_map_detail_by_page_r_20112017(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_tem_comp_asset_map_detail_by_page_r_20112017(numeric,_numeric[],_numeric[],_nume_76c0b4da8c.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_tem_comp_asset_map_detail_by_page_r_old(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_tem_comp_asset_map_detail_by_page_r_old(numeric,_numeric[],_numeric[],_numeric,__ae407d3681.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_tem_comp_asset_map_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_tem_comp_asset_map_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_tem_comp_asset_map_detail_r(numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_tem_comp_asset_map_detail_r(numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_tem_cop_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_tem_cop_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_temp_comp_cont_map_detail(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_temp_comp_cont_map_detail(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numer_ce9efcf508.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_template_component(numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_template_component(numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_template_data(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_template_data(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_template_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_template_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_template_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_template_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_topic_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_topic_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_topic_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_topic_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],__e3a8e97513.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_topic_listing_r(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_topic_listing_r(numeric, numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_topic_listing_r_ak(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_topic_listing_r_ak(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_user_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_user_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_user_disp_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_user_disp_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_user_display_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_user_display_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_user_listing()",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_user_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_user_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_user_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_user_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_user_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_user_listing_with_param(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_user_listing_with_param(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_user_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_user_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_video_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_video_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_video_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_video_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_video_detail_r_bk(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_video_detail_r_bk(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_video_detail_rback(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_video_detail_rback(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_video_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_video_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_video_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_video_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],__2dcb595d28.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_video_listing_backup_18022017(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_video_listing_backup_18022017(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_get_word_count(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_get_word_count(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_entity_language_map(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_entity_language_map(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_up_redirect(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_up_redirect(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_ad(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_ad(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_ad(numeric, numeric, text, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, timestamp without time zone, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_ad(numeric,_numeric,_text,_numeric,_numeric,_numeric,_numeric,_numeric,_nume_722663d1f8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_ad_management(numeric, text, text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_ad_management(numeric,_text,_text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_album(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_album(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_albumbk010219(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_albumbk010219(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_article(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_article(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_article_2412(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_article_2412(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_contact(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_contact(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_contact(character varying, character varying, character varying, character varying, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_contact(character_varying,_character_varying,_character_varying,_character_v_4af8be3efd.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_contact(character varying, character varying, character varying, character varying, numeric, text, date, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_contact(character_varying,_character_varying,_character_varying,_character_v_d68e2d83b5.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_container(numeric, character varying, numeric, numeric, numeric, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_container(numeric,_character_varying,_numeric,_numeric,_numeric,_character_v_16b180311f.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_entity(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_entity(numeric,_numeric[],_numeric[],_character_varying[],_character_varying_d832940901.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_entity_ar(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_entity_ar(numeric,_numeric[],_numeric[],_character_varying[],_character_vary_f81116d8fd.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_file(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_file(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_heros(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_heros(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_image(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_image(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_image_20112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_image_20112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_layout(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_layout(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_menu(numeric, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric[], numeric[], character varying[], numeric[], numeric[], numeric[], numeric[], numeric[], character varying[], text[], character varying[], numeric[], numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_menu(numeric,_character_varying,_character_varying,_numeric,_numeric,_numeri_9452d403ed.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_page(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_page(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_page_template_comp_menu_map(numeric[], numeric, numeric[], numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_page_template_comp_menu_map(numeric[],_numeric,_numeric[],_numeric,_numeric[_e5b1919f6f.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_pagebkup_07112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_pagebkup_07112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_poll(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_poll(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_poll_response(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_poll_response(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_press_release(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_press_release(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_rating_week(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_rating_week(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_seo_data(numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_seo_data(numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_template(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_template(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_template_comp_cont_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_template_comp_cont_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_template_component_map(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_template_component_map(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_topic(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_topic(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_topic_partial(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_topic_partial(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_user_ar(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_user_ar(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_upd_video(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_upd_video(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ins_url_testing(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_ins_url_testing(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_is_poll_active(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_is_poll_active(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_search_entity(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_search_entity(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_search_entity_by_page(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_search_entity_by_page(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_search_entity_by_page_18052020(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_search_entity_by_page_18052020(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_search_entity_by_page_all(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_search_entity_by_page_all(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_search_entity_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_search_entity_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_setup_new_client(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_setup_new_client(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_show_get_page_data(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/elms_show_get_page_data(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_show_get_rss_data(numeric, numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_show_get_rss_data(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_show_get_site_map_data(numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_show_get_site_map_data(numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_show_get_site_map_data(numeric, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/elms_show_get_site_map_data(numeric,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_upd_author(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_upd_author(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_upd_page_hierarchy(numeric, character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/elms_upd_page_hierarchy(numeric,_character_varying[],_numeric[],_numeric[],_numeric[],_ch_344e84760e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_user_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/elms_user_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "regexp_count(text, text)",
+      "type": "FUNCTION",
+      "file": "functions/regexp_count(text,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_action",
+      "type": "TABLE",
+      "file": "tables/elms_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ad",
+      "type": "TABLE",
+      "file": "tables/elms_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ad_client",
+      "type": "TABLE",
+      "file": "tables/elms_ad_client.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ad_management",
+      "type": "TABLE",
+      "file": "tables/elms_ad_management.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_advertisement",
+      "type": "TABLE",
+      "file": "tables/elms_advertisement.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_album",
+      "type": "TABLE",
+      "file": "tables/elms_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_album_20180510",
+      "type": "TABLE",
+      "file": "tables/elms_album_20180510.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_album_20180518",
+      "type": "TABLE",
+      "file": "tables/elms_album_20180518.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/elms_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_album_asset_map_20180510",
+      "type": "TABLE",
+      "file": "tables/elms_album_asset_map_20180510.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_album_asset_map_20180518",
+      "type": "TABLE",
+      "file": "tables/elms_album_asset_map_20180518.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_article",
+      "type": "TABLE",
+      "file": "tables/elms_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_article_20180510",
+      "type": "TABLE",
+      "file": "tables/elms_article_20180510.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_article_20180518",
+      "type": "TABLE",
+      "file": "tables/elms_article_20180518.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/elms_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_article_asset_map_20180510",
+      "type": "TABLE",
+      "file": "tables/elms_article_asset_map_20180510.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_article_asset_map_20180518",
+      "type": "TABLE",
+      "file": "tables/elms_article_asset_map_20180518.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_asset_draft",
+      "type": "TABLE",
+      "file": "tables/elms_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_asset_draft_20180510",
+      "type": "TABLE",
+      "file": "tables/elms_asset_draft_20180510.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_asset_draft_20180518",
+      "type": "TABLE",
+      "file": "tables/elms_asset_draft_20180518.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/elms_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_asset_entity_map_20180510",
+      "type": "TABLE",
+      "file": "tables/elms_asset_entity_map_20180510.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_asset_entity_map_20180518",
+      "type": "TABLE",
+      "file": "tables/elms_asset_entity_map_20180518.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_asset_group",
+      "type": "TABLE",
+      "file": "tables/elms_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_asset_list",
+      "type": "TABLE",
+      "file": "tables/elms_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_asset_list_20180510",
+      "type": "TABLE",
+      "file": "tables/elms_asset_list_20180510.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_asset_list_20180518",
+      "type": "TABLE",
+      "file": "tables/elms_asset_list_20180518.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_asset_type",
+      "type": "TABLE",
+      "file": "tables/elms_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/elms_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_author_action",
+      "type": "TABLE",
+      "file": "tables/elms_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_author_action_20180510",
+      "type": "TABLE",
+      "file": "tables/elms_author_action_20180510.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_author_action_20180518",
+      "type": "TABLE",
+      "file": "tables/elms_author_action_20180518.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_component",
+      "type": "TABLE",
+      "file": "tables/elms_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_contact",
+      "type": "TABLE",
+      "file": "tables/elms_contact.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_container",
+      "type": "TABLE",
+      "file": "tables/elms_container.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_content_provider",
+      "type": "TABLE",
+      "file": "tables/elms_content_provider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_content_source",
+      "type": "TABLE",
+      "file": "tables/elms_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_entity_category",
+      "type": "TABLE",
+      "file": "tables/elms_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_entity_group",
+      "type": "TABLE",
+      "file": "tables/elms_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/elms_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/elms_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_entity_master",
+      "type": "TABLE",
+      "file": "tables/elms_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_entity_partner",
+      "type": "TABLE",
+      "file": "tables/elms_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_entity_role",
+      "type": "TABLE",
+      "file": "tables/elms_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/elms_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_entity_type",
+      "type": "TABLE",
+      "file": "tables/elms_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_hero_rating",
+      "type": "TABLE",
+      "file": "tables/elms_hero_rating.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_hero_rating_asset_map",
+      "type": "TABLE",
+      "file": "tables/elms_hero_rating_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_image",
+      "type": "TABLE",
+      "file": "tables/elms_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_language_master",
+      "type": "TABLE",
+      "file": "tables/elms_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_layout",
+      "type": "TABLE",
+      "file": "tables/elms_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_menu",
+      "type": "TABLE",
+      "file": "tables/elms_menu.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_menu_page_map",
+      "type": "TABLE",
+      "file": "tables/elms_menu_page_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_page",
+      "type": "TABLE",
+      "file": "tables/elms_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_page_partner",
+      "type": "TABLE",
+      "file": "tables/elms_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_page_template_component_menu_map",
+      "type": "TABLE",
+      "file": "tables/elms_page_template_component_menu_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_partner",
+      "type": "TABLE",
+      "file": "tables/elms_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_poll",
+      "type": "TABLE",
+      "file": "tables/elms_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/elms_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_poll_option",
+      "type": "TABLE",
+      "file": "tables/elms_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_poll_response",
+      "type": "TABLE",
+      "file": "tables/elms_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_press_release_map",
+      "type": "TABLE",
+      "file": "tables/elms_press_release_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_press_release_master",
+      "type": "TABLE",
+      "file": "tables/elms_press_release_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_rating_week",
+      "type": "TABLE",
+      "file": "tables/elms_rating_week.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_redirect",
+      "type": "TABLE",
+      "file": "tables/elms_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_role",
+      "type": "TABLE",
+      "file": "tables/elms_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_seo_data",
+      "type": "TABLE",
+      "file": "tables/elms_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_seo_data_20180510",
+      "type": "TABLE",
+      "file": "tables/elms_seo_data_20180510.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_seo_data_20180518",
+      "type": "TABLE",
+      "file": "tables/elms_seo_data_20180518.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_site_master",
+      "type": "TABLE",
+      "file": "tables/elms_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_site_partner",
+      "type": "TABLE",
+      "file": "tables/elms_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_sport_skillset_map",
+      "type": "TABLE",
+      "file": "tables/elms_sport_skillset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_template",
+      "type": "TABLE",
+      "file": "tables/elms_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/elms_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_template_component_content_map",
+      "type": "TABLE",
+      "file": "tables/elms_template_component_content_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_template_component_map",
+      "type": "TABLE",
+      "file": "tables/elms_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_topic",
+      "type": "TABLE",
+      "file": "tables/elms_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_topic_asset_map",
+      "type": "TABLE",
+      "file": "tables/elms_topic_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_user",
+      "type": "TABLE",
+      "file": "tables/elms_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_user_activity",
+      "type": "TABLE",
+      "file": "tables/elms_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_user_language_map",
+      "type": "TABLE",
+      "file": "tables/elms_user_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_user_role",
+      "type": "TABLE",
+      "file": "tables/elms_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_video",
+      "type": "TABLE",
+      "file": "tables/elms_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_visual_stories",
+      "type": "TABLE",
+      "file": "tables/elms_visual_stories.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_visual_stories_position",
+      "type": "TABLE",
+      "file": "tables/elms_visual_stories_position.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_ad_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_album_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_album_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_article_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_article_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_asset_draft_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_asset_entity_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_asset_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_asset_list_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_asset_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_asset_type_meta_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_author_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_component_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_contact_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_container_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_container_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_content_provider_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_content_source_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_entity_category_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_entity_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_entity_image_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_entity_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_entity_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_entity_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_entity_role_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_entity_social_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_entity_social_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_entity_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_hero_rating_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_hero_rating_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_language_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_menu_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_menu_page_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_page_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_page_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_page_template_component_menu_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_poll_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_poll_option_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_press_release_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_press_release_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_press_release_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_rating_week_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_redirect_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_seo_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_site_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_site_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_social_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_social_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_template_component_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_template_component_content_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_template_component_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_template_externalasset_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_template_externalasset_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_template_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_topic_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_topic_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_u_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_u_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_user_activity_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_user_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_user_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_video_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "seq_elms_week_number",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_elms_week_number.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "wp_comments",
+      "type": "TABLE",
+      "file": "tables/wp_comments.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "wp_comments_comment_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/wp_comments_comment_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "wp_postmeta",
+      "type": "TABLE",
+      "file": "tables/wp_postmeta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "wp_postmeta_meta_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/wp_postmeta_meta_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "wp_posts",
+      "type": "TABLE",
+      "file": "tables/wp_posts.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "wp_posts_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/wp_posts_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "wp_term_taxonomy",
+      "type": "TABLE",
+      "file": "tables/wp_term_taxonomy.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "wp_term_taxonomy_term_taxonomy_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/wp_term_taxonomy_term_taxonomy_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "wp_terms",
+      "type": "TABLE",
+      "file": "tables/wp_terms.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "wp_terms_term_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/wp_terms_term_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_ad_client ad_client_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/elms_ad_client_ad_client_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_advertisement ad_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/elms_advertisement_ad_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "elms",
+      "name": "elms_contact scom_contact_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/elms_contact_scom_contact_id.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 363,
+  "unclassified_count": 0
+}

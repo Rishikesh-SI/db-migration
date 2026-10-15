@@ -1,0 +1,185 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: abpp
+-- Object: abp_get_asset_listing_by_cat_r(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)
+-- Type: FUNCTION
+
+-- Name: abp_get_asset_listing_by_cat_r(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor); Type: FUNCTION; Schema: abpp; Owner: -
+--
+
+CREATE FUNCTION abpp.abp_get_asset_listing_by_cat_r(p_pagenumber numeric, p_itemnumber numeric, p_entityrole_mapid numeric[], p_asset_type_id numeric[], p_searchkeyword character varying, p_asset_count refcursor, p_asset_cur refcursor, p_category_cur refcursor) RETURNS SETOF refcursor
+    LANGUAGE plpgsql
+    AS $_$
+
+declare
+	
+    v_sysdate timestamp;
+    v_ent_count numeric;
+    v_language_id numeric;
+	v_lang_master_id numeric;
+    v_entityrolemapidquery varchar(4000) := ' ';
+    v_fromrownumber numeric;
+    v_torownumber numeric;
+    v_searchkeyword varchar(4000) := p_searchkeyword;
+    v_entitysearchquery varchar(4000) := ' ';
+    v_assettypeidcount numeric;
+    v_assettypequery varchar(4000) := ' ';
+    v_asset_list_id_arr numeric[];
+    v_qry_str text;
+    
+begin
+	
+    v_sysdate := current_timestamp at time zone 'utc';
+    
+    select count(1)
+    into   v_ent_count
+    from   unnest(p_entityrole_mapid)entity_id;
+    
+    select abp.abp_get_entity_language_from_entities(p_entityrole_mapid)
+    into   v_language_id;
+    
+    select entity_master_id
+    into   v_lang_master_id
+    from   abp.abp_entity_role_map
+    where  entity_role_map_id = v_language_id;
+    
+    if v_ent_count > 0 then
+    	
+        v_entityrolemapidquery := 'and exists (select 1
+        									   from   abp.abp_asset_entity_map eam
+                                               where  eam.asset_id = sl.asset_id
+                                               and    eam.asset_type_id = sl.asset_type_id
+                                               and    eam.entity_role_map_id in (select entity_role_mapid
+                                               									 from   unnest($2) u(entity_role_mapid))
+											   group  by eam.asset_id, eam.asset_type_id
+                                               having count(1) = '||v_ent_count||')';
+		
+    end if;
+    
+    v_fromrownumber := (p_pagenumber * p_itemnumber - (p_itemnumber - 1));
+  	v_torownumber   := (p_pagenumber * p_itemnumber);
+    
+    if v_searchkeyword is not null then
+    	----------pppp
+      -- v_searchkeyword := replace(v_searchkeyword,'''','''''');
+		
+		-- select f_regexp_escape(v_searchkeyword) into v_searchkeyword ;
+		-- select plainto_tsquery('english',v_searchkeyword)::text into v_searchkeyword ;
+		
+		
+		v_searchkeyword:=  regexp_replace(v_searchkeyword, '([''!$()*+.:<=>?[\\\]^{|}-])', '\\\1', 'g');
+		
+		
+		v_searchkeyword:=replace(v_searchkeyword, '''' ,'');
+		
+		
+        ------------
+        v_searchkeyword := '*'||replace(''||v_searchkeyword||'',' ',':* & *')||':*';
+        -- v_entitysearchquery := ' and (to_tsvector(sl.asset_title) @@@ to_tsquery('''||v_searchkeyword||''')
+        							  -- or to_tsvector(sl.short_desc) @@@ to_tsquery('''||v_searchkeyword||'''))';
+		
+		v_entitysearchquery := ' and exists(select 1 from abp.abp_asset_search_view asv
+										where asv.asset_list_id = sl.asset_list_id
+										and (to_tsvector(asv.asset_title) @@@ to_tsquery('''||v_searchkeyword||''')
+        							  or to_tsvector(asv.title_alias) @@@ to_tsquery('''||v_searchkeyword||''')
+											or to_tsvector(asv.short_desc) @@@ to_tsquery('''||v_searchkeyword||''')
+											or to_tsvector(asv.entities) @@@ to_tsquery('''||v_searchkeyword||''')))';
+	end if;
+    
+    select count(asset_type_id)
+	into   v_assettypeidcount
+	from   unnest(p_asset_type_id) u(asset_type_id);
+    
+    if v_assettypeidcount > 0 then
+    	
+        v_assettypequery := 'and sl.asset_type_id in(select asset_type_id
+        											 from   unnest($1) u(asset_type_id))';
+        
+	end if;
+    
+    execute 'select array(select sl.asset_list_id
+    					  from   abp.abp_asset_list sl
+                          join   abp.abp_entity_role_map erm
+                          on     erm.entity_role_map_id = sl.secondary_entity_role_map_id
+                          where  sl.is_active = 1
+                          and    sl.is_deleted = 0
+                          and    sl.is_published = 1
+                          and    sl.published_date <= '''||v_sysdate||'''
+                          and    sl.asset_type_id in (1,2,4,5,14)'
+                          ||v_entityrolemapidquery
+                          ||v_entitysearchquery
+                          ||v_assettypequery
+						 ||')'
+	into    v_asset_list_id_arr
+    using   p_asset_type_id, p_entityrole_mapid;
+    
+    open    p_asset_count for 
+    select distinct count(1) over(partition by secondary_entity_role_map_id) cnt, secondary_entity_role_map_id as sentid
+    from   abp.abp_asset_list
+    where  asset_list_id in(select asset_list_id
+                            from   unnest(v_asset_list_id_arr) u(asset_list_id));
+	
+    open    p_asset_cur for
+    select *
+    from   (select asset_list_id, sl.asset_id, sl.asset_type_id, asset_title, title_alias, sl.author_id, short_desc, tags, primary_entity_role_map_id,
+            	   secondary_entity_role_map_id, total_assets, image_file_name, image_path, duration, show_in_web, show_in_mobile, show_in_app,
+            	   published_version_number, sl.is_trashed, sl.created_date, sl.updated_date, sl.created_by, sl.updated_by, sl.is_active, sl.is_deleted,
+            	   sl.is_published, sl.published_date, sl.asset_guid, show_copyright, order_number, image_file_name, image_path,
+            	   rank() over (partition by secondary_entity_role_map_id order by sl.published_date desc) as rno,
+            	   abp.abp_get_user_display_name(sl.author_id) user_name, emp.entity_name primary_entity_name, ems.entity_name secondary_entity_name,
+            	   erms.priority sent_priority, pam.content_provider_id content_source_id, content_provider_name, em.canonical_url as lang_curl
+            from   abp.abp_asset_list sl
+            join   abp.abp_entity_role_map ermp
+            on     ermp.entity_role_map_id = sl.primary_entity_role_map_id
+            join   abp.abp_entity_role_map erms
+            on     erms.entity_role_map_id = sl.secondary_entity_role_map_id
+            join   abp.abp_entity_master emp
+            on     emp.entity_master_id = ermp.entity_master_id
+            join   abp.abp_entity_master ems
+            on     ems.entity_master_id = erms.entity_master_id
+            join   abp.abp_asset_entity_map aem
+            on     aem.asset_id = sl.asset_id
+            and    aem.asset_type_id = sl.asset_type_id
+            join   abp.abp_entity_role_map erm
+            on     erm.entity_role_map_id = aem.entity_role_map_id
+            join   abp.abp_entity_category ec
+            on     ec.entity_role_id = erm.entity_role_id
+            and    ec.category_name = 'Language'
+            join   abp.abp_entity_master em
+            on     em.entity_master_id = erm.entity_master_id
+            left join abp.abp_user u
+            on     u.user_id = sl.author_id
+			left join abp.abp_provider_author_map pam
+			on     sl.author_id = pam.author_id
+			left join abp.abp_content_provider cp
+			on     pam.content_provider_id = cp.content_provider_id
+            where  sl.asset_list_id in(select asset_list_id
+                                       from   unnest(v_asset_list_id_arr) u(asset_list_id))
+           ) as tab1
+	where  rno between v_fromrownumber and v_torownumber
+    order by sent_priority, rno;
+	
+    open   p_category_cur for
+    select em.entity_role_map_id entid, coalesce(elm.entity_display_name, e.entity_display_name) as entity_name, e.entity_display_name entity_eng_name
+    from   abp.abp_entity_role_map em
+    join   abp.abp_entity_master e
+    on     e.entity_master_id = em.entity_master_id
+    left join abp.abp_entity_language_map elm
+    on     elm.entity_master_id = e.entity_master_id
+    and    elm.language_master_id = v_lang_master_id
+    where  entity_role_id in(select entity_role_id
+                             from   abp.abp_entity_category
+                             where  category_name = 'Category Type')
+	and    e.is_active = 1 
+    and    em.priority > 0;
+	
+/*exception
+	when others then
+     	p_assetcount := -1;
+          p_assetjson := '{"items":[{"error":"no record"}]}';*/
+     
+end;
+
+$_$;
+
+
+--

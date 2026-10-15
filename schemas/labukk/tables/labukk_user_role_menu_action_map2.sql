@@ -1,0 +1,19 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labukk
+-- Object: labukk_user_role_menu_action_map2
+-- Type: TABLE
+
+-- Name: labukk_user_role_menu_action_map2; Type: TABLE; Schema: labukk; Owner: -
+--
+
+CREATE TABLE labukk.labukk_user_role_menu_action_map2 (
+    role_menu_action_id numeric NOT NULL,
+    role_id numeric,
+    user_menu_id numeric,
+    user_action_id numeric,
+    is_active numeric,
+    created_date timestamp without time zone
+);
+
+
+--

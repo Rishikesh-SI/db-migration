@@ -1,0 +1,74 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labkc_v1
+-- Object: labkc_v1_get_user_info_r(jsonb)
+-- Type: FUNCTION
+
+-- Name: labkc_v1_get_user_info_r(jsonb); Type: FUNCTION; Schema: labkc_v1; Owner: -
+--
+
+CREATE FUNCTION labkc_v1.labkc_v1_get_user_info_r(p_input_json jsonb, OUT p_user_json jsonb) RETURNS jsonb
+    LANGUAGE plpgsql
+    AS $$
+/*
+select * from labkc_v1.labkc_v1_get_user_info_r(
+'{
+  "data": {
+    "user_guid": [
+      "ffffa4a1-b925-4b4a-bfe5-d72726d55145",
+      "ffff9051-ab89-4f52-bc36-32686beba640"
+    ],
+    "user_id": [5763201,]
+  }
+}'
+);
+*/
+
+	declare
+	
+	v_user_id jsonb;
+	v_user_guid jsonb;
+
+	begin
+	
+	 select p_input_json->'data'->>'user_id',
+	 		p_input_json->'data'->>'user_guid'
+	into 	v_user_id,
+	        v_user_guid;
+			
+			
+	
+	
+	  if  v_user_id is not null  then
+	  	    
+		select ('{"data":'||(json_agg(row_to_json(row)))::text||'}')::jsonb
+	    from(select first_name,last_name,profile_picture_url,user_id,user_guid, 
+			 mobile_no, email_id, city, gender, address, country_code, country_id, pincode
+			 from labkc_v1.labkc_v1_web_user a,
+			 jsonb_array_elements_text(v_user_id) as b
+			 where  a.user_id = b.value::numeric)row
+		into p_user_json ;	 
+		
+     elseif v_user_guid is not null then
+	
+	 
+	    select ('{"data":'||(json_agg(row_to_json(row)))::text||'}')::jsonb
+		from(select first_name,last_name,profile_picture_url,user_id,user_guid, mobile_no, email_id,
+			  mobile_no, email_id, city, gender, address, country_code, country_id, pincode
+			from labkc_v1.labkc_v1_web_user a,
+			jsonb_array_elements_text(v_user_guid) as b
+			where  a.user_guid = b.value)row
+		into p_user_json ;
+	 
+	 end if;
+	 
+	 if p_user_json is null then
+	 
+	 p_user_json := '{}';
+	 
+	 end if;
+
+	end;
+$$;
+
+
+--

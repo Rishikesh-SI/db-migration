@@ -1,0 +1,3324 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "labhsl",
+      "type": "SCHEMA",
+      "file": "labhsl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "data(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/data(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_bulk_upd_asset_entity_map(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_bulk_upd_asset_entity_map(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_v_a98ac0a8c9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_bulk_upd_modify_date(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_bulk_upd_modify_date(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varyin_7e08af76a1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_change_asset_lock_status(character, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_change_asset_lock_status(character,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_check_asset_ent_by_cat(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_check_asset_ent_by_cat(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_check_page_alias(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_check_page_alias(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_check_slugurl(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_check_slugurl(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_db_backup()",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_db_backup().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_del_image(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_del_image(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_del_topic(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_del_topic(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_delete_asset(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_delete_asset(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_edit_del_menu(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_edit_del_menu(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_edit_del_page(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_edit_del_page(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_edit_del_template(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_edit_del_template(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_gen_onthisday_article(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_gen_onthisday_article(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_ad_comp_cont_map_list(numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_ad_comp_cont_map_list(numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_ad_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_ad_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_ad_detail(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_ad_detail(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_ad_detail_r(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_ad_detail_r(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_ad_listing(numeric, numeric[], text, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_ad_listing(numeric,_numeric[],_text,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_ad_listing(numeric, numeric, numeric, character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_ad_listing(numeric,_numeric,_numeric,_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_ad_position_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_ad_position_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_ad_r(text, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_ad_r(text,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_album_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_album_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_album_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_album_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_album_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_album_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_49d8729c6b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_album_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_album_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_application_details(character varying, character varying, timestamp without time zone, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_application_details(character_varying,_character_varying,_timestamp_without_ti_30fb3a8251.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_article_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_article_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_article_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_article_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_article_detail_r_bak(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_article_detail_r_bak(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_article_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_article_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric_b317b2de1d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric_d5a48a7eb4.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_count_by_cat_json_r(numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_count_by_cat_json_r(numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_count_by_cat_r(numeric[], numeric[], character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_count_by_cat_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_refcurs_28bb4a6143.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_count_by_cat_rb_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_count_by_cat_rb_r(numeric[],_numeric[],_character_varying,_numeric,_refc_c7cc5a60d4.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_listing(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_listing(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_listing_all(numeric, numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_listing_all(numeric,_numeric,_numeric,_numeric,_numeric[],_numeric[],_nu_38f6df725e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_listing_by_cat_json_r(numeric, numeric, numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_listing_by_cat_json_r(numeric,_numeric,_numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_listing_by_cat_r(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_listing_by_cat_r(numeric,_numeric,_numeric[],_numeric[],_character_varyi_b4ac1f5958.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_listing_by_cat_r_20180523(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_listing_by_cat_r_20180523(numeric,_numeric,_numeric[],_numeric[],_charac_e8b5d3e858.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_listing_by_title(numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_listing_by_title(numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_listing_by_type_r(numeric, numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_listing_by_type_r(numeric,_numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_listing_for_any_ent_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_listing_for_any_ent_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_ch_9922d9b585.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_ch_b3c5564235.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_ch_586d0d1168.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_next_prev_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_next_prev_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_asset_type_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_asset_type_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_author_detail_by_cat_r(numeric[], numeric[], character varying, numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_author_detail_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_numer_f47ab6baad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_author_listing_by_lang_r(numeric, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_author_listing_by_lang_r(numeric,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_canonical_url_r(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_canonical_url_r(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_category_list_21082019_79e2(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_category_list_21082019_79e2(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_container_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_container_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_content_provider(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_content_provider(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_download_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_download_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_download_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_download_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeri_b77e870c91.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_download_listing_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_download_listing_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_ent_role_mapid_r(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_ent_role_mapid_r(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_entity_display_name_by_language(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_entity_display_name_by_language(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_entity_group_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_entity_group_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_entity_known_as(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_entity_known_as(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_entity_language_from_entities(numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_entity_language_from_entities(numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_entity_listing(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_entity_listing(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_entity_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_entity_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_entity_name_by_asset(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_entity_name_by_asset(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_entity_roles_21082019_0d40(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_entity_roles_21082019_0d40(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_entity_type_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_entity_type_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_heroes_detail_r(numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_heroes_detail_r(numeric,_numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_image_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_image_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_image_listing(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_image_listing(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_menu_by_parent(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_menu_by_parent(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_menu_by_parent_r(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_menu_by_parent_r(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_menu_listing(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_menu_listing(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_menu_page_map_list(numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_menu_page_map_list(numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_navigation_r(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_navigation_r(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_navigation_r_19062019(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_navigation_r_19062019(numeric,_numeric[],_character_varying,_refcursor,_refcur_90bd97e0b7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_navigation_r_20180914(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_navigation_r_20180914(numeric,_numeric[],_character_varying,_refcursor,_refcur_52463b9f7e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_navigation_r_v1(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_navigation_r_v1(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_new_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_new_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_page_data(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_page_data(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_page_data_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_page_data_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_ref_41bb90fd4e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_page_data_r(character varying, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_page_data_r(character_varying,_numeric,_refcursor,_refcursor,_refcursor,_refcu_384529062e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_page_data_r(character varying, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_page_data_r(character_varying,_numeric,_numeric,_refcursor,_refcursor,_refcurs_7cea574f4f.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_page_data_r_20180223(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_page_data_r_20180223(character_varying,_refcursor,_refcursor,_refcursor,_refcu_c333bdf2f9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_page_data_r_v1(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_page_data_r_v1(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,__e50f6996bd.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_page_listing(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_page_listing(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_page_sitemap(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_page_sitemap(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_player_detail_by_cat_json_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_player_detail_by_cat_json_r(numeric,_numeric[],_numeric[],_character_varying,__2f6d9a1d95.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_player_detail_by_cat_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_player_detail_by_cat_r(numeric,_numeric[],_numeric[],_character_varying,_numer_a224156b41.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_poll_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_poll_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_poll_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_poll_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_poll_detail_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_poll_detail_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_poll_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_2b510ea484.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_poll_listing_r(numeric, numeric, numeric[], refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_poll_listing_r(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_press_release_listing(numeric, numeric, numeric, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_press_release_listing(numeric,_numeric,_numeric,_timestamp_without_time_zone).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_rating_week_r(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_rating_week_r(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_showcase_list_04022019_40c2(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_showcase_list_04022019_40c2(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_showcase_list_28012019_aaae(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_showcase_list_28012019_aaae(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_sitemap(character varying, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_sitemap(character_varying,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_sitemap_asset_count(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_sitemap_asset_count(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_team_player_detail_r(character varying, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_team_player_detail_r(character_varying,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_tem_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_tem_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_tem_comp_asset_map_detail_04022019_c520(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_tem_comp_asset_map_detail_04022019_c520(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_tem_comp_asset_map_detail_28012019_2fcd(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_tem_comp_asset_map_detail_28012019_2fcd(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_tem_comp_asset_map_detail_28012019_4cee(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_tem_comp_asset_map_detail_28012019_4cee(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_nu_975bc8536b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_tem_comp_asset_map_detail_by_page_r_04022019_b871(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_tem_comp_asset_map_detail_by_page_r_04022019_b871(numeric,_numeric[],_numeric[_3cc9623c32.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_tem_comp_asset_map_detail_by_page_r_20112017(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_tem_comp_asset_map_detail_by_page_r_20112017(numeric,_numeric[],_numeric[],_nu_f18f31c348.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_tem_comp_asset_map_detail_by_page_r_old(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_tem_comp_asset_map_detail_by_page_r_old(numeric,_numeric[],_numeric[],_numeric_507f95de69.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_tem_comp_asset_map_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_tem_comp_asset_map_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_tem_comp_asset_map_detail_r(numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_tem_comp_asset_map_detail_r(numeric,_numeric[],_refcursor,_refcursor,_refcurso_ec9a7bf456.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_tem_cop_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_tem_cop_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_temp_comp_cont_map_detail(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_temp_comp_cont_map_detail(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_num_d57ac5ba35.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_template_component(numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_template_component(numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_template_data(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_template_data(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_template_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_template_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_template_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_template_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_topic_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_topic_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_topic_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_topic_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_8c512c2e27.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_topic_listing_r(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_topic_listing_r(numeric, numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_topic_listing_r_ak(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_topic_listing_r_ak(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_user_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_user_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_user_disp_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_user_disp_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_user_display_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_user_display_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_user_listing()",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_user_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_user_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_user_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_user_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_user_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_user_listing_with_param(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_user_listing_with_param(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_user_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_user_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_video_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_video_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_video_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_video_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_video_detail_r_bk(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_video_detail_r_bk(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_video_detail_rback(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_video_detail_rback(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_video_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_video_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_video_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_video_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]_fb4c3d1456.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_video_listing_backup_18022017(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_video_listing_backup_18022017(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_get_word_count(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_get_word_count(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_ambassador_program(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_ambassador_program(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_entity_language_map(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_entity_language_map(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_up_redirect(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_up_redirect(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_ad(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_ad(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_ad(numeric, numeric, text, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, timestamp without time zone, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_ad(numeric,_numeric,_text,_numeric,_numeric,_numeric,_numeric,_numeric,_nu_49d8103a5a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_ad_management(numeric, text, text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_ad_management(numeric,_text,_text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_album(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_album(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_album_20112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_album_20112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_album_backup(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_album_backup(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_article(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_article(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_contact(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_contact(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_contact_bak(character varying, character varying, character varying, character varying, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_contact_bak(character_varying,_character_varying,_character_varying,_chara_deaadfe4b2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_contact_bak(character varying, character varying, character varying, character varying, numeric, text, date, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_contact_bak(character_varying,_character_varying,_character_varying,_chara_ea1b65a27a.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_container(numeric, character varying, numeric, numeric, numeric, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_container(numeric,_character_varying,_numeric,_numeric,_numeric,_character_9a0ad1e46b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_download(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_download(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_entity(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_entity(numeric,_numeric[],_numeric[],_character_varying[],_character_varyi_83398bd9a1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_entity_ar(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_entity_ar(numeric,_numeric[],_numeric[],_character_varying[],_character_va_c3804a675f.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_file(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_file(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_get_web_users_login(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_get_web_users_login(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_heros(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_heros(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_image(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_image(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_image_20112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_image_20112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_layout(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_layout(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_menu(numeric, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric[], numeric[], character varying[], numeric[], numeric[], numeric[], numeric[], numeric[], character varying[], text[], character varying[], numeric[], numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_menu(numeric,_character_varying,_character_varying,_numeric,_numeric,_nume_7f1a3027a8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_page(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_page(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_page_template_comp_menu_map(numeric[], numeric, numeric[], numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_page_template_comp_menu_map(numeric[],_numeric,_numeric[],_numeric,_numeri_da787b8eda.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_pagebkup_07112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_pagebkup_07112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_poll(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_poll(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_poll_response(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_poll_response(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_rating_week(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_rating_week(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_seo_data(numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_seo_data(numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_temp_comp_asset_map_04022019_c90a(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_temp_comp_asset_map_04022019_c90a(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_temp_comp_asset_map_28012019_b864(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_temp_comp_asset_map_28012019_b864(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_template(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_template(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_template_comp_cont_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_template_comp_cont_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_template_component_map(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_template_component_map(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_topic(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_topic(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_topic_partial(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_topic_partial(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_user_ar(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_user_ar(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_upd_video(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_upd_video(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ins_url_testing(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_ins_url_testing(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_is_poll_active(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_is_poll_active(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_search_entity(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_search_entity(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_search_entity_by_page(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_search_entity_by_page(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_search_entity_by_page_18052020(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_search_entity_by_page_18052020(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_search_entity_by_page_all(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_search_entity_by_page_all(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_search_entity_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_search_entity_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_setup_new_client(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_setup_new_client(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_show_get_page_data(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_show_get_page_data(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_show_get_rss_data(numeric, numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_show_get_rss_data(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_show_get_site_map_data(numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_show_get_site_map_data(numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_show_get_site_map_data(numeric, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_show_get_site_map_data(numeric,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_upd_author(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_upd_author(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,_numeric_e926c599ce.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_upd_page_hierarchy(numeric, character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_upd_page_hierarchy(numeric,_character_varying[],_numeric[],_numeric[],_numeric[],__776408f7d0.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_user_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/labhsl_user_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "regexp_count(text, text)",
+      "type": "FUNCTION",
+      "file": "functions/regexp_count(text,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_action",
+      "type": "TABLE",
+      "file": "tables/labhsl_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ad",
+      "type": "TABLE",
+      "file": "tables/labhsl_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_album",
+      "type": "TABLE",
+      "file": "tables/labhsl_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ambassador_data",
+      "type": "TABLE",
+      "file": "tables/labhsl_ambassador_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_article",
+      "type": "TABLE",
+      "file": "tables/labhsl_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_delete_log",
+      "type": "TABLE",
+      "file": "tables/labhsl_asset_delete_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_draft",
+      "type": "TABLE",
+      "file": "tables/labhsl_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_group",
+      "type": "TABLE",
+      "file": "tables/labhsl_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_list",
+      "type": "TABLE",
+      "file": "tables/labhsl_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_type",
+      "type": "TABLE",
+      "file": "tables/labhsl_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/labhsl_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_author_action",
+      "type": "TABLE",
+      "file": "tables/labhsl_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_component",
+      "type": "TABLE",
+      "file": "tables/labhsl_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_component_layout",
+      "type": "TABLE",
+      "file": "tables/labhsl_component_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_component_type",
+      "type": "TABLE",
+      "file": "tables/labhsl_component_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_contact",
+      "type": "TABLE",
+      "file": "tables/labhsl_contact.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_contact_20180921",
+      "type": "TABLE",
+      "file": "tables/labhsl_contact_20180921.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_container",
+      "type": "TABLE",
+      "file": "tables/labhsl_container.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_content_provider",
+      "type": "TABLE",
+      "file": "tables/labhsl_content_provider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_content_source",
+      "type": "TABLE",
+      "file": "tables/labhsl_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_download_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_download_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_download_master",
+      "type": "TABLE",
+      "file": "tables/labhsl_download_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_category",
+      "type": "TABLE",
+      "file": "tables/labhsl_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_group",
+      "type": "TABLE",
+      "file": "tables/labhsl_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_master",
+      "type": "TABLE",
+      "file": "tables/labhsl_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_master_back2906",
+      "type": "TABLE",
+      "file": "tables/labhsl_entity_master_back2906.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_partner",
+      "type": "TABLE",
+      "file": "tables/labhsl_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_role",
+      "type": "TABLE",
+      "file": "tables/labhsl_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_type",
+      "type": "TABLE",
+      "file": "tables/labhsl_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_hero_rating",
+      "type": "TABLE",
+      "file": "tables/labhsl_hero_rating.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_hero_rating_asset_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_hero_rating_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_image",
+      "type": "TABLE",
+      "file": "tables/labhsl_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_language_master",
+      "type": "TABLE",
+      "file": "tables/labhsl_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_layout",
+      "type": "TABLE",
+      "file": "tables/labhsl_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_menu",
+      "type": "TABLE",
+      "file": "tables/labhsl_menu.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_menu_page_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_menu_page_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_page",
+      "type": "TABLE",
+      "file": "tables/labhsl_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_page_partner",
+      "type": "TABLE",
+      "file": "tables/labhsl_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_page_template_component_menu_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_page_template_component_menu_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_partner",
+      "type": "TABLE",
+      "file": "tables/labhsl_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_poll",
+      "type": "TABLE",
+      "file": "tables/labhsl_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_poll_option",
+      "type": "TABLE",
+      "file": "tables/labhsl_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_poll_response",
+      "type": "TABLE",
+      "file": "tables/labhsl_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_press_release",
+      "type": "TABLE",
+      "file": "tables/labhsl_press_release.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_press_release_asset_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_press_release_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_provider_author_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_provider_author_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_rating_week",
+      "type": "TABLE",
+      "file": "tables/labhsl_rating_week.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_redirect",
+      "type": "TABLE",
+      "file": "tables/labhsl_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_role",
+      "type": "TABLE",
+      "file": "tables/labhsl_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_seo_data",
+      "type": "TABLE",
+      "file": "tables/labhsl_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_site_master",
+      "type": "TABLE",
+      "file": "tables/labhsl_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_site_partner",
+      "type": "TABLE",
+      "file": "tables/labhsl_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_template",
+      "type": "TABLE",
+      "file": "tables/labhsl_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_template_20170714",
+      "type": "TABLE",
+      "file": "tables/labhsl_template_20170714.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_template_20180921",
+      "type": "TABLE",
+      "file": "tables/labhsl_template_20180921.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_template_bak_19072017",
+      "type": "TABLE",
+      "file": "tables/labhsl_template_bak_19072017.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_template_component_content_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_template_component_content_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_template_component_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_topic",
+      "type": "TABLE",
+      "file": "tables/labhsl_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_user",
+      "type": "TABLE",
+      "file": "tables/labhsl_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_user_activity",
+      "type": "TABLE",
+      "file": "tables/labhsl_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_user_language_map",
+      "type": "TABLE",
+      "file": "tables/labhsl_user_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_user_role",
+      "type": "TABLE",
+      "file": "tables/labhsl_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_video",
+      "type": "TABLE",
+      "file": "tables/labhsl_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_web_user",
+      "type": "TABLE",
+      "file": "tables/labhsl_web_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_web_user_audit",
+      "type": "TABLE",
+      "file": "tables/labhsl_web_user_audit.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_ad_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_album_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_album_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_ambassador_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_ambassador_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_article_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_article_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_asset_delete_log_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_asset_draft_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_asset_entity_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_asset_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_asset_list_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_asset_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_asset_type_meta_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_author_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_cm_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_cm_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_component_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_component_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_component_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_contact_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_content_provider_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_content_source_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_download_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_download_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_download_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_download_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_entity_category_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_entity_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_entity_image_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_entity_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_entity_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_entity_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_entity_role_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_entity_social_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_entity_social_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_entity_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_hero_rating_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_hero_rating_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_language_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_menu_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_menu_page_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_page_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_page_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_page_template_component_menu_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_poll_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_poll_option_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_provider_author_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_rating_week_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_redirect_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_seo_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_site_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_site_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_social_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_social_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_template_component_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_template_component_content_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_template_component_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_template_externalasset_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_template_externalasset_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_template_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_topic_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_topic_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_user_activity_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_user_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_user_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_video_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_web_user_audit_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_web_user_audit_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_web_users_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_web_users_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "seq_labhsl_week_number",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_labhsl_week_number.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_action hsl_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_action_hsl_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_ad hsl_ad_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_ad_hsl_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_album_asset_map hsl_album_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_album_asset_map_hsl_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_album hsl_album_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_album_hsl_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_article_asset_map hsl_article_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_article_asset_map_hsl_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_article hsl_article_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_article_hsl_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_delete_log hsl_asset_delete_log_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_asset_delete_log_hsl_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_draft hsl_asset_draft_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_asset_draft_hsl_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_entity_map hsl_asset_entity_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_asset_entity_map_hsl_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_group hsl_asset_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_asset_group_hsl_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_list hsl_asset_list_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_asset_list_hsl_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_type hsl_asset_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_asset_type_hsl_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_asset_type_meta hsl_asset_type_meta_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_asset_type_meta_hsl_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_author_action hsl_author_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_author_action_hsl_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_component hsl_component_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_component_hsl_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_component_layout hsl_component_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_component_layout_hsl_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_component_type hsl_component_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_component_type_hsl_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_container hsl_container_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_container_hsl_container_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_content_provider hsl_content_provider_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_content_provider_hsl_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_content_source hsl_content_source_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_content_source_hsl_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_category hsl_entity_category_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_entity_category_hsl_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_group hsl_entity_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_entity_group_hsl_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_image_map hsl_entity_image_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_entity_image_map_hsl_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_language_map hsl_entity_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_entity_language_map_hsl_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_master hsl_entity_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_entity_master_hsl_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_partner hsl_entity_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_entity_partner_hsl_entity_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_role hsl_entity_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_entity_role_hsl_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_role_map hsl_entity_role_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_entity_role_map_hsl_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_entity_type hsl_entity_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_entity_type_hsl_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_hero_rating_asset_map hsl_hero_rating_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_hero_rating_asset_map_hsl_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_hero_rating hsl_hero_rating_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_hero_rating_hsl_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_image hsl_image_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_image_hsl_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_language_master hsl_language_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_language_master_hsl_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_layout hsl_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_layout_hsl_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_menu hsl_menu_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_menu_hsl_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_page hsl_page_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_page_hsl_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_page_partner hsl_page_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_page_partner_hsl_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_partner hsl_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_partner_hsl_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_poll_asset_map hsl_poll_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_poll_asset_map_hsl_poll_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_poll hsl_poll_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_poll_hsl_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_poll_option hsl_poll_option_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_poll_option_hsl_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_poll_response hsl_poll_response_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_poll_response_hsl_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_press_release hsl_press_release_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_press_release_hsl_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_provider_author_map hsl_provider_author_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_provider_author_map_hsl_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_rating_week hsl_rating_week_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_rating_week_hsl_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_redirect hsl_redirect_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_redirect_hsl_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_role hsl_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_role_hsl_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_seo_data hsl_seo_data_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_seo_data_hsl_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_site_master hsl_site_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_site_master_hsl_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_site_partner hsl_site_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_site_partner_hsl_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_template_component_asset_map hsl_template_component_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_template_component_asset_map_hsl_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_template_component_content_map hsl_template_component_content_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_template_component_content_map_hsl_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_topic hsl_topic_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_topic_hsl_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_user_activity hsl_user_activity_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_user_activity_hsl_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_user hsl_user_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_user_hsl_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_user_language_map hsl_user_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_user_language_map_hsl_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_user_role hsl_user_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_user_role_hsl_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_video hsl_video_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_video_hsl_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_press_release_asset_map mum_press_release_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_press_release_asset_map_mum_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_web_user_audit pk_web_user_audit_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_web_user_audit_pk_web_user_audit_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_contact scom_contact_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_contact_scom_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_menu_page_map utt_menu_page_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_menu_page_map_utt_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_page_template_component_menu_map utt_page_template_component_menu_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_page_template_component_menu_map_utt_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "labhsl_web_user web_user_id_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/labhsl_web_user_web_user_id_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "gix_hsl_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/gix_hsl_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_ad_ad_type",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_ad_ad_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_album_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_album_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_article_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_article_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_article_title_alias_lower",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_article_title_alias_lower.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_asset_draft_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_asset_draft_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_asset_draft_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_asset_draft_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_asset_entity_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_asset_entity_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_asset_entity_map_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_asset_entity_map_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_asset_entity_map_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_asset_entity_map_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_asset_list_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_asset_list_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_asset_list_aidatid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_asset_list_aidatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_asset_list_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_asset_list_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_asset_list_permid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_asset_list_permid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_asset_list_published_date",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_asset_list_published_date.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_asset_list_sermid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_asset_list_sermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_asset_list_title_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_asset_list_title_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_asset_list_title_alias_lower",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_asset_list_title_alias_lower.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_author_action_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_author_action_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_author_action_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_author_action_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_entity_image_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_entity_image_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_entity_language_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_entity_language_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_entity_partner_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_entity_partner_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_entity_partner_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_entity_partner_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_entity_partner_lmid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_entity_partner_lmid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_entity_role_egid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_entity_role_egid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_entity_role_etid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_entity_role_etid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_entity_role_map_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_entity_role_map_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_entity_role_map_erid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_entity_role_map_erid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_entity_role_map_soid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_entity_role_map_soid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_hero_rating_asset_map_hrid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_hero_rating_asset_map_hrid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_hero_rating_rwid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_hero_rating_rwid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_hero_rating_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_hero_rating_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_page_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_page_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_poll_option_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_poll_option_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_poll_response_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_poll_response_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_poll_response_roid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_poll_response_roid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_rating_week_ry",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_rating_week_ry.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_rating_week_wn",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_rating_week_wn.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_rating_week_woty",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_rating_week_woty.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_seo_data_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_seo_data_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_site_partner_pgid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_site_partner_pgid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_site_partner_sid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_site_partner_sid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_user_activity_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_user_activity_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_user_activity_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_user_activity_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_user_emailid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_user_emailid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_user_role_rid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_user_role_rid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labhsl",
+      "name": "ix_hsl_user_role_uid",
+      "type": "INDEX",
+      "file": "indexes/ix_hsl_user_role_uid.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 474,
+  "unclassified_count": 0
+}

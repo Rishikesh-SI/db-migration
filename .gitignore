@@ -1,0 +1,19 @@
+# Credentials and environment files
+.env
+.env.*
+!.env.example
+.pgpass
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local backups of scripts
+*.bak
+*.pre-classification-fix
+
+# Test exports

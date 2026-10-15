@@ -1,0 +1,30 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labupstox
+-- Object: labupstox_user_transaction
+-- Type: TABLE
+
+-- Name: labupstox_user_transaction; Type: TABLE; Schema: labupstox; Owner: -
+--
+
+CREATE TABLE labupstox.labupstox_user_transaction (
+    user_transaction_id numeric NOT NULL,
+    user_id numeric NOT NULL,
+    email_id character varying(1000),
+    user_guid character varying(1000),
+    transaction_id character varying(256),
+    total_payment numeric,
+    transaction_status text,
+    transaction_date timestamp without time zone,
+    race_category_id numeric,
+    transaction_json jsonb,
+    transaction_guid character varying(1000),
+    payment_date timestamp without time zone,
+    reason text,
+    order_number character varying(1000),
+    pg_transaction_id character varying(1000),
+    bib_no numeric,
+    mail_sent numeric
+);
+
+
+--

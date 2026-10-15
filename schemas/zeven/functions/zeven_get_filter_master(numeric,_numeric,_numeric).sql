@@ -1,0 +1,37 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: zeven
+-- Object: zeven_get_filter_master(numeric, numeric, numeric)
+-- Type: FUNCTION
+
+-- Name: zeven_get_filter_master(numeric, numeric, numeric); Type: FUNCTION; Schema: zeven; Owner: -
+--
+
+CREATE FUNCTION zeven.zeven_get_filter_master(p_zeven_filter_masterid numeric, p_filter_lvl numeric, p_parent_filterid numeric, OUT p_filter_master_cur refcursor) RETURNS SETOF refcursor
+    LANGUAGE plpgsql
+    AS $$
+
+BEGIN
+---------- SELECT QUERY------------
+  IF P_FILTER_LVL = 0 THEN 
+    OPEN P_FILTER_MASTER_CUR FOR 
+    SELECT  ZEVEN_FILTER_MASTERID,FILTER_NAME,DISPLAY_NAME,FILTER_TABLENAME,IS_ACTIVE,IS_DELETED,IS_SEARCHABLE,FILTER_LEVEL,PARENT_FILTER_ID,                   
+            IS_LEAF_NODE,CREATED_DATE,UPDATED_DATE,FILTER_ORDER,IS_VENUE_LVL_FILTER
+    FROM    zeven.ZEVEN_FILTER_MASTER 
+    WHERE   COALESCE(PARENT_FILTER_ID,0) = 0 AND IS_LEAF_NODE = 0 AND ZEVEN_FILTER_MASTERID = COALESCE(P_ZEVEN_FILTER_MASTERID,ZEVEN_FILTER_MASTERID)
+    ORDER BY 1;
+  END IF;
+  
+  IF P_FILTER_LVL = 1 THEN 
+  OPEN P_FILTER_MASTER_CUR FOR 
+    SELECT  ZEVEN_FILTER_MASTERID,FILTER_NAME,DISPLAY_NAME,FILTER_TABLENAME,IS_ACTIVE,IS_DELETED,IS_SEARCHABLE,FILTER_LEVEL,PARENT_FILTER_ID,                   
+            IS_LEAF_NODE,CREATED_DATE,UPDATED_DATE,FILTER_ORDER,IS_VENUE_LVL_FILTER
+    FROM    zeven.ZEVEN_FILTER_MASTER 
+    WHERE   COALESCE(PARENT_FILTER_ID,0) = P_PARENT_FILTERID AND IS_LEAF_NODE = 1 AND ZEVEN_FILTER_MASTERID = COALESCE(P_ZEVEN_FILTER_MASTERID,ZEVEN_FILTER_MASTERID)
+    ORDER BY 1;
+  END IF;
+END;
+
+$$;
+
+
+--

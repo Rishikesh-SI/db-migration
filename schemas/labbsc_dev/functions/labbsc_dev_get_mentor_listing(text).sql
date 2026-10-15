@@ -1,0 +1,38 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labbsc_dev
+-- Object: labbsc_dev_get_mentor_listing(text)
+-- Type: FUNCTION
+
+-- Name: labbsc_dev_get_mentor_listing(text); Type: FUNCTION; Schema: labbsc_dev; Owner: -
+--
+
+CREATE FUNCTION labbsc_dev.labbsc_dev_get_mentor_listing(p_email_id text, OUT p_mentor_json jsonb) RETURNS jsonb
+    LANGUAGE plpgsql
+    AS $$
+begin
+  
+
+select '{"data":['||string_agg(row_to_json(row)::text,',')||']}'
+		from
+		(
+		  select u.user_id as mentor_id 
+	 
+		 ,u.display_name as mentor_name,u.email_id as mentor_email_id
+		 
+		 from  
+		   labbsc_dev.labbsc_dev_user u
+			 join labbsc_dev.labbsc_dev_user_role ur
+			 on ur.user_id=u.user_id
+			 where ur.role_id in (17,18)
+			and u.email_id=coalesce(p_email_id,u.email_id)
+		   order by u.display_name
+	  
+		) as row
+		into p_mentor_json;
+ 
+
+end;
+$$;
+
+
+--

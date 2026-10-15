@@ -1,0 +1,1735 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "fanxp_lsg",
+      "type": "SCHEMA",
+      "file": "fanxp_lsg.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_academy",
+      "type": "TABLE",
+      "file": "tables/lablsg_academy.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_academy_fee",
+      "type": "TABLE",
+      "file": "tables/lablsg_academy_fee.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_academy_user_registration",
+      "type": "TABLE",
+      "file": "tables/lablsg_academy_user_registration.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_action",
+      "type": "TABLE",
+      "file": "tables/lablsg_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_ad",
+      "type": "TABLE",
+      "file": "tables/lablsg_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_ad_client",
+      "type": "TABLE",
+      "file": "tables/lablsg_ad_client.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_addional_web_user_data",
+      "type": "TABLE",
+      "file": "tables/lablsg_addional_web_user_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_advertisement",
+      "type": "TABLE",
+      "file": "tables/lablsg_advertisement.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_album",
+      "type": "TABLE",
+      "file": "tables/lablsg_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_api_error_log",
+      "type": "TABLE",
+      "file": "tables/lablsg_api_error_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_article",
+      "type": "TABLE",
+      "file": "tables/lablsg_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_comment_reaction",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_comment_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_delete_log",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_delete_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_draft",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_draft_01032024",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_draft_01032024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_draft_07032024",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_draft_07032024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_draftmig",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_draftmig.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_entity_mapmig",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_entity_mapmig.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_group",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_list",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_list_01032024",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_list_01032024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_list_07032024",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_list_07032024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_type",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/lablsg_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_assets_view",
+      "type": "TABLE",
+      "file": "tables/lablsg_assets_view.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_author_action",
+      "type": "TABLE",
+      "file": "tables/lablsg_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_component",
+      "type": "TABLE",
+      "file": "tables/lablsg_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_component_layout",
+      "type": "TABLE",
+      "file": "tables/lablsg_component_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_component_type",
+      "type": "TABLE",
+      "file": "tables/lablsg_component_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_contact",
+      "type": "TABLE",
+      "file": "tables/lablsg_contact.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_container",
+      "type": "TABLE",
+      "file": "tables/lablsg_container.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_content_provider",
+      "type": "TABLE",
+      "file": "tables/lablsg_content_provider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_content_source",
+      "type": "TABLE",
+      "file": "tables/lablsg_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_cookies_data",
+      "type": "TABLE",
+      "file": "tables/lablsg_cookies_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_custom_web_json",
+      "type": "TABLE",
+      "file": "tables/lablsg_custom_web_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_category",
+      "type": "TABLE",
+      "file": "tables/lablsg_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_group",
+      "type": "TABLE",
+      "file": "tables/lablsg_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_master",
+      "type": "TABLE",
+      "file": "tables/lablsg_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_partner",
+      "type": "TABLE",
+      "file": "tables/lablsg_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_role",
+      "type": "TABLE",
+      "file": "tables/lablsg_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_type",
+      "type": "TABLE",
+      "file": "tables/lablsg_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_example",
+      "type": "TABLE",
+      "file": "tables/lablsg_example.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_gallery",
+      "type": "TABLE",
+      "file": "tables/lablsg_gallery.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_gratification_details",
+      "type": "TABLE",
+      "file": "tables/lablsg_gratification_details.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_gratification_event",
+      "type": "TABLE",
+      "file": "tables/lablsg_gratification_event.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_gratification_gift",
+      "type": "TABLE",
+      "file": "tables/lablsg_gratification_gift.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_hero_rating",
+      "type": "TABLE",
+      "file": "tables/lablsg_hero_rating.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_hero_rating_asset_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_hero_rating_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_image",
+      "type": "TABLE",
+      "file": "tables/lablsg_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_language_master",
+      "type": "TABLE",
+      "file": "tables/lablsg_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_layout",
+      "type": "TABLE",
+      "file": "tables/lablsg_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_menu",
+      "type": "TABLE",
+      "file": "tables/lablsg_menu.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_menu_page_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_menu_page_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_navigation",
+      "type": "TABLE",
+      "file": "tables/lablsg_navigation.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_otp_details",
+      "type": "TABLE",
+      "file": "tables/lablsg_otp_details.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_page",
+      "type": "TABLE",
+      "file": "tables/lablsg_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_page_data",
+      "type": "TABLE",
+      "file": "tables/lablsg_page_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_page_partner",
+      "type": "TABLE",
+      "file": "tables/lablsg_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_page_template_component_menu_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_page_template_component_menu_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_page_template_detail",
+      "type": "TABLE",
+      "file": "tables/lablsg_page_template_detail.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_partner",
+      "type": "TABLE",
+      "file": "tables/lablsg_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_poll",
+      "type": "TABLE",
+      "file": "tables/lablsg_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_poll_option",
+      "type": "TABLE",
+      "file": "tables/lablsg_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_poll_response",
+      "type": "TABLE",
+      "file": "tables/lablsg_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_poll_temp",
+      "type": "TABLE",
+      "file": "tables/lablsg_poll_temp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_poll_temp_1",
+      "type": "TABLE",
+      "file": "tables/lablsg_poll_temp_1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_press_release",
+      "type": "TABLE",
+      "file": "tables/lablsg_press_release.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_press_release_asset_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_press_release_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_press_release_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_press_release_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_press_release_master",
+      "type": "TABLE",
+      "file": "tables/lablsg_press_release_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_provider_author_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_provider_author_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_rating_week",
+      "type": "TABLE",
+      "file": "tables/lablsg_rating_week.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_redirect",
+      "type": "TABLE",
+      "file": "tables/lablsg_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_role",
+      "type": "TABLE",
+      "file": "tables/lablsg_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_seo_data",
+      "type": "TABLE",
+      "file": "tables/lablsg_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_site_master",
+      "type": "TABLE",
+      "file": "tables/lablsg_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_site_partner",
+      "type": "TABLE",
+      "file": "tables/lablsg_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_temp_test",
+      "type": "TABLE",
+      "file": "tables/lablsg_temp_test.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_template",
+      "type": "TABLE",
+      "file": "tables/lablsg_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_template_component_content_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_template_component_content_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_template_component_data",
+      "type": "TABLE",
+      "file": "tables/lablsg_template_component_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_template_component_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_topic",
+      "type": "TABLE",
+      "file": "tables/lablsg_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_transaction_logs",
+      "type": "TABLE",
+      "file": "tables/lablsg_transaction_logs.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user",
+      "type": "TABLE",
+      "file": "tables/lablsg_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_activity",
+      "type": "TABLE",
+      "file": "tables/lablsg_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_asset_reaction",
+      "type": "TABLE",
+      "file": "tables/lablsg_user_asset_reaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_data_filter",
+      "type": "TABLE",
+      "file": "tables/lablsg_user_data_filter.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_language_map",
+      "type": "TABLE",
+      "file": "tables/lablsg_user_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_poll_response",
+      "type": "TABLE",
+      "file": "tables/lablsg_user_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_role",
+      "type": "TABLE",
+      "file": "tables/lablsg_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_role_menu_action_map2",
+      "type": "TABLE",
+      "file": "tables/lablsg_user_role_menu_action_map2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_transaction",
+      "type": "TABLE",
+      "file": "tables/lablsg_user_transaction.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_video",
+      "type": "TABLE",
+      "file": "tables/lablsg_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_video_upload",
+      "type": "TABLE",
+      "file": "tables/lablsg_video_upload.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_web_user",
+      "type": "TABLE",
+      "file": "tables/lablsg_web_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_web_user_06112024",
+      "type": "TABLE",
+      "file": "tables/lablsg_web_user_06112024.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_web_user_audit",
+      "type": "TABLE",
+      "file": "tables/lablsg_web_user_audit.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_whatsapp_poll_response",
+      "type": "TABLE",
+      "file": "tables/lablsg_whatsapp_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_academy_fee lablsg_academy_fee_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_academy_fee_lablsg_academy_fee_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_academy lablsg_academy_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_academy_lablsg_academy_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_academy_user_registration lablsg_academy_user_registration_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_academy_user_registration_lablsg_academy_user_registration_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_action lablsg_action_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_action_lablsg_action_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_ad_client lablsg_ad_client_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_ad_client_lablsg_ad_client_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_ad lablsg_ad_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_ad_lablsg_ad_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_advertisement lablsg_advertisement_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_advertisement_lablsg_advertisement_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_album_asset_map lablsg_album_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_album_asset_map_lablsg_album_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_album lablsg_album_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_album_lablsg_album_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_api_error_log lablsg_api_error_log_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_api_error_log_lablsg_api_error_log_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_article_asset_map lablsg_article_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_article_asset_map_lablsg_article_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_article lablsg_article_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_article_lablsg_article_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_comment_reaction lablsg_asset_comment_reaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_asset_comment_reaction_lablsg_asset_comment_reaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_delete_log lablsg_asset_delete_log_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_asset_delete_log_lablsg_asset_delete_log_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_draft lablsg_asset_draft_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_asset_draft_lablsg_asset_draft_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_entity_map lablsg_asset_entity_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_asset_entity_map_lablsg_asset_entity_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_group lablsg_asset_group_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_asset_group_lablsg_asset_group_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_list lablsg_asset_list_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_asset_list_lablsg_asset_list_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_type_meta lablsg_asset_type_meta_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_asset_type_meta_lablsg_asset_type_meta_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_type lablsg_asset_type_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_asset_type_lablsg_asset_type_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_assets_view lablsg_assets_view_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_assets_view_lablsg_assets_view_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_author_action lablsg_author_action_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_author_action_lablsg_author_action_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_component_layout lablsg_component_layout_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_component_layout_lablsg_component_layout_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_component lablsg_component_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_component_lablsg_component_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_component_type lablsg_component_type_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_component_type_lablsg_component_type_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_contact lablsg_contact_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_contact_lablsg_contact_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_container lablsg_container_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_container_lablsg_container_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_content_provider lablsg_content_provider_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_content_provider_lablsg_content_provider_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_content_source lablsg_content_source_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_content_source_lablsg_content_source_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_category lablsg_entity_category_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_entity_category_lablsg_entity_category_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_group lablsg_entity_group_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_entity_group_lablsg_entity_group_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_image_map lablsg_entity_image_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_entity_image_map_lablsg_entity_image_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_language_map lablsg_entity_language_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_entity_language_map_lablsg_entity_language_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_master lablsg_entity_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_entity_master_lablsg_entity_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_partner lablsg_entity_partner_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_entity_partner_lablsg_entity_partner_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_role_map lablsg_entity_role_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_entity_role_map_lablsg_entity_role_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_role lablsg_entity_role_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_entity_role_lablsg_entity_role_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_type lablsg_entity_type_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_entity_type_lablsg_entity_type_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_gallery lablsg_gallery_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_gallery_lablsg_gallery_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_gratification_details lablsg_gratification_details_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_gratification_details_lablsg_gratification_details_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_gratification_event lablsg_gratification_event_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_gratification_event_lablsg_gratification_event_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_gratification_gift lablsg_gratification_gift_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_gratification_gift_lablsg_gratification_gift_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_hero_rating_asset_map lablsg_hero_rating_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_hero_rating_asset_map_lablsg_hero_rating_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_hero_rating lablsg_hero_rating_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_hero_rating_lablsg_hero_rating_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_image lablsg_image_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_image_lablsg_image_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_language_master lablsg_language_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_language_master_lablsg_language_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_layout lablsg_layout_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_layout_lablsg_layout_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_menu_page_map lablsg_menu_page_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_menu_page_map_lablsg_menu_page_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_menu lablsg_menu_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_menu_lablsg_menu_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_navigation lablsg_navigation_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_navigation_lablsg_navigation_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_page_partner lablsg_page_partner_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_page_partner_lablsg_page_partner_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_page lablsg_page_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_page_lablsg_page_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_page_template_component_menu_map lablsg_page_template_component_menu_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_page_template_component_menu_map_lablsg_page_template_component_menu_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_page_template_detail lablsg_page_template_detail_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_page_template_detail_lablsg_page_template_detail_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_partner lablsg_partner_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_partner_lablsg_partner_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_poll_asset_map lablsg_poll_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_poll_asset_map_lablsg_poll_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_poll_option lablsg_poll_option_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_poll_option_lablsg_poll_option_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_poll lablsg_poll_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_poll_lablsg_poll_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_poll_response lablsg_poll_response_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_poll_response_lablsg_poll_response_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_press_release_asset_map lablsg_press_release_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_press_release_asset_map_lablsg_press_release_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_press_release lablsg_press_release_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_press_release_lablsg_press_release_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_provider_author_map lablsg_provider_author_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_provider_author_map_lablsg_provider_author_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_rating_week lablsg_rating_week_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_rating_week_lablsg_rating_week_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_redirect lablsg_redirect_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_redirect_lablsg_redirect_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_role lablsg_role_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_role_lablsg_role_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_seo_data lablsg_seo_data_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_seo_data_lablsg_seo_data_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_site_master lablsg_site_master_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_site_master_lablsg_site_master_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_site_partner lablsg_site_partner_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_site_partner_lablsg_site_partner_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_template_component_asset_map lablsg_template_component_asset_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_template_component_asset_map_lablsg_template_component_asset_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_template_component_content_map lablsg_template_component_content_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_template_component_content_map_lablsg_template_component_content_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_template_component_map lablsg_template_component_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_template_component_map_lablsg_template_component_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_template lablsg_template_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_template_lablsg_template_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_topic lablsg_topic_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_topic_lablsg_topic_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_activity lablsg_user_activity_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_user_activity_lablsg_user_activity_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_asset_reaction lablsg_user_asset_reaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_user_asset_reaction_lablsg_user_asset_reaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_language_map lablsg_user_language_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_user_language_map_lablsg_user_language_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user lablsg_user_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_user_lablsg_user_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_poll_response lablsg_user_poll_response_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_user_poll_response_lablsg_user_poll_response_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_role_menu_action_map2 lablsg_user_role_menu_action_map2_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_user_role_menu_action_map2_lablsg_user_role_menu_action_map2_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_role lablsg_user_role_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_user_role_lablsg_user_role_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_transaction lablsg_user_transaction_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_user_transaction_lablsg_user_transaction_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_video lablsg_video_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_video_lablsg_video_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_video_upload lablsg_video_upload_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_video_upload_lablsg_video_upload_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_web_user_audit lablsg_web_user_audit_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_web_user_audit_lablsg_web_user_audit_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_web_user lablsg_web_user_email_id_key",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_web_user_lablsg_web_user_email_id_key.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_web_user lablsg_web_user_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_web_user_lablsg_web_user_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_whatsapp_poll_response lablsg_whatsapp_poll_response_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/lablsg_whatsapp_poll_response_lablsg_whatsapp_poll_response_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_ad_ad_type_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_ad_ad_type_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_album_asset_map_album_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_album_asset_map_album_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_article_asset_map_article_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_article_asset_map_article_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_draft_asset_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_asset_draft_asset_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_draft_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_asset_draft_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_entity_map_asset_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_asset_entity_map_asset_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_entity_map_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_asset_entity_map_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_entity_map_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_asset_entity_map_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_list_asset_id_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_asset_list_asset_id_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_list_asset_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_asset_list_asset_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_list_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_asset_list_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_list_lower_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_asset_list_lower_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_list_primary_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_asset_list_primary_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_list_published_date_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_asset_list_published_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_list_secondary_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_asset_list_secondary_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_asset_list_title_alias_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_asset_list_title_alias_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_assets_view_view_date_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_assets_view_view_date_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_author_action_asset_type_id_asset_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_author_action_asset_type_id_asset_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_author_action_author_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_author_action_author_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_image_map_entity_master_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_entity_image_map_entity_master_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_language_map_entity_master_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_entity_language_map_entity_master_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_language_map_entity_name_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_entity_language_map_entity_name_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_language_map_language_master_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_entity_language_map_language_master_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_master_entity_name_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_entity_master_entity_name_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_master_to_tsvector_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_entity_master_to_tsvector_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_partner_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_entity_partner_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_role_entity_group_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_entity_role_entity_group_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_role_entity_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_entity_role_entity_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_role_map_entity_master_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_entity_role_map_entity_master_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_role_map_entity_role_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_entity_role_map_entity_role_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_entity_role_map_source_object_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_entity_role_map_source_object_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_hero_rating_asset_map_hero_rating_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_hero_rating_asset_map_hero_rating_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_hero_rating_entity_role_map_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_hero_rating_entity_role_map_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_hero_rating_rating_week_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_hero_rating_rating_week_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_page_alias_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_page_alias_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_page_partner_page_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_page_partner_page_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_poll_option_poll_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_poll_option_poll_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_poll_response_poll_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_poll_response_poll_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_poll_response_response_option_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_poll_response_response_option_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_rating_week_rating_year_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_rating_week_rating_year_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_rating_week_week_number_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_rating_week_week_number_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_rating_week_week_of_year_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_rating_week_week_of_year_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_seo_data_asset_id_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_seo_data_asset_id_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_site_partner_site_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_site_partner_site_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_template_component_map_component_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_template_component_map_component_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_template_component_map_template_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_template_component_map_template_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_activity_asset_id_asset_type_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_user_activity_asset_id_asset_type_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_activity_user_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_user_activity_user_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_asset_reaction_asset_id_asset_type_id_user_id_p_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_user_asset_reaction_asset_id_asset_type_id_user_id_p_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_email_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_user_email_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_role_role_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_user_role_role_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "fanxp_lsg",
+      "name": "lablsg_user_role_user_id_idx",
+      "type": "INDEX",
+      "file": "indexes/lablsg_user_role_user_id_idx.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 247,
+  "unclassified_count": 0
+}

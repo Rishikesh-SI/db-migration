@@ -1,0 +1,48 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labsaw
+-- Object: labsaw_get_cachebuster_pageinfo_details_r(jsonb)
+-- Type: FUNCTION
+
+-- Name: labsaw_get_cachebuster_pageinfo_details_r(jsonb); Type: FUNCTION; Schema: labsaw; Owner: -
+--
+
+CREATE FUNCTION labsaw.labsaw_get_cachebuster_pageinfo_details_r(p_inputjson jsonb, OUT p_data jsonb) RETURNS jsonb
+    LANGUAGE plpgsql
+    AS $$
+
+declare
+	v_page_id numeric;
+	v_template_id numeric;
+begin
+	select 
+		   p_inputjson->'page_id',
+		   p_inputjson->'template_id'		   
+	into   
+		   v_page_id,
+		   v_template_id;
+		   
+		   if v_page_id>0 then
+		   
+		    p_data:= (SELECT JSON_AGG(src) FROM (SELECT meta_info as metainfo FROM labsaw.labsaw_page where page_id=v_page_id) src)::jsonb;
+		    
+		   end if;
+		   
+		   if v_template_id>0 then
+		   
+		   p_data:= (
+		   SELECT JSON_AGG(src) FROM (SELECT meta_info as metainfo FROM labsaw.labsaw_page where page_id in (
+		   select page_id from labsaw.labsaw_template where parent_id=v_template_id and page_id>0
+		   )
+		   
+		   ) src)::jsonb;
+		   
+		   end if;
+		   
+	
+	
+end;
+
+$$;
+
+
+--

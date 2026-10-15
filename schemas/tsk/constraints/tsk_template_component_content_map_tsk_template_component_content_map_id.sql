@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: tsk
+-- Object: tsk_template_component_content_map tsk_template_component_content_map_id
+-- Type: CONSTRAINT
+
+-- Name: tsk_template_component_content_map tsk_template_component_content_map_id; Type: CONSTRAINT; Schema: tsk; Owner: -
+--
+
+ALTER TABLE ONLY tsk.tsk_template_component_content_map
+    ADD CONSTRAINT tsk_template_component_content_map_id PRIMARY KEY (template_component_content_map_id);
+
+
+--

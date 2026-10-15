@@ -1,0 +1,78 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labmao_bkp
+-- Object: labmao_user_activity_report_08092020
+-- Type: TABLE
+
+-- Name: labmao_user_activity_report_08092020; Type: TABLE; Schema: labmao_bkp; Owner: -
+--
+
+CREATE TABLE labmao_bkp.labmao_user_activity_report_08092020 (
+    activity_report_id numeric,
+    user_id numeric,
+    email_id text,
+    distance numeric(10,6),
+    bib_no numeric,
+    runner_id numeric,
+    state_name character varying(500),
+    city character varying(500),
+    dob timestamp without time zone,
+    gender character varying(50),
+    group_name character varying(500),
+    created_date timestamp without time zone,
+    updated_date timestamp without time zone,
+    curr_rank numeric,
+    prev_rank numeric,
+    pledged_distance numeric(10,4),
+    user_name character varying(500),
+    group_id character varying(500),
+    pledged_state character varying(500),
+    pledged_city character varying(500),
+    first_activity numeric,
+    reached_30km numeric,
+    reached_pledged_distance numeric,
+    weeks_2 numeric,
+    weeks_3 numeric,
+    weeks_4 numeric,
+    days_3 numeric,
+    days_5 numeric,
+    days_7 numeric,
+    age numeric,
+    last_updated_badge_date timestamp without time zone,
+    bronze_medal numeric,
+    silver_medal numeric,
+    gold_medal numeric,
+    platinum_medal numeric,
+    "2020-08-15" numeric,
+    "2020-08-16" numeric,
+    "2020-08-17" numeric,
+    "2020-08-18" numeric,
+    "2020-08-19" numeric,
+    "2020-08-20" numeric,
+    "2020-08-21" numeric,
+    "2020-08-22" numeric,
+    "2020-08-23" numeric,
+    "2020-08-24" numeric,
+    "2020-08-25" numeric,
+    "2020-08-26" numeric,
+    "2020-08-27" numeric,
+    "2020-08-28" numeric,
+    "2020-08-29" numeric,
+    "2020-08-30" numeric,
+    "2020-08-31" numeric,
+    "2020-09-01" numeric,
+    "2020-09-02" numeric,
+    "2020-09-03" numeric,
+    "2020-09-04" numeric,
+    "2020-09-05" numeric,
+    "2020-09-06" numeric,
+    "2020-09-07" numeric,
+    "2020-09-08" numeric,
+    "2020-09-09" numeric,
+    "2020-09-10" numeric,
+    "2020-09-11" numeric,
+    "2020-09-12" numeric,
+    "2020-09-13" numeric
+);
+
+
+--

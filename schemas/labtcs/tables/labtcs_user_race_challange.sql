@@ -1,0 +1,42 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labtcs
+-- Object: labtcs_user_race_challange
+-- Type: TABLE
+
+-- Name: labtcs_user_race_challange; Type: TABLE; Schema: labtcs; Owner: -
+--
+
+CREATE TABLE labtcs.labtcs_user_race_challange (
+    user_guid text,
+    user_id numeric,
+    hash_email_address text,
+    distance_class text,
+    actual_distance_in_meters numeric,
+    actual_elapsed_time_in_seconds numeric,
+    average_pace_minutes_per_mile numeric,
+    average_pace_minutes_per_km numeric,
+    date_of_birth text,
+    race_type text,
+    qualifying_trip_activity_id text,
+    date_completed text,
+    approximate_distance_completed text,
+    avg_pace_min_per_miles text,
+    cadence_steps_per_min text,
+    time_spent_paused_in_seconds text,
+    challanger_guid character varying,
+    user_name text,
+    is_qualified numeric,
+    is_video_generated numeric,
+    bib_no numeric,
+    data_json jsonb,
+    first_name character varying,
+    last_name character varying,
+    activetimeinsec text,
+    elapsedtimeinsec text,
+    finishstatus text,
+    avgpace text,
+    created_date timestamp without time zone
+);
+
+
+--

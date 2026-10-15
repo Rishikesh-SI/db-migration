@@ -1,0 +1,12 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labdsg
+-- Object: ix_ttmum_entity_master_ename
+-- Type: INDEX
+
+-- Name: ix_ttmum_entity_master_ename; Type: INDEX; Schema: labdsg; Owner: -
+--
+
+CREATE INDEX ix_ttmum_entity_master_ename ON labdsg.labdsg_entity_master USING btree (entity_name);
+
+
+--

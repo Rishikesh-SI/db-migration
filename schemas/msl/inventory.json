@@ -1,0 +1,3142 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "msl",
+      "type": "SCHEMA",
+      "file": "msl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "data(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/data(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_bulk_upd_asset_entity_map(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_bulk_upd_asset_entity_map(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_vary_4d4237acdc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_bulk_upd_modify_date(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/msl_bulk_upd_modify_date(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,__c8119ed9ff.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_change_asset_lock_status(character, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_change_asset_lock_status(character,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_check_asset_ent_by_cat(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_check_asset_ent_by_cat(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_check_page_alias(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_check_page_alias(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_check_slugurl(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_check_slugurl(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_db_backup()",
+      "type": "FUNCTION",
+      "file": "functions/msl_db_backup().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_del_image(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_del_image(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_del_topic(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_del_topic(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_delete_asset(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_delete_asset(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_edit_del_menu(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_edit_del_menu(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_edit_del_page(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_edit_del_page(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_edit_del_template(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_edit_del_template(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_gen_onthisday_article(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_gen_onthisday_article(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_ad_comp_cont_map_list(numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_ad_comp_cont_map_list(numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_ad_detail(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_ad_detail(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_ad_detail_r(numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_ad_detail_r(numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_ad_listing(numeric, numeric, numeric, character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_ad_listing(numeric,_numeric,_numeric,_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_album_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_album_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_album_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_album_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_album_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_album_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_album_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_album_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_0a20458669.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_album_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_album_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_article_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_article_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_article_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_article_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_article_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_article_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_f3efc85410.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_article_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_6d2c76bd62.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_count_by_cat_json_r(numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_count_by_cat_json_r(numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_count_by_cat_r(numeric[], numeric[], character varying, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_count_by_cat_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_count_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_count_by_cat_rb_r(numeric[], numeric[], character varying, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_count_by_cat_rb_r(numeric[],_numeric[],_character_varying,_numeric,_refcurs_8103c8ea96.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_detail_r_bak(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_detail_r_bak(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_listing(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_listing(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_listing_all(numeric, numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_listing_all(numeric,_numeric,_numeric,_numeric,_numeric[],_numeric[],_numer_50bbcc070c.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_listing_by_cat_json_r(numeric, numeric, numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_listing_by_cat_json_r(numeric,_numeric,_numeric[],_numeric[],_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_listing_by_cat_r(numeric, numeric, numeric[], numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_listing_by_cat_r(numeric,_numeric,_numeric[],_numeric[],_character_varying,_5f7cc8ccf6.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_listing_by_title(numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_listing_by_title(numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_listing_by_type_r(numeric, numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_listing_by_type_r(numeric,_numeric,_numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_listing_for_any_ent_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_listing_for_any_ent_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_chara_6a998b680f.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_chara_16c8af56c9.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_listing_r(numeric, numeric, numeric, numeric[], numeric[], numeric[], character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_listing_r(numeric,_numeric,_numeric,_numeric[],_numeric[],_numeric[],_chara_ec7eeb0267.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_next_prev_r(numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_next_prev_r(numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_related_stories_r(numeric, numeric, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_related_stories_r(numeric,_numeric,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_asset_type_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_asset_type_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_author_detail_by_cat_r(numeric[], numeric[], character varying, numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_author_detail_by_cat_r(numeric[],_numeric[],_character_varying,_numeric,_numeric,_6b4ecdf057.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_author_listing_by_lang_r(numeric, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_author_listing_by_lang_r(numeric,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_canonical_url_r(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_canonical_url_r(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_category_list(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_category_list(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_category_list_30082019_e96f(character varying[], refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_category_list_30082019_e96f(character_varying[],_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_container_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_container_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_content_provider(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_content_provider(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_ent_role_mapid(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_ent_role_mapid(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_ent_role_mapid_r(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_ent_role_mapid_r(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_entity_display_name_by_language(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_entity_display_name_by_language(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_entity_group_listing()",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_entity_group_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_entity_known_as(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_entity_known_as(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_entity_language_from_entities(numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_entity_language_from_entities(numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_entity_listing(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_entity_listing(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_entity_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_entity_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_entity_name_by_asset(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_entity_name_by_asset(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_entity_roles(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_entity_roles(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_entity_roles_30082019_3ea3(numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_entity_roles_30082019_3ea3(numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_entity_type_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_entity_type_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_files_list(numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_files_list(numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_heroes_detail_r(numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_heroes_detail_r(numeric,_numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_image_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_image_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_image_listing(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_image_listing(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_menu_by_parent(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_menu_by_parent(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_menu_by_parent_r(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_menu_by_parent_r(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_menu_listing(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_menu_listing(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_menu_page_map_list(numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_menu_page_map_list(numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_navigation_r(numeric, numeric[], character varying, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_navigation_r(numeric,_numeric[],_character_varying,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_new_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_new_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_page_data(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_page_data(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_page_data_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_page_data_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_refcur_ba74f6cb9d.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_page_data_r(character varying, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_page_data_r(character_varying,_numeric,_refcursor,_refcursor,_refcursor,_refcurso_4689d05735.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_page_data_r_20180223(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_page_data_r_20180223(character_varying,_refcursor,_refcursor,_refcursor,_refcurso_421f8d4cea.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_page_data_rcheck(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_page_data_rcheck(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_r_b9429238b0.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_page_data_rtest(character varying, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_page_data_rtest(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_re_9a46d0851f.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_page_listing(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_page_listing(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_page_sitemap(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_page_sitemap(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_player_detail_by_cat_json_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_player_detail_by_cat_json_r(numeric,_numeric[],_numeric[],_character_varying,_num_afb5d101b8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_player_detail_by_cat_r(numeric, numeric[], numeric[], character varying, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_player_detail_by_cat_r(numeric,_numeric[],_numeric[],_character_varying,_numeric,_88c8712644.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_poll_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_poll_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_poll_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_poll_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_poll_detail_r(numeric, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_poll_detail_r(numeric,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_poll_detail_r(character varying, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_poll_detail_r(character_varying,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_poll_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_poll_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_poll_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_ti_449f0d51c7.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_poll_listing_r(numeric, numeric, numeric[], refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_poll_listing_r(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_press_realease_listing_r(numeric, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_press_realease_listing_r(numeric,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_press_release_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_press_release_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_press_release_listing(numeric, numeric, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_press_release_listing(numeric,_numeric,_numeric,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_rating_week_r(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_rating_week_r(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_showcase_list(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_showcase_list(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_sitemap(character varying, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_sitemap(character_varying,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_sitemap_asset_count(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_sitemap_asset_count(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_team_player_detail_r(character varying, numeric, numeric, numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_team_player_detail_r(character_varying,_numeric,_numeric,_numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_tem_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_tem_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_tem_comp_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_tem_comp_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_tem_comp_asset_map_detail_by_page_r(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_tem_comp_asset_map_detail_by_page_r(numeric,_numeric[],_numeric[],_numeric,_numer_2d508610e3.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_tem_comp_asset_map_detail_by_page_r_20112017(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_tem_comp_asset_map_detail_by_page_r_20112017(numeric,_numeric[],_numeric[],_numer_72da1cea6c.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_tem_comp_asset_map_detail_by_page_r_old(numeric, numeric[], numeric[], numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_tem_comp_asset_map_detail_by_page_r_old(numeric,_numeric[],_numeric[],_numeric,_n_5854cbf71b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_tem_comp_asset_map_detail_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_tem_comp_asset_map_detail_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_tem_comp_asset_map_detail_r(numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_tem_comp_asset_map_detail_r(numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_tem_cop_asset_map_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_tem_cop_asset_map_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_temp_comp_cont_map_detail(numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_temp_comp_cont_map_detail(numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_template_comp_cont_map_list(numeric, numeric, numeric, numeric[], numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_template_comp_cont_map_list(numeric,_numeric,_numeric,_numeric[],_numeric,_numeri_3c20645384.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_template_comp_cont_map_list_r(numeric, numeric, numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_template_comp_cont_map_list_r(numeric,_numeric,_numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_template_component(numeric, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_template_component(numeric,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_template_data(refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_template_data(refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_template_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_template_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_template_listing(numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_template_listing(numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_topic_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_topic_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_topic_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_topic_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_topic_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_topic_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_46e50d2e5e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_topic_listing_r(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_topic_listing_r(numeric, numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_topic_listing_r(numeric,_numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_topic_listing_r_ak(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_topic_listing_r_ak(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_url(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_url(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_user_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_user_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_user_disp_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_user_disp_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_user_display_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_user_display_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_user_listing()",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_user_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_user_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_user_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_user_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_user_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_user_listing_with_param(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_user_listing_with_param(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_user_name(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_user_name(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_video_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_video_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_video_detail_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_video_detail_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_video_detail_r_bk(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_video_detail_r_bk(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_video_detail_rback(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_video_detail_rback(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_video_detail_web(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_video_detail_web(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_video_listing(numeric, numeric, numeric, numeric, character varying, numeric[], timestamp without time zone, timestamp without time zone, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_video_listing(numeric,_numeric,_numeric,_numeric,_character_varying,_numeric[],_t_f2d27d20b6.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_video_listing_backup_18022017(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_video_listing_backup_18022017(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_visual_stories_list()",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_visual_stories_list().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_get_word_count(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_get_word_count(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_entity_language_map(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_entity_language_map(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_up_redirect(numeric, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_up_redirect(numeric,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_ad(numeric, numeric, text, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, timestamp without time zone, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_ad(numeric,_numeric,_text,_numeric,_numeric,_numeric,_numeric,_numeric,_numer_c894e1547b.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_ad_management(numeric, text, text, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_ad_management(numeric,_text,_text,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_album(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_album(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_article(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_article(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_contact(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_contact(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_contact(character varying, character varying, character varying, character varying, numeric, text)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_contact(character_varying,_character_varying,_character_varying,_character_va_13f4384611.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_contact(character varying, character varying, character varying, character varying, numeric, text, text, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_contact(character_varying,_character_varying,_character_varying,_character_va_b78701e7df.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_container(numeric, character varying, numeric, numeric, numeric, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_container(numeric,_character_varying,_numeric,_numeric,_numeric,_character_va_ee04a0bc16.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_entity(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_entity(numeric,_numeric[],_numeric[],_character_varying[],_character_varying[_1b40c0de24.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_entity_ar(numeric, numeric[], numeric[], character varying[], character varying[], numeric[], numeric[], timestamp without time zone[], character varying[], numeric[], character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], character varying[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_entity_ar(numeric,_numeric[],_numeric[],_character_varying[],_character_varyi_ef477780e8.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_file(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_file(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_heros(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_heros(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_image(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_image(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_image_20112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_image_20112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_layout(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_layout(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_menu(numeric, character varying, character varying, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric, numeric[], numeric[], character varying[], numeric[], numeric[], numeric[], numeric[], numeric[], character varying[], text[], character varying[], numeric[], numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_menu(numeric,_character_varying,_character_varying,_numeric,_numeric,_numeric_a8f9545002.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_page(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_page(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_page_template_comp_menu_map(numeric[], numeric, numeric[], numeric, numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_page_template_comp_menu_map(numeric[],_numeric,_numeric[],_numeric,_numeric[]_f2f2bcf89e.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_pagebkup_07112017(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_pagebkup_07112017(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_poll(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_poll(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_poll_response(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_poll_response(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_press_release(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_press_release(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_press_release_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_press_release_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_rating_week(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_rating_week(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_seo_data(numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_seo_data(numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_temp_comp_asset_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_temp_comp_asset_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_template(numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_template(numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_template_comp_cont_map(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_template_comp_cont_map(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_template_component_map(numeric, numeric, numeric, numeric, jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_template_component_map(numeric,_numeric,_numeric,_numeric,_jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_topic(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_topic(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_topic_partial(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_topic_partial(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_user(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_user(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_user_ar(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_user_ar(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_upd_video(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_upd_video(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ins_url_testing(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_ins_url_testing(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_is_poll_active(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_is_poll_active(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_search_entity(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_search_entity(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_search_entity_by_page(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_search_entity_by_page(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_search_entity_by_page_18052020(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_search_entity_by_page_18052020(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_search_entity_by_page_all(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_search_entity_by_page_all(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_search_entity_r(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_search_entity_r(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_setup_new_client(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_setup_new_client(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_show_get_page_data(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/msl_show_get_page_data(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_show_get_rss_data(numeric, numeric, numeric[], refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_show_get_rss_data(numeric,_numeric,_numeric[],_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_show_get_site_map_data(numeric, numeric, numeric, numeric, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/msl_show_get_site_map_data(numeric,_numeric,_numeric,_numeric,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_upd_author(numeric, numeric, numeric[], jsonb, numeric, character varying, numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_upd_author(numeric,_numeric,_numeric[],_jsonb,_numeric,_character_varying,_numeric[],_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_upd_page_hierarchy(numeric, character varying[], numeric[], numeric[], numeric[], character varying[], character varying[], numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/msl_upd_page_hierarchy(numeric,_character_varying[],_numeric[],_numeric[],_numeric[],_cha_a76d978ce4.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_user_login(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/msl_user_login(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "regexp_count(text, text)",
+      "type": "FUNCTION",
+      "file": "functions/regexp_count(text,_text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_action",
+      "type": "TABLE",
+      "file": "tables/msl_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ad",
+      "type": "TABLE",
+      "file": "tables/msl_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_album",
+      "type": "TABLE",
+      "file": "tables/msl_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/msl_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_article",
+      "type": "TABLE",
+      "file": "tables/msl_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/msl_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_delete_log",
+      "type": "TABLE",
+      "file": "tables/msl_asset_delete_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_draft",
+      "type": "TABLE",
+      "file": "tables/msl_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/msl_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_group",
+      "type": "TABLE",
+      "file": "tables/msl_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_list",
+      "type": "TABLE",
+      "file": "tables/msl_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_type",
+      "type": "TABLE",
+      "file": "tables/msl_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/msl_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_author_action",
+      "type": "TABLE",
+      "file": "tables/msl_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_component",
+      "type": "TABLE",
+      "file": "tables/msl_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_component_layout",
+      "type": "TABLE",
+      "file": "tables/msl_component_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_component_type",
+      "type": "TABLE",
+      "file": "tables/msl_component_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_contact",
+      "type": "TABLE",
+      "file": "tables/msl_contact.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_container",
+      "type": "TABLE",
+      "file": "tables/msl_container.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_content_provider",
+      "type": "TABLE",
+      "file": "tables/msl_content_provider.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_content_source",
+      "type": "TABLE",
+      "file": "tables/msl_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_category",
+      "type": "TABLE",
+      "file": "tables/msl_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_group",
+      "type": "TABLE",
+      "file": "tables/msl_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/msl_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/msl_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_master",
+      "type": "TABLE",
+      "file": "tables/msl_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_partner",
+      "type": "TABLE",
+      "file": "tables/msl_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_role",
+      "type": "TABLE",
+      "file": "tables/msl_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/msl_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_type",
+      "type": "TABLE",
+      "file": "tables/msl_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_image",
+      "type": "TABLE",
+      "file": "tables/msl_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_language_master",
+      "type": "TABLE",
+      "file": "tables/msl_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_layout",
+      "type": "TABLE",
+      "file": "tables/msl_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_menu",
+      "type": "TABLE",
+      "file": "tables/msl_menu.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_menu_page_map",
+      "type": "TABLE",
+      "file": "tables/msl_menu_page_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_page",
+      "type": "TABLE",
+      "file": "tables/msl_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_page_20181102",
+      "type": "TABLE",
+      "file": "tables/msl_page_20181102.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_page_partner",
+      "type": "TABLE",
+      "file": "tables/msl_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_page_template_component_menu_map",
+      "type": "TABLE",
+      "file": "tables/msl_page_template_component_menu_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_partner",
+      "type": "TABLE",
+      "file": "tables/msl_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_poll",
+      "type": "TABLE",
+      "file": "tables/msl_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/msl_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_poll_option",
+      "type": "TABLE",
+      "file": "tables/msl_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_poll_response",
+      "type": "TABLE",
+      "file": "tables/msl_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_press_release",
+      "type": "TABLE",
+      "file": "tables/msl_press_release.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_press_release_asset_map",
+      "type": "TABLE",
+      "file": "tables/msl_press_release_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_press_release_asset_master",
+      "type": "TABLE",
+      "file": "tables/msl_press_release_asset_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_provider_author_map",
+      "type": "TABLE",
+      "file": "tables/msl_provider_author_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_redirect",
+      "type": "TABLE",
+      "file": "tables/msl_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_role",
+      "type": "TABLE",
+      "file": "tables/msl_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_seo_data",
+      "type": "TABLE",
+      "file": "tables/msl_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_site_master",
+      "type": "TABLE",
+      "file": "tables/msl_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_site_partner",
+      "type": "TABLE",
+      "file": "tables/msl_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_template",
+      "type": "TABLE",
+      "file": "tables/msl_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/msl_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_template_component_content_map",
+      "type": "TABLE",
+      "file": "tables/msl_template_component_content_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_template_component_map",
+      "type": "TABLE",
+      "file": "tables/msl_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_topic",
+      "type": "TABLE",
+      "file": "tables/msl_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_user",
+      "type": "TABLE",
+      "file": "tables/msl_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_user_activity",
+      "type": "TABLE",
+      "file": "tables/msl_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_user_language_map",
+      "type": "TABLE",
+      "file": "tables/msl_user_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_user_role",
+      "type": "TABLE",
+      "file": "tables/msl_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_video",
+      "type": "TABLE",
+      "file": "tables/msl_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_visual_stories",
+      "type": "TABLE",
+      "file": "tables/msl_visual_stories.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "player_list",
+      "type": "TABLE",
+      "file": "tables/player_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_ad_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_album_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_album_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_article_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_article_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_asset_delete_log_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_asset_draft_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_asset_entity_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_asset_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_asset_list_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_asset_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_asset_type_meta_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_author_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_cm_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_cm_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_component_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_component_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_component_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_contact_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_container_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_container_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_content_provider_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_content_source_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_entity_category_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_entity_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_entity_image_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_entity_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_entity_master_bakv1_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_entity_master_bakv1_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_entity_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_entity_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_entity_role_map_bakv1_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_entity_role_map_bakv1_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_entity_role_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_entity_social_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_entity_social_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_entity_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_hero_rating_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_hero_rating_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_language_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_menu_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_menu_page_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_page_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_page_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_page_template_component_menu_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_pdf_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_pdf_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_poll_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_poll_option_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_press_release_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_press_release_asset_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_press_release_asset_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_press_release_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_press_release_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_press_release_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_provider_author_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_rating_week_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_redirect_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_seo_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_site_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_site_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_social_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_social_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_template_component_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_template_component_content_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_template_component_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_template_externalasset_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_template_externalasset_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_template_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_topic_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_topic_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_user_activity_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_user_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_user_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_video_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_msl_week_number",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_msl_week_number.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_wf_custom_userid",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_wf_custom_userid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "seq_wf_userid",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_wf_userid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "team_list",
+      "type": "TABLE",
+      "file": "tables/team_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "wf_user",
+      "type": "TABLE",
+      "file": "tables/wf_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "wf_user_custom",
+      "type": "TABLE",
+      "file": "tables/wf_user_custom.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "wf_user_fp_req",
+      "type": "TABLE",
+      "file": "tables/wf_user_fp_req.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "wf_user_fp_req_cf_user_fbid_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/wf_user_fp_req_cf_user_fbid_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_action msl_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_action_msl_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_ad msl_ad_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_ad_msl_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_album_asset_map msl_album_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_album_asset_map_msl_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_album msl_album_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_album_msl_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_article_asset_map msl_article_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_article_asset_map_msl_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_article msl_article_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_article_msl_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_delete_log msl_asset_delete_log_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_asset_delete_log_msl_asset_delete_log_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_draft msl_asset_draft_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_asset_draft_msl_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_entity_map msl_asset_entity_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_asset_entity_map_msl_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_group msl_asset_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_asset_group_msl_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_list msl_asset_list_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_asset_list_msl_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_type msl_asset_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_asset_type_msl_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_asset_type_meta msl_asset_type_meta_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_asset_type_meta_msl_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_author_action msl_author_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_author_action_msl_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_component msl_component_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_component_msl_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_component_layout msl_component_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_component_layout_msl_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_component_type msl_component_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_component_type_msl_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_content_provider msl_content_provider_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_content_provider_msl_content_provider_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_content_source msl_content_source_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_content_source_msl_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_category msl_entity_category_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_entity_category_msl_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_group msl_entity_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_entity_group_msl_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_image_map msl_entity_image_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_entity_image_map_msl_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_language_map msl_entity_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_entity_language_map_msl_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_master msl_entity_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_entity_master_msl_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_partner msl_entity_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_entity_partner_msl_entity_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_role msl_entity_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_entity_role_msl_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_role_map msl_entity_role_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_entity_role_map_msl_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_entity_type msl_entity_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_entity_type_msl_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_image msl_image_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_image_msl_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_language_master msl_language_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_language_master_msl_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_layout msl_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_layout_msl_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_menu msl_menu_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_menu_msl_menu_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_menu_page_map msl_menu_page_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_menu_page_map_msl_menu_page_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_page msl_page_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_page_msl_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_page_partner msl_page_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_page_partner_msl_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_page_template_component_menu_map msl_page_template_component_menu_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_page_template_component_menu_map_msl_page_template_component_menu_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_partner msl_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_partner_msl_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_poll_asset_map msl_poll_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_poll_asset_map_msl_poll_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_poll msl_poll_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_poll_msl_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_poll_option msl_poll_option_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_poll_option_msl_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_poll_response msl_poll_response_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_poll_response_msl_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_press_release_asset_map msl_press_release_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_press_release_asset_map_msl_press_release_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_press_release_asset_master msl_press_release_asset_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_press_release_asset_master_msl_press_release_asset_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_press_release msl_press_release_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_press_release_msl_press_release_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_provider_author_map msl_provider_author_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_provider_author_map_msl_provider_author_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_redirect msl_redirect_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_redirect_msl_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_role msl_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_role_msl_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_seo_data msl_seo_data_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_seo_data_msl_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_site_master msl_site_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_site_master_msl_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_site_partner msl_site_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_site_partner_msl_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_template_component_asset_map msl_template_component_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_template_component_asset_map_msl_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_template_component_content_map msl_template_component_content_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_template_component_content_map_msl_template_component_content_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_topic msl_topic_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_topic_msl_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_user_activity msl_user_activity_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_user_activity_msl_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_user msl_user_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_user_msl_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_user_language_map msl_user_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_user_language_map_msl_user_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_user_role msl_user_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_user_role_msl_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_video msl_video_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_video_msl_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_contact scom_contact_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_contact_scom_contact_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "msl_container swa_container_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/msl_container_swa_container_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "wf_user_custom wf_user_custom_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/wf_user_custom_wf_user_custom_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "wf_user_fp_req wf_user_fp_req_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/wf_user_fp_req_wf_user_fp_req_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "wf_user wf_user_pk",
+      "type": "CONSTRAINT",
+      "file": "constraints/wf_user_wf_user_pk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "gix_pkl_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/gix_pkl_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_msl_asset_entity_map_uqid",
+      "type": "INDEX",
+      "file": "indexes/ix_msl_asset_entity_map_uqid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_ad_ad_type",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_ad_ad_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_album_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_album_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_article_asset_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_article_asset_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_asset_draft_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_draft_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_asset_draft_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_draft_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_asset_entity_map_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_entity_map_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_asset_entity_map_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_entity_map_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_asset_entity_map_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_entity_map_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_asset_list_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_asset_list_aidatid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_aidatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_asset_list_atid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_atid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_asset_list_permid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_permid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_asset_list_published_date",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_published_date.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_asset_list_sermid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_sermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_asset_list_title_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_title_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_asset_list_title_alias_lower",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_asset_list_title_alias_lower.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_author_action_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_author_action_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_author_action_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_author_action_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_entity_image_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_image_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_entity_language_map_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_language_map_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_entity_master_ename",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_master_ename.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_entity_partner_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_partner_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_entity_partner_ermid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_partner_ermid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_entity_partner_lmid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_partner_lmid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_entity_role_egid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_egid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_entity_role_etid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_etid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_entity_role_map_emid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_map_emid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_entity_role_map_erid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_map_erid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_entity_role_map_soid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_entity_role_map_soid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_page_alias",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_page_alias.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_poll_option_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_poll_option_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_poll_response_pid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_poll_response_pid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_poll_response_roid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_poll_response_roid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_seo_data_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_seo_data_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_site_partner_pgid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_site_partner_pgid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_site_partner_sid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_site_partner_sid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_user_activity_aatid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_activity_aatid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_user_activity_aid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_activity_aid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_user_emailid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_emailid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_user_role_rid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_role_rid.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "msl",
+      "name": "ix_pkl_user_role_uid",
+      "type": "INDEX",
+      "file": "indexes/ix_pkl_user_role_uid.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 448,
+  "unclassified_count": 0
+}

@@ -1,0 +1,1693 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "waf_master",
+      "type": "SCHEMA",
+      "file": "waf_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "create_lb_creds(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/create_lb_creds(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_cli_stp_transfer_functions(character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/waf_cli_stp_transfer_functions(character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_cli_stp_transfer_functions(character varying, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/waf_cli_stp_transfer_functions(character_varying,_character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_client_dbname_setup_new_client(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/waf_client_dbname_setup_new_client(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_create_lb_creds(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/waf_create_lb_creds(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_article_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_article_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_article_listing(numeric, numeric, numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_article_listing(numeric,_numeric,_numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_client_detail(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_client_detail(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_client_detail(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_client_detail(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_client_detail_bkp(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_client_detail_bkp(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_client_json(character varying, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_client_json(character_varying,_character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_client_json_r(character varying, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_client_json_r(character_varying,_character_varying,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_client_list(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_client_list(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_client_list(numeric, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_client_list(numeric,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_component_dependency_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_component_dependency_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_component_layout_details(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_component_layout_details(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_component_listing(numeric, numeric, numeric, numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_component_listing(numeric,_numeric,_numeric,_numeric,_refcursor,_refcursor,_refcu_2a2e11e0bd.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_component_masters(numeric, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_component_masters(numeric,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_country_state_city(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_country_state_city(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_country_state_city_r(numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_country_state_city_r(numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_entity_group_listing()",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_entity_group_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_entity_listing(numeric, numeric, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_entity_listing(numeric,_numeric,_character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_entity_type_listing(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_entity_type_listing(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_user_listing()",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_user_listing().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_get_widget_dependency_section(character varying, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_get_widget_dependency_section(character_varying,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_ins_edit_component(numeric, character varying, character varying, numeric, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_ins_edit_component(numeric,_character_varying,_character_varying,_numeric,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_ins_upd_album(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/waf_ins_upd_album(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_ins_upd_article(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/waf_ins_upd_article(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_ins_upd_client(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/waf_ins_upd_client(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_ins_upd_client_bkp(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/waf_ins_upd_client_bkp(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_ins_upd_comp_layout(numeric, character varying, character varying, character varying, character varying, numeric, numeric, character varying, character varying, numeric, numeric, numeric, character varying, character varying, numeric[], numeric[], numeric[], text[], text[], numeric[], numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_ins_upd_comp_layout(numeric,_character_varying,_character_varying,_character_varying,_e7486610fb.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_ins_upd_component_type(numeric, numeric, character varying, character varying, numeric, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/waf_ins_upd_component_type(numeric,_numeric,_character_varying,_character_varying,_numeri_19f612f8d0.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_ins_upd_image(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_ins_upd_image(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_ins_upd_widget_group(numeric, character varying, character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_ins_upd_widget_group(numeric,_character_varying,_character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_master_search_entity_by_page(numeric, numeric, character varying, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_master_search_entity_by_page(numeric,_numeric,_character_varying,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_search_country_state_city(character varying)",
+      "type": "FUNCTION",
+      "file": "functions/waf_search_country_state_city(character_varying).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_transfer_data(character varying, character varying, character varying, character varying, character varying, character varying)",
+      "type": "FUNCTION",
+      "file": "functions/waf_transfer_data(character_varying,_character_varying,_character_varying,_character_vary_ca8e990eaa.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_transfer_widget_library(jsonb, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/waf_transfer_widget_library(jsonb,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_usr_login(character varying, character varying, character varying, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/waf_usr_login(character_varying,_character_varying,_character_varying,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_countries",
+      "type": "TABLE",
+      "file": "tables/waf_countries.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "lb_sp_prod_push",
+      "type": "TABLE",
+      "file": "tables/lb_sp_prod_push.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_lb_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_lb_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_ad_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_album_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_album_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_article_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_article_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_asset_draft_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_asset_entity_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_asset_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_asset_list_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_asset_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_asset_type_meta_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_author_action_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_client_component_layout_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_client_component_layout_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_client_draft_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_client_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_component_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_component_layout_dependency_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_component_layout_dependency_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_component_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_component_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_content_source_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_entity_category_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_entity_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_entity_image_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_entity_language_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_entity_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_entity_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_entity_role_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_entity_social_detail_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_entity_social_detail_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_entity_type_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_hero_rating_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_hero_rating_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_image_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_language_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_layout_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_page_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_page_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_poll_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_poll_option_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_poll_response_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_rating_week_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_redirect_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_seo_data_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_site_master_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_site_partner_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_social_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_social_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_template_component_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_template_component_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_template_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_topic_asset_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_topic_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_user_activity_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_user_client_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_user_client_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_user_role_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_video_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_week_number",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_week_number.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_widget_group_component_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_widget_group_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "seq_waf_widget_group_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_waf_widget_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_action",
+      "type": "TABLE",
+      "file": "tables/waf_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_ad",
+      "type": "TABLE",
+      "file": "tables/waf_ad.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_album",
+      "type": "TABLE",
+      "file": "tables/waf_album.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_album_asset_map",
+      "type": "TABLE",
+      "file": "tables/waf_album_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_article",
+      "type": "TABLE",
+      "file": "tables/waf_article.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_article_asset_map",
+      "type": "TABLE",
+      "file": "tables/waf_article_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_asset_draft",
+      "type": "TABLE",
+      "file": "tables/waf_asset_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_asset_entity_map",
+      "type": "TABLE",
+      "file": "tables/waf_asset_entity_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_asset_group",
+      "type": "TABLE",
+      "file": "tables/waf_asset_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_asset_list",
+      "type": "TABLE",
+      "file": "tables/waf_asset_list.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_asset_type",
+      "type": "TABLE",
+      "file": "tables/waf_asset_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_asset_type_meta",
+      "type": "TABLE",
+      "file": "tables/waf_asset_type_meta.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_author_action",
+      "type": "TABLE",
+      "file": "tables/waf_author_action.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_cities",
+      "type": "TABLE",
+      "file": "tables/waf_cities.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_client",
+      "type": "TABLE",
+      "file": "tables/waf_client.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_client_component_layout_map",
+      "type": "TABLE",
+      "file": "tables/waf_client_component_layout_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_client_component_layout_map_bak",
+      "type": "TABLE",
+      "file": "tables/waf_client_component_layout_map_bak.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_client_draft",
+      "type": "TABLE",
+      "file": "tables/waf_client_draft.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_column_constraint_info",
+      "type": "TABLE",
+      "file": "tables/waf_column_constraint_info.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component",
+      "type": "TABLE",
+      "file": "tables/waf_component.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component_bk",
+      "type": "TABLE",
+      "file": "tables/waf_component_bk.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component_layout",
+      "type": "TABLE",
+      "file": "tables/waf_component_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component_layout02132018",
+      "type": "TABLE",
+      "file": "tables/waf_component_layout02132018.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component_layout_20180911",
+      "type": "TABLE",
+      "file": "tables/waf_component_layout_20180911.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component_layout_bak",
+      "type": "TABLE",
+      "file": "tables/waf_component_layout_bak.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component_layout_dependency_map",
+      "type": "TABLE",
+      "file": "tables/waf_component_layout_dependency_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component_layout_dependency_map_bak",
+      "type": "TABLE",
+      "file": "tables/waf_component_layout_dependency_map_bak.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component_layout_dummy",
+      "type": "TABLE",
+      "file": "tables/waf_component_layout_dummy.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component_type",
+      "type": "TABLE",
+      "file": "tables/waf_component_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_contact_page_master",
+      "type": "TABLE",
+      "file": "tables/waf_contact_page_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_content_source",
+      "type": "TABLE",
+      "file": "tables/waf_content_source.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_category",
+      "type": "TABLE",
+      "file": "tables/waf_entity_category.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_group",
+      "type": "TABLE",
+      "file": "tables/waf_entity_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_image_map",
+      "type": "TABLE",
+      "file": "tables/waf_entity_image_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_language_map",
+      "type": "TABLE",
+      "file": "tables/waf_entity_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_master",
+      "type": "TABLE",
+      "file": "tables/waf_entity_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_master_dump",
+      "type": "TABLE",
+      "file": "tables/waf_entity_master_dump.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_partner",
+      "type": "TABLE",
+      "file": "tables/waf_entity_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_role",
+      "type": "TABLE",
+      "file": "tables/waf_entity_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_role_map",
+      "type": "TABLE",
+      "file": "tables/waf_entity_role_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_type",
+      "type": "TABLE",
+      "file": "tables/waf_entity_type.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_hero_rating",
+      "type": "TABLE",
+      "file": "tables/waf_hero_rating.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_hero_rating_asset_map",
+      "type": "TABLE",
+      "file": "tables/waf_hero_rating_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_image",
+      "type": "TABLE",
+      "file": "tables/waf_image.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_language_master",
+      "type": "TABLE",
+      "file": "tables/waf_language_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_layout",
+      "type": "TABLE",
+      "file": "tables/waf_layout.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_page",
+      "type": "TABLE",
+      "file": "tables/waf_page.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_page_partner",
+      "type": "TABLE",
+      "file": "tables/waf_page_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_partner",
+      "type": "TABLE",
+      "file": "tables/waf_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_players",
+      "type": "TABLE",
+      "file": "tables/waf_players.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_poll",
+      "type": "TABLE",
+      "file": "tables/waf_poll.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_poll_asset_map",
+      "type": "TABLE",
+      "file": "tables/waf_poll_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_poll_option",
+      "type": "TABLE",
+      "file": "tables/waf_poll_option.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_poll_response",
+      "type": "TABLE",
+      "file": "tables/waf_poll_response.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_rating_week",
+      "type": "TABLE",
+      "file": "tables/waf_rating_week.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_redirect",
+      "type": "TABLE",
+      "file": "tables/waf_redirect.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_role",
+      "type": "TABLE",
+      "file": "tables/waf_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_seo_data",
+      "type": "TABLE",
+      "file": "tables/waf_seo_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_site_master",
+      "type": "TABLE",
+      "file": "tables/waf_site_master.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_site_partner",
+      "type": "TABLE",
+      "file": "tables/waf_site_partner.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_states",
+      "type": "TABLE",
+      "file": "tables/waf_states.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_template",
+      "type": "TABLE",
+      "file": "tables/waf_template.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_template_component_asset_map",
+      "type": "TABLE",
+      "file": "tables/waf_template_component_asset_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_template_component_map",
+      "type": "TABLE",
+      "file": "tables/waf_template_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_topic",
+      "type": "TABLE",
+      "file": "tables/waf_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_user",
+      "type": "TABLE",
+      "file": "tables/waf_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_user_activity",
+      "type": "TABLE",
+      "file": "tables/waf_user_activity.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_user_client_map",
+      "type": "TABLE",
+      "file": "tables/waf_user_client_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_user_role",
+      "type": "TABLE",
+      "file": "tables/waf_user_role.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_video",
+      "type": "TABLE",
+      "file": "tables/waf_video.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_widget_group",
+      "type": "TABLE",
+      "file": "tables/waf_widget_group.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_widget_group_component_map",
+      "type": "TABLE",
+      "file": "tables/waf_widget_group_component_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_action waf_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_action_waf_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_ad waf_ad_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_ad_waf_ad_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_album_asset_map waf_album_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_album_asset_map_waf_album_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_album waf_album_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_album_waf_album_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_article_asset_map waf_article_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_article_asset_map_waf_article_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_article waf_article_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_article_waf_article_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_asset_draft waf_asset_draft_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_asset_draft_waf_asset_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_asset_entity_map waf_asset_entity_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_asset_entity_map_waf_asset_entity_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_asset_group waf_asset_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_asset_group_waf_asset_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_asset_list waf_asset_list_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_asset_list_waf_asset_list_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_asset_type waf_asset_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_asset_type_waf_asset_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_asset_type_meta waf_asset_type_meta_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_asset_type_meta_waf_asset_type_meta_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_author_action waf_author_action_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_author_action_waf_author_action_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_cities waf_cities_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_cities_waf_cities_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_client waf_client_client_code_key",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_client_waf_client_client_code_key.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_client_component_layout_map waf_client_component_layout_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_client_component_layout_map_waf_client_component_layout_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_client waf_client_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_client_waf_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component_bk waf_component_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_component_bk_waf_component_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component_layout_dependency_map waf_component_layout_dependency_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_component_layout_dependency_map_waf_component_layout_dependency_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component_layout waf_component_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_component_layout_waf_component_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_component_type waf_component_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_component_type_waf_component_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_contact_page_master waf_contact_page_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_contact_page_master_waf_contact_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_content_source waf_content_source_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_content_source_waf_content_source_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_countries waf_countries_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_countries_waf_countries_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_category waf_entity_category_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_entity_category_waf_entity_category_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_group waf_entity_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_entity_group_waf_entity_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_image_map waf_entity_image_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_entity_image_map_waf_entity_image_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_language_map waf_entity_language_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_entity_language_map_waf_entity_language_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_master_dump waf_entity_master_dump_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_entity_master_dump_waf_entity_master_dump_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_master waf_entity_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_entity_master_waf_entity_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_partner waf_entity_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_entity_partner_waf_entity_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_role waf_entity_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_entity_role_waf_entity_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_role_map waf_entity_role_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_entity_role_map_waf_entity_role_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_entity_type waf_entity_type_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_entity_type_waf_entity_type_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_hero_rating_asset_map waf_hero_rating_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_hero_rating_asset_map_waf_hero_rating_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_hero_rating waf_hero_rating_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_hero_rating_waf_hero_rating_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_image waf_image_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_image_waf_image_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_language_master waf_language_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_language_master_waf_language_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_layout waf_layout_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_layout_waf_layout_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_client_draft waf_master_client_draft_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_client_draft_waf_master_client_draft_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_page waf_page_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_page_waf_page_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_page_partner waf_page_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_page_partner_waf_page_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_partner waf_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_partner_waf_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_poll_asset_map waf_poll_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_poll_asset_map_waf_poll_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_poll waf_poll_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_poll_waf_poll_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_poll_option waf_poll_option_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_poll_option_waf_poll_option_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_poll_response waf_poll_response_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_poll_response_waf_poll_response_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_rating_week waf_rating_week_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_rating_week_waf_rating_week_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_redirect waf_redirect_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_redirect_waf_redirect_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_role waf_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_role_waf_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_seo_data waf_seo_data_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_seo_data_waf_seo_data_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_site_master waf_site_master_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_site_master_waf_site_master_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_site_partner waf_site_partner_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_site_partner_waf_site_partner_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_states waf_states_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_states_waf_states_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_template_component_asset_map waf_template_component_asset_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_template_component_asset_map_waf_template_component_asset_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_template_component_map waf_template_component_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_template_component_map_waf_template_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_template waf_template_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_template_waf_template_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_topic waf_topic_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_topic_waf_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_user_activity waf_user_activity_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_user_activity_waf_user_activity_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_user_client_map waf_user_client_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_user_client_map_waf_user_client_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_user waf_user_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_user_waf_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_user_role waf_user_role_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_user_role_waf_user_role_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_video waf_video_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_video_waf_video_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_widget_group_component_map waf_widget_group_component_map_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_widget_group_component_map_waf_widget_group_component_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_widget_group waf_widget_group_id",
+      "type": "CONSTRAINT",
+      "file": "constraints/waf_widget_group_waf_widget_group_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "waf_master",
+      "name": "waf_client_name_version_number",
+      "type": "INDEX",
+      "file": "indexes/waf_client_name_version_number.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 241,
+  "unclassified_count": 0
+}

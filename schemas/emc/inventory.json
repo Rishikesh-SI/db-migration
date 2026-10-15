@@ -1,0 +1,41 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "emc",
+      "type": "SCHEMA",
+      "file": "emc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "emc",
+      "name": "department",
+      "type": "TABLE",
+      "file": "tables/department.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "emc",
+      "name": "employee",
+      "type": "TABLE",
+      "file": "tables/employee.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "emc",
+      "name": "department department_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/department_department_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "emc",
+      "name": "employee employee_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/employee_employee_pkey.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 5,
+  "unclassified_count": 0
+}

@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labacko
+-- Object: labacko_advertisement ad_id_pk
+-- Type: CONSTRAINT
+
+-- Name: labacko_advertisement ad_id_pk; Type: CONSTRAINT; Schema: labacko; Owner: -
+--
+
+ALTER TABLE ONLY labacko.labacko_advertisement
+    ADD CONSTRAINT ad_id_pk PRIMARY KEY (ad_id);
+
+
+--

@@ -1,0 +1,73 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: tmm
+-- Object: tmm_user_master_bkp
+-- Type: TABLE
+
+-- Name: tmm_user_master_bkp; Type: TABLE; Schema: tmm; Owner: -
+--
+
+CREATE TABLE tmm.tmm_user_master_bkp (
+    user_id numeric,
+    email_id text,
+    login_password text,
+    user_guid text,
+    payment_status numeric,
+    payment_amount character varying(500),
+    category character varying(500),
+    pledged_distance character varying(500),
+    group_id character varying(500),
+    user_name character varying(500),
+    city text,
+    state_name text,
+    pincode text,
+    bib_no numeric,
+    height character varying(500),
+    weight character varying(500),
+    mobile_no text,
+    created_date timestamp without time zone,
+    updated_date timestamp without time zone,
+    external_user_id numeric,
+    dob character varying,
+    charity_amount character varying(500),
+    nationality character varying(500),
+    gender character varying(50),
+    user_json jsonb,
+    pledged_state character varying(500),
+    pledged_city character varying(500),
+    group_name character varying(500),
+    activity_date date,
+    admin_updated_date timestamp without time zone,
+    old_group_id character varying(500),
+    spanish_flag numeric,
+    ngo_name character varying(500),
+    donation_amount character varying(500),
+    ticket_amount character varying(500),
+    race_tee_amount character varying(500),
+    medal_amount character varying(500),
+    gst_amount character varying(500),
+    address character varying(500),
+    country character varying(500),
+    tee_size character varying(500),
+    run_club_name character varying(500),
+    elite_athlete character varying(500),
+    used_referral_code character varying(500),
+    reg_referral_code character varying(500),
+    referral_reg_name character varying(500),
+    order_id numeric,
+    race_type character varying,
+    pancard character varying,
+    firstname character varying,
+    lastname character varying,
+    corporate character varying,
+    addons jsonb,
+    applicationid numeric,
+    application_status character varying,
+    lineupsection character varying,
+    rejectionremarks character varying,
+    yearband character varying,
+    collectiontype character varying,
+    race_name character varying
+);
+
+
+--

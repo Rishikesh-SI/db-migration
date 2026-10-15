@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: fanxp_wf
+-- Object: labwf_provider_author_map labwf_provider_author_map_pkey
+-- Type: CONSTRAINT
+
+-- Name: labwf_provider_author_map labwf_provider_author_map_pkey; Type: CONSTRAINT; Schema: fanxp_wf; Owner: -
+--
+
+ALTER TABLE ONLY fanxp_wf.labwf_provider_author_map
+    ADD CONSTRAINT labwf_provider_author_map_pkey PRIMARY KEY (provider_author_map_id);
+
+
+--

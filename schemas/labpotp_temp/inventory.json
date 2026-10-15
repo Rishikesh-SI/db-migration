@@ -1,0 +1,55 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "labpotp_temp",
+      "type": "SCHEMA",
+      "file": "labpotp_temp.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labpotp_temp",
+      "name": "labpotp_temp_get_user_data(jsonb, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labpotp_temp_get_user_data(jsonb,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labpotp_temp",
+      "name": "labpotp_temp_get_user_data_bkp(jsonb, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/labpotp_temp_get_user_data_bkp(jsonb,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labpotp_temp",
+      "name": "labpotp_temp_contest_contest_id_seq",
+      "type": "SEQUENCE",
+      "file": "sequences/labpotp_temp_contest_contest_id_seq.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labpotp_temp",
+      "name": "labpotp_temp_custom_web_json",
+      "type": "TABLE",
+      "file": "tables/labpotp_temp_custom_web_json.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labpotp_temp",
+      "name": "labpotp_temp_temp_data",
+      "type": "TABLE",
+      "file": "tables/labpotp_temp_temp_data.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "labpotp_temp",
+      "name": "labpotp_temp_custom_web_json labpotp_temp_custom_web_json_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/labpotp_temp_custom_web_json_labpotp_temp_custom_web_json_pkey.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 7,
+  "unclassified_count": 0
+}

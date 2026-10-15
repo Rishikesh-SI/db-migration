@@ -1,0 +1,76 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labbsc
+-- Object: labbsc_start_test(jsonb)
+-- Type: FUNCTION
+
+-- Name: labbsc_start_test(jsonb); Type: FUNCTION; Schema: labbsc; Owner: -
+--
+
+CREATE FUNCTION labbsc.labbsc_start_test(p_json jsonb, OUT p_result numeric) RETURNS numeric
+    LANGUAGE plpgsql
+    AS $$
+declare
+	
+	v_user_guid text;
+	v_email_id text;
+	v_user_id numeric;
+	v_current_timestamp timestamp := current_timestamp at time zone 'utc';
+	
+begin
+	
+	select p_json->>'user_guid', p_json->>'email_id'
+	into v_user_guid, v_email_id;
+	
+	if v_user_guid is not null and v_user_guid <> '' and v_email_id is not null and v_email_id <> '' then
+		
+		select user_id
+		into strict v_user_id
+		from labbsc.labbsc_web_user
+		where user_guid = v_user_guid
+		and email_id = v_email_id;
+		
+		if exists(select 1
+				  from labbsc.labbsc_user_tests ut
+				  join labbsc.labbsc_cart c
+				  on c.cart_id = ut.cart_id
+				  where ut.user_id = v_user_id
+				  and ut.is_attempted = 0
+				  and ut.valid_till >= v_current_timestamp
+				  and c.status = 2) then
+			
+			update labbsc.labbsc_user_tests ut
+			set is_attempted = 1,
+				attempted_on = v_current_timestamp,
+				test_duration = 2,
+				updated_date = v_current_timestamp
+			from labbsc.labbsc_cart c
+			where c.cart_id = ut.cart_id
+			and ut.user_id = v_user_id
+			and ut.is_attempted = 0
+			and ut.valid_till >= v_current_timestamp
+			and c.status = 2;
+			
+			p_result := 1;
+
+		else
+
+			p_result := -3;
+
+		end if;
+		
+	else
+		
+		p_result := 0;
+		
+	end if;
+	
+exception
+	when no_data_found then
+		p_result := -2;
+	when others then
+		p_result := -1;
+end;
+$$;
+
+
+--

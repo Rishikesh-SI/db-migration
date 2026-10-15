@@ -1,0 +1,1371 @@
+{
+  "objects": [
+    {
+      "schema": "-",
+      "name": "gpnv2",
+      "type": "SCHEMA",
+      "file": "gpnv2.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_delete_topics(numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/gpn_delete_topics(numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_get_subscription_data(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_subscription_data(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_get_topics_to_delete(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_topics_to_delete(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_get_unsubscription_data(refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_unsubscription_data(refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_get_user_endpoint_arn(text)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_user_endpoint_arn(text).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_get_user_mig_data(character varying, numeric, numeric)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_user_mig_data(character_varying,_numeric,_numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_get_user_subscription_data(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_user_subscription_data(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_get_user_subscription_data_17122020(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_get_user_subscription_data_17122020(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_ingest_series_match(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ingest_series_match(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_ins_notification_get_topic(jsonb, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_notification_get_topic(jsonb,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_ins_upd_match(jsonb, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_upd_match(jsonb,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_ins_upd_match_10022021(jsonb, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_upd_match_10022021(jsonb,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_ins_upd_match_11022021(jsonb, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_upd_match_11022021(jsonb,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_ins_upd_match_18122020(jsonb, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_upd_match_18122020(jsonb,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_ins_upd_match_new(jsonb, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_upd_match_new(jsonb,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_ins_upd_user_event_subscription(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_upd_user_event_subscription(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_ins_upd_user_event_subscription_17122020(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_upd_user_event_subscription_17122020(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_ins_upd_user_event_subscription_new(jsonb)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_ins_upd_user_event_subscription_new(jsonb).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_login_admin_user(jsonb, refcursor, refcursor, refcursor, refcursor, refcursor)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_login_admin_user(jsonb,_refcursor,_refcursor,_refcursor,_refcursor,_refcursor).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_move_yho_users()",
+      "type": "FUNCTION",
+      "file": "functions/gpn_move_yho_users().sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_upd_notification(numeric)",
+      "type": "FUNCTION",
+      "file": "functions/gpn_upd_notification(numeric).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_upd_subscription_data(numeric, numeric[], numeric[], numeric[], numeric[], character varying[], character varying[])",
+      "type": "FUNCTION",
+      "file": "functions/gpn_upd_subscription_data(numeric,_numeric[],_numeric[],_numeric[],_numeric[],_character__4e3c85e860.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_upd_topic(numeric[], text[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/gpn_upd_topic(numeric[],_text[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_upd_unsubscription_data(numeric[], numeric[])",
+      "type": "FUNCTION",
+      "file": "functions/gpn_upd_unsubscription_data(numeric[],_numeric[]).sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_admin_user",
+      "type": "TABLE",
+      "file": "tables/gpn_admin_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_application",
+      "type": "TABLE",
+      "file": "tables/gpn_application.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_aws_topics",
+      "type": "TABLE",
+      "file": "tables/gpn_aws_topics.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_client",
+      "type": "TABLE",
+      "file": "tables/gpn_client.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_client_browser_topic",
+      "type": "TABLE",
+      "file": "tables/gpn_client_browser_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_client_event_subscription_map",
+      "type": "TABLE",
+      "file": "tables/gpn_client_event_subscription_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_client_language_map",
+      "type": "TABLE",
+      "file": "tables/gpn_client_language_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_client_league_map",
+      "type": "TABLE",
+      "file": "tables/gpn_client_league_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_client_notification_map",
+      "type": "TABLE",
+      "file": "tables/gpn_client_notification_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_country",
+      "type": "TABLE",
+      "file": "tables/gpn_country.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_eng_ios_users",
+      "type": "TABLE",
+      "file": "tables/gpn_eng_ios_users.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_eng_users",
+      "type": "TABLE",
+      "file": "tables/gpn_eng_users.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_eng_vs_wi_topic_dup",
+      "type": "TABLE",
+      "file": "tables/gpn_eng_vs_wi_topic_dup.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_environment",
+      "type": "TABLE",
+      "file": "tables/gpn_environment.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_event",
+      "type": "TABLE",
+      "file": "tables/gpn_event.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_language",
+      "type": "TABLE",
+      "file": "tables/gpn_language.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_league",
+      "type": "TABLE",
+      "file": "tables/gpn_league.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_league_team_map",
+      "type": "TABLE",
+      "file": "tables/gpn_league_team_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_match",
+      "type": "TABLE",
+      "file": "tables/gpn_match.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_news_match_v1",
+      "type": "TABLE",
+      "file": "tables/gpn_news_match_v1.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_notification",
+      "type": "TABLE",
+      "file": "tables/gpn_notification.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_process_tab",
+      "type": "TABLE",
+      "file": "tables/gpn_process_tab.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_processed_tab",
+      "type": "TABLE",
+      "file": "tables/gpn_processed_tab.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_series_match_map",
+      "type": "TABLE",
+      "file": "tables/gpn_series_match_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_sport",
+      "type": "TABLE",
+      "file": "tables/gpn_sport.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_subscription",
+      "type": "TABLE",
+      "file": "tables/gpn_subscription.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_team",
+      "type": "TABLE",
+      "file": "tables/gpn_team.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic",
+      "type": "TABLE",
+      "file": "tables/gpn_topic.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_ac",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_ac.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_dc",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_dc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_delete_log",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_delete_log.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_deleted",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_deleted.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_isl",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_isl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_jfc",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_jfc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_mi",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_mi.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_mi_browser",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_mi_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_pkl",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_pkl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_yho",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_yho.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_yho_browser",
+      "type": "TABLE",
+      "file": "tables/gpn_topic_yho_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user",
+      "type": "TABLE",
+      "file": "tables/gpn_user.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_ac",
+      "type": "TABLE",
+      "file": "tables/gpn_user_ac.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_dc",
+      "type": "TABLE",
+      "file": "tables/gpn_user_dc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map",
+      "type": "TABLE",
+      "file": "tables/gpn_user_event_subscription_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_ac",
+      "type": "TABLE",
+      "file": "tables/gpn_user_event_subscription_map_ac.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_dc",
+      "type": "TABLE",
+      "file": "tables/gpn_user_event_subscription_map_dc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_deleted",
+      "type": "TABLE",
+      "file": "tables/gpn_user_event_subscription_map_deleted.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_isl",
+      "type": "TABLE",
+      "file": "tables/gpn_user_event_subscription_map_isl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_jfc",
+      "type": "TABLE",
+      "file": "tables/gpn_user_event_subscription_map_jfc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_mi",
+      "type": "TABLE",
+      "file": "tables/gpn_user_event_subscription_map_mi.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_mi_browser",
+      "type": "TABLE",
+      "file": "tables/gpn_user_event_subscription_map_mi_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_pkl",
+      "type": "TABLE",
+      "file": "tables/gpn_user_event_subscription_map_pkl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_yho",
+      "type": "TABLE",
+      "file": "tables/gpn_user_event_subscription_map_yho.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_yho_browser",
+      "type": "TABLE",
+      "file": "tables/gpn_user_event_subscription_map_yho_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_isl",
+      "type": "TABLE",
+      "file": "tables/gpn_user_isl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_jfc",
+      "type": "TABLE",
+      "file": "tables/gpn_user_jfc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_mi",
+      "type": "TABLE",
+      "file": "tables/gpn_user_mi.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_mi_browser",
+      "type": "TABLE",
+      "file": "tables/gpn_user_mi_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_pkl",
+      "type": "TABLE",
+      "file": "tables/gpn_user_pkl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_series_subscription_map",
+      "type": "TABLE",
+      "file": "tables/gpn_user_series_subscription_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_change.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_ac",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_change_ac.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_dc",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_change_dc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_isl",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_change_isl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_jfc",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_change_jfc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_mi",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_change_mi.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_mi_browser",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_change_mi_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_pkl",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_change_pkl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_yho",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_change_yho.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_yho_browser",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_change_yho_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_ac",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map_ac.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_dc",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map_dc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_deleted",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map_deleted.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_dummy",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map_dummy.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_isl",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map_isl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_jfc",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map_jfc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_mi",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map_mi.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_mi_browser",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map_mi_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_pkl",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map_pkl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_yho",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map_yho.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_yho_browser",
+      "type": "TABLE",
+      "file": "tables/gpn_user_topic_map_yho_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_yho",
+      "type": "TABLE",
+      "file": "tables/gpn_user_yho.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_yho_browser",
+      "type": "TABLE",
+      "file": "tables/gpn_user_yho_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_wi_ios_dup",
+      "type": "TABLE",
+      "file": "tables/gpn_wi_ios_dup.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_wi_ios_users",
+      "type": "TABLE",
+      "file": "tables/gpn_wi_ios_users.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_wi_rem_users",
+      "type": "TABLE",
+      "file": "tables/gpn_wi_rem_users.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_wi_users",
+      "type": "TABLE",
+      "file": "tables/gpn_wi_users.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_admin_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_admin_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_application_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_application_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_client_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_client_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_client_league_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_client_league_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_client_notification_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_client_notification_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_country_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_country_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_league_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_league_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_match_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_match_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_notification_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_notification_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_series_match_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_series_match_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_team_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_team_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_topic_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_topic_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_user_event_subscription_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_user_event_subscription_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_user_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_user_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_user_series_subscription_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_user_series_subscription_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_user_topic_change_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_user_topic_change_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_user_topic_dummy_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_user_topic_dummy_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "seq_gpn_user_topic_map_id",
+      "type": "SEQUENCE",
+      "file": "sequences/seq_gpn_user_topic_map_id.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_ac",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_topic_ac.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_dc",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_topic_dc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_isl",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_topic_isl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_jfc",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_topic_jfc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_mi",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_topic_mi.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_mi_browser",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_topic_mi_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_pkl",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_topic_pkl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_yho",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_topic_yho.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_yho_browser",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_topic_yho_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_ac",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_ac.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_dc",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_dc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_ac",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_event_subscription_map_ac.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_dc",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_event_subscription_map_dc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_isl",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_event_subscription_map_isl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_jfc",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_event_subscription_map_jfc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_mi",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_event_subscription_map_mi.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_mi_browser",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_event_subscription_map_mi_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_pkl",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_event_subscription_map_pkl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_yho",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_event_subscription_map_yho.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_event_subscription_map_yho_browser",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_event_subscription_map_yho_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_isl",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_isl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_jfc",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_jfc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_mi",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_mi.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_mi_browser",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_mi_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_pkl",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_pkl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_ac",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_change_ac.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_dc",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_change_dc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_isl",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_change_isl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_jfc",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_change_jfc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_mi",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_change_mi.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_mi_browser",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_change_mi_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_pkl",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_change_pkl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_yho",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_change_yho.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_change_yho_browser",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_change_yho_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_ac",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_map_ac.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_dc",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_map_dc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_isl",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_map_isl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_jfc",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_map_jfc.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_mi",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_map_mi.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_mi_browser",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_map_mi_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_pkl",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_map_pkl.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_yho",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_map_yho.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_yho_browser",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_topic_map_yho_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_yho",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_yho.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_yho_browser",
+      "type": "TABLE ATTACH",
+      "file": "partitioning/gpn_user_yho_browser.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_series_match_map gpn_series_match_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_series_match_map_gpn_series_match_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic gpn_topic_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_topic_gpn_topic_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_mi_browser gpn_topic_mi_browser_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_topic_mi_browser_gpn_topic_mi_browser_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_yho_browser gpn_topic_yho_browser_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_topic_yho_browser_gpn_topic_yho_browser_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user gpn_user_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_user_gpn_user_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_mi_browser gpn_user_mi_browser_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_user_mi_browser_gpn_user_mi_browser_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map gpn_user_topic_map_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_user_topic_map_gpn_user_topic_map_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_mi_browser gpn_user_topic_map_mi_browser_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_user_topic_map_mi_browser_gpn_user_topic_map_mi_browser_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_yho_browser gpn_user_topic_map_yho_browser_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_user_topic_map_yho_browser_gpn_user_topic_map_yho_browser_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_yho_browser gpn_user_yho_browser_pkey",
+      "type": "CONSTRAINT",
+      "file": "constraints/gpn_user_yho_browser_gpn_user_yho_browser_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_yho_status_idx",
+      "type": "INDEX",
+      "file": "indexes/gpn_user_topic_map_yho_status_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_yho_topic_id_idx",
+      "type": "INDEX",
+      "file": "indexes/gpn_user_topic_map_yho_topic_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_yho_topic_id_user_id_idx",
+      "type": "INDEX",
+      "file": "indexes/gpn_user_topic_map_yho_topic_id_user_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_yho_user_id_idx",
+      "type": "INDEX",
+      "file": "indexes/gpn_user_topic_map_yho_user_id_idx.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_mi_browser_pkey",
+      "type": "INDEX ATTACH",
+      "file": "indexes/gpn_topic_mi_browser_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_topic_yho_browser_pkey",
+      "type": "INDEX ATTACH",
+      "file": "indexes/gpn_topic_yho_browser_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_mi_browser_pkey",
+      "type": "INDEX ATTACH",
+      "file": "indexes/gpn_user_mi_browser_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_mi_browser_pkey",
+      "type": "INDEX ATTACH",
+      "file": "indexes/gpn_user_topic_map_mi_browser_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_topic_map_yho_browser_pkey",
+      "type": "INDEX ATTACH",
+      "file": "indexes/gpn_user_topic_map_yho_browser_pkey.sql",
+      "classification": "mapped"
+    },
+    {
+      "schema": "gpnv2",
+      "name": "gpn_user_yho_browser_pkey",
+      "type": "INDEX ATTACH",
+      "file": "indexes/gpn_user_yho_browser_pkey.sql",
+      "classification": "mapped"
+    }
+  ],
+  "object_count": 195,
+  "unclassified_count": 0
+}

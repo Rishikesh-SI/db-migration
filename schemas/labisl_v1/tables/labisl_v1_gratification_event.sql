@@ -1,0 +1,21 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labisl_v1
+-- Object: labisl_v1_gratification_event
+-- Type: TABLE
+
+-- Name: labisl_v1_gratification_event; Type: TABLE; Schema: labisl_v1; Owner: -
+--
+
+CREATE TABLE labisl_v1.labisl_v1_gratification_event (
+    event_id numeric NOT NULL,
+    event_name character varying(500),
+    gratification_value numeric,
+    is_active numeric,
+    is_deleted numeric,
+    created_date timestamp without time zone,
+    updated_date timestamp without time zone,
+    better_luck_value numeric
+);
+
+
+--

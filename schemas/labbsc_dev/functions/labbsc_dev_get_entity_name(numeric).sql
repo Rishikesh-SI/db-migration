@@ -1,0 +1,25 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labbsc_dev
+-- Object: labbsc_dev_get_entity_name(numeric)
+-- Type: FUNCTION
+
+-- Name: labbsc_dev_get_entity_name(numeric); Type: FUNCTION; Schema: labbsc_dev; Owner: -
+--
+
+CREATE FUNCTION labbsc_dev.labbsc_dev_get_entity_name(p_entity_role_map_id numeric, OUT p_entity_name character varying) RETURNS character varying
+    LANGUAGE plpgsql
+    AS $$ 
+
+begin
+
+select coalesce(em.wafc_entity_display_name,em.entity_display_name) into p_entity_name
+from labbsc_dev.labbsc_dev_entity_role_map erm
+inner join labbsc_dev.labbsc_dev_entity_master  em on em.entity_master_id=erm.entity_master_id
+where erm.entity_role_map_id=p_entity_role_map_id;
+
+end;
+
+ $$;
+
+
+--

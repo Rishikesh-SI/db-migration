@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labgrl
+-- Object: labgrl_web_user mobile_unq
+-- Type: CONSTRAINT
+
+-- Name: labgrl_web_user mobile_unq; Type: CONSTRAINT; Schema: labgrl; Owner: -
+--
+
+ALTER TABLE ONLY labgrl.labgrl_web_user
+    ADD CONSTRAINT mobile_unq UNIQUE (mobile_no);
+
+
+--

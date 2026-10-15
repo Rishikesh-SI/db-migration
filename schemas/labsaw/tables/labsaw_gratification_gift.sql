@@ -1,0 +1,26 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labsaw
+-- Object: labsaw_gratification_gift
+-- Type: TABLE
+
+-- Name: labsaw_gratification_gift; Type: TABLE; Schema: labsaw; Owner: -
+--
+
+CREATE TABLE labsaw.labsaw_gratification_gift (
+    gift_id numeric NOT NULL,
+    gift_name character varying(500),
+    gift_url text,
+    allocated_quantity numeric,
+    available_quantity numeric,
+    is_active numeric,
+    is_deleted numeric,
+    created_date timestamp without time zone,
+    start_date timestamp without time zone,
+    is_flag numeric DEFAULT 0,
+    remaining_quantity numeric,
+    gift_type numeric,
+    match_id numeric
+);
+
+
+--

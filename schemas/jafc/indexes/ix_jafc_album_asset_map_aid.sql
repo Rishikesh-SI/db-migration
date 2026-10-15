@@ -1,0 +1,12 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: jafc
+-- Object: ix_jafc_album_asset_map_aid
+-- Type: INDEX
+
+-- Name: ix_jafc_album_asset_map_aid; Type: INDEX; Schema: jafc; Owner: -
+--
+
+CREATE INDEX ix_jafc_album_asset_map_aid ON jafc.jafc_album_asset_map USING btree (album_id);
+
+
+--

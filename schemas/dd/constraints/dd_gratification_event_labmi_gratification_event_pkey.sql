@@ -1,0 +1,13 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: dd
+-- Object: dd_gratification_event labmi_gratification_event_pkey
+-- Type: CONSTRAINT
+
+-- Name: dd_gratification_event labmi_gratification_event_pkey; Type: CONSTRAINT; Schema: dd; Owner: -
+--
+
+ALTER TABLE ONLY dd.dd_gratification_event
+    ADD CONSTRAINT labmi_gratification_event_pkey PRIMARY KEY (event_id);
+
+
+--

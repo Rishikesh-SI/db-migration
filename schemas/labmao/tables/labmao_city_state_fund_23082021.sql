@@ -1,0 +1,20 @@
+-- Generated from pg_dump; do not hand-edit this baseline without review.
+-- Schema: labmao
+-- Object: labmao_city_state_fund_23082021
+-- Type: TABLE
+
+-- Name: labmao_city_state_fund_23082021; Type: TABLE; Schema: labmao; Owner: -
+--
+
+CREATE TABLE labmao.labmao_city_state_fund_23082021 (
+    city_state_fund_id numeric,
+    city character varying(500),
+    state_name character varying(500),
+    raised_amount numeric,
+    supporter_count numeric,
+    created_date timestamp without time zone,
+    updated_date timestamp without time zone
+);
+
+
+--
